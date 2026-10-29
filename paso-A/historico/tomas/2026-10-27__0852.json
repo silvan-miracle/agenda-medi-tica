@@ -1,0 +1,2363 @@
+{
+  "fecha": "2026-10-27",
+  "hora": "08:52",
+  "medios": {
+    "20minutos": {
+      "fuente": "https://www.20minutos.es/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Quién ganará balón de oro",
+          "u": "https://www.20minutos.es/deportes/futbol/quien-crees-que-merece-ganar-balon-oro-2026_7036345_0.html"
+        },
+        {
+          "p": 2,
+          "t": "¿Te parece justo el Balón de Oro 2026 para Harry Kane?",
+          "u": "https://www.20minutos.es/deportes/futbol/encuesta-te-parece-justo-balon-oro-2026-para-harry-kane_7053773_0.html"
+        },
+        {
+          "p": 3,
+          "t": "PP y Vox limitan su acuerdo en el Senado al reparto electoral: sin grupo propio para los de Abascal ni cesión de senadores",
+          "u": "https://www.20minutos.es/nacional/pp-vox-limitan-su-acuerdo-senado-reparto-electoral-sin-grupo-propio-para-los-abascal-ni-cesion-senadores_7053600_0.html"
+        },
+        {
+          "p": 4,
+          "t": "Las claves del 'pacto del Senado': dónde se retira el PP, dónde Vox y qué pasa en otras 14 provincias",
+          "u": "https://www.20minutos.es/nacional/las-claves-pacto-senado-donde-se-retira-pp-donde-se-retira-vox-que-ocurre-las-otras-14-provincias-con-acuerdo_7053592_0.html"
+        },
+        {
+          "p": 5,
+          "t": "La familia de Lamine Yamal acapara los focos en el Balón de Oro: el show de Keyne, Inés García...",
+          "u": "https://www.20minutos.es/deportes/futbol/familia-lamine-yamal-acapara-los-focos-balon-oro-show-keyne-ines-garcia-foto-su-padre-con-cucurella_7053729_0.html"
+        },
+        {
+          "p": 6,
+          "t": "Ibai y ElXokas ya avisaron del acoso que sufría Komanche antes de su muerte: \"La gente se ha pasado con él\"",
+          "u": "https://www.20minutos.es/gente/ibai-elxokas-ya-avisaron-acoso-que-sufria-komanche-antes-su-muerte-gente-se-ha-pasado-con_7053561_0.html"
+        },
+        {
+          "p": 7,
+          "t": "Los países de la UE alcanzan un acuerdo sobre la estructura de la futura PAC y el Gobierno lo celebra con \"satisfacción\"",
+          "u": "https://www.20minutos.es/lainformacion/economia-y-finanzas/los-paises-ue-alcanzan-un-acuerdo-sobre-estructura-futura-pac-gobierno-celebra-con-satisfaccion_7053770_0.html"
+        },
+        {
+          "p": 8,
+          "t": "Así es Ilija Srdanovic, el médico cardiólogo que lidera la victoria estudiantil en Serbia y se define como \"un soldado de la libertad\"",
+          "u": "https://www.20minutos.es/internacional/asi-es-ilija-srdanovic-medico-cardiologo-que-lidera-victoria-estudiantil-serbia-se-define-como-un-soldado-libertad_7053372_0.html"
+        },
+        {
+          "p": 9,
+          "t": "Trump tilda de \"fraude\" la victoria de Lula: \"Parecían unas elecciones muy, muy corruptas\"",
+          "u": "https://www.20minutos.es/internacional/trump-tilda-fraude-victoria-electoral-lula-brasil-tiene-una-pinta-terrible_7053708_0.html"
+        },
+        {
+          "p": 10,
+          "t": "Superalimentos: ¿realmente son tan buenos como nos han contado? Esto dice un dietista-nutricionista",
+          "u": "https://www.20minutos.es/salud/superalimentos-buenos-dietista-nutricionista_7046572_0.html"
+        },
+        {
+          "p": 11,
+          "t": "La IA encuentra pistas del riesgo de cáncer en los análisis de sangre que ya nos hacemos",
+          "u": "https://www.20minutos.es/salud/ia-encuentra-pistas-riesgo-cancer-los-analisis-sangre-que-ya-nos-hacemos_7053455_0.html"
+        },
+        {
+          "p": 12,
+          "t": "Una veintena de detenidos, muchos menores, en los disturbios en Bilbao por un acto de Vito Quiles",
+          "u": "https://www.20minutos.es/pais-vasco/graves-disturbios-bilbao-tras-las-protestas-por-acto-vito-quiles-universidad-deusto-que-ha-sido-suspendido_7053689_0.html"
+        },
+        {
+          "p": 13,
+          "t": "El importe medio de las hipotecas marca nuevo récord en plena subida de los tipos de interés: \"Las familias deben endeudarse más\"",
+          "u": "https://www.20minutos.es/nacional/importe-medio-las-hipotecas-marca-nuevo-record-plena-subida-los-tipos-interes-las-familias-deben-endeudarse-mas_7053473_0.html"
+        },
+        {
+          "p": 14,
+          "t": "Muere una mujer y dos hombres resultan heridos en un atropello en Valladolid",
+          "u": "https://www.20minutos.es/castilla-y-leon/valladolid/muere-una-mujer-dos-hombres-resultan-heridos-un-atropello-valladolid_7053750_0.html"
+        },
+        {
+          "p": 15,
+          "t": "Muere la 'influencer' Anouk Deschamps a los 21 años por un cáncer poco común: \"Su deseo era ser médica\"",
+          "u": "https://www.20minutos.es/gente/muere-influencer-anouk-deschamps-los-21-anos-por-un-cancer-poco-comun-su-deseo-era-ser-medica_7053635_0.html"
+        },
+        {
+          "p": 16,
+          "t": "\"Las croquetas más deliciosas y baratas se hacen con boniato asado, queso rallado y atún\"",
+          "u": "https://www.20minutos.es/gastronomia/recetas/paula-cocinera-croquetas-mas-deliciosas-baratas-no-llevan-jamon-hacen-boniato-asado-queso-rallado-atun_7047725_0.html"
+        },
+        {
+          "p": 17,
+          "t": "Aída Nízar protagoniza un enfrentamiento con acampados en Sol: \"No tenéis donde caeros muertos\"",
+          "u": "https://www.20minutos.es/gente/aida-nizar-protagoniza-un-enfrentamiento-con-algunos-los-acampados-puerta-sol-no-teneis-donde-caeros-muertos_7053584_0.html"
+        },
+        {
+          "p": 18,
+          "t": "Asesinan a tiros en Colombia a un político que aspiraba a la Alcaldía de Cúcuta",
+          "u": "https://www.20minutos.es/internacional/asesinan-tiros-colombia-un-politico-local-que-aspiraba-alcaldia-cucuta_7053749_0.html"
+        },
+        {
+          "p": 19,
+          "t": "Un migrante que huía de Ceuta acaba siendo detenido por Marruecos tras cambiar de idea e intentar volver",
+          "u": "https://www.20minutos.es/ceuta/un-migrante-que-huia-ceuta-acaba-siendo-detenido-por-marruecos-tras-cambiar-idea-intentar-volver-nadando-espana_7053662_0.html"
+        },
+        {
+          "p": 20,
+          "t": "La búsqueda de Carlos llega a su fin y conoce a su padre tras localizarle gracias a un test de ADN: \"A veces pienso que todo fue un sueño\"",
+          "u": "https://www.20minutos.es/nacional/busqueda-carlos-llega-su-fin-conoce-su-padre-tras-localizarle-gracias-un-test-adn-veces-pienso-que-todo-fue-un-sueno_7052834_0.html"
+        },
+        {
+          "p": 21,
+          "t": "Vivir con una pensión reducida a pesar de haber cotizado 40 años: \"Hemos trabajado toda la vida y hemos levantado España\"",
+          "u": "https://www.20minutos.es/nacional/vivir-con-una-pension-reducida-pesar-haber-cotizado-40-anos-hemos-trabajado-toda-vida-hemos-levantado-espana_7052251_0.html"
+        },
+        {
+          "p": 22,
+          "t": "Gabriel Rufián e Irene Montero, invitados de 'La Revuelta' este miércoles",
+          "u": "https://www.20minutos.es/television/gabriel-rufian-irene-montero-invitados-revuelta-este-miercoles_7053727_0.html"
+        },
+        {
+          "p": 23,
+          "t": "La Academia de 'OT 1', a la venta por casi 2 millones de euros en pleno 25 aniversario de la edición",
+          "u": "https://www.20minutos.es/television/academia-ot-1-venta-por-casi-2-millones-euros-pleno-25-aniversario-edicion_7053586_0.html"
+        },
+        {
+          "p": 24,
+          "t": "Sonsoles Ónega, sobre las dificultades económicas de los jóvenes: \"Sus padres no se iban de vacaciones\"",
+          "u": "https://www.20minutos.es/television/sonsoles-onega-sobre-las-dificultades-economicas-los-jovenes-sus-padres-no-se-iban-vacaciones-ningun-lado_7053629_0.html"
+        },
+        {
+          "p": 25,
+          "t": "'El Hormiguero' anuncia la visita de Revilla para este miércoles en sustitución de Dani Martín",
+          "u": "https://www.20minutos.es/television/hormiguero-anuncia-visita-miguel-angel-revilla-para-este-miercoles-sustitucion-dani-martin_7053725_0.html"
+        },
+        {
+          "p": 26,
+          "t": "El regalo del 'pasado' que Juan José Millás le da a Broncano en 'La Revuelta': \"Me he encontrado en él recibos de taxi que no pasé\"",
+          "u": "https://www.20minutos.es/television/regalo-pasado-que-juan-jose-millas-le-da-broncano-revuelta-me-he-encontrado-recibos-taxi-que-no-pase_7053718_0.html"
+        },
+        {
+          "p": 27,
+          "t": "Condenan a ocho meses de cárcel al cantante Chris Brown por una \"agresión violenta\" en un club de Londres",
+          "u": "https://www.20minutos.es/gente/cantante-chris-brown-condenado-8-meses-carcel-por-una-agresion-violenta-un-club-nocturno-londres_7053505_0.html"
+        },
+        {
+          "p": 28,
+          "t": "Aramís Fuster recibe la peor de las noticias mientras malvive en su casa sin luz ni agua",
+          "u": "https://www.20minutos.es/gente/aramis-fuster-recibe-peor-las-noticias-mientras-malvive-su-casa-sin-luz-ni-agua_7053651_0.html"
+        },
+        {
+          "p": 29,
+          "t": "El rey Felipe reaparece ya sin gafas en su primer acto tras ser operado de cataratas",
+          "u": "https://www.20minutos.es/gente/rey-felipe-reaparece-ya-sin-gafas-su-primer-acto-tras-ser-operado-cataratas_7053668_0.html"
+        },
+        {
+          "p": 30,
+          "t": "El emotivo discurso de Alexia Putellas: \"Me acuerdo de cuando la pierna me fallaba... aprendí a volver a andar, a volver a chutar\"",
+          "u": "https://www.20minutos.es/deportes/futbol/emotivo-discurso-alexia-putellas-me-acuerdo-cuando-pierna-me-fallaba-aprendi-volver-andar-volver-chutar_7053746_0.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "abc": {
+      "fuente": "https://www.abc.es/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Recreativo de Huelva - Rayo Vallecano",
+          "u": "https://www.abc.es/deportes/futbol/recreativo-huelva-rayo-vallecano-horario-canal-television-20261027050000-nt.html"
+        },
+        {
+          "p": 2,
+          "t": "PP y Vox cerraron un «acuerdo quirúrgico» en el descuento tras un fin de semana de negociación difícil",
+          "u": "https://www.abc.es/espana/fraguo-acuerdo-pp-vox-senado-20261027012644-nt.html"
+        },
+        {
+          "p": 3,
+          "t": "Datos Las opciones de PP y Vox para una supermayoría en el Senado",
+          "u": "https://www.abc.es/espana/acuerdo-pp-vox-permite-aspirar-supermayoria-senado-20261027012701-nt.html"
+        },
+        {
+          "p": 4,
+          "t": "Opinión «Españoles, el miedo a Vox ha muerto», por María José Fuenteálamo",
+          "u": "https://www.abc.es/opinion/maria-jose-fuentealamo-espanoles-miedo-vox-muerto-20261026012716-nt.html"
+        },
+        {
+          "p": 5,
+          "t": "Sánchez se aferra a la épica de Lula para alentar la remontada el 29N",
+          "u": "https://www.abc.es/espana/ainhoa-martinez-sanchez-aferra-epica-lula-alentar-remontada-29n-20261026012725-nt.html"
+        },
+        {
+          "p": 6,
+          "t": "Opinión ¿Por qué el cuestionamiento electoral es tan corrosivo?, por Pedro Rodríguez",
+          "u": "https://www.abc.es/internacional/pedro-rodriguez-cuestionamiento-electoral-corrosivo-democracias-20261026012736-nt.html"
+        },
+        {
+          "p": 7,
+          "t": "Inteligencia detecta injerencias rusas para amplificar los disturbios",
+          "u": "https://www.abc.es/espana/cataluna/inteligencia-detecta-injerencias-rusas-amplificar-disturbios-barcelona-20261027012746-nt.html"
+        },
+        {
+          "p": 8,
+          "t": "Moncloa teme que los disturbios le revienten la campaña electoral",
+          "u": "https://www.abc.es/espana/moncloa-teme-disturbios-revienten-campana-electoral-20261027012756-nt.html"
+        },
+        {
+          "p": 9,
+          "t": "Editorial Injerencia rusa y responsabilidad",
+          "u": "https://www.abc.es/opinion/editorial-injerencia-rusa-responsabilidad-20261026012810-nt.html"
+        },
+        {
+          "p": 10,
+          "t": "Guerra entre Moncloa y el delegado en Madrid por su «espantada» a un mes de las elecciones",
+          "u": "https://www.abc.es/espana/guerra-moncloa-delegado-madrid-espantada-mes-29n-20261027012836-nt.html"
+        },
+        {
+          "p": 11,
+          "t": "Un centenar de asambleas locales del PSOE de Madrid propusieron al delegado como candidato",
+          "u": "https://www.abc.es/espana/madrid/centenar-asambleas-locales-psoe-madrid-propusieron-delegado-20261026012849-nt.html"
+        },
+        {
+          "p": 12,
+          "t": "El juez imputa a 18 ex altos cargos del PSOE por desviar ayudas millonarias a Santana Motor",
+          "u": "https://www.abc.es/espana/andalucia/juez-vilaplana-imputa-altos-cargos-psoe-inventar-20261027012926-nts.html"
+        },
+        {
+          "p": 13,
+          "t": "Un sobrino de Felipe González y el histórico jefe de los letrados de la Junta, entre los imputados",
+          "u": "https://www.abc.es/espana/andalucia/sobrino-felipe-gonzalez-historico-jefe-letrados-junta-20261027070610-nts.html"
+        },
+        {
+          "p": 14,
+          "t": "«Estamos recobrando las fuerzas»: las familias de presos políticos esperan la ayuda de Machado",
+          "u": "https://www.abc.es/internacional/recobrando-fuerzas-familias-presos-politicos-esperan-ayuda-20261027012440-nt.html"
+        },
+        {
+          "p": 15,
+          "t": "El regreso de María Corina pone a prueba la apuesta de Trump por Delcy",
+          "u": "https://www.abc.es/internacional/regreso-maria-corina-pone-prueba-apuesta-trump-20261025012421-nt.html"
+        },
+        {
+          "p": 16,
+          "t": "El plan de EE.UU. para Venezuela: nuevo Supremo en dos meses y cambio del sistema electoral",
+          "u": "https://www.abc.es/internacional/detalles-plan-eeuu-venezuela-nuevo-supremo-dos-20261025225744-nt.html"
+        },
+        {
+          "p": 17,
+          "t": "El retorno de la esperanza",
+          "u": "https://www.abc.es/internacional/rodrigo-blanco-calderon-retorno-esperanza-20261026012416-nt.html"
+        },
+        {
+          "p": 18,
+          "t": "Analogía del soplador de hojas",
+          "u": "https://www.abc.es/opinion/chapu-apaolaza-analogia-soplador-hojas-20261026190807-nt.html"
+        },
+        {
+          "p": 19,
+          "t": "Las horas más bajas de Iván Redondo por sus compras inmobiliarias",
+          "u": "https://www.abc.es/espana/alargada-sombra-ivan-redondo-tras-dejar-poder-20261026012318-nt.html"
+        },
+        {
+          "p": 20,
+          "t": "Altos funcionarios denuncian que cobran poco más 1.000 euros a la espera de un destino",
+          "u": "https://www.abc.es/economia/descontrol-oposiciones-inspectores-trabajo-llevan-ano-cobrando-20261028012311-nt.html"
+        },
+        {
+          "p": 21,
+          "t": "Las empresas agitan los convenios para renegociar el blindaje salarial de los trabajadores de baja",
+          "u": "https://www.abc.es/economia/cuentas-corrientes/empresas-acotan-complementos-bajas-convenios-ante-gasto-20261027011947-nt.html"
+        },
+        {
+          "p": 22,
+          "t": "La doble cara del profesor pederasta de Madrid: «Mario era el tipo guay que agregaba a todos al 'Insta'»",
+          "u": "https://www.abc.es/espana/madrid/doble-cara-profesor-pederasta-mario-era-profesor-20261026012231-nt.html"
+        },
+        {
+          "p": 23,
+          "t": "Nuevo cisma entre los acampados de Sol, que valoran irse tras las elecciones del 29N",
+          "u": "https://www.abc.es/espana/madrid/nuevo-cisma-acampados-sol-valoran-irse-tras-20261026012225-nt.html"
+        },
+        {
+          "p": 24,
+          "t": "Netanyahu y Eisenkot llegan empatados a las elecciones en Israel bajo el trauma del 7-O",
+          "u": "https://www.abc.es/internacional/netanyahu-eisenkot-llegan-empatados-elecciones-israel-20261026012206-nt.html"
+        },
+        {
+          "p": 25,
+          "t": "Elecciones en Brasil: el partido de Bolsonaro reconoce la victoria de Lula",
+          "u": "https://www.abc.es/internacional/partido-flavio-bolsonaro-reconoce-victoria-lula-advierte-20261027001558-nt.html"
+        },
+        {
+          "p": 26,
+          "t": "Harry Kane devuelve el Balón de Oro a Inglaterra 25 años después",
+          "u": "https://www.abc.es/deportes/futbol/harry-kane-devuelve-balon-oro-inglaterra-anos-20261026001324-nt.html"
+        },
+        {
+          "p": 27,
+          "t": "Balón de Oro para De la Fuente, el entrenador que llevó a España al cielo",
+          "u": "https://www.abc.es/deportes/futbol/balon-oro-fuente-entrenador-llevo-espana-cielo-20261026234530-nt.html"
+        },
+        {
+          "p": 28,
+          "t": "Ganadores del galardón: lista oficial por categorías",
+          "u": "https://www.abc.es/deportes/futbol/ganadores-balon-oro-2026-lista-oficial-categorias-20261027082715-nt.html"
+        },
+        {
+          "p": 29,
+          "t": "Diecinueve radicales detenidos tras la protesta que ha impedido el acto de Vito Quiles en Bilbao",
+          "u": "https://www.abc.es/espana/pais-vasco/nueve-personas-detenidas-incidentes-bilbao-tras-manifestacion-20261026204118-nt.html"
+        },
+        {
+          "p": 30,
+          "t": "El Gobierno da marcha atrás y suaviza los requisitos para desarrollar centros de datos",
+          "u": "https://www.abc.es/economia/gobierno-marcha-atras-nueva-ley-centros-datos-20261026230859-nt.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "berria": {
+      "fuente": "https://www.berria.eus/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Van Goghen beste belarria",
+          "u": "https://www.berria.eus/iritzia/arkupean/van-goghen-beste-belarria_2165566_102.html"
+        },
+        {
+          "p": 2,
+          "t": "Vito Quiles ez da Bilbora etorri, faxismoaren aurkako mobilizazio jendetsuak tarteko",
+          "u": "https://www.berria.eus/euskal-herria/deustuko-unibertsitateak-bilboko-kanpusa-itxiko-du-gaur-arratsaldean-quilesen-deialdiarengatik_2165533_102.html"
+        },
+        {
+          "p": 3,
+          "t": "Vito Quilesi alde egiteko esan diote milaka ikaslek",
+          "u": "https://www.berria.eus/euskal-herria/ongi-etorri-baten-antonimoa-vito-quilesi-alde-egiteko-esan-diote-milaka-ikaslek_2165577_102.html"
+        },
+        {
+          "p": 4,
+          "t": "Sonia Fleury: «Kaleko eta sareetako mobilizazioek bultzatu dute Lularen garaipena»",
+          "u": "https://www.berria.eus/mundua/kaleko-eta-sareetako-mobilizazioek-bultzatu-dute-lularen-garaipena_2165582_102.html"
+        },
+        {
+          "p": 5,
+          "t": "Hurrengo PISArako nola «entrenatu» aztertzen ari dira hezkuntza eragileak",
+          "u": "https://www.berria.eus/euskal-herria/hurrengo-pisarako-nola-entrenatu-aztertzen-ari-dira-hezkuntza-eragileak_2165575_102.html"
+        },
+        {
+          "p": 6,
+          "t": "Maleta eskuan eta domina lepoan",
+          "u": "https://www.berria.eus/kirola/maleta-eskuan-eta-domina-lepoan_2165559_102.html"
+        },
+        {
+          "p": 7,
+          "t": "Ikusgarria izan da egindakoa, eta ikaragarria bizi izandakoa",
+          "u": "https://www.berria.eus/kirola/ikusgarria-egindakoa-eta-ikaragarria-bizitakoa_2165520_102.html"
+        },
+        {
+          "p": 8,
+          "t": "Amets Arzallus Antia: «Ez nator Amets berri baten bila, baina sakondu nahiko nuke orain arte erakutsi dudan horretan»",
+          "u": "https://www.berria.eus/kultura/euskal-herriko-bertsolari-txapelketa/ez-nator-amets-berri-baten-bila-baina-sakondu-nahiko-nuke-orain-arte-erakutsi-dudan-horretan_2165574_102.html"
+        },
+        {
+          "p": 9,
+          "t": "Aritz Otxandiano: «Energia komunitateak elkarrekin indartsuagoak izateko sortu dugu Ehnergia»",
+          "u": "https://www.berria.eus/ekonomia/aritz-otxandiano-energia-komunitateak-elkarrekin-indartsuagoak-izateko-sortu-dugu-ehnergia_2165004_102.html"
+        },
+        {
+          "p": 10,
+          "t": "Osasunak partida kaskarra jokatu du, eta galdu egin du Sevillaren zelaian",
+          "u": "https://www.berria.eus/kirola/osasunak-partida-kaskarra-jokatu-du-eta-galdu-egin-du-sevillaren-zelaian_2165591_102.html"
+        },
+        {
+          "p": 11,
+          "t": "Ikastolek gailu digitalen erabilera murriztuko dute eskoletan, eta pantailak ikasgeletan sartzea atzeratu",
+          "u": "https://www.berria.eus/euskal-herria/ikastoletako-ikasleak-lhko-hirugarren-mailan-hasiko-dira-gailu-digitalak-gelan-erabiltzen_2165549_102.html"
+        },
+        {
+          "p": 12,
+          "t": "Gasteizen etxegabetutako familia aterpetxe batean ari da lotan, eta kalean geratzeko arriskuan dago",
+          "u": "https://www.berria.eus/euskal-herria/gasteizen-etxegabetutako-familia-aterpetxe-batean-ari-da-lotan-eta-kaleratzeko-arriskuan-dago_2165564_102.html"
+        },
+        {
+          "p": 13,
+          "t": "Bilboko etxegabetzea gelditutzat jo du AZETek, baina ohartarazi ez dela bertan behera gelditu",
+          "u": "https://www.berria.eus/euskal-herria/bilboko-etxegabetzea-gelditutzat-jo-du-azetek-baina-ez-du-zaintza-utziko-epaitegiek-baieztatu-arte_2165547_102.html"
+        },
+        {
+          "p": 14,
+          "t": "Netanyahu eta Eisenkot, nahi eta ezin",
+          "u": "https://www.berria.eus/mundua/israelgo-hauteskundeak_2165276_102.html"
+        },
+        {
+          "p": 15,
+          "t": "Ikasleen Zerrenda Vucici nagusitu zaio Serbiako Legebiltzarrerako bozetan",
+          "u": "https://www.berria.eus/mundua/ikasleen-zerrenda-vucici-nagusitu-zaio-serbiako-legebiltzarrerako-bozetan_2165546_102.html"
+        },
+        {
+          "p": 16,
+          "t": "Tubos Reunidosen maileguko baldintzak malgutzeko prest agertu da SEPI",
+          "u": "https://www.berria.eus/ekonomia/tubos-reunidosen-maileguko-baldintzak-malgutzeko-prest-agertu-da-sepi_2165573_102.html"
+        },
+        {
+          "p": 17,
+          "t": "Arrigorriagako familia zaurgarri bat etxegabetze arriskuan dagoela salatu dute",
+          "u": "https://www.berria.eus/euskal-herria/arrigorriagako-familia-zaurgarri-bat-etxegabetze-arriskuan-dagoela-salatu-dute_2165571_102.html"
+        },
+        {
+          "p": 18,
+          "t": "ELAk greba egunak antolatu ditu Gipuzkoako zahar etxeetan azarorako eta abendurako",
+          "u": "https://www.berria.eus/lurraldeak/gipuzkoa/elak-greba-egunak-antolatu-ditu-gipuzkoako-erresidentzietan-azaroan-eta-abenduan_2165580_102.html"
+        },
+        {
+          "p": 19,
+          "t": "Arantzadiko beste etxegabe talde bat kanporatu du Iruñeko Udalak",
+          "u": "https://www.berria.eus/euskal-herria/arantzadiko-beste-etxegabe-talde-bat-kanporatu-du-iruneko-udalak_2165563_102.html"
+        },
+        {
+          "p": 20,
+          "t": "Zazpi pertsona auzipetu dituzte urriaren 24ko Baionako mobilizazioen harira",
+          "u": "https://www.berria.eus/euskal-herria/zazpi-pertsona-auzipetu-dituzte-irailaren-24ko-baionako-mobilizazioen-harira_2165570_102.html"
+        },
+        {
+          "p": 21,
+          "t": "Gorka Asurmendi: «Lehen sektorea oso kaltetua dago, eta horri lehortea gehitu behar zaio»",
+          "u": "https://www.berria.eus/bizigiro/lehen-sektorea-oso-kaltetua-dago_2165583_102.html"
+        },
+        {
+          "p": 22,
+          "t": "BERRIAko euskara taldeko zuzentzaileen lana jaso dute bideo batean",
+          "u": "https://www.berria.eus/komunikazioa/berriako-euskara-taldeko-zuzentzaileen-lana-jaso-dute-bideo-batean_2165465_102.html"
+        },
+        {
+          "p": 23,
+          "t": "Aralar Erdozain Olalla: «Pilotaz disfrutatzeko beste modu bat eman nahi nion jendeari»",
+          "u": "https://www.berria.eus/bizigiro/pilotaz-disfrutatzeko-beste-modu-bat-eman-nahi-nion-jendeari_2165357_102.html"
+        },
+        {
+          "p": 24,
+          "t": "Joko digitalak garatu ahal izateko hitzarmena egin dute BERRIAk eta Euskaltzaindiak",
+          "u": "https://www.berria.eus/euskal-herria/joko-digitalak-garatu-ahal-izateko-hitzarmena-egin-dute-berriak-eta-euskaltzaindiak_2165485_102.html"
+        },
+        {
+          "p": 25,
+          "t": "Pantxoa eta Peiok presoen aldeko kontzertu bat emanen dute abenduaren 27an Atarrabian, Aske festibalaren biharamunean",
+          "u": "https://www.berria.eus/kultura/pantxoa-eta-peiok-presoen-aldeko-kontzertu-bat-emanen-dute-abenduaren-27an-atarrabian-aske-festibalaren-biharamunean_2165534_102.html"
+        },
+        {
+          "p": 26,
+          "t": "Hasi da 'Plaz!', irakurzaletasuna sustatzeko bideopodcasta",
+          "u": "https://www.berria.eus/komunikazioa/hasi-da-plaz-irakurzaletasuna-sustatzeko-bideopodcasta_2165271_102.html"
+        },
+        {
+          "p": 27,
+          "t": "Zarauzko istorioetan barrena",
+          "u": "https://www.berria.eus/bizigiro/zarauzko-istorioetan-barrena_2165333_102.html"
+        },
+        {
+          "p": 28,
+          "t": "Artiumek bere bildumari begiratuko dio 25. urteurrenean, eta artelanak trukatuko ditu Arabako Arte Ederren Museoarekin",
+          "u": "https://www.berria.eus/kultura/artiumek-bere-bildumari-begiratuko-dio-25-urteurrenean-eta-artelanak-trukatuko-ditu-arabako-arte-ederren-museoarekin_2165562_102.html"
+        },
+        {
+          "p": 29,
+          "t": "Janus Lesterrek ‘Popera’ disko berria eta film musikala aurkeztuko ditu Donostiako Antzoki Zaharrean",
+          "u": "https://www.berria.eus/kultura/janus-lesterrek-popera-disko-berria-eta-film-musikala-aurkeztuko-ditu-donostiako-antzoki-zaharrean_2165554_102.html"
+        },
+        {
+          "p": 30,
+          "t": "Bizipoza berreskuratzen saiatzearen dramarekin «endredo komedia bat» ondu du Patxo Telleriak",
+          "u": "https://www.berria.eus/kultura/bizipoza-berreskuratzen-saiatzearen-dramarekin-endredo-komedia-bat-ondu-du-patxo-telleriak_2165474_102.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "deia": {
+      "fuente": "https://www.deia.eus/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Pradales condena los disturbios en Bilbao: \"Ya basta de utilizar la violencia para responder a la provocación\"",
+          "u": "https://www.deia.eus/politica/2026/10/26/pradales-condena-disturbios-bilbao-basta-provocacion-11690545.html"
+        },
+        {
+          "p": 2,
+          "t": "Zupiria alerta de un contagio de la agitación europea y condena los actos violentos en Bilbao",
+          "u": "https://www.deia.eus/politica/2026/10/27/zupiria-alerta-contagio-agitacion-europea-11691397.html"
+        },
+        {
+          "p": 3,
+          "t": "Aburto tacha de \"espeluznantes\" los altercados y exige un rechazo político sin matices",
+          "u": "https://www.deia.eus/sucesos/2026/10/27/tacha-espeluznantes-altercados-aburto-11691456.html"
+        },
+        {
+          "p": 4,
+          "t": "Una veintena de detenidos en los disturbios registrados en Bilbao",
+          "u": "https://www.deia.eus/politica/2026/10/26/disturbios-deusto-concentracion-visita-vito-quiles-11690071.html"
+        },
+        {
+          "p": 5,
+          "t": "Vito Quiles suspende su acto en Bilbao: \"Hay exmiembros de ETA y terroristas callejeros encabezando las protestas\"",
+          "u": "https://www.deia.eus/politica/2026/10/26/vito-quiles-suspende-acto-bilbao-terroristas-11689658.html"
+        },
+        {
+          "p": 6,
+          "t": "Las últimas 24 horas del mejor portero del mundo",
+          "u": "https://www.deia.eus/athletic/2026/10/27/ultimas-24-horas-mejor-portero-11690540.html"
+        },
+        {
+          "p": 7,
+          "t": "El portero “evitador” que sedujo a Agirreoa",
+          "u": "https://www.deia.eus/athletic/2026/10/27/portero-evitador-sedujo-agirreoa-11690944.html"
+        },
+        {
+          "p": 8,
+          "t": "Unai Simón: “El mejor ejemplo lo tengo en casa: Iribar”",
+          "u": "https://www.deia.eus/athletic/2026/10/26/unai-simon-mejor-ejemplo-casa-11691189.html"
+        },
+        {
+          "p": 9,
+          "t": "Encerrado “más de dos horas” en el ambulatorio de Kabiezes: “Para mí sí es una urgencia que se averíe el ascensor”",
+          "u": "https://www.deia.eus/bizkaia/2026/10/27/encerrado-ambulatorio-kabiezes-averia-ascensor-11691346.html"
+        },
+        {
+          "p": 10,
+          "t": "La palabra dada toma el escenario del Guggenheim",
+          "u": "https://www.deia.eus/actualidad/sociedad/2026/10/26/hitz-sariak-palabra-gala-guggenheim-11689690.html"
+        },
+        {
+          "p": 11,
+          "t": "Juan José Baños reivindica la palabra como esencia humana en plena era de la inteligencia artificial",
+          "u": "https://www.deia.eus/actualidad/sociedad/2026/10/26/juan-jose-banos-reivindica-palabra-hitz-sariak-11690049.html"
+        },
+        {
+          "p": 12,
+          "t": "Arrontegi tendrá una nueva salida hacia la autopista",
+          "u": "https://www.deia.eus/bizkaia/2026/10/27/arrontegi-barakaldo-tendra-nueva-salida-autopista-11691344.html"
+        },
+        {
+          "p": 13,
+          "t": "Javi Martos: \"El Athletic abrió un ciclo en mi carrera”",
+          "u": "https://www.deia.eus/athletic/2026/10/27/javi-martos-segundo-entrenador-ae-11688846.html"
+        },
+        {
+          "p": 14,
+          "t": "Un Último Lunes que abre las puertas a nuevos productos",
+          "u": "https://www.deia.eus/bizkaia/2026/10/27/ultimo-lunes-abre-puertas-nuevos-gernika-11689813.html"
+        },
+        {
+          "p": 15,
+          "t": "Maribel Verdú se rinde ante Bilbao: “La ciudad de mis amores”",
+          "u": "https://www.deia.eus/gente/2026/10/26/maribel-verdu-rinde-lugar-euskadi-ciudad-amores-bilbao-11688489.html"
+        },
+        {
+          "p": 16,
+          "t": "El Sestao River examina en la Copa al Espanyol",
+          "u": "https://www.deia.eus/futbol/2026/10/27/sestao-river-examina-copa-espanyol-11689237.html"
+        },
+        {
+          "p": 17,
+          "t": "El Surne Bilbao luce alma de fusilero en Miribilla",
+          "u": "https://www.deia.eus/bilbao-basket/2026/10/27/surne-bilbao-luce-alma-fusilero-11689328.html"
+        },
+        {
+          "p": 18,
+          "t": "Euskadi ya compite oficialmente y en igualdad",
+          "u": "https://www.deia.eus/opinion/2026/10/27/euskadi-compite-oficialmente-igualdad-11691393.html"
+        },
+        {
+          "p": 19,
+          "t": "Una red de colaboración femenina frente al muro del sistema",
+          "u": "https://www.deia.eus/bizkaia/2026/10/26/red-colaboracion-femenina-frente-muro-11678996.html"
+        },
+        {
+          "p": 20,
+          "t": "Un salón de moda en el Carlton",
+          "u": "https://www.deia.eus/bizkaia/vida-social/2026/10/27/salon-moda-carlton-11686787.html"
+        },
+        {
+          "p": 21,
+          "t": "Sánchez promete reformar la Constitución para blindar las pensiones y su revalorización con el IPC",
+          "u": "https://www.deia.eus/politica/2026/10/26/sanchez-promete-reformar-constitucion-blindar-pensiones-11690126.html"
+        },
+        {
+          "p": 22,
+          "t": "Dan una patada en la boca a un vigilante de Metro Bilbao",
+          "u": "https://www.deia.eus/sucesos/2026/10/26/dan-patada-boca-vigilante-metro-bilbao-santutxu-11689827.html"
+        },
+        {
+          "p": 23,
+          "t": "ABAO agota todas las localidades de 'La traviata' en el arranque de la temporada",
+          "u": "https://www.deia.eus/cultura/2026/10/26/abao-agota-localidades-traviata-arranque-11689805.html"
+        },
+        {
+          "p": 24,
+          "t": "Las ikastolas reducirán el uso de pantallas y retrasarán su incorporación a las aulas",
+          "u": "https://www.deia.eus/actualidad/sociedad/2026/10/26/ikastolas-reduciran-pantallas-retrasaran-incorporacion-11688699.html"
+        },
+        {
+          "p": 25,
+          "t": "¿Sordera voluntaria o ceguera colectiva?",
+          "u": "https://www.deia.eus/opinion/cartas-al-director/2026/10/27/sordera-voluntaria-o-ceguera-colectiva-11689937.html"
+        },
+        {
+          "p": 26,
+          "t": "El cantante Neil Young demanda a la campaña de Trump por usar una de sus cancione",
+          "u": "https://www.deia.eus/mundo/2026/10/27/cantante-neil-young-demanda-campana-11691466.html"
+        },
+        {
+          "p": 27,
+          "t": "Un triunfo del Athletic para ser analizado con calma",
+          "u": "https://www.deia.eus/athletic/2026/10/27/triunfo-athletic-getafe-analizado-calma-11691342.html"
+        },
+        {
+          "p": 28,
+          "t": "La Burdin Hesiko hará una pausa en 2027 tras donar 125.000 euros en cuatro años",
+          "u": "https://www.deia.eus/bizkaia/2026/10/27/burdin-hesiko-pausa-2027-donar-euros-cuatro-anos-11691350.html"
+        },
+        {
+          "p": 29,
+          "t": "Los 500 habitantes de Loiu inspiran una carrera",
+          "u": "https://www.deia.eus/bizkaia/2026/10/27/loiu-500-trail-habitantes-inspiran-carrera-11691354.html"
+        },
+        {
+          "p": 30,
+          "t": "Israel abre las urnas en unas elecciones clave para Netanyahu tras tres años de guerras",
+          "u": "https://www.deia.eus/mundo/2026/10/27/israel-abre-urnas-elecciones-clave-11691416.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "diariovasco": {
+      "fuente": "https://www.diariovasco.com/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Los dirigentes del PP de Gipuzkoa desconocían la decisión de renunciar a presentarse al Senado",
+          "u": "https://www.diariovasco.com/politica/dirigentes-pp-gipuzkoa-desconocian-decision-renunciar-presentarse-20261027000251-nt.html"
+        },
+        {
+          "p": 2,
+          "t": "«Es un sacrificio que asumimos en favor de otro Gobierno en España»",
+          "u": "https://www.diariovasco.com/politica/sacrificio-asumimos-favor-gobierno-espana-20261027000346-nt.html"
+        },
+        {
+          "p": 3,
+          "t": "Opinión Juego de frentes al borde del precipicio",
+          "u": "https://www.diariovasco.com/politica/alberto-surio-juego-frentes-borde-precipicio-20261027073300-nt.html"
+        },
+        {
+          "p": 4,
+          "t": "Los menores del udaleku de Bernedo debían exhibir conductas sexuales para comer",
+          "u": "https://www.diariovasco.com/sociedad/menores-udaleku-bernedo-debian-exhibir-conductas-sexuales-20261027000307-nt.html"
+        },
+        {
+          "p": 5,
+          "t": "Una veintena de detenidos en los graves altercados de Bilbao con quema de vehículos y contenedores",
+          "u": "https://www.diariovasco.com/sociedad/deusto-campus-bilbao-visita-vito-quiles-20261026094244-nt.html"
+        },
+        {
+          "p": 6,
+          "t": "Vito Quiles suspende a última hora su acto en Bilbao «por presencia de terroristas callejeros»",
+          "u": "https://www.diariovasco.com/politica/vito-quiles-suspende-acto-bilbao-tras-hablar-ertzaintza-20261026185353-nt.html"
+        },
+        {
+          "p": 7,
+          "t": "Ordenan la detención de Quiles por mofarse de una mujer con discapacidad intelectual",
+          "u": "https://www.diariovasco.com/sociedad/ordenan-busqueda-detencion-vito-quiles-mofarse-mujer-discapacidad-intelectual-20261026175522-nt.html"
+        },
+        {
+          "p": 8,
+          "t": "Todos los vídeos de los graves disturbios de Bilbao",
+          "u": "https://www.diariovasco.com/sociedad/videos-graves-disturbios-bilbao-tras-cancelacion-acto-20261026210641-nt.html"
+        },
+        {
+          "p": 9,
+          "t": "Todas las imágenes de los altercados en Bilbao tras el anuncio de suspensión del acto de Vito Quiles",
+          "u": "https://www.diariovasco.com/sociedad/imagenes-altercados-bilbao-tras-anuncio-suspension-acto-20261026211930-nt.html"
+        },
+        {
+          "p": 10,
+          "t": "La incredulidad de los vecinos de Deusto con los violentos: «Pero, pero, pero, pero... pero qué hacen»",
+          "u": "https://www.diariovasco.com/politica/incredulidad-vecinos-deusto-violentos-20261026213402-nt.html"
+        },
+        {
+          "p": 11,
+          "t": "Imanol Pradales: «Estos comportamientos son intolerables, inaceptables»",
+          "u": "https://www.diariovasco.com/politica/imanol-pradales-comportamientos-intolerables-inaceptables-20261026210706-nt.html"
+        },
+        {
+          "p": 12,
+          "t": "El cuerpo de Babacar Welle ya descansa en Senegal gracias a la donación de una persona anónima",
+          "u": "https://www.diariovasco.com/gipuzkoa/cuerpo-babacar-welle-descansa-senegal-gracias-donacion-20261027200102-nt.html"
+        },
+        {
+          "p": 13,
+          "t": "«Me gustaría convertir la ELA en una enfermedad crónica»",
+          "u": "https://www.diariovasco.com/sociedad/salud/jone-lopez-erauskin-gustaria-convertir-ela-enfermedad-20261027000150-nt.html"
+        },
+        {
+          "p": 14,
+          "t": "La Cámara y Adegi respaldan a CAF tras el veto de la EHU por sus vínculos con Israel",
+          "u": "https://www.diariovasco.com/economia/camara-adegi-respaldan-caf-tras-veto-ehu-20261027000143-nt.html"
+        },
+        {
+          "p": 15,
+          "t": "Shamonda, el último virus que amenaza a la ganadería de Gipuzkoa",
+          "u": "https://www.diariovasco.com/gipuzkoa/shamonda-ultimo-virus-amenaza-ganaderia-gipuzkoa-20261027000134-nt.html"
+        },
+        {
+          "p": 16,
+          "t": "Virus Shamonda: ¿qué es y cómo se contagia?",
+          "u": "https://www.diariovasco.com/gipuzkoa/virus-shamonda-preguntas-respuestas-conocer-enfermedad-20261026100758-nt.html"
+        },
+        {
+          "p": 17,
+          "t": "Etxanobe sopesa retirarse de la carrera del PNV a diputada general de Bizkaia",
+          "u": "https://www.diariovasco.com/politica/etxanobe-sopesa-retirarse-carrera-pnv-diputada-general-20261027214337-nt.html"
+        },
+        {
+          "p": 18,
+          "t": "Las ikastolas dan un paso inédito en el repliegue digital y prohíben las pantallas hasta los 9 años",
+          "u": "https://www.diariovasco.com/sociedad/educacion/ikastolas-dan-paso-frente-repliegue-digital-prohiben-20261026193432-nt.html"
+        },
+        {
+          "p": 19,
+          "t": "Los centros piden «más recursos» para afrontar la creciente diversidad en el aula",
+          "u": "https://www.diariovasco.com/sociedad/educacion/centros-piden-recursos-afrontar-creciente-diversidad-aula-20261026193509-nt.html"
+        },
+        {
+          "p": 20,
+          "t": "Anne y el perro (de Goya)",
+          "u": "https://www.diariovasco.com/opinion/alvaro-bermejo-anne-perro-goya-20261027000717-nt.html"
+        },
+        {
+          "p": 21,
+          "t": "Epidemia de violencia nutrida por las redes",
+          "u": "https://www.diariovasco.com/opinion/editorial-dv-epidemia-violencia-nutrida-redes-20261027000730-nt.html"
+        },
+        {
+          "p": 22,
+          "t": "La Real encuentra al jugador que aporta «rock and roll y música clásica»",
+          "u": "https://www.diariovasco.com/real-sociedad/real-sociedad-encuentra-brujula-perfecta-aporta-rock-20261026193844-nt.html"
+        },
+        {
+          "p": 23,
+          "t": "La última vez que la Real Sociedad enlazó cuatro triunfos seguidos en Liga acabó en Champions",
+          "u": "https://www.diariovasco.com/real-sociedad/ultima-vez-real-sociedad-enlazo-cuatro-triunfos-20261027000650-nt.html"
+        },
+        {
+          "p": 24,
+          "t": "La crisis del alquiler en Gipuzkoa: 52 familias compiten por cada piso que sale al mercado",
+          "u": "https://www.diariovasco.com/gipuzkoa/crisis-alquiler-gipuzkoa-52-familias-compiten-cada-piso-sale-mercado-20261026125803-nt.html"
+        },
+        {
+          "p": 25,
+          "t": "El número de hipotecas en Gipuzkoa se dispara un 18% en agosto",
+          "u": "https://www.diariovasco.com/economia/vivienda/numero-hipotecas-gipuzkoa-dispara-agosto-20261026102113-nt.html"
+        },
+        {
+          "p": 26,
+          "t": "Se podrán presentar trabajos al Festival Ekos hasta el 1 de noviembre",
+          "u": "https://www.diariovasco.com/economia/festival-ekos-noviembre-20261026200835-nt.html"
+        },
+        {
+          "p": 27,
+          "t": "¿Qué hacer si heredas una casa con hipoteca?",
+          "u": "https://www.diariovasco.com/economia/tu-bolsillo/heredas-casa-hipoteca-20261025000235-nt.html"
+        },
+        {
+          "p": 28,
+          "t": "El predicador, el 'blandengue' y el musulmán: los demócratas que más enfurecen a Trump",
+          "u": "https://www.diariovasco.com/xlsemanal/democratas-eeuu-elecciones-senado-medio-mandato-trump-talarico-ossoff-el-sayed-20261026171103-ntrc.html"
+        },
+        {
+          "p": 29,
+          "t": "Los pisos de lujo de la antigua sede de Telefónica en el centro de Donostia, desde 1,5 millones de euros",
+          "u": "https://www.diariovasco.com/san-sebastian/pisos-lujo-antigua-sede-telefonica-centro-donostia-20261027074219-nt.html"
+        },
+        {
+          "p": 30,
+          "t": "«Es una pena ver que la naturaleza es un vertedero»",
+          "u": "https://www.diariovasco.com/gipuzkoa/pena-ver-naturaleza-vertedero-20261027000259-nt.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "eitb": {
+      "fuente": "https://orain.eus/es",
+      "items": [
+        {
+          "p": 1,
+          "t": "Diecinueve detenidos, entre ellos 11 menores, por los incidentes tras las marchas contra Vito Quiles en Bilbao",
+          "u": "https://orain.eus/es/politica/2026/10/27/diecinueve-detenidos-ellos-7-menores-los-incidentes-tras-las-marchas-contra-vito-quiles-en-bilbao/"
+        },
+        {
+          "p": 2,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Imanol Pradales: \"Los disturbios de Bilbao, provocados por cientos de radicales organizados, son intolerables\"",
+          "u": "https://orain.eus/es/politica/2026/10/26/el-lehendakari-anuncia-el-alcalde-bilbao-ha-tenido-ausentarse-un-acto-debido-los-altercados-bilbao/"
+        },
+        {
+          "p": 3,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Zupiria alerta de un contagio de la agitación europea y condena los actos violentos en Bilbao",
+          "u": "https://orain.eus/es/politica/2026/10/26/zupiria-alerta-un-contagio-la-agitacion-europea-condena-los-actos-violentos-en-bilbao/"
+        },
+        {
+          "p": 4,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Aburto condena los graves disturbios en Bilbao y califica a los autores de \"auténticos fascistas\"",
+          "u": "https://orain.eus/es/politica/2026/10/26/aburto-condena-los-graves-disturbios-en-bilbao-califica-los-autores-autenticos-fascistas/"
+        },
+        {
+          "p": 5,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Blocus, la etiqueta que se extiende por las redes sociales entre las movilizaciones juveniles europeas",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/26/blocus-la-etiqueta-se-extiende-las-redes-sociales-las-movilizaciones-juveniles-europeas/"
+        },
+        {
+          "p": 6,
+          "t": "Las elecciones en Israel ponen a prueba el liderazgo de Netanyahu",
+          "u": "https://orain.eus/es/actualidad/internacional/2026/10/27/las-elecciones-en-israel-ponen-prueba-el-liderazgo-netanyahu/"
+        },
+        {
+          "p": 7,
+          "t": "4200 euros por el mejor queso de la feria en Gernika, de la granja alavesa Azkarra",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/26/4200-euros-el-mejor-queso-la-feria-en-gernika-la-granja-alavesa-azkarra/"
+        },
+        {
+          "p": 8,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. El PP renuncia a presentarse al Senado en Gipuzkoa y Vox limita sus candidaturas en Álava y Navarra",
+          "u": "https://orain.eus/es/politica/elecciones/elecciones-generales/2026/10/26/pp-vox-pactan-las-candidaturas-al-senado-en-nueve-provincias/"
+        },
+        {
+          "p": 9,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. La mayoría absoluta en el Senado, cada vez más codiciada: ¿Por qué los partidos exploran alianzas y fórmulas para lograrla?",
+          "u": "https://orain.eus/es/politica/2026/10/21/la-mayoria-absoluta-en-el-senado-la-mas-codiciada-los-partidos-exploran-alianzas-formulas-lograrla/"
+        },
+        {
+          "p": 10,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Pradales, Illa, Moreno y Clavijo debaten en Bilbao sobre los desafíos y oportunidades de la IA",
+          "u": "https://orain.eus/es/politica/2026/10/26/pradales-illa-moreno-clavijo-debaten-en-bilbao-los-desafios-oportunidades-la-ia/"
+        },
+        {
+          "p": 11,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Oihana Etxebarrieta: \"Cuando hablamos de derechos, las equidistancias no sirven\"",
+          "u": "https://orain.eus/es/politica/elecciones/elecciones-generales/2026/10/26/oihana-etxebarrieta-hablamos-derechos-las-equidistancias-no-sirven/"
+        },
+        {
+          "p": 12,
+          "t": "Las ikastolas reducirán el uso de pantallas a partir del próximo curso y no se utilizarán hasta 3º de Primaria",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/26/ikastolas-reduciran-uso-de-pantallas-a-partir-del-proximo-curso/"
+        },
+        {
+          "p": 13,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Detectado el primer caso de Shamonda en Euskal Herria, en una explotación vacuna de Donostialdea",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/26/detectado-primer-caso-shamonda-euskal-herria-explotacion-vacuna-donostialdea/"
+        },
+        {
+          "p": 14,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Llamada a la \"tranquilidad\" de las instituciones ante la detección del virus Shamonda en una explotación de Gipuzkoa",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/26/llamada-la-tranquilidad-las-instituciones-ante-la-deteccion-del-virus-shamonda-en-una-explotacion-gipuzkoa/"
+        },
+        {
+          "p": 15,
+          "t": "Microsoft pretende recortar 60 000 empleos, cerca de un cuarto de su plantilla",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/26/microsoft-pretende-recortar-60-000-empleos-cerca-un-cuarto-su-plantilla/"
+        },
+        {
+          "p": 16,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Un juzgado de Vitoria-Gasteiz abre la fase de liquidación de la matriz de Tubos Reunidos",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/26/un-juzgado-vitoriagasteiz-abre-la-liquidacion-la-matriz-tubos-reunidos/"
+        },
+        {
+          "p": 17,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. La compraventa de viviendas aumenta un 4,8 % en Euskadi y desciende un 5,3 % en Navarra en agosto",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/26/la-compraventa-viviendas-aumenta-un-48-en-euskadi-desciende-un-53-en-navarra-en-agosto/"
+        },
+        {
+          "p": 18,
+          "t": "Lula gana las elecciones de remontada ante Flávio Bolsonaro",
+          "u": "https://orain.eus/es/actualidad/internacional/2026/10/26/lula-gana-las-elecciones-remontada-ante-flavio-bolsonaro/"
+        },
+        {
+          "p": 19,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. La UE felicita a Lula por su reelección y le instan a trabajar juntos \"La democracia y el multilateralismo han ganado en Brasil” ha escrito Von der Leyen en X, mientras que Costa ha subrayado que la UE y el país sudamericano son “socios sólidos”.",
+          "u": "https://orain.eus/es/actualidad/internacional/2026/10/26/la-ue-felicita-lula-su-reeleccion-le-instan-trabajar-juntos/"
+        },
+        {
+          "p": 20,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. La oposición gana las elecciones en Serbia y aparta al populista Vucic del poder Lista de Estudiantes ha logrado la mayoría absoluta, ante la deblaque del SNS y su socio Partido Socialista. La denuncia de la corrupción y el autoritarismo es lo que ha llevado a la o",
+          "u": "https://orain.eus/es/actualidad/internacional/2026/10/26/la-oposicion-gana-las-elecciones-en-serbia-aparta-al-populista-vucic-del-poder/"
+        },
+        {
+          "p": 21,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Macron dice que las redes sociales \"dañan la democracia\" y las vincula a actos vandálicos También ha advertido de que el riesgo de disturbios en la próxima manifestación del 31 de octubre sigue \"alto\". \"Mi gratitud hacia las fuerzas de seguridad interior y el traba",
+          "u": "https://orain.eus/es/actualidad/internacional/2026/10/26/macron-dice-las-redes-sociales-danan-la-democracia-las-vincula-actos-vandalicos/"
+        },
+        {
+          "p": 22,
+          "t": "Un activista ecologista se encarama a un árbol en Artaza para denunciar el impacto ambiental del Subfluvial",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/26/un-activista-se-sube-un-arbol-en-el-parque-artaza-contra-el-proyecto-del-subfluvial/"
+        },
+        {
+          "p": 23,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. El Gobierno Vasco impulsará medidas para prevenir y reducir el estrés familiar",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/26/el-gobierno-vasco-impulsara-medidas-prevenir-reducir-el-estres-familiar/"
+        },
+        {
+          "p": 24,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. El riesgo de depresión y suicidio en personas LGBTQIA+ es el doble que en personas heterosexuales cisgénero",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/26/el-riesgo-depresion-suicidio-en-personas-lgbtqia-es-el-doble-el-personas-heterosexuales-cisgenero/"
+        },
+        {
+          "p": 25,
+          "t": "Artium Museoa celebrará su 25 aniversario en 2027 con su colección como protagonista",
+          "u": "https://orain.eus/es/cultura/arte/2026/10/26/artium-museoa-celebrara-su-25-aniversario-en-2027-su-coleccion-protagonista/"
+        },
+        {
+          "p": 26,
+          "t": "La historiadora Lola Valverde, premio Manuel Lekuona de Eusko Ikaskuntza",
+          "u": "https://orain.eus/es/cultura/2026/10/27/la-historiadora-lola-valverde-recibira-el-premio-manuel-lekuona-eusko-ikaskuntza/"
+        },
+        {
+          "p": 27,
+          "t": "Ione Hernandez presenta “Hermanas” en la Seminci",
+          "u": "https://orain.eus/es/cultura/cine/2026/10/26/ione-hernandez-presenta-hermanas-en-la-seminci/"
+        },
+        {
+          "p": 28,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Desalojan a más de 100 estudiantes que participaban de una fiesta en un piso de Pamplona",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/26/desalojan-una-fiesta-en-un-piso-pamplona-mas-cien-estudiantes/"
+        },
+        {
+          "p": 29,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Retenciones en la N-634 a la altura de Amorebieta por un accidente entre un camión y un turismo",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/26/retenciones-en-la-n634-la-altura-amorebieta-un-accidente-un-camion-un-turismo/"
+        },
+        {
+          "p": 30,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Feria del Último Lunes de Octubre en Gernika, con 251 puestos",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/26/feria-del-ultimo-lunes-octubre-en-gernika-251-puestos/"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "elconfidencial": {
+      "fuente": "https://www.elconfidencial.com/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Díaz deja el SEPE peor de lo que estaba: más quejas, más esperas y millones sin gastar en personal",
+          "u": "https://www.elconfidencial.com/economia/2026-10-27/diaz-deja-sepe-peor-quejas-esperas-personal_4453477/"
+        },
+        {
+          "p": 2,
+          "t": "Inquietud en Moncloa por el goteo de dimisiones y el pulso en el Consejo de Ministros que esconde el portazo de Fran Martín",
+          "u": "https://www.elconfidencial.com/espana/2026-10-27/inquietud-moncloa-goteo-dimisiones-pulso-consejo-portazo-fran-martin_4453122/"
+        },
+        {
+          "p": 3,
+          "t": "García Ortiz, Iglesias, Martín, Casado... Ayuso colecciona ya más de una docena de cadáveres de sus rivales políticos",
+          "u": "https://www.elconfidencial.com/espana/madrid/2026-10-27/ayuso-cadaveres-politicos-caida-delegado-gobierno-madrid_4453238/"
+        },
+        {
+          "p": 4,
+          "t": "Ley de nietos. El voto de los excluidos que llegue el 29-N se apartará de la urna y se guardará sin abrir",
+          "u": "https://www.elconfidencial.com/espana/2026-10-26/voto-ley-nietos-espana-elecciones-supremo_4453374/"
+        },
+        {
+          "p": 5,
+          "t": "Feijóo y Abascal dirigieron \"al minuto\" el pacto para blindar el Senado... y el TC",
+          "u": "https://www.elconfidencial.com/espana/2026-10-27/feijoo-abascal-acuerdo-senado-constitucional_4453401/"
+        },
+        {
+          "p": 6,
+          "t": "Los independientes de Vox. De un poeta a la exjefa de prensa de Ortega Smtith: la lista completa",
+          "u": "https://www.elconfidencial.com/espana/2026-10-27/vox-candidatos-independientes-senado-1tps_4453640/"
+        },
+        {
+          "p": 7,
+          "t": "Directo. Enrique Santiago, portavoz parlamentario de IU, encabezará el Frente Amplio por Sevilla",
+          "u": "https://www.elconfidencial.com/espana/2026-10-26/elecciones-generales-29-n-encuestas-directo_4451004/"
+        },
+        {
+          "p": 8,
+          "t": "Un día en el municipio 'indepe' catalán donde hay miles de votantes de Vox en la sombra",
+          "u": "https://www.elconfidencial.com/espana/cataluna/2026-10-27/ripoll-municipio-indepe-podria-votar-vox_4453150/"
+        },
+        {
+          "p": 9,
+          "t": "Junts y Orriols ponen en la picota a Illa por los disturbios de Barcelona",
+          "u": "https://www.elconfidencial.com/espana/cataluna/2026-10-27/junts-cuestiona-salvador-illa-disturbios-barcelona_4453448/"
+        },
+        {
+          "p": 10,
+          "t": "Una menguante acampada de Sol se atrinchera para aguantar hasta el 11-N",
+          "u": "https://www.elconfidencial.com/espana/2026-10-26/acampada-sol-trinchera-huelga-sintecho_4453191/"
+        },
+        {
+          "p": 11,
+          "t": "La Guardia Civil cancela los permisos para blindar Madrid en la huelga general",
+          "u": "https://www.elconfidencial.com/espana/2026-10-27/guardia-civil-cancela-permisos-blindar-madrid-huelga-general-elecciones_4453454/"
+        },
+        {
+          "p": 12,
+          "t": "Minuto y resultado: cuando un Gobierno vende subversión",
+          "u": "https://www.elconfidencial.com/espana/una-cierta-mirada/2026-10-27/elecciones-generales-pp-vox-1hms_4453556/"
+        },
+        {
+          "p": 13,
+          "t": "S. McCoy. Lo de Francia es solo el principio: recetas para una solución",
+          "u": "https://blogs.elconfidencial.com/espana/sentido-comun/2026-10-27/crisis-socialdemocracias-liderazgo-financiacion-1hms_4452777/"
+        },
+        {
+          "p": 14,
+          "t": "Brasil y Serbia demuestran que la derecha radical no es un destino inevitable",
+          "u": "https://www.elconfidencial.com/espana/tiempos-dificiles/2026-10-27/derecha-radical-retrocede-ante-corrupcion-1hms_4453270/"
+        },
+        {
+          "p": 15,
+          "t": "¿Aceptaría usted que su adversario gane las elecciones?",
+          "u": "https://www.elconfidencial.com/espana/matacan/2026-10-27/desconfianza-sistema-electoral-democracia-espanola-1hms_4453543/"
+        },
+        {
+          "p": 16,
+          "t": "Sánchez acelera el decreto de centros de datos antes de las elecciones y abre otra guerra con las grandes tecnológicas",
+          "u": "https://www.elconfidencial.com/empresas/2026-10-26/gobierno-aprueba-decreto-centros-datos_4453381/"
+        },
+        {
+          "p": 17,
+          "t": "El hombre que creó el 'Ejército de Lula' para conquistar 10 millones de votos adicionales",
+          "u": "https://www.elconfidencial.com/mundo/2026-10-27/ejercito-lula-guerrilla-digital-votos-adicionales_4453529/"
+        },
+        {
+          "p": 18,
+          "t": "Los estudiantes que han derrocado al 'líder eterno' de Serbia, primer éxito político de las protestas 'GenZ'",
+          "u": "https://www.elconfidencial.com/mundo/2026-10-26/fin-de-vu-i-compleja-toma-poder-estudiantes-acabar-antigua-serbia_4453314/"
+        },
+        {
+          "p": 19,
+          "t": "Inicio del alto el fuego en Oleshki. Rusia y Ucrania preparan la evacuación de civiles",
+          "u": "https://www.elconfidencial.com/mundo/2026-10-27/alto-fuego-oleshki-evacuacion-civiles-1tps_4453628/"
+        },
+        {
+          "p": 20,
+          "t": "Kane baja de las nubes a Lamine Yamal y Mbappé: el ganador que destrozó sus campañas mediáticas",
+          "u": "https://www.elconfidencial.com/deportes/futbol/2026-10-27/balon-oro-lamine-yamal-mbappe-kane-fabian-ruiz_4453345/"
+        },
+        {
+          "p": 21,
+          "t": "El inglés se impone al barcelonista en el trofeo al mejor del año y evita una noche redonda del fútbol español en Londres",
+          "u": "https://www.elconfidencial.com/deportes/futbol/2026-10-27/balon-de-oro-kylian-mbappe-lamine-yamal-harry-kane_4453553/"
+        },
+        {
+          "p": 22,
+          "t": "Dos años de boicot y una paz negociada: el Real Madrid se reconcilia con el premio pese a la derrota de su estrella",
+          "u": "https://www.elconfidencial.com/deportes/futbol/2026-10-27/real-madrid-balon-de-oro-butragueno-reconciliacion-vinicius_4453359/"
+        },
+        {
+          "p": 23,
+          "t": "Empresas chinas rompen con Mbappé. Tras sus declaraciones sobre el 'meme' del \"dictador chino\"",
+          "u": "https://www.elconfidencial.com/deportes/futbol/2026-10-27/china-rompe-patrocinios-mbappe-mao-1tps_4453635/"
+        },
+        {
+          "p": 24,
+          "t": "Alexia es 'La Reina' del fútbol con su tercer Balón de Oro y recupera el trono",
+          "u": "https://www.elconfidencial.com/deportes/futbol/2026-10-26/alexia-putellas-balon-oro-aitana-bonmati-barca-london-city-lionesses_4453341/"
+        },
+        {
+          "p": 25,
+          "t": "El misterioso caso de Bernardo: de no jugar a ser clave en el renacer blanco",
+          "u": "https://www.elconfidencial.com/deportes/futbol/liga/2026-10-27/real-madrid-barcelona-bernardo-silva-jose-mourinho-clasico_4453041/"
+        },
+        {
+          "p": 26,
+          "t": "Ferrovial busca socio para su campus de centros de datos de 1.000 millones de euros",
+          "u": "https://www.elconfidencial.com/empresas/2026-10-27/ferrovial-socio-campus-centros-datos-millones_4453370/"
+        },
+        {
+          "p": 27,
+          "t": "Riquelme nombra a Patxi Sáez nuevo CEO de Cox para relanzar el negocio",
+          "u": "https://www.elconfidencial.com/empresas/2026-10-27/riquelme-nombra-patxi-saez-nuevo-ceo-cox_4434700/"
+        },
+        {
+          "p": 28,
+          "t": "ING busca alianzas para lanzar una ofensiva en seguros en España",
+          "u": "https://www.elconfidencial.com/empresas/2026-10-27/ing-alianzas-seguros-fichajes-comisiones_4453277/"
+        },
+        {
+          "p": 29,
+          "t": "Anthropic. De curar el cáncer a amenaza para la humanidad: un análisis del folleto de salida a bolsa",
+          "u": "https://www.elconfidencial.com/mercados/the-wall-street-journal/2026-10-26/anthropic-salida-bolsa-ia-1hms_4453569/"
+        },
+        {
+          "p": 30,
+          "t": "'Dinero y poder': así se rompió el idilio de 20.000 millones entre Moeve y Galp",
+          "u": "https://www.elconfidencial.com/empresas/2026-10-27/asi-se-rompio-relacion-moeve-galp_4453121/"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "elcorreo": {
+      "fuente": "https://www.elcorreo.com/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Jóvenes radicales siembran el caos y se adueñan del centro de Bilbao con barricadas de fuego",
+          "u": "https://www.elcorreo.com/politica/jovenes-radicales-siembran-caos-aduenan-centro-bilbao-20261026225130-nt.html"
+        },
+        {
+          "p": 2,
+          "t": "Radicales agreden a viandantes que les recriminan su actitud en el centro de Bilbao",
+          "u": "https://www.elcorreo.com/politica/radicales-agreden-viandantes-recriminan-actitud-centro-bilbao-20261026221136-nt.html"
+        },
+        {
+          "p": 3,
+          "t": "Zupiria: «Ayer se demostró que había gente preparada y dispuesta a usar la violencia»",
+          "u": "https://www.elcorreo.com/politica/zupiria-ayer-demostro-alla-convocatoria-provocador-gente-20261027084012-nt.html"
+        },
+        {
+          "p": 4,
+          "t": "De los 19 detenidos, solo los 11 menores siguen en dependencias policiales",
+          "u": "https://www.elcorreo.com/politica/zupiria-asegura-incidentes-preparados-detenidos-menores-20261026213657-nt.html"
+        },
+        {
+          "p": 5,
+          "t": "Pradales carga contra los radicales: «Basta ya. No les queremos en este país»",
+          "u": "https://www.elcorreo.com/politica/pradales-carga-radicales-basta-queremos-pais-20261026210557-nt.html"
+        },
+        {
+          "p": 6,
+          "t": "La condena del alcalde de Bilbao: «Esto no es lucha antifascista, esto es fascismo puro»",
+          "u": "https://www.elcorreo.com/politica/condena-alcalde-bilbao-lucha-antifascista-fascismo-puro-20261026210035-nt.html"
+        },
+        {
+          "p": 7,
+          "t": "«¿Dónde estaba nuestra Policía?», se quejan los vecinos",
+          "u": "https://www.elcorreo.com/politica/policia-quejan-vecinos-20261026230550-nt.html"
+        },
+        {
+          "p": 8,
+          "t": "La incredulidad de los vecinos de Deusto con los violentos: «Pero, pero, pero, pero... pero qué hacen»",
+          "u": "https://www.elcorreo.com/politica/incredulidad-vecinos-deusto-violentos-20261026204842-nt.html"
+        },
+        {
+          "p": 9,
+          "t": "EH Bildu rechaza los incidentes de Bilbao y se solidariza con los afectados",
+          "u": "https://www.elcorreo.com/politica/bildu-rechaza-incidentes-bilbao-solidariza-afectados-20261026214643-nt.html"
+        },
+        {
+          "p": 10,
+          "t": "Barricadas, coches y motos calcinadas, contenedores quemados... los vídeos de los altercados",
+          "u": "https://www.elcorreo.com/politica/barricadas-coches-motos-calcinadas-contenedores-quemados-videos-20261026202326-nt.html"
+        },
+        {
+          "p": 11,
+          "t": "Unai Simón conquista Londres y entra en el olimpo del fútbol",
+          "u": "https://www.elcorreo.com/athletic/unai-simon-conquista-londres-entra-olimpo-futbol-20261026225534-nt.html"
+        },
+        {
+          "p": 12,
+          "t": "El aplaudido discurso de Simón: «He aprendido a amar un club como el Athletic»",
+          "u": "https://www.elcorreo.com/athletic/aplaudido-discurso-unai-simon-recoger-premio-mejor-20261026225022-nt.html"
+        },
+        {
+          "p": 13,
+          "t": "El fallecido técnico de Lezama al que homenajeó Simón ante el mundo",
+          "u": "https://www.elcorreo.com/athletic/fallecido-tecnico-lezama-homenajeo-simon-ante-mundo-20261026232957-nt.html"
+        },
+        {
+          "p": 14,
+          "t": "Un portero de otra época: frío en el campo y cálido con su gente, sin redes sociales ni tatuajes",
+          "u": "https://www.elcorreo.com/athletic/murgia-mundo-20261026223325-nt.html"
+        },
+        {
+          "p": 15,
+          "t": "Quién es la novia de Unai Simón: la discreta joven que ha conquistado al mejor portero del mundo",
+          "u": "https://www.elcorreo.com/athletic/novia-unai-simon-discreta-joven-conquistado-mejor-20261027082619-nt.html"
+        },
+        {
+          "p": 16,
+          "t": "El cáncer más silencioso: la batalla por detectarlo a tiempo",
+          "u": "https://www.elcorreo.com/vivir/habitos/cancer-silencioso-batalla-detectarlo-tiempo-20261027000951-ntrc.html"
+        },
+        {
+          "p": 17,
+          "t": "Quién es Jordi Wild, el youtuber que tiene en sus manos el voto de los jóvenes",
+          "u": "https://www.elcorreo.com/gente-estilo/jordi-wild-youtuber-arrasa-generacion-entrevistara-cuatro-20261026000923-nt.html"
+        },
+        {
+          "p": 18,
+          "t": "Los Planetas restituyen al compositor bilbaíno Carmelo Larrea",
+          "u": "https://www.elcorreo.com/culturas/musica/planetas-restituyen-compositor-bilbaino-carmelo-larrea-20261026010203-nt.html"
+        },
+        {
+          "p": 19,
+          "t": "Ganó su primer millón de pesetas a los 20 años y hoy lidera un negocio que mueve 100 millones de dólares",
+          "u": "https://www.elcorreo.com/talento-negocios/capital-humano/gano-primer-millon-pesetas-anos-hoy-lidera-20261027001056-nt.html"
+        },
+        {
+          "p": 20,
+          "t": "¿Un tranvía de CAF llamado 'deseo'?",
+          "u": "https://www.elcorreo.com/talento-negocios/opinion/inaki-garcinuno-tranvia-caf-llamado-deseo-20261026001110-nt.html"
+        },
+        {
+          "p": 21,
+          "t": "Portugal ha limitado la inmigración y España podría seguir sus pasos",
+          "u": "https://www.elcorreo.com/internacional/portugal-limitado-inmigracion-espana-seguir-pasos-20261026014551-nt.html"
+        },
+        {
+          "p": 22,
+          "t": "«Los independentistas no volverán a intentarlo, la realidad ahora en Cataluña es muy distinta»",
+          "u": "https://www.elcorreo.com/politica/independentistas-volveran-intentarlo-realidad-cataluna-distinta-20261026002223-nt.html"
+        },
+        {
+          "p": 23,
+          "t": "Illa: «Me da igual su altura, edad o la lengua que hablen, los implicados en los altercados en Barcelona van a pagar un precio»",
+          "u": "https://www.elcorreo.com/politica/illa-igual-altura-edad-lengua-hablen-implicados-20261026112415-nt.html"
+        },
+        {
+          "p": 24,
+          "t": "Dejan en libertad a dos acusados del 'crimen de la maleta' de Artxanda al demorarse el juicio",
+          "u": "https://www.elcorreo.com/bizkaia/dejan-libertad-dos-acusados-crimen-maleta-artxanda-20261026005632-nt.html"
+        },
+        {
+          "p": 25,
+          "t": "Vecinos de las torres de Zabalburu denuncian pisos ilegales en la urbanización",
+          "u": "https://www.elcorreo.com/bizkaia/vecinos-torres-zabalburu-denuncian-pisos-ilegales-urbanizacion-20261026005603-nt.html"
+        },
+        {
+          "p": 26,
+          "t": "La Audiencia Provincial de Bizkaia reconoce la paternidad de un hombre sin disponer de pruebas de ADN",
+          "u": "https://www.elcorreo.com/bizkaia/audiencia-provincial-bizkaia-reconoce-paternidad-hombre-realizar-20261026141227-nt.html"
+        },
+        {
+          "p": 27,
+          "t": "Los dirigentes del PP de Gipuzkoa desconocían la decisión de renunciar a presentarse al Senado",
+          "u": "https://www.elcorreo.com/politica/dirigentes-pp-gipuzkoa-desconocian-decision-renunciar-presentarse-20261027065947-nt.html"
+        },
+        {
+          "p": 28,
+          "t": "Las claves del acuerdo de PP y Vox para el Senado",
+          "u": "https://www.elcorreo.com/politica/claves-acuerdo-pp-vox-senado-20261026193420-ntrc.html"
+        },
+        {
+          "p": 29,
+          "t": "Los menores del udaleku de Bernedo debían exhibir conductas sexuales para comer",
+          "u": "https://www.elcorreo.com/alava/araba/monitores-udaleku-bernedo-obligaban-menores-tener-conductas-20261026171229-nt.html"
+        },
+        {
+          "p": 30,
+          "t": "Las claves de la entrevista de EL CORREO con Salvador Illa",
+          "u": "https://www.elcorreo.com/bizkaia/claves-entrevista-correo-salvador-illa-20261027181123-nt.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "eldiario": {
+      "fuente": "https://www.eldiario.es/",
+      "items": [
+        {
+          "p": 1,
+          "t": "El Gobierno prevé llevar a la Diputación Permanente los decretos de vivienda el día después de la huelga general",
+          "u": "https://www.eldiario.es/politica/gobierno-preve-llevar-diputacion-permanente-decretos-vivienda-dia-despues-huelga-general_1_13616839.html"
+        },
+        {
+          "p": 2,
+          "t": "Dentro de los grupos 'blocus' que preparan más saqueos en Barcelona: “¿Alguien puede conseguir bengalas?”",
+          "u": "https://www.eldiario.es/catalunya/grupos-blocus-preparan-saqueos-barcelona-alguien-bengalas_1_13615410.html"
+        },
+        {
+          "p": 3,
+          "t": "Los Mossos identifican diversos jóvenes en la plaça Espanya de Barcelona ante una nueva convocatoria por redes",
+          "u": "https://www.eldiario.es/catalunya/mossos-identifican-diversos-jovenes-placa-espanya-barcelona-nueva-convocatoria-redes_1_13616695.html"
+        },
+        {
+          "p": 4,
+          "t": "Una veintena de detenidos y cargas de la Ertzaintza en los disturbios en Bilbao tras el acto frustrado de Vito Quiles",
+          "u": "https://www.eldiario.es/euskadi/vito-quiles-cancela-acto-bilbao-protestas-antifascistas-cierre-universidad-deusto_1_13614866.html"
+        },
+        {
+          "p": 5,
+          "t": "Ultras en el campus, ultras en el aula",
+          "u": "https://www.eldiario.es/sociedad/educacion/ultras-campus-ultras-aula_132_13616372.html"
+        },
+        {
+          "p": 6,
+          "t": "De Cayetana Álvarez de Toledo al CEU pasando por HazteOír: cómo la derecha y ultraderecha pelean por la educación",
+          "u": "https://www.eldiario.es/sociedad/cayetana-alvarez-toledo-ceu-pasando-hazteoir-derecha-ultraderecha-pelean-educacion_1_13607031.html"
+        },
+        {
+          "p": 7,
+          "t": "Quiénes son los candidatos de Vox al Senado integrados en las listas del PP",
+          "u": "https://www.eldiario.es/politica/son-candidatos-vox-senado-integrados-listas-pp_1_13617335.html"
+        },
+        {
+          "p": 8,
+          "t": "PP y Vox cierran un acuerdo de mínimos para buscar el control total del Senado el 29N",
+          "u": "https://www.eldiario.es/politica/pp-vox-cierran-acuerdo-minimos-buscar-control-total-senado-29n_1_13616605.html"
+        },
+        {
+          "p": 9,
+          "t": "Terremoto en la derecha brasileña: la remontada histórica de Lula empuja al bolsonarismo a la desaparición",
+          "u": "https://www.eldiario.es/internacional/terremoto-derecha-brasilena-remontada-historica-lula-empuja-bolsonarismo-desaparicion_1_13616408.html"
+        },
+        {
+          "p": 10,
+          "t": "Brasil resiste a la ola ultra: qué significa la victoria de Lula para su país y más allá",
+          "u": "https://www.eldiario.es/internacional/theguardian/brasil-resiste-ola-ultra-significa-victoria-lula-pais_1_13614599.html"
+        },
+        {
+          "p": 11,
+          "t": "'Nueve dedos' y lo que nos cuenta la victoria de Lula sobre el precio de difamar al rival",
+          "u": "https://www.eldiario.es/politica/nueve-dedos-cuenta-victoria-lula-precio-difamar-rival_129_13615949.html"
+        },
+        {
+          "p": 12,
+          "t": "Bolsonaro asegura que un juez le ha pedido entregar su pasaporte",
+          "u": "https://www.eldiario.es/internacional/flavio-bolsonaro-asegura-juez-supremo-brasil-le-pedido-entregar-pasaporte_1_13617072.html"
+        },
+        {
+          "p": 13,
+          "t": "Cómo el experimento político de un movimiento estudiantil derrotó en las urnas al gran líder nacionalista serbio",
+          "u": "https://www.eldiario.es/internacional/experimento-politico-movimiento-estudiantil-logro-derrotar-urnas-gran-lider-nacionalista-serbio_1_13616368.html"
+        },
+        {
+          "p": 14,
+          "t": "La dirección del viento está cambiando",
+          "u": "https://www.eldiario.es/contracorriente/direccion-viento-cambiando_132_13616480.html"
+        },
+        {
+          "p": 15,
+          "t": "Ya, ya, pero es que el lobo viene de verdad. Y con colmillos",
+          "u": "https://www.eldiario.es/blog/el-ojo-izquierdo/lobo-viene-colmillos_132_13616593.html"
+        },
+        {
+          "p": 16,
+          "t": "Lula, la gran esperanza mundial",
+          "u": "https://www.eldiario.es/opinion/zona-critica/lula-gran-esperanza-mundial_129_13615946.html"
+        },
+        {
+          "p": 17,
+          "t": "El derecho, la barbarie y el voto",
+          "u": "https://www.eldiario.es/opinion/zona-critica/derecho-barbarie-voto_129_13615955.html"
+        },
+        {
+          "p": 18,
+          "t": "Israel acude a las urnas con un Netanyahu amenazado tras casi dos décadas de dominio",
+          "u": "https://www.eldiario.es/internacional/israel-acude-urnas-netanyahu-amenazado-decadas-dominio-politico_1_13616669.html"
+        },
+        {
+          "p": 19,
+          "t": "Elecciones en Israel: el genocidio en una papeleta",
+          "u": "https://www.eldiario.es/un-tema-al-dia/podcast-elecciones-israel-genocidio-papeleta_132_13616295.html"
+        },
+        {
+          "p": 20,
+          "t": "La relatora de la ONU denuncia el papel de grandes medios de comunicación en la legitimación del genocidio en Gaza",
+          "u": "https://www.eldiario.es/internacional/relatora-onu-denuncia-papel-grandes-medios-comunicacion-legitimacion-genocidio-gaza_1_13613697.html"
+        },
+        {
+          "p": 21,
+          "t": "Cómo se convirtió el Estado de Israel en el gran modelo de la extrema derecha internacional",
+          "u": "https://www.eldiario.es/internacional/la-semana-internacional/convirtio-israel-gran-modelo-extrema-derecha-internacional_132_13617225.html"
+        },
+        {
+          "p": 22,
+          "t": "El “pelotazo” en Valdebebas para el Real Madrid que dejará números rojos en el Ayuntamiento por un “error” de cálculo",
+          "u": "https://www.eldiario.es/madrid/somos/pelotazo-valdebebas-real-madrid-dejara-numeros-rojos-ayuntamiento-error-calculo_1_13615242.html"
+        },
+        {
+          "p": 23,
+          "t": "La subasta de los bienes que los Franco sacaron del Pazo de Meirás: “Vengo a por un recuerdo de la España franquista”",
+          "u": "https://www.eldiario.es/sociedad/subasta-bienes-franco-sacaron-pazo-meiras-vengo-recuerdo-espana-franquista_1_13615129.html"
+        },
+        {
+          "p": 24,
+          "t": "El cine español responde al ataque de Vox en la Seminci: “Es censura, un desprecio absoluto”",
+          "u": "https://www.eldiario.es/cultura/cine/cine-espanol-responde-ataque-vox-seminci-censura-desprecio-absoluto_1_13615315.html"
+        },
+        {
+          "p": 25,
+          "t": "El Gobierno acelera las expulsiones en Ceuta tras la denegación de peticiones de asilo: “El siguiente seré yo”",
+          "u": "https://www.eldiario.es/desalambre/gobierno-acelera-expulsiones-ceuta-denegacion-peticiones-asilo-siguiente-sere_1_13616650.html"
+        },
+        {
+          "p": 26,
+          "t": "16 migrantes llevan tres días atrapados en la frontera del Tarajal tras su expulsión: “Marruecos no nos acepta y la Guardia Civil no quiere vernos”",
+          "u": "https://www.eldiario.es/desalambre/decena-migrantes-llevan-tres-dias-atrapados-frontera-tarajal-expulsion-marruecos-no-acepta-guardia-civl-no-quiere-vernos_1_13614736.html"
+        },
+        {
+          "p": 27,
+          "t": "Los audios de la alcaldesa de Catarroja a una vecina media hora antes del ES-Alert: “Subid a las zonas altas, a primeros pisos”",
+          "u": "https://www.eldiario.es/comunitat-valenciana/politica/audios-alcaldesa-catarroja-vecina-media-hora-alert-subid-zonas-altas-primeros-pisos_1_13615486.html"
+        },
+        {
+          "p": 28,
+          "t": "Un tribunal obliga a José Luis Moreno a pagar 1,2 millones de la deuda fiscal de la productora de 'Aquí no hay quien viva'",
+          "u": "https://www.eldiario.es/vertele/noticias/tribunal-obliga-jose-luis-moreno-pagar-1-2-millones-deuda-fiscal-productora-no-hay-viva_1_13615147.html"
+        },
+        {
+          "p": 29,
+          "t": "Un juez y un Guardia Civil desvelan presiones por investigar la corrupción urbanística en 'la Marbella del Norte': “Llegaron a avisar de los registros”",
+          "u": "https://www.eldiario.es/cantabria/juez-guardia-civil-desvelan-presiones-investigar-corrupcion-urbanistica-marbella-norte-llegaron-avisar-registros_1_13614787.html"
+        },
+        {
+          "p": 30,
+          "t": "El problema de las pensiones no es cuánto cuestan",
+          "u": "https://www.eldiario.es/economia/problema-pensiones-no-cuestan_129_13616225.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "elmundo": {
+      "fuente": "https://www.elmundo.es/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Elecciones generales 29-N",
+          "u": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/27/6ae043c3ea01db2214ac021b-directo.html"
+        },
+        {
+          "p": 2,
+          "t": "La UCO acredita los 300.000 euros que Aldama vincula a la financiación ilegal del PSOE",
+          "u": "https://www.elmundo.es/espana/2026/10/26/6ade3a9dfc6c8337488b4597.html"
+        },
+        {
+          "p": 3,
+          "t": "El pacto de PP y Vox acerca a la derecha al control total del Senado: la fórmula elegida puede ser decisiva en 13 provincias",
+          "u": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/26/6adfc1a4fdddff58628b4571.html"
+        },
+        {
+          "p": 4,
+          "t": "Editorial. El Senado y el precio del frentismo",
+          "u": "https://www.elmundo.es/opinion/editorial/2026/10/26/6adf9c7be85ecee76e8b458a.html"
+        },
+        {
+          "p": 5,
+          "t": "Albares acelera ahora por la amenaza del Supremo en la ley de nietos: exige los datos antes de las 15.00 horas de hoy",
+          "u": "https://www.elmundo.es/espana/2026/10/27/6adfa4ff21efa000718b459f.html"
+        },
+        {
+          "p": 6,
+          "t": "Marsella, tomada por la violencia: \"El Black bloc no es un grupo, sino una técnica para atacar\"",
+          "u": "https://www.elmundo.es/internacional/2026/10/26/6adfabbee85ece8d6c8b4574.html"
+        },
+        {
+          "p": 7,
+          "t": "Testigo directo. En la 'zona cero' de Marsella: \"Los comerciantes pagamos pena doble\"",
+          "u": "https://www.elmundo.es/internacional/2026/10/25/6add0d24fdddfff23d8b4570.html"
+        },
+        {
+          "p": 8,
+          "t": "Tensión. Enfrentamientos entre la Policía y los manifestantes en Marsella: \"Estamos aquí incluso si Macron no quiere\"",
+          "u": "https://www.elmundo.es/internacional/2026/10/24/6adb9902fdddffcc088b457d.html"
+        },
+        {
+          "p": 9,
+          "t": "Los mensajes internos de los Mossos que advierten de otro saqueo masivo de Blocus: \"Quieren repetirlo. Hay bandas latinoamericanas\"",
+          "u": "https://www.elmundo.es/cataluna/2026/10/27/6adfaaeb21efa022498b4581.html"
+        },
+        {
+          "p": 10,
+          "t": "Interior saca de Euskadi al guardia civil señalado por Jardun: tenían el documento que presentó en la Hacienda de Guipúzcoa",
+          "u": "https://www.elmundo.es/pais-vasco/2026/10/26/6adfa5f5fc6c83f0128b45a0.html"
+        },
+        {
+          "p": 11,
+          "t": "El ex delegado del Gobierno dimitió tras recibir una amenaza de demanda millonaria empresarial por \"inacción\" en Sol",
+          "u": "https://www.elmundo.es/espana/2026/10/26/6adfa41cfc6c830c148b45a1.html"
+        },
+        {
+          "p": 12,
+          "t": "La victoria de Lula da un balón de oxígeno a la maltrecha Patria Grande",
+          "u": "https://www.elmundo.es/internacional/2026/10/27/6adf8440e85eceaf758b458b.html"
+        },
+        {
+          "p": 13,
+          "t": "Editorial. Lula: el reto de cerrar la brecha brasileña",
+          "u": "https://www.elmundo.es/opinion/editorial/2026/10/26/6adf8ff5fc6c830c148b4593.html"
+        },
+        {
+          "p": 14,
+          "t": "Cientos de radicales desbordan a la Ertzaintza e incendian las calles del centro de Bilbao",
+          "u": "https://www.elmundo.es/pais-vasco/2026/10/26/6adfa586e85ece80418b45bc.html"
+        },
+        {
+          "p": 15,
+          "t": "Movilización. Blocus, el movimiento de TikTok que recluta jóvenes para imitar las violentas protestas de Francia",
+          "u": "https://www.elmundo.es/madrid/2026/10/26/6adf5212fdddff53378b45ab.html"
+        },
+        {
+          "p": 16,
+          "t": "\"Haz lo que te parezca\": el descontrol de Interior derivó en un choque Policía-Guardia Civil en pleno asalto en Ceuta",
+          "u": "https://www.elmundo.es/espana/2026/10/27/6adfa58521efa00b508b4594.html"
+        },
+        {
+          "p": 17,
+          "t": "Vacaciones, calefacción, coche... España se descuelga y entra entre los cinco países que menos cosas se pueden permitir a pesar del crecimiento económico",
+          "u": "https://www.elmundo.es/economia/2026/10/26/6adf4110fc6c831e5c8b4598.html"
+        },
+        {
+          "p": 18,
+          "t": "Israel vota bajo la sombra del 7-O: Netanyahu, Eisenkot o el bloqueo",
+          "u": "https://www.elmundo.es/internacional/2026/10/27/6adfb67ae4d4d8bf5d8b45b9.html"
+        },
+        {
+          "p": 19,
+          "t": "El votante paria de Feijóo",
+          "u": "https://www.elmundo.es/opinion/columnistas/2026/10/26/6adf9eedfdddff241a8b459a.html"
+        },
+        {
+          "p": 20,
+          "t": "Perfil. Feijóo planea un superdepartamento que unifique Emergencias con Novillo",
+          "u": "https://www.elmundo.es/madrid/2026/10/27/6adf78b521efa0fd028b458f.html"
+        },
+        {
+          "p": 21,
+          "t": "Con Allianz, tu hogar más protegido y 150€ de regalo",
+          "u": "https://www.elmundo.es/uestudio/2026/10/23/6adb35fd21efa06e428b459f.html"
+        },
+        {
+          "p": 22,
+          "t": "El ingeniero español que tiene una solución para combatir la basura espacial: \"Hoy en día dependemos del espacio para todo, desde internet al GPS\"",
+          "u": "https://www.elmundo.es/papel/historias/2026/10/26/6ad61076fdddff8f2a8b458d.html"
+        },
+        {
+          "p": 23,
+          "t": "La protesta silenciosa de los médicos madrileños contra las horas extra dispara los pacientes en espera de cirugía",
+          "u": "https://www.elmundo.es/salud/2026/10/27/6abff851e9cf4a395f8b458b.html"
+        },
+        {
+          "p": 24,
+          "t": "Harry Kane, Balón de Oro: \"No fui de esos que llegan directamente a la cima\"",
+          "u": "https://www.elmundo.es/deportes/futbol/2026/10/26/6adfadb2e9cf4a97228b4594.html"
+        },
+        {
+          "p": 25,
+          "t": "Opinión. El Balón de Oro de la buena educación",
+          "u": "https://www.elmundo.es/deportes/futbol/2026/10/26/6adfd33dfdddfffa7b8b4593.html"
+        },
+        {
+          "p": 26,
+          "t": "Unai Simón. Mejor portero y mejor discurso",
+          "u": "https://www.elmundo.es/deportes/futbol/2026/10/27/6ae050ea21efa0cb328b459b.html"
+        },
+        {
+          "p": 27,
+          "t": "España se baña en oro: Alexia Putellas, Balón de Oro en una edición que premia a De la Fuente, Lamine Yamal, Unai Simón y al Barça femenino",
+          "u": "https://www.elmundo.es/deportes/futbol/2026/10/26/6adfd73afdddffea718b456d.html"
+        },
+        {
+          "p": 28,
+          "t": "La televisión estatal china suspende las emisiones de LaLiga tras la polémica con Mbappé",
+          "u": "https://www.elmundo.es/deportes/futbol/primera-division/2026/10/27/6ae046c9fc6c839e088b45aa.html"
+        },
+        {
+          "p": 29,
+          "t": "De Amazon a Google: Las 10 mayores empresas del mundo se 'juegan' 700.000 millones en contratos en la salida a bolsa de Anthropic",
+          "u": "https://www.elmundo.es/economia/empresas/2026/10/27/6adf9bdde4d4d8957d8b459f.html"
+        },
+        {
+          "p": 30,
+          "t": "Moncloa recula con los centros de datos: suaviza el decreto y 'cuela' un salvavidas para la fotovoltaica",
+          "u": "https://www.elmundo.es/economia/empresas/2026/10/26/6adfa269e85ece3f358b45b2.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "elpais": {
+      "fuente": "rss:https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
+      "items": [
+        {
+          "p": 1,
+          "t": "Vox impone al PP candidatos “independientes” al Senado muy vinculados a los ultras: de la exjefa de prensa de Ortega-Smith a un ‘exconseller’ de Mazón",
+          "u": "https://elpais.com/espana/elecciones-generales/2026-10-26/vox-impone-al-pp-candidatos-independientes-al-senado-muy-vinculados-al-partido-de-la-exjefa-de-prensa-de-ortega-smith-a-un-exconseller-de-mazon.html"
+        },
+        {
+          "p": 2,
+          "t": "Feijóo hace de los disturbios de Barcelona uno de los ejes de su campaña contra Sánchez",
+          "u": "https://elpais.com/espana/elecciones-generales/2026-10-27/feijoo-hace-de-los-disturbios-de-barcelona-uno-de-los-ejes-de-su-campana-contra-sanchez.html"
+        },
+        {
+          "p": 3,
+          "t": "Abdellah Mustafa: de cocinero a candidato al Senado por Ceuta",
+          "u": "https://elpais.com/espana/2026-10-27/abdellah-mustafa-de-cocinero-a-candidato-al-senado-por-ceuta.html"
+        },
+        {
+          "p": 4,
+          "t": "Un sombrero cowboy para Aznar, un ladrillo de una cárcel para Zapatero y un boli bala para Rajoy: los sorprendentes regalos a los presidentes",
+          "u": "https://elpais.com/espana/2026-10-27/un-sombrero-cowboy-para-aznar-un-ladrillo-de-una-carcel-para-zapatero-y-un-boli-bala-para-rajoy-los-sorprendentes-regalos-a-los-presidentes.html"
+        },
+        {
+          "p": 5,
+          "t": "Selva Orejón, experta en ciberseguridad: “Son menores con un componente de frustración y de desconexión muy importante con la realidad”",
+          "u": "https://elpais.com/espana/catalunya/2026-10-27/selva-orejon-experta-en-ciberseguridad-son-menores-con-un-componente-de-frustracion-y-de-desconexion-muy-importante-con-la-realidad.html"
+        },
+        {
+          "p": 6,
+          "t": "Bolsonaro rectifica y anuncia que ejercerá la oposición a Lula",
+          "u": "https://elpais.com/america/2026-10-27/bolsonaro-rectifica-y-anuncia-que-ejercera-la-oposicion-a-lula.html"
+        },
+        {
+          "p": 7,
+          "t": "André Janones, el general de WhatsApp que le dio la vuelta a la elección de Lula",
+          "u": "https://elpais.com/america/2026-10-27/andre-janones-el-general-de-whatsapp-que-le-dio-la-vuelta-a-la-eleccion-de-lula.html"
+        },
+        {
+          "p": 8,
+          "t": "Kane y el Balón de Oro más español",
+          "u": "https://elpais.com/deportes/futbol/2026-10-26/kane-y-el-balon-de-oro-mas-espanol.html"
+        },
+        {
+          "p": 9,
+          "t": "Alexia Putellas y el consejo de Luis Suárez",
+          "u": "https://elpais.com/deportes/futbol/2026-10-26/alexia-putellas-y-el-consejo-de-luis-suarez.html"
+        },
+        {
+          "p": 10,
+          "t": "Harry Kane, el poder multiplicador de la inteligencia",
+          "u": "https://elpais.com/deportes/futbol/2026-10-26/harry-kane-el-poder-multiplicador-de-la-inteligencia.html"
+        },
+        {
+          "p": 11,
+          "t": "Luis de la Fuente ‘superstar’: así transformó el Mundial la vida del seleccionador español",
+          "u": "https://elpais.com/deportes/futbol/2026-10-28/luis-de-la-fuente-superstar-asi-transformo-el-mundial-la-vida-del-seleccionador-espanol.html"
+        },
+        {
+          "p": 12,
+          "t": "El cierre de la librería Pérgamo no es lo que parece: ni especulación, ni fondos buitres, ni otro ‘caso Maricarmen’",
+          "u": "https://elpais.com/espana/madrid/2026-10-27/el-cierre-de-la-libreria-pergamo-no-es-lo-que-parece-ni-especulacion-ni-fondos-buitres-ni-otro-caso-maricarmen.html"
+        },
+        {
+          "p": 13,
+          "t": "Fue un experimento en los años 50 y ahora es el peor barrio de Madrid: 408 pisos de 40 metros cuadrados casi en ruina",
+          "u": "https://elpais.com/espana/madrid/2026-10-27/fue-un-experimento-en-los-anos-50-y-ahora-es-el-peor-barrio-de-madrid-408-pisos-de-40-metros-cuadrados-casi-en-ruina.html"
+        },
+        {
+          "p": 14,
+          "t": "La mitad de los pilotos europeos admite haber volado en los últimos tres meses demasiado cansado",
+          "u": "https://elpais.com/economia/2026-10-27/la-mitad-de-los-pilotos-europeos-admite-haber-volado-en-los-ultimos-tres-meses-demasiado-cansado.html"
+        },
+        {
+          "p": 15,
+          "t": "¿Una IA puede detectar si otra ha escrito una novela? Preguntas y respuestas sobre Pangram",
+          "u": "https://elpais.com/cultura/2026-10-27/una-ia-puede-detectar-si-otra-ha-escrito-una-novela-preguntas-y-respuestas-sobre-pangram.html"
+        },
+        {
+          "p": 16,
+          "t": "La nueva edad dorada del cocido madrileño: el plato tradicional convive con versiones cada vez más sofisticadas",
+          "u": "https://elpais.com/gastronomia/2026-10-27/la-nueva-edad-dorada-del-cocido-madrileno-el-plato-tradicional-convive-con-versiones-cada-vez-mas-sofisticadas.html"
+        },
+        {
+          "p": 17,
+          "t": "Quemar la ciudad",
+          "u": "https://elpais.com/opinion/2026-10-27/quemar-la-ciudad.html"
+        },
+        {
+          "p": 18,
+          "t": "Los vaqueros de ‘La Pedra’",
+          "u": "https://elpais.com/opinion/2026-10-27/los-vaqueros-de-la-pedra.html"
+        },
+        {
+          "p": 19,
+          "t": "Netanyahu se juega su futuro en unas elecciones decisivas para todo Oriente Próximo",
+          "u": "https://elpais.com/internacional/2026-10-27/netanyahu-se-juega-su-futuro-en-unas-elecciones-decisivas-para-todo-oriente-proximo.html"
+        },
+        {
+          "p": 20,
+          "t": "75.000 muertos después, Gaza es la gran ausente en las elecciones israelíes",
+          "u": "https://elpais.com/internacional/2026-10-27/75000-muertos-despues-gaza-es-la-gran-ausente-en-las-elecciones-israelies.html"
+        },
+        {
+          "p": 21,
+          "t": "De 703 a 110 presos en 15 años: así se ha transformado ETA en las cárceles",
+          "u": "https://elpais.com/espana/2026-10-27/de-703-a-110-presos-en-15-anos-asi-se-ha-transformado-eta-en-las-carceles.html"
+        },
+        {
+          "p": 22,
+          "t": "El precio de la vivienda expulsa el talento científico de Madrid: “La vocación no alimenta”",
+          "u": "https://elpais.com/educacion/2026-10-27/el-precio-de-la-vivienda-expulsa-el-talento-cientifico-de-madrid-la-vocacion-no-alimenta.html"
+        },
+        {
+          "p": 23,
+          "t": "El nuevo impuesto a los ricos frena la mudanza de fortunas entre comunidades, pero dispara la ingeniería fiscal",
+          "u": "https://elpais.com/economia/2026-10-27/el-nuevo-impuesto-a-los-ricos-frena-la-mudanza-de-fortunas-entre-comunidades-pero-dispara-la-ingenieria-fiscal.html"
+        },
+        {
+          "p": 24,
+          "t": "Jaime Martínez Porro, dirigente de Die Linke: “Sin la calle, la izquierda nunca gana. No podemos fiarlo todo al BOE”",
+          "u": "https://elpais.com/internacional/2026-10-27/jaime-martinez-porro-dirigente-de-die-linke-sin-la-calle-la-izquierda-nunca-gana-no-podemos-fiarlo-todo-al-boe.html"
+        },
+        {
+          "p": 25,
+          "t": "Seis gráficos que explican qué piden y por qué protestan los profesores de la educación pública en Madrid",
+          "u": "https://elpais.com/espana/madrid/2026-10-27/seis-graficos-que-explican-que-piden-y-por-que-protestan-los-profesores-de-la-educacion-publica-en-madrid.html"
+        },
+        {
+          "p": 26,
+          "t": "El Gobierno da cinco años a los centros de datos para cumplir con las exigencias más duras",
+          "u": "https://elpais.com/economia/2026-10-26/el-gobierno-da-cinco-anos-a-los-centros-de-datos-para-cumplir-con-las-exigencias-mas-duras.html"
+        },
+        {
+          "p": 27,
+          "t": "Vito Quiles suspende su acto en Bilbao en una jornada que termina con quemas de coches y 14 detenidos",
+          "u": "https://elpais.com/espana/2026-10-26/la-universidad-de-deusto-suspende-su-actividad-en-bilbao-por-temor-a-incidentes-en-el-acto-de-vito-quiles.html"
+        },
+        {
+          "p": 28,
+          "t": "La red que hace posible el reciclaje",
+          "u": "https://elpais.com/sociedad/ecoembes-espacio-eco/2026-10-26/la-red-que-hace-posible-el-reciclaje.html"
+        },
+        {
+          "p": 29,
+          "t": "Aislamiento o ventilación: el debate energético de los arquitectos se dirime en un piso piloto de Alicante",
+          "u": "https://elpais.com/espana/comunidad-valenciana/2026-10-27/aislamiento-o-ventilacion-el-debate-energetico-de-los-arquitectos-se-dirime-en-un-piso-piloto-de-alicante.html"
+        },
+        {
+          "p": 30,
+          "t": "La cascada terapéutica: el error de tratar con más medicamentos los efectos secundarios de los que ya se toman",
+          "u": "https://elpais.com/salud-y-bienestar/2026-10-27/la-cascada-terapeutica-el-error-de-tratar-con-mas-medicamentos-los-efectos-secundarios-de-los-que-ya-se-toman.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "lavanguardia": {
+      "fuente": "https://www.lavanguardia.com/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Última hora del tráfico y trenes de Rodalies en Catalunya",
+          "u": "https://www.lavanguardia.com/local/catalunya/20261027/11668227/trafico-carreteras-cortes-trenes-rodalies-accesos-barcelona-cataluna-martes-27-octubre-en-directo.html"
+        },
+        {
+          "p": 2,
+          "t": "La jueza de menores riñe a los padres por los disturbios de Barcelona",
+          "u": "https://www.lavanguardia.com/local/barcelona/20261027/11668735/jueza-menores-rine-padres-violencia-hijos.html"
+        },
+        {
+          "p": 3,
+          "t": "La protesta contra Vito Quiles en Bilbao acaba con asaltos a comercios y 19 detenidos",
+          "u": "https://www.lavanguardia.com/local/paisvasco/20261027/11669028/protesta-acto-vito-quiles-bilbao-acaba-altercados-quemas-coches-asaltos-comercios-19-detenidos.html"
+        },
+        {
+          "p": 4,
+          "t": "Un mando dirige y da instrucciones a los vándalos para sembrar el caos en Barcelona",
+          "u": "https://www.lavanguardia.com/sucesos/20261027/11668493/mando-dirige-da-instrucciones-vandalos-sembrar-caos-barcelona.html"
+        },
+        {
+          "p": 5,
+          "t": "El pacto PP-Vox en el Senado certifica la alianza para llegar a la Moncloa",
+          "u": "https://www.lavanguardia.com/politica/20261027/11668757/pp-vox-sellan-pacto-senado-busca-conservar-mayoria-absoluta.html"
+        },
+        {
+          "p": 6,
+          "t": "La motosierra pierde dientes",
+          "u": "https://www.lavanguardia.com/internacional/20261027/11668928/motosierra-pierde-dientes.html"
+        },
+        {
+          "p": 7,
+          "t": "Harry Kane se lleva el Balón de Oro al mejor futbolista por delante de Mbappé y Lamine Yamal",
+          "u": "https://www.lavanguardia.com/deportes/20261026/11668794/balon-oro-harry-kane-mejor-futbolista-por-delante-lamine-yamal-mbappe-londres.html"
+        },
+        {
+          "p": 8,
+          "t": "El último baile blaugrana de Alexia vale su tercer Balón de Oro",
+          "u": "https://www.lavanguardia.com/deportes/futbol-femenino/20261026/11668695/ultimo-baile-blaugrana-alexia-vale-tercer-balon-oro.html"
+        },
+        {
+          "p": 9,
+          "t": "Lamine Yamal, mejor talento joven del 2026, se queda sin Balón de Oro y termina tercero",
+          "u": "https://www.lavanguardia.com/deportes/futbol/20261026/11668694/primer-premio-lamine-yamal-mejor-talento-joven-2026-balon-de-oro-londres.html"
+        },
+        {
+          "p": 10,
+          "t": "Bolsonaro rectifica y se proclama líder de la oposición en Brasil",
+          "u": "https://www.lavanguardia.com/internacional/20261026/11668787/bolsonaro-sigue-reconocer-historica-victoria-lula-presidenciales.html"
+        },
+        {
+          "p": 11,
+          "t": "“Es lo peor del mundo, me quiero ir”",
+          "u": "https://www.lavanguardia.com/internacional/20261027/11668744/peor-mundo-me-quiero.html"
+        },
+        {
+          "p": 12,
+          "t": "¿Cómo funcionan las elecciones en Israel?",
+          "u": "https://www.lavanguardia.com/internacional/20261027/11668262/como-funcionan-elecciones-israel.html"
+        },
+        {
+          "p": 13,
+          "t": "El movimiento por Gaza transforma a los demócratas de EE.UU.",
+          "u": "https://www.lavanguardia.com/internacional/20261027/11668217/mamdani-sayed-existirian-nuestro-castigo-harris-movimiento-gaza-transforma-democratas.html"
+        },
+        {
+          "p": 14,
+          "t": "El movimiento estudiantil de Serbia, del triunfo en las urnas al reto de gobernar",
+          "u": "https://www.lavanguardia.com/internacional/20261027/11668645/movimiento-estudiantil-serbia-triunfo-urnas-reto-gobernar.html"
+        },
+        {
+          "p": 15,
+          "t": "El 0,1% más rico del mundo genera más gases que los 3.500 millones de personas más pobres",
+          "u": "https://www.lavanguardia.com/natural/20261027/11669039/0-1-mas-rico-mundo-causa-mas-emisiones-3-500-millones-personas-mas-pobres.html"
+        },
+        {
+          "p": 16,
+          "t": "Dos años de la dana: la búsqueda infructuosa de desaparecidos que las familias piden mantener",
+          "u": "https://www.lavanguardia.com/local/valencia/20261027/11668684/dos-anos-busqueda-infructuosa-familias-piden-mantener.html"
+        },
+        {
+          "p": 17,
+          "t": "¿Te han ascendido? Las habilidades que necesitas para ser un buen líder",
+          "u": "https://www.lavanguardia.com/economia/20261027/11665730/te-han-ascendido-habilidades-necesitas-buen-lider-brl.html"
+        },
+        {
+          "p": 18,
+          "t": "El retorno del ‘no’ a la crianza: “Es imposible educar sin decir que no”",
+          "u": "https://www.lavanguardia.com/vivo/mamas-y-papas/20261027/11668164/retorno-crianza-imposible-educar-decir.html"
+        },
+        {
+          "p": 19,
+          "t": "Vuelve la cultura 'millennial' y los vaqueros pitillo",
+          "u": "https://www.lavanguardia.com/vida/20261027/11668417/millennial-renacimiento-nostalgia.html"
+        },
+        {
+          "p": 20,
+          "t": "El “Picasso de las calabazas” sorprende con sus esculturas en California",
+          "u": "https://www.lavanguardia.com/vida/20261027/11668786/picasso-calabazas-sorprende-esculturas-california.html"
+        },
+        {
+          "p": 21,
+          "t": "080 Barcelona Fashion: moda circular, talento y proyección internacional",
+          "u": "https://www.lavanguardia.com/local/catalunya/20261026/11668612/080-barcelona-fashion-moda-circular-talento-proyeccion-internacional-brl.html"
+        },
+        {
+          "p": 22,
+          "t": "“He sufrido por ser hiperperfeccionista; al José de antaño le diría que pierda el miedo”",
+          "u": "https://www.lavanguardia.com/vivo/longevity/20261027/11668545/jose-mota-humorista-61-anos-he-sufrido-persona-hiperperfeccionista-pudiera-viajar-le-diria-ese-jose-pierda-miedo.html"
+        },
+        {
+          "p": 23,
+          "t": "La vida de película de Sandra Sánchez, la mejor karateka de todos los tiempos",
+          "u": "https://www.lavanguardia.com/cultura/20261027/11668527/vida-pelicula-sandra-sanchez-mejor-karateka-todos-tiempos.html"
+        },
+        {
+          "p": 24,
+          "t": "'AI shame': la vergüenza de usar inteligencia artificial",
+          "u": "https://www.lavanguardia.com/neo/sociedad-neo/20261027/11666285/ai-shame-vergueenza-inteligencia-artificial.html"
+        },
+        {
+          "p": 25,
+          "t": "Temu recula y acepta las medidas de Bruselas para reducir la venta de productos ilegales",
+          "u": "https://www.lavanguardia.com/economia/20261026/11668655/temu-recula-acepta-medidas-bruselas-reducir-venta-productos-ilegales.html"
+        },
+        {
+          "p": 26,
+          "t": "El contenido de la Villa Gucci, a la venta en un mercadillo de Roma",
+          "u": "https://www.lavanguardia.com/gente/20261026/11668660/contenido-villa-gucci-venta-mercadillo-roma.html"
+        },
+        {
+          "p": 27,
+          "t": "Halloween en el planeta: las tradiciones más excitantes",
+          "u": "https://www.lavanguardia.com/magazine/viajes/20261027/11666644/halloween-mundo-tradiciones-mas-excitantes.html"
+        },
+        {
+          "p": 28,
+          "t": "The British School of Barcelona inaugura el colegio BSB Maresme y amplía su trayectoria",
+          "u": "https://www.lavanguardia.com/vida/20261027/11666399/nuevo-colegio-bsb-maresme-amplia-trayectoria-excelencia-the-british-school-of-barcelona-brl.html"
+        },
+        {
+          "p": 29,
+          "t": "La Generalitat revisará que en los buses interurbanos se pueda viajar de pie",
+          "u": "https://www.lavanguardia.com/local/barcelona/20261027/11668769/generalitat-revision-normativa-buses-interurbanos-viajar-pie.html"
+        },
+        {
+          "p": 30,
+          "t": "Catalunya registra una oleada de secuestros exprés entre narcotraficantes",
+          "u": "https://www.lavanguardia.com/sucesos/20261027/11668805/catalunya-registra-oleada-secuestros-expres-narcotraficantes.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "naiz": {
+      "fuente": "https://www.naiz.eus/es",
+      "items": [
+        {
+          "p": 1,
+          "t": "PNV: Poca participación, nulo debate, batalla de aparatos y futuro cojo",
+          "u": "https://www.naiz.eus/es/info/noticia/20261027/poca-participacion-nulo-debate-batalla-de-aparatos-y-futuro-cojo"
+        },
+        {
+          "p": 2,
+          "t": "Las potentes movilizaciones antifascistas echan atrás al agitador Vito Quiles en Bilbo",
+          "u": "https://www.naiz.eus/es/info/noticia/20261025/vito-quiles-fija-la-cita-en-deustu-sin-concretar-y-con-varias-protestas-antifascistas"
+        },
+        {
+          "p": 3,
+          "t": "Pradales y EH Bildu rechazan los graves ataques, quema de coches incluida, con Quiles de excusa",
+          "u": "https://www.naiz.eus/es/info/noticia/20261027/pradales-y-eh-bildu-rechazan-los-graves-ataques-quema-de-coches-incluida-con-quiles-de-excusa"
+        },
+        {
+          "p": 4,
+          "t": "Unai Simón es el mejor portero del año",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/unai-simon-es-el-mejor-portero-del-ano"
+        },
+        {
+          "p": 5,
+          "t": "El PP que apoyó a Mendoza deja vía libre a Vox en Gipuzkoa para el Senado",
+          "u": "https://www.naiz.eus/es/info/noticia/20261027/el-pp-que-apoyo-a-mendoza-deja-via-libre-a-vox-en-gipuzkoa-para-el-senado"
+        },
+        {
+          "p": 6,
+          "t": "El PP hace un acuerdo histórico con Vox y la izquierda confederal suma un pacto más",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/el-pp-hace-un-acuerdo-historico-con-vox-y-la-izquierda-confederal-suma-un-pacto-mas"
+        },
+        {
+          "p": 7,
+          "t": "El Frente Amplio presenta a Lander Martínez en Bizkaia y su pacto con el PSOE al Senado",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/el-frente-amplio-presenta-a-lander-martinez-en-bilbao-y-pacta-con-el-psoe-al-senado"
+        },
+        {
+          "p": 8,
+          "t": "Oihana Etxebarrieta: «Lokatzetik eta zaratatik kanpo izango ditugu eztabaidak»",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/oihana-etxebarrieta-lokatzetik-eta-zaratatik-kanpo-izango-ditugu-eztabaidak"
+        },
+        {
+          "p": 9,
+          "t": "Pisos públicos por habitaciones, la respuesta de Iruñea a una situación límite",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/los-pisos-publicos-tambien-se-comparten-la-reaccion-de-irunea-ante-la-emergencia-habitacional"
+        },
+        {
+          "p": 10,
+          "t": "Contra Trump, contra Meta y contra la resignación: las claves de la remontada de Lula",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/contra-trump-contra-meta-y-contra-la-resignacion-las-claves-de-la-remontada-de-lula"
+        },
+        {
+          "p": 11,
+          "t": "Errealitate berriari dagokion ikastolen Estrategia Digital berria, ahalduntzea helburu",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/errrealitate-berriari-dagokion-estrategia-digital-berria-ahalduntzea-helburu"
+        },
+        {
+          "p": 12,
+          "t": "Paralizado el desahucio de una familia con dos menores en Santutxu",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/paralizado-el-desahucio-de-una-familia-con-dos-menores-en-santutxu"
+        },
+        {
+          "p": 13,
+          "t": "El Gobierno francés anuncia concesiones a los estudiantes, pero no les convence",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/el-gobierno-frances-anuncia-concesiones-a-los-estudiantes-pero-no-les-convence"
+        },
+        {
+          "p": 14,
+          "t": "Shamonda birusaren kasu bat atzeman dute Donostialdeko behi ustiategi batean",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/shamonda-birusaren-kasu-bat-atzeman-dute-donostialdeko-behi-ustiategi-batean"
+        },
+        {
+          "p": 15,
+          "t": "El fondo de SEPI, abierto a flexibilizar la devolución de la deuda de Tubos Reunidos",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/el-fondo-de-sepi-abierto-a-flexibilizar-la-devolucion-de-la-deuda-de-tubos-reunidos"
+        },
+        {
+          "p": 16,
+          "t": "La madre de Yoanna Acedo pide justicia al cumplirse un año de este crimen machista en Zarautz",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/la-madre-de-yoanna-acedo-pide-justicia-al-cumplirse-un-ano-de-este-crimen-machista-en-zarautz"
+        },
+        {
+          "p": 17,
+          "t": "«Entre el orden y su límite puede nacer una forma más humilde y humana de inteligencia»",
+          "u": "https://www.naiz.eus/es/info/noticia/20261027/la-transmision-del-conocimiento-se-puede-hacer-por-canales-mas-directos-como-la-musica"
+        },
+        {
+          "p": 18,
+          "t": "Comprensión lectora y falta de motivación, claves de la caída en PISA para los centros",
+          "u": "https://www.naiz.eus/es/info/noticia/20261016/comprension-lectora-y-falta-de-motivacion-claves-de-la-caida-en-pisa-para-los-centros"
+        },
+        {
+          "p": 19,
+          "t": "Aleksandar Vucic: Ekilibrismoaren maisua, ikasle talde baten aurrean galtzaile",
+          "u": "https://www.naiz.eus/es/info/noticia/20261027/ekilibrismoaren-maisua-ikasle-talde-baten-aurrean-galtzaile"
+        },
+        {
+          "p": 20,
+          "t": "El desembarco de Peter Thiel, cofundador de Palantir, en la Casa Rosada",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/el-desembarco-de-peter-thiel-cofundador-de-palantir-en-la-casa-rosada"
+        },
+        {
+          "p": 21,
+          "t": "110.000 lagun inguru Gernika-Lumoko Urriko Azken Astelehenean",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/110-000-lagun-inguru-gernika-lumoko-urriko-azken-astelehenean"
+        },
+        {
+          "p": 22,
+          "t": "Alessandro Ruta ‘Los viajes de Gulliver’, 300 años de un angustiado manifiesto político",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/los-viajes-de-gulliver-300-anos-de-un-angustiado-manifiesto-politico"
+        },
+        {
+          "p": 23,
+          "t": "El Sevilla diluye el 'efecto Arrasate' (2-0)",
+          "u": "https://www.naiz.eus/es/info/noticia/20261026/el-sevilla-diluye-el-efecto-arrasate-2-0"
+        },
+        {
+          "p": 24,
+          "t": "La Real suma su cuarta victoria liguera seguida y se coloca a rebufo de los puestos Champions",
+          "u": "https://www.naiz.eus/es/info/noticia/20261025/la-real-suma-su-cuarta-victoria-liguera-seguida-y-se-coloca-a-rebufo-de-los-puestos-champions"
+        },
+        {
+          "p": 25,
+          "t": "El Athletic aparca su minicrisis gracias a una buena tarde de los Williams y el balón parado",
+          "u": "https://www.naiz.eus/es/info/noticia/20261025/el-athletic-aparca-su-minicrisis-gracias-a-una-buena-tarde-de-los-williams-y-el-balon-parado"
+        },
+        {
+          "p": 26,
+          "t": "El Eibar rescata un punto que sabe a poco (2-2)",
+          "u": "https://www.naiz.eus/es/info/noticia/20261025/el-eibar-rescata-un-punto-que-sabe-a-poco-2-2"
+        },
+        {
+          "p": 27,
+          "t": "El Depor voltea el marcador para enviar al Alavés a descenso (2-1)",
+          "u": "https://www.naiz.eus/es/info/noticia/20261025/el-depor-voltea-el-marcador-para-enviar-al-alaves-a-descenso-2-1"
+        },
+        {
+          "p": 28,
+          "t": "Real y Espanyol se reparten los puntos en un partido vibrante (1-1)",
+          "u": "https://www.naiz.eus/es/info/noticia/20261024/real-y-espanyol-se-reparten-los-puntos-en-un-partido-vibrante-1-1"
+        },
+        {
+          "p": 29,
+          "t": "Un Athletic sin pólvora tiene que conformarse con las tablas (0-0)",
+          "u": "https://www.naiz.eus/es/info/noticia/20261024/un-athletic-sin-polvora-tiene-que-conformarse-con-las-tablas-0-0"
+        },
+        {
+          "p": 30,
+          "t": "Javier Zabalak oso sendo jarraitzen du eta finalerdietan da jadanik",
+          "u": "https://www.naiz.eus/es/info/noticia/20261025/javier-zabalak-oso-sendo-jarraitzen-du-eta-finalerdietan-da-jadanik"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "noticiasgipuzkoa": {
+      "fuente": "https://www.noticiasdegipuzkoa.eus/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Al menos una veintena de detenidos en los disturbios registrados en Bilbao tras la concentración contra la visita de Vito Quiles",
+          "u": "https://www.noticiasdegipuzkoa.eus/politica/2026/10/26/disturbios-deusto-concentracion-visita-vito-quiles-11690072.html"
+        },
+        {
+          "p": 2,
+          "t": "Zupiria alerta de un contagio de la agitación europea y condena los actos violentos en Bilbao",
+          "u": "https://www.noticiasdegipuzkoa.eus/politica/2026/10/27/zupiria-alerta-contagio-agitacion-europea-11691398.html"
+        },
+        {
+          "p": 3,
+          "t": "Pradales condena los disturbios en Bilbao: \"Ya basta de utilizar la violencia para responder a la provocación\"",
+          "u": "https://www.noticiasdegipuzkoa.eus/politica/2026/10/26/pradales-condena-disturbios-bilbao-basta-provocacion-11690546.html"
+        },
+        {
+          "p": 4,
+          "t": "Vito Quiles suspende su acto en Bilbao: \"Hay exmiembros de ETA y terroristas callejeros encabezando las protestas\"",
+          "u": "https://www.noticiasdegipuzkoa.eus/politica/2026/10/26/vito-quiles-suspende-acto-bilbao-terroristas-11689659.html"
+        },
+        {
+          "p": 5,
+          "t": "El consejero de Universidades no ve \"correcto\" el cierre de Deusto por el acto de Vito Quiles: \"Resulta kafkiano\"",
+          "u": "https://www.noticiasdegipuzkoa.eus/politica/2026/10/26/perez-iglesias-critica-cierre-universidad-deusto-vito-quiles-11689456.html"
+        },
+        {
+          "p": 6,
+          "t": "“Las historias de terror siguen teniendo fuerza para engañar y engatusar al público\"",
+          "u": "https://www.noticiasdegipuzkoa.eus/cultura/2026/10/27/josemi-beltran-historias-terror-siguen-teniendo-fuerza-11687885.html"
+        },
+        {
+          "p": 7,
+          "t": "La palabra dada toma el escenario del Guggenheim",
+          "u": "https://www.noticiasdegipuzkoa.eus/sociedad/2026/10/26/hitz-sariak-palabra-gala-guggenheim-11689691.html"
+        },
+        {
+          "p": 8,
+          "t": "Matarazzo y sus trece goleadores",
+          "u": "https://www.noticiasdegipuzkoa.eus/reala/2026/10/27/matarazzo-trece-goleadores-11689274.html"
+        },
+        {
+          "p": 9,
+          "t": "Las ikastolas reducirán el uso de pantallas y retrasarán su incorporación a las aulas",
+          "u": "https://www.noticiasdegipuzkoa.eus/sociedad/2026/10/26/ikastolas-reduciran-pantallas-retrasaran-incorporacion-11688700.html"
+        },
+        {
+          "p": 10,
+          "t": "La historiadora donostiarra Lola Valverde, Premio Manuel Lekuona de Eusko Ikaskuntza",
+          "u": "https://www.noticiasdegipuzkoa.eus/sociedad/2026/10/27/historiadora-lola-valverde-premio-manuel-lekuona-11691445.html"
+        },
+        {
+          "p": 11,
+          "t": "La marca guipuzcoana que vistió a Indurain vuelve al World Tour",
+          "u": "https://www.noticiasdegipuzkoa.eus/ciclismo/2026/10/26/etxeondo-vuelve-vestir-world-tour-11689449.html"
+        },
+        {
+          "p": 12,
+          "t": "El virus Shamonda: una nueva amenaza hasta ahora desconocida",
+          "u": "https://www.noticiasdegipuzkoa.eus/sociedad/2026/10/26/virus-shamonda-nueva-amenaza-ahora-11688888.html"
+        },
+        {
+          "p": 13,
+          "t": "A la venta en Donostia trece viviendas de lujo a partir de 1,5 millones",
+          "u": "https://www.noticiasdegipuzkoa.eus/sociedad/2026/10/26/venta-donostia-trece-viviendas-lujo-11689236.html"
+        },
+        {
+          "p": 14,
+          "t": "“Miras las tarifas de los hoteles de Donostia y para mucha gente son imposibles”",
+          "u": "https://www.noticiasdegipuzkoa.eus/sociedad/2026/10/26/miras-tarifas-hoteles-donostia-gente-son-imposibles-11676627.html"
+        },
+        {
+          "p": 15,
+          "t": "Caen las enmiendas a la totalidad de Donostia, cuyo Gobierno incluye 12 millones no previstos",
+          "u": "https://www.noticiasdegipuzkoa.eus/donostia/2026/10/26/desestimadas-enmiendas-totalidad-cuentas-donostia-11687633.html"
+        },
+        {
+          "p": 16,
+          "t": "La máquina herramienta centra el primer foro sectorial para reforzar la competitividad industrial en Gipuzkoa",
+          "u": "https://www.noticiasdegipuzkoa.eus/economia/2026/10/26/maquina-herramienta-centra-primer-foro-11688588.html"
+        },
+        {
+          "p": 17,
+          "t": "Héctor Fort se ilusiona con el derbi: \"Tengo muchas ganas de vivirlo y evidentemente de ganarlo\"",
+          "u": "https://www.noticiasdegipuzkoa.eus/reala/2026/10/26/hector-fort-ilusiona-derbi-ganas-11689042.html"
+        },
+        {
+          "p": 18,
+          "t": "La consagración eterna de Harry Kane, ganador del Balón de Oro",
+          "u": "https://www.noticiasdegipuzkoa.eus/futbol/2026/10/27/consagracion-eterna-harry-kane-ganador-balon-de-oro-futbol-11691284.html"
+        },
+        {
+          "p": 19,
+          "t": "Galilea se viste de Bravo: un portero, un gol y una locura colectiva",
+          "u": "https://www.noticiasdegipuzkoa.eus/reala/zubieta/2026/10/26/galilea-viste-claudio-bravo-portero-gol-11688306.html"
+        },
+        {
+          "p": 20,
+          "t": "Euskadi ya compite oficialmente y en igualdad",
+          "u": "https://www.noticiasdegipuzkoa.eus/opinion/2026/10/27/euskadi-compite-oficialmente-igualdad-11691394.html"
+        },
+        {
+          "p": 21,
+          "t": "El enfado monumental de Fernando Alonso: “El nivel de los pilotos de atrás es muy bajo”",
+          "u": "https://www.noticiasdegipuzkoa.eus/f1/2026/10/26/enfado-monumental-fernando-alonso-nivel-formula-1-austin-estados-unidos-11688625.html"
+        },
+        {
+          "p": 22,
+          "t": "Oñati: Ganbara da la campanada en Burgos y sella su pase a Granada",
+          "u": "https://www.noticiasdegipuzkoa.eus/gipuzkoa/bertan/2026/10/26/onati-ganbara-da-campanada-burgos-11690529.html"
+        },
+        {
+          "p": 23,
+          "t": "De Baviera a Letonia, la música coral cruza Goierri",
+          "u": "https://www.noticiasdegipuzkoa.eus/gipuzkoa/bertan/2026/10/26/baviera-letonia-musica-coral-cruza-11690484.html"
+        },
+        {
+          "p": 24,
+          "t": "Carlos González, de 'La bola negra': “Poder amar sin tener que esconderte es algo muy valioso”",
+          "u": "https://www.noticiasdegipuzkoa.eus/gente/2026/10/25/carlos-gonzalez-actor-la-bola-negra-peliculas-los-javis-11684540.html"
+        },
+        {
+          "p": 25,
+          "t": "Netflix recuerda a Matthew Perry tres años después de su muerte",
+          "u": "https://www.noticiasdegipuzkoa.eus/vivir/television/2026/10/26/netflix-recuerda-matthew-perry-tres-11690491.html"
+        },
+        {
+          "p": 26,
+          "t": "Aurelio Rojas, cardiólogo, avisa del peligro de consumir azúcar desde niños: \"Destroza el corazón para siempre\"",
+          "u": "https://www.noticiasdegipuzkoa.eus/salud/2026/10/26/aurelio-rojas-cardiologo-avisa-peligro-consumir-azucar-ninos-destroza-corazon-11687304.html"
+        },
+        {
+          "p": 27,
+          "t": "El cantante Neil Young demanda a la campaña de Trump por usar una de sus cancione",
+          "u": "https://www.noticiasdegipuzkoa.eus/mundo/2026/10/27/cantante-neil-young-demanda-campana-11691467.html"
+        },
+        {
+          "p": 28,
+          "t": "Israel abre las urnas en unas elecciones clave para Netanyahu tras tres años de guerras",
+          "u": "https://www.noticiasdegipuzkoa.eus/mundo/2026/10/27/israel-abre-urnas-elecciones-clave-11691417.html"
+        },
+        {
+          "p": 29,
+          "t": "Los cinco errores más comunes al cocinar pasta: aprende a evitarlos",
+          "u": "https://www.noticiasdegipuzkoa.eus/gastronomia/2026/10/27/cinco-errores-comunes-cocinar-pasta-evitarlos-11691372.html"
+        },
+        {
+          "p": 30,
+          "t": "211 urte euskara eskolaratzen",
+          "u": "https://www.noticiasdegipuzkoa.eus/tribuna-abierta/2026/10/27/211-urte-euskara-eskolaratzen-jose-manuel-bujanda-11689602.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "rtve": {
+      "fuente": "https://www.rtve.es/noticias/",
+      "items": [
+        {
+          "p": 1,
+          "t": "El PP renueva el 60% de los cabezas de lista al Congreso y el 70% al Senado",
+          "u": "https://www.rtve.es/noticias/20261027/ultima-hora-politica-espana-directo-hoy-cronica/17284640.shtml"
+        },
+        {
+          "p": 2,
+          "t": "Sánchez se compromete a blindar las pensiones \"ante la amenaza de PP y Vox\"",
+          "u": "https://www.rtve.es/noticias/20261026/sanchez-se-compromete-a-blindar-pensiones-su-revalorizacion-constitucion-ante-amenaza-pp-vox/17284431.shtml"
+        },
+        {
+          "p": 3,
+          "t": "Raphael Inphinito: un universo de canciones",
+          "u": "https://www.rtve.es/noticias/20261027/raphael-canciones-discos-conciertos/17277894.shtml"
+        },
+        {
+          "p": 4,
+          "t": "Mi gran lista: navega por los discos y canciones de Raphael y crea tu propia lista",
+          "u": "https://www.rtve.es/noticias/20261027/raphael-gran-playlist-canciones/17277903.shtml"
+        },
+        {
+          "p": 5,
+          "t": "Los dos años de políticas de Trump que pueden costar el Congreso a su partido: \"Es un lastre para los republicanos\"",
+          "u": "https://www.rtve.es/noticias/20261027/dos-anos-politicas-trump-pueden-costar-congreso-republicanos/17246251.shtml"
+        },
+        {
+          "p": 6,
+          "t": "Al menos 19 detenidos tras los violentos disturbios en Bilbao con quema de coches y ataques al mobiliario urbano",
+          "u": "https://www.rtve.es/noticias/20261027/bilbao-disturbios-violentos-detenidos/17284586.shtml"
+        },
+        {
+          "p": 7,
+          "t": "¿Qué es Blocus y cómo se alientan los disturbios?",
+          "u": "https://www.rtve.es/noticias/20261026/redes-a-calle-blocus-como-se-alientan-disturbios-barcelona-resto-europa/17284273.shtml"
+        },
+        {
+          "p": 8,
+          "t": "El partido de Flávio Bolsonaro reconoce la victoria de Lula da Silva en Brasil",
+          "u": "https://www.rtve.es/noticias/20261027/brasil-partido-flavio-bolsonaro-reconoce-victoria-lula-da-silva/17284599.shtml"
+        },
+        {
+          "p": 9,
+          "t": "Los datos del triunfo de Lula",
+          "u": "https://www.rtve.es/noticias/20261026/datos-victoria-lula-asi-votado-brasil/17284091.shtml"
+        },
+        {
+          "p": 10,
+          "t": "Francia anuncia medidas para poner fin a las protestas, pero los estudiantes las ven \"insuficientes\"",
+          "u": "https://www.rtve.es/noticias/20261026/lecornu-estudiantes-reunen-tratar-poner-fin-protestas-francia/17283942.shtml"
+        },
+        {
+          "p": 11,
+          "t": "Israel, ante unas elecciones cruciales e inciertas marcadas por el 7 de octubre",
+          "u": "https://www.rtve.es/noticias/20261025/israel-elecciones-cruciales-inciertas/17279812.shtml"
+        },
+        {
+          "p": 12,
+          "t": "¿Quién concurre a unas elecciones que pueden desbancar a Netanyahu en Israel?",
+          "u": "https://www.rtve.es/noticias/20261025/claves-quien-concurre-elecciones-israel-fin-netanyahu/17282052.shtml"
+        },
+        {
+          "p": 13,
+          "t": "El voto árabe en Israel: la fuerza de la minoría incómoda",
+          "u": "https://www.rtve.es/noticias/20261026/voto-arabe-israel-fuerza-minoria-incomoda/17282549.shtml"
+        },
+        {
+          "p": 14,
+          "t": "La derecha pacta las listas al Senado para frenar a la izquierda: Vox renuncia en seis provincias y el PP en tres",
+          "u": "https://www.rtve.es/noticias/20261026/pp-vox-listas-electorales-senado/17283133.shtml"
+        },
+        {
+          "p": 15,
+          "t": "Derechos laborales de los candidatos: 15 días naturales de permiso retribuido para hacer campaña",
+          "u": "https://www.rtve.es/noticias/20261026/derechos-laborales-candidatos-15-dias-permiso-retribuido-para-campana/17284065.shtml"
+        },
+        {
+          "p": 16,
+          "t": "Abascal defiende el acuerdo con el PP en el Senado como un \"gesto patriótico\" y llama a la \"movilización masiva\"",
+          "u": "https://www.rtve.es/noticias/20261026/abascal-movilizacion-masiva-critica-discurso-guerracivilista-izquierda/17284274.shtml"
+        },
+        {
+          "p": 17,
+          "t": "La victoria de Lula da oxígeno a la izquierda española: \"La remontada del progresismo global acaba de comenzar\"",
+          "u": "https://www.rtve.es/noticias/20261026/victoria-lula-da-oxigeno-a-izquierda-espanola-remontada-del-progresismo-global-acaba-comenzar/17283253.shtml"
+        },
+        {
+          "p": 18,
+          "t": "El Gobierno suaviza las exigencias ambientales para instalar centros de datos",
+          "u": "https://www.rtve.es/noticias/20261026/gobierno-suaviza-exigencias-ambientales-para-instalar-centros-datos/17284570.shtml"
+        },
+        {
+          "p": 19,
+          "t": "El Gobierno vincula a la extrema derecha con los disturbios en Barcelona mientras el PP acusa a Sánchez de buscar tensión",
+          "u": "https://www.rtve.es/noticias/20261026/gobierno-condena-disturbios-barcelona-extrema-derecha-beneficiada/17283398.shtml"
+        },
+        {
+          "p": 20,
+          "t": "Bolsonaro asegura que un juez le ha pedido el pasaporte para que no se fugue tras perder las elecciones de Brasil",
+          "u": "https://www.rtve.es/noticias/20261026/bolsonaro-asegura-juez-pedido-pasaporte-para-no-se-fugue-tras-perder-elecciones-brasil/17284472.shtml"
+        },
+        {
+          "p": 21,
+          "t": "Trump considera \"amañadas\" las elecciones en Brasil tras la derrota de Flávio Bolsonaro",
+          "u": "https://www.rtve.es/noticias/20261026/trump-denuncia-unas-elecciones-amanadas-brasil-derrota-aliado-bolsonaro/17284450.shtml"
+        },
+        {
+          "p": 22,
+          "t": "EE.UU. busca que Delcy Rodríguez deje vacante la presidencia en 2027 y Machado se abre a negociar tras su regreso",
+          "u": "https://www.rtve.es/noticias/20261027/venezuela-eeuu-espera-delcy-rodriguez-deje-vacante-presidencia/17284608.shtml"
+        },
+        {
+          "p": 23,
+          "t": "De la clandestinidad al ICE: \"El Poder Blanco ha pasado de las armas a la política institucional\"",
+          "u": "https://www.rtve.es/noticias/20261026/ice-poder-blanco-kathleen-belew-politica/17283752.shtml"
+        },
+        {
+          "p": 24,
+          "t": "Ammar Yassir, la mirada joven de la guerra de Sudán: \"'Guerra olvidada' me parece despectivo; mejor 'guerra desatendida'\"",
+          "u": "https://www.rtve.es/noticias/20261026/ammar-yassir-mirada-joven-sudan/17282578.shtml"
+        },
+        {
+          "p": 25,
+          "t": "Trasladada a un hospital en Suiza la mujer que enfermó de ébola en Nigeria",
+          "u": "https://www.rtve.es/noticias/20261026/trasladada-a-hospital-suiza-mujer-enfermo-ebola-nigeria/17284358.shtml"
+        },
+        {
+          "p": 26,
+          "t": "Rusia y Ucrania inician un alto el fuego localizado en Oleshki para facilitar una misión humanitaria",
+          "u": "https://www.rtve.es/noticias/20261027/guerra-rusia-ucrania-alto-fuego-oleshki/17284610.shtml"
+        },
+        {
+          "p": 27,
+          "t": "Moeve y Galp cancelan su plan de fusión y renuncian a crear un gigante energético en la península ibérica",
+          "u": "https://www.rtve.es/noticias/20261026/moeve-galp-cancelan-su-plan-fusion-renuncian-a-crear-gigante-energetico-peninsula-iberica/17283029.shtml"
+        },
+        {
+          "p": 28,
+          "t": "El encarecimiento de la energía dispara un 18% los precios de los productos fabricados por la industria",
+          "u": "https://www.rtve.es/noticias/20261026/precios-industriales-disparan-septiembre-encarecimiento-precio-energia/17283431.shtml"
+        },
+        {
+          "p": 29,
+          "t": "Las hipotecas marcan nuevo récord histórico: se piden más de 181.000 euros de media, un 7,7% más que en 2025",
+          "u": "https://www.rtve.es/noticias/20261026/hipotecas-viviendas-record-historico/17283205.shtml"
+        },
+        {
+          "p": 30,
+          "t": "El mando de la Guardia Civil de Ceuta informó de la presencia de seis embarcaciones marroquíes la noche anterior",
+          "u": "https://www.rtve.es/noticias/20261026/ceuta-guardia-civil-policia-declaran-audiencia-nacional/17283643.shtml"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    }
+  },
+  "n_por_foto": 30,
+  "ts": "2026-10-27T08:52:59+01:00"
+}
