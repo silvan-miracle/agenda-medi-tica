@@ -1,0 +1,1098 @@
+<!doctype html><html lang="es"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Agenda Mediática Euskadi–España</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Instrument+Serif&display=swap">
+<style>
+/* Línea visual de Matiz (S&M): fondo blanco, filetes #DCD8CC, tinta para titulares, teal solo en lo activo, subtítulos en Instrument Serif. Tema claro único, deliberado. */
+:root{
+  color-scheme:light;
+  --bg:#FFFFFF; --surface:#FFFFFF; --ink:#1A1A1A; --ink-2:#3E4B4C; --muted:#5A6B6C; --faint:#C9C5B8;
+  --grid:#DCD8CC; --axis:#C9C5B8; --line:#DCD8CC; --crema:#F3EFE4; --crema-2:#F9F7F1;
+  --teal:#014550; --menta:#95F1D8; --naranja:#FF723C;
+  --eus:#014550; --esp:#FF723C; --accent:#014550;
+  --s1:#014550; --s2:#FF723C; --s3:#8739E5; --s4:#F6BD32;
+  --seq:#014550; --on-seq:#FFFFFF; --neg:#FF723C;
+  --good:#1E7A82; --bad:#B3541E;
+  --sans:"Inter","Helvetica Neue",Arial,sans-serif;
+  --serif:"Instrument Serif",Georgia,"Times New Roman",serif;
+  --body:var(--sans); --mono:var(--sans);
+}
+*{box-sizing:border-box}
+html,body{overflow-x:clip}
+body{margin:0;background:#fff;color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.45;padding-inline:20px;padding-block:0;font-variant-numeric:tabular-nums}
+.wrap{max-width:1180px;margin:0 auto}
+h1,h2,h3{margin:0;text-wrap:balance}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--naranja);outline-offset:2px}
+[hidden]{display:none!important}
+.terms{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.term{display:inline-block;font-size:12px;line-height:1.3;padding:2px 7px;border-radius:2px;background:var(--crema);color:var(--ink);border:1px solid transparent;cursor:pointer}
+button.term{font:inherit;font-size:12px}
+.term:hover{border-color:var(--teal)}
+.term.cs{background:#fff;border-color:var(--ink);font-weight:500}
+.term.hit{background:#FFE3D6;border-color:var(--naranja)}
+.card.hit{border-color:var(--naranja)}
+.dcount{font-size:11.5px;color:var(--muted)}
+
+/* cabecera */
+header.page{padding-block:16px 0;border-bottom:1px solid var(--grid);display:flex;flex-direction:column;gap:12px;background:#fff}
+.header-top{display:flex;justify-content:flex-end}
+.sm-firma{display:flex;flex-direction:column;gap:5px;width:calc(38px*948/139);max-width:100%}
+.sm-logo{height:38px;width:calc(38px*990/139);max-width:none;margin:calc(-38px*21/139) calc(-38px*21/139);display:block}
+.sm-lema{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);line-height:1;white-space:nowrap;display:flex;justify-content:space-between;width:100%;margin-top:3px}
+.sm-lema span:last-child{margin-right:-.12em}
+.brand{display:flex;flex-direction:column;gap:2px;align-items:center;text-align:center}
+.brand h1{font-weight:600;font-size:34px;letter-spacing:-.01em;line-height:1.1}
+.brand .lema{font-size:26px;font-weight:400;letter-spacing:-.01em;line-height:1.15;margin-bottom:8px}
+.brand .sub{font-family:var(--serif);font-size:16px;color:var(--muted)}
+nav.main-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:4px}
+nav.main-tabs button{display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:left;background:none;border:0;border-bottom:3px solid transparent;padding:10px 4px 12px;cursor:pointer;color:var(--muted)}
+nav.main-tabs .t{font-size:17px;font-weight:600;letter-spacing:-.005em}
+nav.main-tabs .d{font-size:12px}
+nav.main-tabs button:hover{color:var(--teal)}
+nav.main-tabs button[aria-selected="true"]{color:var(--teal);border-bottom-color:var(--teal)}
+nav.main-tabs button[aria-selected="true"] .d{color:var(--muted)}
+@media (max-width:620px){nav.main-tabs .t{font-size:14px;line-height:1.2}nav.main-tabs .d{font-size:11px}.brand h1{font-size:28px}.brand .lema{font-size:21px}}
+
+/* panel */
+section.tabpanel{padding-block:18px 40px}
+.src-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px 24px;padding-bottom:14px;border-bottom:1px solid var(--grid)}
+.src-head h2{font-size:22px;font-weight:600;letter-spacing:-.01em}
+.src-head .sub{margin:2px 0 0;font-family:var(--serif);font-size:16px;color:var(--muted);max-width:62ch}
+.facts{display:flex;flex-wrap:wrap;gap:6px 20px;font-size:12px;color:var(--muted);margin-top:12px}
+.facts b{color:var(--ink);font-weight:600}
+.gap-note{background:var(--crema);border-radius:3px;padding:10px 14px;font-size:12.5px;margin-top:14px}
+.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:18px;margin-top:18px}
+.card{grid-column:span 12;background:#fff;border:1px solid var(--grid);border-radius:3px;padding:20px 22px 16px;min-width:0;display:flex;flex-direction:column;gap:4px}
+.card.span8{grid-column:span 8}.card.span6{grid-column:span 6}.card.span4{grid-column:span 4}.card.span7{grid-column:span 7}.card.span5{grid-column:span 5}
+@media (max-width:860px){.card.span8,.card.span6,.card.span4,.card.span7,.card.span5{grid-column:span 12}}
+.card-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:10px 16px}
+.card h3{font-weight:500;font-size:18px;letter-spacing:-.005em}
+.card .subt{margin:2px 0 0;font-family:var(--serif);font-size:15px;color:var(--muted);max-width:70ch}
+.card .subt b{font-family:var(--sans);font-size:12.5px;font-weight:600;color:var(--ink)}
+.foot-note{margin:8px 0 0;font-size:11.5px;color:var(--muted);max-width:90ch}
+.inner2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;margin-top:8px}
+.inner2.g64{grid-template-columns:minmax(0,3fr) minmax(0,2fr)}
+.inner2 > div + div{border-left:1px solid var(--grid);padding-left:28px}
+@media (max-width:860px){.inner2,.inner2.g64{grid-template-columns:minmax(0,1fr)}.inner2 > div + div{border-left:0;padding-left:0;border-top:1px solid var(--grid);padding-top:18px}}
+.mini-h{font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;font-weight:600;color:var(--muted);margin-bottom:8px;display:flex;align-items:center;gap:6px}
+
+/* controles */
+.ctrls{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--grid);border-radius:2px;overflow:hidden;flex-wrap:nowrap}
+.seg button{font-size:12.5px;font-weight:500;color:var(--teal);background:#fff;border:0;padding:6px 12px;cursor:pointer;white-space:nowrap}
+.seg button+button{border-left:1px solid var(--grid)}
+.seg button[aria-pressed="true"]{background:var(--teal);color:#fff}
+.btn{font-size:11.5px;font-weight:500;color:var(--teal);background:#fff;border:1px solid var(--grid);border-radius:2px;padding:6px 10px;cursor:pointer;white-space:nowrap}
+.btn:hover{border-color:var(--teal)}
+.btn.primary{background:var(--teal);color:#fff;border-color:var(--teal);font-size:12.5px;padding:7px 16px}
+.sel,.filters select,.filters input,.search input{font-size:12.5px;font-weight:500;color:var(--ink);border:1px solid var(--grid);border-radius:2px;padding:6px 9px;background:#fff;max-width:100%}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 10px}
+.chip{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:500;color:var(--muted);background:#fff;border:1px solid var(--grid);border-radius:2px;padding:5px 9px;cursor:pointer}
+.chip .sw{width:14px;height:4px;border-radius:2px;background:var(--faint);flex-shrink:0}
+.chip[aria-pressed="true"]{color:var(--ink);border-color:var(--ink)}
+.chips-sep{flex-basis:100%;font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;font-weight:600;color:var(--muted);margin-top:6px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:11.5px;color:var(--muted);margin-top:6px}
+.legend .sw,.dot{display:inline-block;width:14px;height:4px;border-radius:2px;vertical-align:middle;margin-right:5px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:18px;margin-top:18px}
+.kpi{border-top:3px solid var(--teal);padding:10px 2px 10px;border-bottom:1px solid var(--grid);min-width:0}
+.kpi .lab{font-size:12px;font-weight:600;color:var(--muted)}
+.kpi .val{font-size:clamp(22px,2.6vw,30px);font-weight:600;letter-spacing:-.02em;line-height:1.15;margin-top:4px;overflow-wrap:anywhere}
+.kpi .sub{font-size:11.5px;color:var(--muted);margin-top:3px}
+.empty{color:var(--muted);padding:28px 4px;text-align:center;font-family:var(--serif);font-size:16px}
+
+/* barras */
+.pbars{display:grid;grid-template-columns:minmax(120px,200px) minmax(0,1fr) 60px;gap:6px 14px;align-items:center;margin-top:6px}
+.pbars .h{font-size:11px;color:var(--muted);font-weight:600}
+.pbars .lab{font-size:13px;line-height:1.2}
+.pbars .bars,.arow .bars{display:flex;flex-direction:column;gap:2px;padding-block:3px}
+.bar{height:8px;border-radius:0 2px 2px 0;min-width:1px}
+.bar.eus{background:var(--eus)} .bar.esp{background:var(--esp)}
+.pbars .diff{font-size:12px;text-align:right}
+.axis-scale{font-size:10px;color:var(--muted);display:flex;justify-content:space-between}
+.arow{display:grid;grid-template-columns:minmax(110px,180px) minmax(0,1fr) 44px 44px;gap:4px 10px;align-items:center;padding-block:3px}
+.arow .n{font-size:12px;text-align:right}
+.rank{display:grid;grid-template-columns:minmax(110px,190px) minmax(0,1fr) 50px;gap:5px 12px;align-items:center}
+.rank .lab{font-size:13px;line-height:1.2;overflow-wrap:anywhere}
+.rank .n{font-size:12px;text-align:right}
+@media (max-width:560px){.pbars{grid-template-columns:minmax(0,1fr) 50px}.pbars .lab{grid-column:1/-1}.pbars .h.lh{display:none}.arow{grid-template-columns:minmax(0,1fr) 40px 40px}.arow .lab{grid-column:1/-1}.rank{grid-template-columns:minmax(0,1fr) 46px}.rank .lab{grid-column:1/-1}}
+
+/* tablas de color */
+.scroll{overflow-x:auto}
+table.heat{border-collapse:separate;border-spacing:2px;font-size:12px;width:100%}
+table.heat th{font-weight:500;color:var(--ink-2);text-align:left;white-space:nowrap;padding:4px 6px}
+table.heat thead th{font-size:10.5px;font-weight:600;color:var(--muted);vertical-align:bottom;height:175px;padding:0 0 6px}
+table.heat thead th span{display:inline-block;writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap}
+table.heat td{text-align:center;padding:6px 2px;border-radius:1px;min-width:36px;cursor:default}
+.amb-tag{font-size:9.5px;font-weight:600;letter-spacing:.06em;padding:1px 5px;border-radius:2px;margin-left:6px;background:var(--crema);color:var(--muted)}
+
+svg text{fill:#5A6B6C;font-family:var(--sans);font-size:10px}
+/* barra de rango */
+.brush-wrap{margin-top:14px;border-top:1px solid var(--grid);padding-top:10px}
+.brush-bar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px 12px;margin-bottom:6px}
+.brush-lab{font-size:12px;color:var(--muted)}
+.brush-lab b{color:var(--ink);font-weight:600}
+.brush-ctrls .seg button{font-size:11.5px;padding:4px 10px}
+svg.brush{display:block;touch-action:none;user-select:none;-webkit-user-select:none}
+svg.brush:focus-visible{outline:2px solid var(--naranja);outline-offset:2px}
+svg.brush .bw{cursor:grab}
+svg.brush.drag .bw{cursor:grabbing}
+svg.brush .bh{cursor:ew-resize}
+
+/* titulares */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 12px}
+.filters input[type=search]{flex:1;min-width:160px}
+ul.heads{list-style:none;margin:0;padding:0}
+ul.heads li{display:grid;grid-template-columns:120px minmax(0,1fr);gap:4px 14px;padding:10px 0;border-top:1px solid var(--grid)}
+ul.heads .src{font-size:11.5px;color:var(--muted)}
+ul.heads .src b{display:block;color:var(--ink);font-weight:500}
+ul.heads a{color:var(--ink);text-decoration:none;font-weight:500;line-height:1.3}
+ul.heads a:hover{text-decoration:underline}
+ul.heads .d{color:var(--muted);font-size:13px;margin-top:2px}
+ul.heads .tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+ul.heads mark{background:#FFE3D6;color:inherit;padding:0 1px;border-radius:1px}
+.tag{font-size:11px;padding:1px 7px;border-radius:2px;background:var(--crema-2);color:var(--muted)}
+.tag.a{background:none;border:1px solid var(--grid)}
+.tag.arch{background:none;border:1px dashed var(--faint);color:var(--muted)}
+@media (max-width:560px){ul.heads li{grid-template-columns:minmax(0,1fr)}}
+.status{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.st{font-size:12px;border:1px solid var(--grid);border-radius:2px;padding:3px 8px;display:inline-flex;gap:6px;align-items:center;cursor:default}
+.st .ic{font-weight:700}.st.ok .ic{color:var(--good)}.st.ko .ic{color:var(--bad)}
+.method{font-size:12px;color:var(--muted);line-height:1.55;max-width:90ch;margin-top:12px}
+
+/* nubes */
+.nube{position:relative;overflow:hidden;height:300px}
+.nube .w{position:absolute;border:0;background:none;padding:0;margin:0;line-height:1.05;font-weight:500;letter-spacing:-.01em;white-space:nowrap;cursor:pointer}
+.nube .w:hover,.nube .w:focus-visible{text-decoration:underline}
+
+/* buscador */
+.search{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}
+.search input{flex:1;min-width:220px;font-size:15px;padding:10px 12px}
+.search-hint{font-size:11.5px;color:var(--muted);margin-top:6px}
+.progress{font-size:12px;color:var(--muted);margin-top:10px}
+
+#tip{position:fixed;pointer-events:none;z-index:30;background:var(--ink);color:#fff;font-size:12px;line-height:1.4;padding:7px 9px;border-radius:2px;max-width:280px;opacity:0;transition:opacity .08s}
+#tip b{font-weight:600}
+@media (prefers-reduced-motion:reduce){#tip{transition:none}}
+footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:11.5px;color:var(--muted)}
+.footer-logo{height:22px;width:auto;opacity:.9}
+</style>
+
+<div class="wrap">
+  <header class="page">
+    <div class="header-top">
+      <div class="sm-firma">
+        <img class="sm-logo" src="data:image/png;base64,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44ksTS+1Uce7/WVoO97jNiHdUSvx4n4KWCP/KarjXej8N6sRQ851Pp6/yzUZ44kw3XraXsWaiXjEePySHe86W92MFoi3afvR3PfJhdhnV/Tb77uJa8agvO+zNmVrt3a8rRmpcyjxWVbHe3re/eurfmh7jtXmJJve9fC5Z9u9iuY7pP1mOuSkjnf7S+e3E5vObcDLSaNmrweuyNzeF4Edxtr7d9IUExlOtwD/66z7ochAJnmjo87HwqOI5YmvDdNcc+mXSVvgc6Tv4LeQb/30CaQO9L862vgL1aPbv64TVDDP1mGQpu931YtKByCt9RZnvQ2YugRlfeexrnbWa8J9pJ0ArP41OpBJLiDNgl2XNCr/p0ztnAc8h3Tt+WimNkR6WqF0AAPYnJSg4oXA80nbP1gsJd3x/TFp2uc3ST+GS1gFW/x3k5K8RSiV9bWOyPNfA3iqo96vgtrvZR3sexjnjCeK571mOS/r69aG18zzmixjsKQ/w2Rj4DDSmm7vTIUHgXNJ00NvDorrafS+QdSG9xb43l930r6tfQY9j/toxxafm5BmG0wn8rO80li7g4p8rSzvs8jrt4f199a4Xp9p6+frftLr3mae30SlvjN2JI2Gbwc8G3iioe7twFXA90jT//8cG5rbk0mJprvGcs2rum52xZ+BP0YftAsd735WYeofdSnlOtYiIhJnLunG6zNIP6KfNOHfHiR1aG4FfkTKFfK7ZsMTEZGC1pr0/x8hXRdERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERmtv8PpJoodMS74NMAAAAASUVORK5CYII=" alt="Silván &amp; Miracle">
+        <span class="sm-lema"><span>Estrategia</span><span>de</span><span>asuntos</span><span>públicos</span></span>
+      </div>
+    </div>
+    <div class="brand">
+      <h1>Agenda</h1>
+      <span class="lema">El monitor de los medios</span>
+      <span class="sub">Qué temas, partidos y palabras ocupan cada día a 15 medios vascos y estatales</span>
+    </div>
+    <nav class="main-tabs" role="tablist" aria-label="Secciones">
+      <button type="button" role="tab" data-tab="agenda" aria-selected="true"><span class="t">Agenda mediática</span><span class="d">Temas, medios y partidos</span></button>
+      <button type="button" role="tab" data-tab="buscador" aria-selected="false"><span class="t">Buscador</span><span class="d">Una palabra en todos los medios</span></button>
+      <button type="button" role="tab" data-tab="titulares" aria-selected="false"><span class="t">Titulares</span><span class="d">Archivo diario y estado de la recogida</span></button>
+      <button type="button" role="tab" data-tab="diccionario" aria-selected="false"><span class="t">Diccionario</span><span class="d">Qué palabras definen cada tema y actor</span></button>
+    </nav>
+  </header>
+
+  <!-- ================= AGENDA ================= -->
+  <section class="tabpanel" id="tab-agenda" role="tabpanel">
+    <div class="src-head">
+      <div>
+        <h2>La agenda de los medios</h2>
+        <p class="sub">Peso de cada tema y de cada partido en los titulares, comparando medios vascos y estatales</p>
+      </div>
+      <div class="ctrls">
+        <span class="seg" id="seg-rango"><button data-v="1" aria-pressed="false">Último día</button><button data-v="7" aria-pressed="false">7 días</button><button data-v="30" aria-pressed="false">30 días</button><button data-v="90" aria-pressed="false">90 días</button><button data-v="all" aria-pressed="true">Todo</button></span>
+        <button class="btn" id="btn-csv" hidden>⬇ Resumen CSV</button>
+      </div>
+    </div>
+    <div class="facts" id="facts"><span id="m-update">Cargando datos…</span></div>
+    <div id="notice" class="gap-note" hidden style="display:none"></div>
+    <div class="kpis" id="kpis" style="display:none"></div>
+
+    <div class="grid">
+      <div class="card span12">
+        <div class="card-head"><div>
+          <h3>Evolución de los temas</h3>
+          <p class="subt">Cuota diaria de cada tema en todo el histórico · elige hasta cuatro · arrastra la barra inferior para acotar el periodo · antes del 14 de octubre, archivo completo de 8 medios (método distinto, compara con cautela)</p>
+        </div>
+        <span class="seg" id="seg-evo"><button data-v="todos" aria-pressed="true">Todos</button><button data-v="euskadi" aria-pressed="false">Euskadi</button><button data-v="espana" aria-pressed="false">España</button></span></div>
+        <div class="chips" id="evo-chips"></div>
+        <div id="evo"></div>
+        <div class="brush-wrap" id="evo-brush-wrap" hidden>
+          <div class="brush-bar"><span class="brush-lab" id="evo-periodo"></span><span class="brush-ctrls"><span class="seg" id="seg-evo-rango"><button data-v="7">7 días</button><button data-v="30">30 días</button><button data-v="90">90 días</button><button data-v="all">Todo</button></span></span></div>
+          <div id="evo-brush"></div>
+        </div>
+      </div>
+
+      <div class="card span12">
+        <div class="card-head"><div>
+          <h3>Qué temas ocupan la agenda</h3>
+          <p class="subt">% de titulares que tratan cada tema, con el mismo peso para cada medio · los dos gráficos usan la misma escala</p>
+        </div></div>
+        <div class="inner2">
+          <div><div class="mini-h"><span class="sw dot" style="background:var(--eus)"></span>Medios vascos</div><div id="pb-eus"></div></div>
+          <div><div class="mini-h"><span class="sw dot" style="background:var(--esp)"></span>Medios estatales</div><div id="pb-esp"></div></div>
+        </div>
+      </div>
+
+      <div class="card span12" id="sec-partidos">
+        <div class="card-head"><div>
+          <h3>Partidos y líderes</h3>
+          <p class="subt">% de titulares que mencionan a cada partido, líder o institución · <b>Agrupado</b> suma cada partido con sus líderes; <b>desagregado</b> los separa</p>
+        </div>
+        <div class="ctrls">
+          <span class="seg" id="seg-agr"><button data-v="1" aria-pressed="true">Agrupado</button><button data-v="0" aria-pressed="false">Desagregado</button></span>
+          <span class="seg" id="seg-pamb"><button data-v="todos" aria-pressed="true">Todos</button><button data-v="euskadi" aria-pressed="false">Euskadi</button><button data-v="espana" aria-pressed="false">España</button></span>
+        </div></div>
+        <div class="inner2 g64">
+          <div><div class="chips" id="par-chips"></div><div id="par-evo"></div></div>
+          <div><div class="mini-h">Presencia en el periodo</div><div id="actores"></div></div>
+        </div>
+      </div>
+
+      <div class="card span12" id="sec-nubes">
+        <div class="card-head"><div>
+          <h3>Qué se dice dentro de cada tema</h3>
+          <p class="subt">Palabras más repetidas en los titulares de un tema o de un partido · pulsa una palabra para llevarla al buscador</p>
+        </div>
+        <select id="nube-tema" class="sel" aria-label="Tema de la nube"></select></div>
+        <div class="inner2">
+          <div><div class="mini-h"><span class="sw dot" style="background:var(--eus)"></span>Medios vascos</div><div class="nube" id="nube-eus"></div></div>
+          <div><div class="mini-h"><span class="sw dot" style="background:var(--esp)"></span>Medios estatales</div><div class="nube" id="nube-esp"></div></div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ================= BUSCADOR ================= -->
+  <section class="tabpanel" id="tab-buscador" role="tabpanel" hidden>
+    <div class="src-head">
+      <div>
+        <h2>Buscador</h2>
+        <p class="sub">Busca una palabra en todos los titulares: cuándo aparece, en qué medios, con qué otras palabras y en qué temas</p>
+      </div>
+      <div class="ctrls">
+        <span class="seg" id="seg-brango"><button data-v="7" aria-pressed="false">7 días</button><button data-v="30" aria-pressed="false">30 días</button><button data-v="all" aria-pressed="true">Todo</button></span>
+      </div>
+    </div>
+    <form class="search" id="b-form" autocomplete="off">
+      <input id="b-q" type="search" placeholder="Escribe una palabra, p. ej. vivienda · separa con comas para comparar: vivienda, alquiler" aria-label="Palabras a buscar">
+      <button class="btn primary" type="submit">Buscar</button>
+    </form>
+    <div class="search-hint">Encuentra la palabra al principio de otras (<i>desahuci</i> encuentra desahucio y desahucios) y no distingue tildes ni mayúsculas. Hasta cuatro palabras separadas por comas.</div>
+    <div class="progress" id="b-prog"></div>
+    <div id="b-res" hidden>
+      <div class="kpis" id="b-kpis"></div>
+      <div class="grid">
+        <div class="card span12">
+          <div class="card-head"><div>
+            <h3 id="b-evo-t">Evolución</h3>
+            <p class="subt" id="b-evo-s">% de titulares que contienen la palabra, cada día</p>
+          </div>
+          <span class="seg" id="seg-bamb"><button data-v="todos" aria-pressed="true">Todos</button><button data-v="euskadi" aria-pressed="false">Euskadi</button><button data-v="espana" aria-pressed="false">España</button></span></div>
+          <div id="b-evo"></div>
+        </div>
+        <div class="card span7">
+          <div class="card-head"><div><h3>En qué medios</h3><p class="subt">% de los titulares de cada medio que contienen la búsqueda</p></div></div>
+          <div id="b-medios"></div>
+        </div>
+        <div class="card span5">
+          <div class="card-head"><div><h3>En qué temas y junto a qué partidos</h3><p class="subt">Reparto de los titulares encontrados</p></div></div>
+          <div class="mini-h" style="margin-top:6px">Temas</div><div id="b-temas"></div>
+          <div class="mini-h" style="margin-top:14px">Partidos</div><div id="b-partidos"></div>
+        </div>
+        <div class="card span12">
+          <div class="card-head"><div><h3>Con qué palabras aparece</h3><p class="subt">Palabras más frecuentes en los titulares que contienen la búsqueda</p></div></div>
+          <div class="inner2">
+            <div><div class="mini-h"><span class="sw dot" style="background:var(--eus)"></span>Medios vascos</div><div class="nube" id="b-nube-eus"></div></div>
+            <div><div class="mini-h"><span class="sw dot" style="background:var(--esp)"></span>Medios estatales</div><div class="nube" id="b-nube-esp"></div></div>
+          </div>
+        </div>
+        <div class="card span12">
+          <div class="card-head"><div><h3>Titulares encontrados</h3><p class="subt" id="b-heads-s"></p></div>
+          <button class="btn" id="btn-csv-b" hidden>⬇ CSV</button></div>
+          <ul class="heads" id="b-heads"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TITULARES ================= -->
+  <section class="tabpanel" id="tab-titulares" role="tabpanel" hidden>
+    <div class="src-head">
+      <div>
+        <h2>Titulares</h2>
+        <p class="sub">Archivo de los titulares recogidos cada día, con su clasificación por tema y actor</p>
+      </div>
+      <div class="ctrls"><button class="btn" id="btn-csv-t" hidden>⬇ Titulares del periodo (CSV)</button></div>
+    </div>
+    <div class="grid">
+      <div class="card span12">
+        <div class="filters">
+          <select id="f-dia" aria-label="Día"></select>
+          <select id="f-medio" aria-label="Medio"><option value="">Todos los medios</option></select>
+          <select id="f-tema" aria-label="Tema"><option value="">Todos los temas</option></select>
+          <select id="f-actor" aria-label="Actor"><option value="">Todos los actores</option></select>
+          <input id="f-q" type="search" placeholder="Filtrar titulares" aria-label="Filtrar">
+        </div>
+        <div id="heads-count" style="font-size:12px;color:var(--muted);margin-bottom:4px"></div>
+        <ul class="heads" id="heads"></ul>
+      </div>
+      <div class="card span12">
+        <div class="card-head"><div><h3>Estado de la recogida</h3><p class="subt" id="st-sub">Resultado de la última ejecución por medio</p></div></div>
+        <div class="status" id="status"></div>
+        <p class="method"><b>Método.</b> <b>Portadas.</b> Los 15 medios (EITB/Orain, El Correo, Diario Vasco, Deia, Noticias de Gipuzkoa, Berria y Naiz en Euskadi; El País, El Mundo, ABC, La Vanguardia, elDiario.es, El Confidencial, 20minutos y RTVE en España) se miden con la misma regla: lo que cada redacción pone en su portada. <b>Fotos.</b> Tres veces al día (mañana ≈9:00, mediodía ≈14:00 y noche ≈21:00, hora de Madrid) una tarea programada abre la portada de cada medio y guarda sus 30 primeras piezas en el orden en que aparecen en la página (El País, que no deja leer su portada web, a través de su RSS de portada, que sigue el mismo orden). <b>Día.</b> El día de un medio son las piezas distintas que estuvieron entre sus 30 primeras en alguna foto de ese día; en Titulares se ve la hora de la primera foto en que salió, su mejor posición y en cuántas fotos estuvo. <b>Clasificación.</b> Diccionario de términos por tema y actor (pestaña Diccionario); un titular puede tener varios temas; Internacional se desglosa en subtemas (EE. UU. y Trump, Israel/Gaza y Oriente Próximo, Ucrania y Rusia, Unión Europea, Latinoamérica), cuya cuota ya está incluida en la de Internacional; los deportes no se clasifican como tema. Clasificación revisada el 20 de octubre de 2026 y aplicada a todo el histórico; los que no encajan en ninguno cuentan en el total pero no se muestran. Los porcentajes por ámbito promedian los medios, para que una cabecera con más piezas no pese más. <b>Serie.</b> Empieza el 13 de septiembre de 2026 y se muestra completa en todas las secciones. Hasta el 13 de octubre se usó otro método (archivo completo de 7–8 medios a partir de sus sitemaps), que no es del todo comparable con el de portadas: en los gráficos de evolución una línea discontinua marca el cambio, y conviene comparar con cautela los periodos que mezclan ambos. Diccionario (<code>diccionario.json</code>), medios (<code>medios.json</code>) y código (<code>portadas.py</code>) se publican junto a esta página.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= DICCIONARIO ================= -->
+  <section class="tabpanel" id="tab-diccionario" role="tabpanel" hidden>
+    <div class="src-head">
+      <div>
+        <h2>Diccionario</h2>
+        <p class="sub">Las palabras que el monitor busca en cada titular para asignarle un tema, un partido o un actor</p>
+      </div>
+    </div>
+    <div class="gap-note"><b>Cómo se lee.</b> Se busca en el titular (y en la entradilla, cuando el medio la publica), sin distinguir tildes. <span class="term">palabra…</span> encuentra también todo lo que empieza así (<i>desahuci…</i> → desahucio, desahucios). <span class="term cs">PNV</span> con borde oscuro distingue mayúsculas: sirve para siglas y nombres que también son palabras comunes. Un titular puede tener varios temas. Si menciona a un partido o líder, se cuenta además en «Política y partidos». Pulsa una palabra para buscarla en el Buscador.</div>
+    <form class="search" id="d-form" autocomplete="off">
+      <input id="d-q" type="search" placeholder="Prueba un titular o una palabra: ¿en qué tema caería?" aria-label="Probar texto">
+      <button class="btn primary" type="submit">Probar</button>
+    </form>
+    <div class="progress" id="d-res"></div>
+    <div class="grid" id="d-temas"></div>
+    <div class="src-head" style="margin-top:28px"><div><h2 style="font-size:19px">Partidos, líderes e instituciones</h2>
+      <p class="sub">En la vista agrupada, cada partido suma a los líderes que tiene debajo</p></div></div>
+    <div class="grid" id="d-actores"></div>
+  </section>
+
+  <footer class="page">
+    <span>Elaborado por Silván &amp; Miracle a partir de las portadas de EITB, El Correo, Diario Vasco, Deia, Noticias de Gipuzkoa, Berria, Naiz, El País, El Mundo, ABC, La Vanguardia, elDiario.es, El Confidencial, 20minutos y RTVE.</span>
+    <img class="footer-logo" src="data:image/png;base64,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" alt="S &amp; M">
+  </footer>
+</div>
+<div id="tip" role="tooltip"></div>
+
+<script>
+(() => {
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const pct = (x, d=1) => (x*100).toLocaleString("es-ES",{minimumFractionDigits:d,maximumFractionDigits:d}) + "%";
+const fmtN = n => n.toLocaleString("es-ES");
+const fmtDia = iso => new Date(iso+"T12:00:00").toLocaleDateString("es-ES",{weekday:"short",day:"numeric",month:"short"});
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+const BLOQUES = {"PNV": ["PNV", "Imanol Pradales", "Aitor Esteban"], "EH Bildu": ["EH Bildu", "Pello Otxandiano", "Arnaldo Otegi"], "PSOE / PSE": ["PSE-EE / PSOE", "Pedro Sánchez", "Eneko Andueza"], "PP": ["PP", "Alberto Núñez Feijóo", "Isabel Díaz Ayuso", "Javier de Andrés"], "Vox": ["Vox", "Santiago Abascal"], "Sumar": ["Sumar", "Yolanda Díaz"], "Podemos": ["Podemos", "Ione Belarra", "Irene Montero"], "Frente Amplio": ["Frente Amplio", "Ada Colau"], "ERC": ["ERC", "Gabriel Rufián", "Oriol Junqueras"], "Junts": ["Junts", "Carles Puigdemont"]};
+const MIEMBRO = {}; for (const [b, ms] of Object.entries(BLOQUES)) for (const a of ms) MIEMBRO[a] = b;
+const PCOL = {"PNV": "#1B7A3D", "Imanol Pradales": "#4E9F68", "Aitor Esteban": "#0F5528", "EH Bildu": "#4FB5AE", "Pello Otxandiano": "#2E8C86", "Arnaldo Otegi": "#8FD3CE", "PSOE / PSE": "#E5393B", "PSE-EE / PSOE": "#E5393B", "Pedro Sánchez": "#B71C1C", "Eneko Andueza": "#F08A8B", "PP": "#1E73C4", "Alberto Núñez Feijóo": "#0B4F8A", "Isabel Díaz Ayuso": "#6FA8DC", "Javier de Andrés": "#4A90D9", "Vox": "#8BC34A", "Santiago Abascal": "#5E8F2A", "Sumar": "#E5007D", "Podemos": "#6A2C91", "Yolanda Díaz": "#F05CA8", "Carles Puigdemont": "#157A76", "Gobierno de España": "#5A6B6C", "Gobierno Vasco": "#014550", "Diputaciones forales": "#1E7A82", "Congreso / Senado": "#8C6D1F", "Parlamento Vasco": "#3FAE8E", "Tribunales (TS / TC)": "#1A1A1A", "Unión Europea": "#8739E5", "Donald Trump": "#B3541E", "Ione Belarra": "#8E5BB5", "Irene Montero": "#4B1F6B", "Frente Amplio": "#D45D79", "Ada Colau": "#E891A6", "ERC": "#F2B01E", "Gabriel Rufián": "#C99000", "Oriol Junqueras": "#F7CE6B", "Junts": "#20A39E"};
+const colorActor = k => PCOL[k] || "#5A6B6C";
+const NO_PARTIDO = new Set(["Donald Trump","Gobierno de España","Gobierno Vasco","Diputaciones forales","Congreso / Senado","Parlamento Vasco","Tribunales (TS / TC)","Unión Europea"]);
+const STOP_PY = "a al algo algun alguna algunas alguno algunos ante antes aqui asi aun aunque bajo bien cada casi como con contra cual cuales cuando de del desde donde dos durante e el ella ellas ellos en entre era es esa esas ese eso esos esta estan estas este esto estos fue fueron ha hace hacen hacer hasta hay he la las le les lo los mas me mi mientras muy nada ni no nos nuestra nuestro o os otra otras otro otros para pero poco por porque pues que quien se sea segun ser si sido sin sobre su sus tambien tan tanto te tiene tienen todo todos tras tu un una uno unos unas y ya yo a\u00f1os ano anos dia dias hoy ayer manana semana mes vez veces tras sera seran esta este estos nuevo nueva nuevos nuevas primer primera gran grandes mejor mejores peor directo ultima ultimo hora horas minuto video videos fotos foto imagenes asi claves sabe sabemos quiere puede pueden dice dicen tras toda todas despues ahora mismo misma solo tres cuatro cinco seis siete ocho nueve diez mil millones euros enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre lunes martes miercoles jueves viernes sabado domingo pide piden acusa exige deja abre vuelve llega hace san eta da du dute dira zen ere bat ez ditu dio izan egin dago daude baina edo beste hori hau hura bere gaur atzo bihar ere bi hiru lau bost behar dute dela den duela zuen";
+const S = { resumenTodo:[], agr:true, pAmb:"todos", parSel:null, pal:{}, nubeTema:null, resumen:[], estado:null, rango:"all", evoAmb:"todos", evoSel:null, titulares:{}, db:null, dl:null, loaded:false };
+
+/* ---------- tooltip ---------- */
+const tip = $("#tip");
+function showTip(html, x, y){ tip.innerHTML = html; tip.style.opacity = 1;
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  tip.style.left = Math.min(window.innerWidth - w - 8, x + 14) + "px";
+  tip.style.top = (y + h + 20 > window.innerHeight ? y - h - 12 : y + 14) + "px"; }
+function hideTip(){ tip.style.opacity = 0; }
+document.addEventListener("mousemove", e => {
+  const t = e.target.closest?.("[data-tip]");
+  if (t) showTip(t.dataset.tip, e.clientX, e.clientY); else if (!e.target.closest?.("svg.lc")) hideTip();
+});
+
+/* ---------- agregación ---------- */
+function fechas(){ return [...new Set(S.resumen.map(r => r.fecha))].sort(); }
+// Evolución de temas: todo el histórico, incluidos los días anteriores al método de portadas
+const evoDocs = () => S.resumenTodo.length ? S.resumenTodo : S.resumen;
+function fechasEvo(){ return [...new Set(evoDocs().map(r => r.fecha))].sort(); }
+function fechasRango(){
+  const f = fechas(); if (!f.length) return [];
+  if (S.rango === "all") return f;
+  const ult = new Date(f[f.length-1]+"T12:00:00"); const n = +S.rango;
+  const lim = new Date(ult); lim.setDate(lim.getDate() - (n-1));
+  const limISO = lim.toISOString().slice(0,10);
+  return f.filter(x => x >= limISO);
+}
+function docsRango(){ const set = new Set(fechasRango()); return S.resumen.filter(r => set.has(r.fecha)); }
+
+// suma por medio
+function porMedio(docs){
+  const M = {};
+  for (const d of docs) for (const [id, m] of Object.entries(d.medios || {})) {
+    const a = M[id] ||= {id, nombre:m.nombre, ambito:m.ambito, n:0, temas:{}, actores:{}, bloques:{}};
+    for (const [k,v] of Object.entries(m.bloques||{})) a.bloques[k] = (a.bloques[k]||0) + v;
+    a.n += m.n || 0;
+    for (const [k,v] of Object.entries(m.temas||{})) a.temas[k] = (a.temas[k]||0) + v;
+    for (const [k,v] of Object.entries(m.actores||{})) a.actores[k] = (a.actores[k]||0) + v;
+  }
+  return M;
+}
+// cuota media por ámbito (cada medio pesa igual)
+function cuotaAmb(M, campo, amb){
+  const ms = Object.values(M).filter(m => m.n > 0 && (amb === "todos" || m.ambito === amb));
+  const out = {}; if (!ms.length) return out;
+  const get = typeof campo === "function" ? campo : (m => m[campo] || {});
+  const vals = ms.map(get), keys = new Set(vals.flatMap(v => Object.keys(v)));
+  for (const k of keys) out[k] = ms.reduce((s,m,i) => s + (vals[i][k]||0)/m.n, 0) / ms.length;
+  return out;
+}
+function temasOrden(M){
+  const all = cuotaAmb(M, "temas", "todos");
+  return Object.keys(all).filter(k => k !== "Otros" && !ES_SUB.has(k)).sort((a,b) => all[b]-all[a]);
+}
+// subtemas presentes en los datos, en el orden del diccionario
+function subtemasDe(M, padre){ const all = cuotaAmb(M, "temas", "todos"); return (SUBT[padre]||[]).filter(k => all[k] > 0); }
+
+/* ---------- render ---------- */
+function render(){
+  const docs = docsRango(), M = porMedio(docs), F = fechasRango();
+  const hay = docs.length > 0;
+  $("#btn-csv").hidden = !(hay && S.dl); $("#btn-csv-t").hidden = !(hay && S.dl);
+  renderNotice(hay);
+  { const tot = Object.values(M).reduce((s,m)=>s+m.n,0), A = diasArchivo().length;
+    $("#facts").innerHTML = F.length ? `<span>Periodo <b>${esc(F.length===1?fmtDia(F[0]):fmtDia(F[0])+" – "+fmtDia(F[F.length-1]))}</b></span><span><b>${fmtN(tot)}</b> titulares</span><span><b>${Object.values(M).filter(m=>m.n).length}</b> medios</span><span id="m-update"></span>` : `<span id="m-update">Cargando datos…</span>`; }
+  renderKpis(M, F);
+  renderPbars(M);
+  renderEvo();
+  renderPartidos();
+  cargarPalabras();
+  renderStatus();
+  renderDias();
+}
+
+const COMPLETO = r => r.origen === "archivo" || r.origen === "completo";
+function diasArchivo(){ const F = new Set(fechasRango()); return S.resumen.filter(r => COMPLETO(r) && F.has(r.fecha)).map(r => r.fecha).sort(); }
+function diasPortada(){ const F = new Set(fechasRango()); return S.resumen.filter(r => !COMPLETO(r) && F.has(r.fecha)).map(r => r.fecha).sort(); }
+function renderNotice(hay){
+  const n = $("#notice");
+  const A = diasArchivo(), P = diasPortada();
+  if (hay) { n.hidden = false;
+    const hoy = new Date().toLocaleDateString("sv-SE",{timeZone:"Europe/Madrid"}), F = fechasRango(), ult = F[F.length-1];
+    n.innerHTML = `<b>Histórico completo desde el 13 de septiembre de 2026.</b> Desde el 14 de octubre, portadas de los 15 medios: tres veces al día (≈9:00, 14:00 y 21:00) se fotografía la portada de cada medio y se guardan sus 30 primeras piezas. Hasta el 13 de octubre, archivo completo de 7–8 medios (otro método: compara con cautela; en los gráficos de evolución lo separa una línea discontinua).` + (A.length && P.length ? ` El periodo elegido mezcla ${A.length} día${A.length===1?"":"s"} de archivo y ${P.length} de portadas.` : "") + ` Cada medio pesa lo mismo en la media de su ámbito.` +
+      (ult === hoy ? ` <b>Hoy está en curso</b>: se completa con la foto de la noche.` : "");
+    return; }
+  if (hay) { n.hidden = true; return; }
+  n.hidden = false;
+  n.innerHTML = !S.loaded ? "Cargando datos…"
+    : S.db ? `<strong>Todavía no hay recogidas.</strong> Tres veces al día se fotografía la portada de los 15 medios; en cuanto termine la primera foto, esta página se rellena sola.` +
+      (S.estado ? ` Última ejecución: ${esc(new Date(S.estado.ejecutado).toLocaleString("es-ES"))}, sin datos de ningún medio. Revisa el estado al pie.` : "")
+    : `<strong>No se pueden leer los datos.</strong> Falta la carpeta data/ junto a esta página (la crea el workflow del monitor).`;
+}
+
+function renderKpis(M, F){
+  const ms = Object.values(M), tot = ms.reduce((s,m)=>s+m.n,0);
+  const eus = cuotaAmb(M,"temas","euskadi"), esp = cuotaAmb(M,"temas","espana");
+  const top = o => { const k = Object.keys(o).filter(k=>k!=="Otros").sort((a,b)=>o[b]-o[a])[0]; return k ? [k,o[k]] : ["—",0]; };
+  const te = top(eus), ts = top(esp);
+  const per = F.length ? (F.length===1 ? fmtDia(F[0]) : `${fmtDia(F[0])} – ${fmtDia(F[F.length-1])}`) : "sin datos";
+  $("#kpis").innerHTML = [
+    ["Titulares analizados", fmtN(tot), per],
+    ["Medios con datos", `${ms.filter(m=>m.n).length}`, `${F.length} día${F.length===1?"":"s"}` + (diasArchivo().length ? ` · ${diasArchivo().length} de archivo` : "")],
+    ["Tema nº 1 en Euskadi", esc(te[0]), te[1] ? pct(te[1]) + " de los titulares" : "—"],
+    ["Tema nº 1 en España", esc(ts[0]), ts[1] ? pct(ts[1]) + " de los titulares" : "—"],
+  ].map(([l,v,s]) => `<div class="kpi"><div class="lab">${l}</div><div class="val">${v}</div><div class="sub">${s}</div></div>`).join("");
+}
+
+function renderPbars(M){
+  const eus = cuotaAmb(M,"temas","euskadi"), esp = cuotaAmb(M,"temas","espana");
+  const keys = temasOrden(M);
+  const max = Math.max(1e-9, ...keys.flatMap(k => [eus[k]||0, esp[k]||0]));
+  const panel = (o, cls, nom) => { const ks = keys.filter(k => (o[k]||0) > 0).sort((a,b) => o[b]-o[a]);
+    if (!ks.length) return `<div class="empty">Sin datos todavía.</div>`;
+    const sub = k => (SUBT[k]||[]).filter(x => (o[x]||0) > 0).sort((a,b) => o[b]-o[a]).map(x => `<span class="lab" style="padding-left:30px;font-size:12px;color:var(--ink-2)">↳ ${esc(x)}</span><div class="bars" data-tip="${esc(`<b>${x}</b> (dentro de ${k})<br>${nom}: ${pct(o[x])} de los titulares`)}"><div class="bar ${cls}" style="opacity:.45;height:6px;width:${(o[x]/max*100).toFixed(1)}%"></div></div><span class="n" style="color:var(--muted)">${pct(o[x])}</span>`).join("");
+    return `<div class="rank">` + ks.map((k,i) => `<span class="lab"><span style="color:var(--muted);font-size:11px;display:inline-block;width:18px">${i+1}</span>${esc(k)}</span><div class="bars" data-tip="${esc(`<b>${k}</b><br>${nom}: ${pct(o[k])} de los titulares`)}"><div class="bar ${cls}" style="width:${(o[k]/max*100).toFixed(1)}%"></div></div><span class="n">${pct(o[k])}</span>` + sub(k)).join("") + `</div>`; };
+  $("#pb-eus").innerHTML = panel(eus, "eus", "Medios vascos");
+  $("#pb-esp").innerHTML = panel(esp, "esp", "Medios estatales");
+}
+
+
+const SERIES = ["--s1","--s2","--s3","--s4"];
+// Color fijo por tema: no cambia según el orden en que se seleccionan
+const TCOL = {"Política y partidos":"#014550","Autogobierno y territorio":"#2E8C86","Economía, empresa e industria":"#0B4F8A","Empleo y relaciones laborales":"#8C6D1F",
+  "Pensiones":"#C99000","Vivienda":"#FF723C","Sanidad":"#D7263D","Educación y universidad":"#F6BD32","Políticas sociales":"#D45D79","Justicia y corrupción":"#1A1A1A",
+  "Seguridad y sucesos":"#8739E5","Inmigración":"#A0522D","Igualdad y derechos":"#E5007D","Energía y medio ambiente":"#5E8F2A","Infraestructuras y movilidad":"#8E9AAF",
+  "Euskera, cultura e identidad":"#4FB5AE","Tecnología e innovación":"#F08A8B","Memoria y convivencia":"#6B4226","Internacional":"#3FAE8E",
+  "EE. UU. y Trump":"#B71C1C","Israel, Gaza y Oriente Próximo":"#1E73C4","Ucrania y Rusia":"#F2B01E","Unión Europea":"#6A2C91","Latinoamérica":"#8BC34A"};
+// Subtemas: se muestran agrupados bajo su tema (su cuota ya está incluida en la del tema principal)
+const SUBT = {"Internacional": ["EE. UU. y Trump","Israel, Gaza y Oriente Próximo","Ucrania y Rusia","Unión Europea","Latinoamérica"]};
+const ES_SUB = new Set(Object.values(SUBT).flat());
+const colorTema = k => TCOL[k] || "#5A6B6C";
+// Evolución de temas: siempre sobre todo el histórico; la barra inferior acota el periodo que se ve.
+// S.evoDesde / S.evoHasta = null significa "desde el primer día" / "hasta el último" (así los días nuevos entran solos).
+function evoIndices(FA){
+  let a = S.evoDesde ? FA.findIndex(f => f >= S.evoDesde) : 0;
+  let b = S.evoHasta ? FA.length - 1 - [...FA].reverse().findIndex(f => f <= S.evoHasta) : FA.length - 1;
+  if (a < 0 || b >= FA.length || b - a < 1) { a = 0; b = FA.length - 1; S.evoDesde = S.evoHasta = null; }
+  return [a, b];
+}
+function renderEvo(){
+  const FA = fechasEvo(), RD = evoDocs();
+  const Mall = porMedio(RD), main = temasOrden(Mall), subs = subtemasDe(Mall, "Internacional"), keys = [...main, ...subs];
+  if (!S.evoSel || !S.evoSel.every(k => keys.includes(k))) S.evoSel = (S.evoSel||[]).filter(k=>keys.includes(k));
+  if (!S.evoSel.length) S.evoSel = main.slice(0,3);
+  const chip = k => { const on = S.evoSel.includes(k);
+    return `<button class="chip" aria-pressed="${on}" data-k="${esc(k)}"><span class="sw" style="${on?`background:${colorTema(k)}`:""}"></span>${esc(k)}</button>`; };
+  $("#evo-chips").innerHTML = main.map(chip).join("") +
+    (subs.length ? `<span class="chips-sep">Internacional en detalle</span>` + subs.map(chip).join("") : "");
+  if (FA.length < 2) { $("#evo-brush-wrap").hidden = true; $("#evo").innerHTML = `<div class="empty">La evolución necesita al menos dos días de datos${FA.length? " (hay uno)":""}. Vuelve tras las próximas recogidas.</div>`; return; }
+  const MD = FA.map(f => porMedio(RD.filter(r => r.fecha === f)));
+  const serie = S.evoSel.map(k => MD.map(M => cuotaAmb(M,"temas",S.evoAmb)[k]||0));
+  const colores = S.evoSel.map(colorTema);
+  const pinta = (a, b) => {
+    lineChart($("#evo"), FA.slice(a, b+1), S.evoSel, serie.map(s => s.slice(a, b+1)), "Evolución diaria de la cuota de los temas seleccionados", colores);
+    const nd = b - a + 1;
+    $("#evo-periodo").innerHTML = `Periodo <b>${esc(fmtDia(FA[a]))} – ${esc(fmtDia(FA[b]))}</b> · ${nd} días${a === 0 && b === FA.length-1 ? " · todo el histórico" : ` de ${FA.length}`}`;
+    const full = a === 0 && b === FA.length - 1, ult = b === FA.length - 1;
+    for (const x of $("#seg-evo-rango").children) x.setAttribute("aria-pressed", x.dataset.v === "all" ? full : (ult && nd === Math.min(+x.dataset.v, FA.length) && !full));
+  };
+  const [a, b] = evoIndices(FA);
+  $("#evo-brush-wrap").hidden = false;
+  pinta(a, b);
+  rangeBrush($("#evo-brush"), FA, serie, colores, a, b, (a2, b2) => {
+    S.evoDesde = a2 === 0 ? null : FA[a2]; S.evoHasta = b2 === FA.length-1 ? null : FA[b2]; pinta(a2, b2);
+  });
+}
+// Barra de selección de rango: vista general de todo el histórico con una ventana arrastrable.
+// Arrastra los tiradores para cambiar inicio o fin, arrastra la ventana para desplazarla, pulsa fuera para centrarla ahí.
+// Con el teclado: ← → desplazan; Mayús + ← → mueven el final.
+function rangeBrush(el, F, serie, colores, a, b, onChange){
+  const W = Math.max(300, el.clientWidth || 800), H = 62, L = 38, R = 16, T = 4, B = 18, n = F.length;
+  const x = i => L + (W-L-R) * i/(n-1);
+  const ymax = Math.max(0.01, ...serie.flat()), y = v => T + (H-T-B) * (1 - v/ymax);
+  let g = `<rect x="${L}" y="${T}" width="${W-L-R}" height="${H-T-B}" fill="#F9F7F1"/>`;
+  serie.forEach((s,si) => { g += `<path d="${s.map((v,i)=>(i?"L":"M")+x(i).toFixed(1)+" "+y(v).toFixed(1)).join("")}" fill="none" stroke="${colores[si]}" stroke-width="1.2" stroke-linejoin="round" opacity=".7"/>`; });
+  const nt = Math.min(n, Math.max(2, Math.floor((W-L-R)/110)));
+  for (let j=0;j<nt;j++){ const i = Math.round(j*(n-1)/(nt-1)); g += `<text x="${x(i)}" y="${H-5}" text-anchor="${j===0?"start":j===nt-1?"end":"middle"}">${fmtDia(F[i])}</text>`; }
+  { const A = new Set(evoDocs().filter(r => r.origen !== "portadas").map(r => r.fecha)), k = F.findIndex((f,i) => i > 0 && A.has(F[i-1]) && !A.has(f));
+    if (k > 0) { const xs = (x(k-1)+x(k))/2; g += `<line x1="${xs}" x2="${xs}" y1="${T}" y2="${H-B}" stroke="#9A9686" stroke-dasharray="3 3"/>`; } }
+  g += `<rect class="m0" y="${T}" height="${H-T-B}" fill="#fff" opacity=".72"/><rect class="m1" y="${T}" height="${H-T-B}" fill="#fff" opacity=".72"/>` +
+       `<rect class="bw" y="${T}" height="${H-T-B}" fill="rgba(1,69,80,.06)" stroke="#014550" stroke-width="1.2"/>` +
+       `<g class="bh" data-h="0"><rect class="hh0" y="${T}" width="16" height="${H-T-B}" fill="transparent"/><rect class="hv0" y="${T+(H-T-B)/2-11}" width="6" height="22" rx="2" fill="#014550"/></g>` +
+       `<g class="bh" data-h="1"><rect class="hh1" y="${T}" width="16" height="${H-T-B}" fill="transparent"/><rect class="hv1" y="${T+(H-T-B)/2-11}" width="6" height="22" rx="2" fill="#014550"/></g>`;
+  el.innerHTML = `<svg class="brush" viewBox="0 0 ${W} ${H}" width="100%" height="${H}" tabindex="0" role="slider" aria-label="Periodo del gráfico de evolución" aria-valuemin="0" aria-valuemax="${n-1}">${g}</svg>`;
+  const svg = el.querySelector("svg"), q = s => svg.querySelector(s);
+  const pos = () => {
+    const xa = x(a), xb = x(b);
+    q(".m0").setAttribute("x", L); q(".m0").setAttribute("width", Math.max(0, xa - L));
+    q(".m1").setAttribute("x", xb); q(".m1").setAttribute("width", Math.max(0, W - R - xb));
+    q(".bw").setAttribute("x", xa); q(".bw").setAttribute("width", Math.max(1, xb - xa));
+    q(".hh0").setAttribute("x", xa - 8); q(".hv0").setAttribute("x", xa - 3);
+    q(".hh1").setAttribute("x", xb - 8); q(".hv1").setAttribute("x", xb - 3);
+    svg.setAttribute("aria-valuenow", a); svg.setAttribute("aria-valuetext", `${fmtDia(F[a])} – ${fmtDia(F[b])}`);
+  };
+  pos();
+  const set = (na, nb) => { na = Math.max(0, Math.min(n-2, na)); nb = Math.max(na+1, Math.min(n-1, nb));
+    if (na === a && nb === b) return; a = na; b = nb; pos(); onChange(a, b); };
+  const idx = e => { const r = svg.getBoundingClientRect(), px = (e.clientX - r.left) * W / r.width; return Math.max(0, Math.min(n-1, Math.round((px-L)/(W-L-R)*(n-1)))); };
+  let drag = null;
+  svg.addEventListener("pointerdown", e => {
+    const h = e.target.closest(".bh"), i = idx(e);
+    if (h) drag = {modo: h.dataset.h === "0" ? "ini" : "fin"};
+    else if (e.target.classList.contains("bw")) drag = {modo:"mover", i0:i, a0:a, b0:b};
+    else { const w = b - a, na = Math.max(0, Math.min(n-1-w, i - Math.round(w/2))); set(na, na + w); drag = {modo:"mover", i0:i, a0:a, b0:b}; }
+    svg.setPointerCapture(e.pointerId); svg.classList.add("drag"); e.preventDefault();
+  });
+  svg.addEventListener("pointermove", e => { if (!drag) return; const i = idx(e);
+    if (drag.modo === "ini") set(Math.min(i, b-1), b);
+    else if (drag.modo === "fin") set(a, Math.max(i, a+1));
+    else { const w = drag.b0 - drag.a0, na = Math.max(0, Math.min(n-1-w, drag.a0 + i - drag.i0)); set(na, na + w); } });
+  const fin = () => { drag = null; svg.classList.remove("drag"); };
+  svg.addEventListener("pointerup", fin); svg.addEventListener("pointercancel", fin);
+  svg.addEventListener("keydown", e => {
+    if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return; e.preventDefault();
+    const d = e.key === "ArrowLeft" ? -1 : 1;
+    if (e.shiftKey) set(a, b + d); else if (a + d >= 0 && b + d <= n-1) set(a + d, b + d);
+  });
+}
+
+function suave(pts){ // curva monótona (Fritsch–Carlson) que pasa por los datos
+  const n = pts.length; if (n < 3) return pts.map((p,i)=>(i?"L":"M")+p[0].toFixed(1)+" "+p[1].toFixed(1)).join("");
+  const dx = [], dy = [], m = [], t = [];
+  for (let i=0;i<n-1;i++){ dx[i]=pts[i+1][0]-pts[i][0]; dy[i]=pts[i+1][1]-pts[i][1]; m[i]=dy[i]/dx[i]; }
+  t[0]=m[0]; t[n-1]=m[n-2];
+  for (let i=1;i<n-1;i++) t[i] = m[i-1]*m[i] <= 0 ? 0 : 3*(dx[i-1]+dx[i]) / ((2*dx[i]+dx[i-1])/m[i-1] + (dx[i]+2*dx[i-1])/m[i]);
+  let d = `M${pts[0][0].toFixed(1)} ${pts[0][1].toFixed(1)}`;
+  for (let i=0;i<n-1;i++){ const h = dx[i]/3;
+    d += `C${(pts[i][0]+h).toFixed(1)} ${(pts[i][1]+t[i]*h).toFixed(1)} ${(pts[i+1][0]-h).toFixed(1)} ${(pts[i+1][1]-t[i+1]*h).toFixed(1)} ${pts[i+1][0].toFixed(1)} ${pts[i+1][1].toFixed(1)}`; }
+  return d;
+}
+function lineChart(el, F, nombres, serie, aria, colores){
+  colores = colores || nombres.map((_,i) => `var(--s${i+1})`);
+  const W = Math.max(300, el.clientWidth || 800), H = 270, L = 38, R = 16, T = 18, B = 26;
+  const ymax = Math.max(0.01, ...serie.flat()); const step = ymax > .4 ? .1 : ymax > .2 ? .05 : ymax > .1 ? .02 : ymax > .04 ? .01 : ymax > .02 ? .005 : .002;
+  const top = Math.ceil(ymax/step)*step, dec = step < .01 ? 1 : 0;
+  const x = i => L + (W-L-R) * (F.length===1 ? .5 : i/(F.length-1)), y = v => T + (H-T-B) * (1 - v/top);
+  let g = "";
+  for (let v=0; v<=top+1e-9; v+=step) g += `<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="${v===0?"#C9C5B8":"#ECE9E1"}" stroke-width="1"/><text x="${L-6}" y="${y(v)+3}" text-anchor="end">${(v*100).toFixed(dec).replace(".",",")}%</text>`;
+  const nt = Math.min(F.length, Math.max(2, Math.floor((W-L-R)/110)));
+  for (let j=0;j<nt;j++){ const i = Math.round(j*(F.length-1)/(nt-1)); g += `<text x="${x(i)}" y="${H-7}" text-anchor="${j===0?"start":j===nt-1?"end":"middle"}">${fmtDia(F[i])}</text>`; }
+  // cambio de fuente: archivo → portada (línea discontinua, sin sombreado)
+  { const A = new Set(evoDocs().filter(r => r.origen !== "portadas").map(r => r.fecha));
+    const k = F.findIndex((f,i) => i > 0 && A.has(F[i-1]) && !A.has(f));
+    if (k > 0) { const xs = (x(k-1)+x(k))/2;
+      g += `<line x1="${xs}" x2="${xs}" y1="${T-6}" y2="${H-B}" stroke="#C9C5B8" stroke-dasharray="3 3"/>` +
+           (xs - 120 > L ? `<text x="${xs-5}" y="${T-6}" text-anchor="end">← archivo · 8 medios</text>` : "") + (xs + 120 < W - R ? `<text x="${xs+5}" y="${T-6}">portadas · 15 medios →</text>` : ""); } }
+  serie.forEach((s,si) => {
+    g += `<path d="${suave(s.map((v,i)=>[x(i), y(v)]))}" fill="none" stroke="${colores[si]}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+    const li = s.length-1; g += `<circle cx="${x(li)}" cy="${y(s[li])}" r="3.5" fill="${colores[si]}" stroke="#fff" stroke-width="1.5"/>`;
+  });
+  g += `<line class="xh" y1="${T}" y2="${H-B}" stroke="#C9C5B8" stroke-width="1" visibility="hidden"/>`;
+  el.innerHTML = `<svg class="lc" viewBox="0 0 ${W} ${H}" width="100%" height="${H}" role="img" aria-label="${esc(aria)}">${g}<rect x="${L}" y="${T}" width="${W-L-R}" height="${H-T-B}" fill="transparent"/></svg>
+    <div class="legend">${nombres.map((k,i)=>`<span><span class="sw" style="background:${colores[i]}"></span>${esc(k)}</span>`).join("")}</div>`;
+  const svg = el.querySelector("svg"), xh = svg.querySelector(".xh");
+  svg.addEventListener("mousemove", e => {
+    const r = svg.getBoundingClientRect(), px = (e.clientX - r.left) * W / r.width;
+    const i = Math.max(0, Math.min(F.length-1, Math.round((px-L)/(W-L-R)*(F.length-1))));
+    xh.setAttribute("x1", x(i)); xh.setAttribute("x2", x(i)); xh.setAttribute("visibility","visible");
+    showTip(`<b>${esc(fmtDia(F[i]))}</b>` + nombres.map((k,si)=>`<br><span class="dot" style="background:${colores[si]}"></span>${esc(k)}: ${pct(serie[si][i])}`).join(""), e.clientX, e.clientY);
+  });
+  svg.addEventListener("mouseleave", () => { xh.setAttribute("visibility","hidden"); hideTip(); });
+}
+
+/* ---------- partidos y líderes ---------- */
+function campoActores(m){
+  if (!S.agr) return m.actores || {};
+  const o = {...(m.bloques || {})};
+  for (const [a,n] of Object.entries(m.actores || {})) if (!MIEMBRO[a]) o[a] = n;
+  return o;
+}
+function renderPartidos(){
+  const F = fechasRango(), Mall = porMedio(docsRango());
+  const all = cuotaAmb(Mall, campoActores, S.pAmb);
+  const keys = Object.keys(all).sort((a,b)=>all[b]-all[a]);
+  if (!S.parSel || !S.parSel.every(k=>keys.includes(k))) S.parSel = (S.parSel||[]).filter(k=>keys.includes(k));
+  if (!S.parSel.length) S.parSel = keys.filter(k=>!NO_PARTIDO.has(k)).slice(0,4);
+  $("#par-chips").innerHTML = keys.slice(0,16).map(k => { const i = S.parSel.indexOf(k);
+    return `<button class="chip" aria-pressed="${i>=0}" data-k="${esc(k)}"><span class="sw" style="background:${i>=0?colorActor(k):"var(--faint)"}"></span>${esc(k)}</button>`; }).join("");
+  if (F.length < 2) { $("#par-evo").innerHTML = `<div class="empty">La evolución necesita al menos dos días de datos.</div>`; }
+  else {
+    const serie = S.parSel.map(k => F.map(f => cuotaAmb(porMedio(S.resumen.filter(r=>r.fecha===f)), campoActores, S.pAmb)[k] || 0));
+    lineChart($("#par-evo"), F, S.parSel, serie, "Evolución diaria de la presencia de partidos y líderes", S.parSel.map(colorActor));
+  }
+  renderActores(Mall);
+}
+
+function renderActores(M){
+  const eus = cuotaAmb(M,campoActores,"euskadi"), esp = cuotaAmb(M,campoActores,"espana"), all = cuotaAmb(M,campoActores,"todos");
+  const keys = Object.keys(all).sort((a,b)=>all[b]-all[a]).slice(0,15);
+  if (!keys.length) { $("#actores").innerHTML = `<div class="empty">Sin menciones todavía.</div>`; return; }
+  const max = Math.max(...keys.flatMap(k=>[eus[k]||0, esp[k]||0]));
+  $("#actores").innerHTML = `<div class="arow" style="padding-bottom:4px"><span class="lab"></span><span style="font-size:11px;color:var(--muted)">arriba: vascos · abajo: estatales</span><span class="n" style="color:var(--muted);font-weight:600">EUS</span><span class="n" style="color:var(--muted);font-weight:600">ESP</span></div>` +
+    keys.map(k => { const a=eus[k]||0, b=esp[k]||0, c=colorActor(k);
+    return `<div class="arow" data-tip="${esc(`<b>${k}</b><br>Medios vascos: ${pct(a)} de titulares<br>Medios estatales: ${pct(b)}`)}"><span class="lab">${esc(k)}</span>
+      <div class="bars"><div class="bar" style="background:${c};width:${(a/max*100).toFixed(1)}%"></div><div class="bar" style="background:${c};opacity:.4;width:${(b/max*100).toFixed(1)}%"></div></div>
+      <span class="n">${pct(a)}</span><span class="n">${pct(b)}</span></div>`; }).join("");
+}
+
+/* ---------- nubes de palabras ---------- */
+async function cargarPalabras(){
+  const F = fechasRango(); if (!F.length) { renderNubes(); return; }
+  const falt = F.filter(f => !(f in S.pal));
+  if (falt.length && S.db) {
+    try { const snap = await S.db.collection("palabras").where("fecha",">=",falt[0]).where("fecha","<=",falt[falt.length-1]).get();
+      for (const d of snap.docs) { const x = d.data(); if (x?.fecha) S.pal[x.fecha] = x; } } catch(e) {}
+    for (const f of falt) if (!(f in S.pal)) S.pal[f] = null;
+  }
+  renderNubes();
+}
+const STOP_NUBE = new Set(("enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre lunes martes miercoles jueves viernes sabado domingo " +
+  "pide piden acusa exige deja dejan abre vuelve vuelven llega llegan hace hacen tiene tienen dice dicen sera estan esta tras san santa ante hoy ayer cara junto parte gran nuevo nueva " +
+  "urtarrila otsaila martxoa apirila maiatza ekaina uztaila abuztua iraila urria azaroa abendua").split(" "));
+function palabrasDe(amb, clave){
+  const c = {};
+  for (const f of fechasRango()) { const d = S.pal[f]?.ambitos?.[amb]?.[clave]; if (!d) continue;
+    for (const [w,n] of Object.entries(d)) c[w] = (c[w]||0) + n; }
+  // une variantes con y sin tilde (los titulares de archivo vienen sin tildes)
+  const norm = w => w.normalize("NFD").replace(/[\u0300-\u036f]/g,""), g = {};
+  for (const [w,n] of Object.entries(c)) { const k = norm(w); if (STOP_NUBE.has(k)) continue; const e = g[k] ||= {w, n:0, best:0}; e.n += n; if (w !== k && n >= 1 && (e.w === k || n > e.best)) { e.w = w; e.best = n; } }
+  return Object.values(g).sort((a,b)=>b.n-a.n).slice(0,60).map(e=>[e.w,e.n]);
+}
+function renderNubes(){
+  const sel = $("#nube-tema"), Mall = porMedio(docsRango());
+  const temas = temasOrden(Mall);
+  const subs = subtemasDe(Mall, "Internacional");
+  if (!S.nubeUser || !S.nubeTema || (!S.nubeTema.startsWith("@") && !temas.includes(S.nubeTema) && !subs.includes(S.nubeTema))) S.nubeTema = temas.includes("Política y partidos") ? "Política y partidos" : temas[0];
+  sel.innerHTML = `<optgroup label="Temas">${temas.map(t=>`<option value="${esc(t)}">${esc(t)}</option>`).join("")}</optgroup>${subs.length?`<optgroup label="Internacional en detalle">${subs.map(t=>`<option value="${esc(t)}">${esc(t)}</option>`).join("")}</optgroup>`:""}<optgroup label="Partidos">${Object.keys(BLOQUES).map(b=>`<option value="@${esc(b)}">${esc(b)}</option>`).join("")}</optgroup>`;
+  sel.value = S.nubeTema;
+  drawCloud($("#nube-eus"), palabrasDe("euskadi", S.nubeTema), "--eus");
+  drawCloud($("#nube-esp"), palabrasDe("espana", S.nubeTema), "--esp");
+}
+function drawCloud(el, words, color){
+  if (!words.length) { el.innerHTML = `<div class="empty">${fechasRango().length ? "No hay palabras suficientes para este tema en el periodo." : "Sin datos todavía."}</div>`; return; }
+  const W = Math.max(260, el.clientWidth || 500), H = el.clientHeight || 300;
+  const max = words[0][1], min = words[words.length-1][1];
+  const ctx = (drawCloud.cv ||= document.createElement("canvas")).getContext("2d");
+  const placed = []; let html = "";
+  words.forEach(([w,n], i) => {
+    const fs = Math.round(12 + 30 * Math.sqrt((n-min) / ((max-min) || 1)));
+    ctx.font = `500 ${fs}px Inter, "Helvetica Neue", Arial, sans-serif`;
+    const tw = ctx.measureText(w).width + 8, th = fs * 1.1;
+    let x, y, ok = false;
+    for (let t = 0; t < 3000; t++) {
+      const a = .3 * t, r = 1.2 * a;
+      x = W/2 + r * Math.cos(a) * 1.6 - tw/2; y = H/2 + r * Math.sin(a) - th/2;
+      if (x < 0 || y < 0 || x + tw > W || y + th > H) { if (r > W) break; continue; }
+      if (!placed.some(p => x < p.x+p.w && x+tw > p.x && y < p.y+p.h && y+th > p.y)) { ok = true; break; }
+    }
+    if (!ok) return;
+    placed.push({x, y, w:tw, h:th});
+    const col = i < 10 ? `var(${color})` : "var(--ink-2)";
+    html += `<button type="button" class="w" style="left:${(x+4).toFixed(1)}px;top:${y.toFixed(1)}px;font-size:${fs}px;color:${col}" data-w="${esc(w)}" data-tip="${esc(`<b>${w}</b><br>${n} titular${n===1?"":"es"}`)}">${esc(w)}</button>`;
+  });
+  el.innerHTML = html;
+}
+
+function renderStatus(){
+  const e = S.estado;
+  if (!e) { $("#status").innerHTML = `<span class="empty" style="padding:0">Aún no se ha ejecutado ninguna recogida.</span>`; $("#m-update").textContent = S.loaded ? "Sin recogidas todavía" : "Cargando datos…"; return; }
+  const when = new Date(e.ejecutado).toLocaleString("es-ES",{dateStyle:"medium",timeStyle:"short"});
+  $("#m-update").textContent = "Última recogida: " + when;
+  $("#st-sub").textContent = `Ejecución del ${when}. Pasa el cursor por un medio para ver la fuente o el error.`;
+  $("#status").innerHTML = Object.entries(e.medios||{}).sort((a,b)=>a[1].ambito.localeCompare(b[1].ambito)||a[1].nombre.localeCompare(b[1].nombre,"es")).map(([id,m]) =>
+    `<span class="st ${m.ok?"ok":"ko"}" data-tip="${esc((m.metodo ? `<b>${m.metodo}</b>${m.panel===false?" · fuera del panel":""}<br>` : "") + (m.ok ? `Fuente: ${(m.feeds||[]).join("<br>")}` : `Sin datos.<br>${(m.errores||[]).map(esc).join("<br>")}`))}"><span class="ic">${m.ok?"✓":"✕"}</span>${esc(m.nombre)}${m.panel===false?`<span style="color:var(--muted)">*</span>`:""} <span class="mono" style="color:var(--muted)">${m.ok?m.n:"sin piezas"}</span></span>`).join("");
+}
+
+/* ---------- titulares ---------- */
+function renderDias(){
+  const f = fechas().slice().reverse(), sel = $("#f-dia"), cur = sel.value;
+  sel.innerHTML = f.length ? f.map(d=>`<option value="${d}">${esc(new Date(d+"T12:00:00").toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long",year:"numeric"}))}</option>`).join("") : `<option value="">Sin días</option>`;
+  if (cur && f.includes(cur)) sel.value = cur;
+  cargarDia(sel.value);
+}
+async function cargarDia(d){
+  if (!d || !S.db) { renderHeads(); return; }
+  if (!S.titulares[d]) {
+    $("#heads-count").textContent = "Cargando titulares…";
+    try { const snap = await S.db.collection("titulares").where("fecha","==",d).get(); S.titulares[d] = snap.docs.map(x=>x.data()); }
+    catch(e){ $("#heads-count").textContent = "No se pudieron cargar los titulares de ese día."; return; }
+  }
+  const all = S.titulares[d], opt = (sel, vals, first) => { const c = $(sel).value; $(sel).innerHTML = `<option value="">${first}</option>` + vals.map(v=>`<option>${esc(v)}</option>`).join(""); if (vals.includes(c)) $(sel).value = c; };
+  opt("#f-medio", all.map(x=>x.nombre).sort((a,b)=>a.localeCompare(b,"es")), "Todos los medios");
+  opt("#f-tema", [...new Set(all.flatMap(x=>x.items.flatMap(i=>i.temas)))].filter(t=>t!=="Otros").sort((a,b)=>a.localeCompare(b,"es")), "Todos los temas");
+  opt("#f-actor", [...new Set(all.flatMap(x=>x.items.flatMap(i=>i.actores)))].sort((a,b)=>a.localeCompare(b,"es")), "Todos los actores");
+  renderHeads();
+}
+function renderHeads(){
+  const d = $("#f-dia").value, all = S.titulares[d] || [];
+  const fm = $("#f-medio").value, ft = $("#f-tema").value, fa = $("#f-actor").value, q = $("#f-q").value.trim().toLowerCase();
+  const rows = [];
+  for (const doc of all) { if (fm && doc.nombre !== fm) continue;
+    for (const i of doc.items) { if (ft && !i.temas.includes(ft)) continue; if (fa && !i.actores.includes(fa)) continue;
+      if (q && !(i.t+" "+i.d).toLowerCase().includes(q)) continue; rows.push([doc,i]); } }
+  rows.sort((a,b)=> (b[1].h||"").localeCompare(a[1].h||""));
+  $("#heads-count").textContent = all.length ? `${fmtN(rows.length)} titulares` : (d ? "" : "Los titulares aparecerán tras la primera recogida.");
+  $("#heads").innerHTML = rows.slice(0,300).map(([doc,i]) => `<li><div class="src"><b>${esc(doc.nombre)}</b>${esc((i.h||"").slice(11))}${i.pos?`<span class="mono" style="color:var(--muted);display:block;font-size:11px" title="Mejor posición en portada · fotos en que salió">nº ${i.pos} · ${(i.fotos||[]).length} foto${(i.fotos||[]).length===1?"":"s"}</span>`:""}${doc.panel===false?`<span class="tag arch" title="Medio fuera del panel: solo portada, no cuenta en los porcentajes">portada</span>`:""}</div><div>
+    <a href="${esc(/^https?:/.test(i.u)?i.u:"#")}" target="_blank" rel="noopener">${esc(i.t)}</a>${i.d?`<div class="d">${esc(i.d)}</div>`:""}
+    <div class="tags">${i.temas.filter(t=>t!=="Otros").map(t=>`<span class="tag">${esc(t)}</span>`).join("")}${i.actores.map(t=>`<span class="tag a">${esc(t)}</span>`).join("")}</div></div></li>`).join("") +
+    (rows.length > 300 ? `<li><div></div><div class="mono" style="color:var(--muted)">Se muestran 300 de ${fmtN(rows.length)}. Afina los filtros.</div></li>` : "");
+}
+
+/* ---------- CSV ---------- */
+const csvCell = v => { v = String(v ?? ""); return /[",\n;]/.test(v) ? `"${v.replace(/"/g,'""')}"` : v; };
+async function guardar(nombre, filas){
+  const data = "﻿" + filas.map(r=>r.map(csvCell).join(",")).join("\n");
+  try { await S.dl.save({ filename: nombre, data }); } catch(e) { if (e?.code === "unavailable" || e?.code === "not_granted") $("#btn-csv").hidden = $("#btn-csv-t").hidden = $("#btn-csv-b").hidden = true; }
+}
+$("#btn-csv").addEventListener("click", () => {
+  const filas = [["fecha","medio","nombre","ambito","n_titulares","tipo","categoria","n","cuota"]];
+  for (const d of docsRango()) for (const [id,m] of Object.entries(d.medios||{})) {
+    for (const [k,v] of Object.entries(m.temas||{})) filas.push([d.fecha,id,m.nombre,m.ambito,m.n,"tema",k,v,(v/m.n).toFixed(4)]);
+    for (const [k,v] of Object.entries(m.actores||{})) filas.push([d.fecha,id,m.nombre,m.ambito,m.n,"actor",k,v,(v/m.n).toFixed(4)]);
+  }
+  const F = fechasRango(); guardar(`agenda_resumen_${F[0]}_${F[F.length-1]}.csv`, filas);
+});
+$("#btn-csv-t").addEventListener("click", async () => {
+  const F = fechasRango(), b = $("#btn-csv-t"); b.disabled = true; b.textContent = "Preparando…";
+  try {
+    const snap = await S.db.collection("titulares").where("fecha",">=",F[0]).where("fecha","<=",F[F.length-1]).get();
+    const filas = [["fecha","medio","nombre","ambito","hora","titular","entradilla","url","temas","actores"]];
+    for (const x of snap.docs.map(s=>s.data())) for (const i of x.items) filas.push([x.fecha,x.medio,x.nombre,x.ambito,i.h,i.t,i.d,i.u,i.temas.join("|"),i.actores.join("|")]);
+    await guardar(`agenda_titulares_${F[0]}_${F[F.length-1]}.csv`, filas);
+  } finally { b.disabled = false; b.textContent = "⬇ Titulares del periodo (CSV)"; }
+});
+
+/* ---------- controles ---------- */
+$("#seg-rango").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
+  S.rango = b.dataset.v; for (const x of $("#seg-rango").children) x.setAttribute("aria-pressed", x===b); render(); });
+$("#seg-evo").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
+  S.evoAmb = b.dataset.v; for (const x of $("#seg-evo").children) x.setAttribute("aria-pressed", x===b); renderEvo(); });
+$("#evo-chips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; const k = b.dataset.k;
+  S.evoSel = S.evoSel.includes(k) ? S.evoSel.filter(x=>x!==k) : [...S.evoSel, k].slice(-4); renderEvo(); });
+$("#seg-evo-rango").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
+  const FA = fechasEvo(); S.evoHasta = null;
+  S.evoDesde = b.dataset.v === "all" || +b.dataset.v >= FA.length ? null : FA[FA.length - +b.dataset.v];
+  renderEvo(); });
+$("#f-dia").addEventListener("change", e => cargarDia(e.target.value));
+$("#seg-agr").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
+  S.agr = b.dataset.v === "1"; S.parSel = null; for (const x of $("#seg-agr").children) x.setAttribute("aria-pressed", x===b); renderPartidos(); });
+$("#seg-pamb").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
+  S.pAmb = b.dataset.v; for (const x of $("#seg-pamb").children) x.setAttribute("aria-pressed", x===b); renderPartidos(); });
+$("#par-chips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; const k = b.dataset.k;
+  S.parSel = S.parSel.includes(k) ? S.parSel.filter(x=>x!==k) : [...S.parSel, k].slice(-4); renderPartidos(); });
+$("#nube-tema").addEventListener("change", e => { S.nubeTema = e.target.value; S.nubeUser = true; renderNubes(); });
+for (const id of ["#f-medio","#f-tema","#f-actor"]) $(id).addEventListener("change", renderHeads);
+$("#f-q").addEventListener("input", renderHeads);
+let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { if (!$("#tab-agenda").hidden) { renderEvo(); renderPartidos(); renderNubes(); } if (!$("#tab-buscador").hidden && B.res) pintarBusqueda(); }, 150); });
+
+/* ---------- pestañas ---------- */
+function irA(tab){
+  for (const b of document.querySelectorAll("nav.main-tabs button")) b.setAttribute("aria-selected", b.dataset.tab === tab);
+  for (const s of document.querySelectorAll("section.tabpanel")) s.hidden = s.id !== "tab-" + tab;
+  if (tab === "agenda") { renderEvo(); renderPartidos(); renderNubes(); }
+  if (tab === "buscador" && B.res) pintarBusqueda();
+  if (tab === "diccionario") cargarDic();
+}
+for (const b of document.querySelectorAll("nav.main-tabs button")) b.addEventListener("click", () => irA(b.dataset.tab));
+
+/* ---------- buscador ---------- */
+const STOP_B = new Set((STOP_PY + " " + [...STOP_NUBE].join(" ")).split(/\s+/).filter(Boolean));
+const normTxt = s => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const escRx = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const ACC = {a:"[aáà]", e:"[eéè]", i:"[iíì]", o:"[oóò]", u:"[uúüù]", n:"[nñ]"};
+const rxResaltar = t => new RegExp("(^|[^\\p{L}\\p{N}])(" + [...normTxt(t)].map(c => ACC[c] || escRx(c)).join("") + ")", "giu");
+const B = { terms:[], rango:"all", amb:"todos", res:null, cargando:false };
+
+function bFechas(){
+  const f = fechas(); if (!f.length || B.rango === "all") return f;
+  const ult = new Date(f[f.length-1] + "T12:00:00"), lim = new Date(ult); lim.setDate(lim.getDate() - (+B.rango - 1));
+  const l = lim.toISOString().slice(0,10); return f.filter(x => x >= l);
+}
+async function cargarDias(F, prog){
+  const falt = F.filter(f => !S.titulares[f]), total = falt.length; let hechos = 0;
+  const trabajador = async () => {
+    while (falt.length) { const d = falt.shift();
+      try { const snap = await S.db.collection("titulares").where("fecha","==",d).get(); S.titulares[d] = snap.docs.map(x => x.data()); }
+      catch(e) { S.titulares[d] = []; }
+      prog(++hechos, total); }
+  };
+  await Promise.all(Array.from({length: 4}, trabajador));
+}
+async function buscar(){
+  const terms = [...new Set($("#b-q").value.split(",").map(s => s.trim()).filter(s => normTxt(s).length >= 2))].slice(0, 4);
+  if (!terms.length || B.cargando) return;
+  if (!S.db) { $("#b-prog").textContent = "No se pueden leer los datos."; return; }
+  B.cargando = true; B.terms = terms;
+  const F = bFechas();
+  $("#b-prog").textContent = "Cargando titulares…";
+  await cargarDias(F, (h, t) => { $("#b-prog").textContent = `Cargando titulares: ${h} de ${t} días…`; });
+  const rx = terms.map(t => new RegExp("(^|[^a-z0-9])" + escRx(normTxt(t))));
+  const claves = terms.map(normTxt);
+  const dia = {}, filas = [], porMed = {};
+  let total = 0;
+  for (const f of F) for (const doc of (S.titulares[f] || [])) {
+    if (doc.panel === false) { // fuera del panel: se listan, pero no cuentan en porcentajes
+      for (const it of doc.items || []) { const m = rx.map(r => r.test(normTxt(it.t))); if (m.some(Boolean)) filas.push({f, doc, it, m}); }
+      continue; }
+    const k = doc.medio, pm = porMed[k] ||= {nombre:doc.nombre, ambito:doc.ambito, n:0, hit:0};
+    const dm = (dia[f] ||= {})[k] ||= {ambito:doc.ambito, n:0, hits:terms.map(()=>0), any:0};
+    for (const it of doc.items || []) {
+      const txt = normTxt(it.t); total++; pm.n++; dm.n++;
+      const m = rx.map(r => r.test(txt));
+      if (!m.some(Boolean)) continue;
+      m.forEach((v,i) => { if (v) dm.hits[i]++; }); dm.any++; pm.hit++;
+      filas.push({f, doc, it, m});
+    }
+  }
+  B.res = {F, dia, filas, porMed, total, claves};
+  B.cargando = false;
+  $("#b-prog").textContent = "";
+  pintarBusqueda();
+}
+function cuotaDia(f, amb, idx){ // media de las cuotas de los medios del ámbito ese día
+  const ms = Object.values(B.res.dia[f] || {}).filter(m => m.n >= 5 && (amb === "todos" || m.ambito === amb));
+  if (!ms.length) return 0;
+  return ms.reduce((s,m) => s + (idx < 0 ? m.any : m.hits[idx]) / m.n, 0) / ms.length;
+}
+function pintarBusqueda(){
+  const R = B.res; if (!R) return;
+  $("#b-res").hidden = false;
+  const etiqueta = B.terms.map(t => `«${t}»`).join(", ");
+  const n = R.filas.length;
+  // KPIs
+  const medios = Object.values(R.porMed).filter(m => m.n >= 20).map(m => ({...m, c:m.hit/m.n})).sort((a,b) => b.c - a.c);
+  let pico = null; for (const f of R.F) { const v = cuotaDia(f, "todos", -1); if (!pico || v > pico.v) pico = {f, v}; }
+  $("#b-kpis").innerHTML = [
+    ["Titulares encontrados", fmtN(n), `${etiqueta} · ${R.F.length} días`],
+    ["Cuota media", R.total ? pct(n / R.total) : "—", "de todos los titulares del periodo"],
+    ["Medio que más la usa", medios[0] && medios[0].hit ? esc(medios[0].nombre) : "—", medios[0] && medios[0].hit ? pct(medios[0].c) + " de sus titulares" : ""],
+    ["Día de más presencia", pico && pico.v ? esc(fmtDia(pico.f)) : "—", pico && pico.v ? pct(pico.v) + " de los titulares" : ""],
+  ].map(([l,v,s]) => `<div class="kpi"><div class="lab">${l}</div><div class="val">${v}</div><div class="sub">${s}</div></div>`).join("");
+  // evolución
+  const F = R.F;
+  if (F.length < 2) $("#b-evo").innerHTML = `<div class="empty">Hacen falta al menos dos días.</div>`;
+  else if (B.terms.length === 1 && B.amb === "todos") {
+    $("#b-evo-t").textContent = `Evolución de ${etiqueta}`;
+    $("#b-evo-s").textContent = "% de titulares que la contienen cada día, con el mismo peso para cada medio";
+    lineChart($("#b-evo"), F, ["Medios vascos","Medios estatales"], [F.map(f => cuotaDia(f,"euskadi",0)), F.map(f => cuotaDia(f,"espana",0))], "Evolución de la búsqueda", ["var(--eus)","var(--esp)"]);
+  } else {
+    $("#b-evo-t").textContent = B.terms.length > 1 ? "Evolución comparada" : `Evolución de ${etiqueta}`;
+    $("#b-evo-s").textContent = `% de titulares que contienen cada palabra cada día · ${B.amb === "todos" ? "todos los medios" : B.amb === "euskadi" ? "medios vascos" : "medios estatales"}`;
+    lineChart($("#b-evo"), F, B.terms, B.terms.map((t,i) => F.map(f => cuotaDia(f, B.amb, i))), "Evolución de la búsqueda");
+  }
+  // medios
+  const maxC = Math.max(...medios.map(m => m.c), 1e-9);
+  $("#b-medios").innerHTML = medios.length ? `<div class="rank">` + medios.map(m =>
+    `<span class="lab">${esc(m.nombre)}<span class="amb-tag">${m.ambito==="euskadi"?"EUS":"ESP"}</span></span><div class="bars" data-tip="${esc(`<b>${m.nombre}</b><br>${m.hit} de ${fmtN(m.n)} titulares (${pct(m.c)})`)}"><div class="bar ${m.ambito==="euskadi"?"eus":"esp"}" style="width:${(m.c/maxC*100).toFixed(1)}%"></div></div><span class="n">${pct(m.c)}</span>`).join("") + `</div>`
+    : `<div class="empty">Sin datos.</div>`;
+  // temas y partidos
+  const ct = {}, cb = {};
+  for (const r of R.filas) { for (const t of r.it.temas || []) if (t !== "Otros") ct[t] = (ct[t]||0) + 1;
+    const bl = new Set((r.it.actores || []).map(a => MIEMBRO[a]).filter(Boolean)); for (const b of bl) cb[b] = (cb[b]||0) + 1; }
+  const barras = (o, color) => { const ks = Object.entries(o).sort((a,b) => b[1]-a[1]).slice(0, 8); if (!ks.length) return `<div class="empty" style="padding:10px">Ninguno.</div>`;
+    const mx = ks[0][1]; return `<div class="rank">` + ks.map(([k,v]) => `<span class="lab">${esc(k)}</span><div class="bars" data-tip="${esc(`<b>${k}</b><br>${v} de ${n} titulares`)}"><div class="bar" style="background:${color(k)};width:${(v/mx*100).toFixed(1)}%"></div></div><span class="n">${pct(v/n,0)}</span>`).join("") + `</div>`; };
+  $("#b-temas").innerHTML = n ? barras(ct, () => "var(--teal)") : `<div class="empty" style="padding:10px">Sin resultados.</div>`;
+  $("#b-partidos").innerHTML = n ? barras(cb, colorActor) : "";
+  // nubes de coocurrencia
+  const nube = amb => { const c = {}, forma = {};
+    for (const r of R.filas) { if (r.doc.ambito !== amb) continue; const vistos = new Set();
+      for (const w of (r.it.t.match(/[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{3,}/g) || [])) { const k = normTxt(w);
+        if (STOP_B.has(k) || vistos.has(k) || R.claves.some(c => k.startsWith(c) || c.startsWith(k))) continue;
+        vistos.add(k); c[k] = (c[k]||0) + 1; const lw = w.toLowerCase(); (forma[k] ||= {})[lw] = (forma[k][lw]||0) + 1; } }
+    return Object.entries(c).filter(([,v]) => v >= 2).sort((a,b) => b[1]-a[1]).slice(0, 60).map(([k,v]) => {
+      const fs = forma[k], acc = Object.keys(fs).filter(f => f !== normTxt(f)); return [acc.length ? acc.sort((a,b) => fs[b]-fs[a])[0] : k, v]; }); };
+  drawCloud($("#b-nube-eus"), nube("euskadi"), "--eus");
+  drawCloud($("#b-nube-esp"), nube("espana"), "--esp");
+  // titulares
+  const ord = R.filas.slice().sort((a,b) => (b.f + (b.it.h||"")).localeCompare(a.f + (a.it.h||"")));
+  const rxs = B.terms.map(rxResaltar);
+  const resalta = t => { let h = esc(t); for (const r of rxs) h = h.replace(r, (m0, a, b) => `${a}<mark>${b}</mark>`); return h; };
+  $("#b-heads-s").textContent = n ? `${fmtN(n)} titulares · se muestran los ${Math.min(n,150)} más recientes` : "Ningún titular contiene la búsqueda en este periodo.";
+  $("#b-heads").innerHTML = ord.slice(0,150).map(({f, doc, it}) => `<li><div class="src"><b>${esc(doc.nombre)}</b>${esc(fmtDia(f))}${doc.panel===false?` <span class="tag arch" title="Medio fuera del panel: solo portada, no cuenta en los porcentajes">portada</span>`:""}</div><div>
+    <a href="${esc(/^https?:/.test(it.u)?it.u:"#")}" target="_blank" rel="noopener">${resalta(it.t)}</a>
+    <div class="tags">${(it.temas||[]).filter(t=>t!=="Otros").map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div></div></li>`).join("");
+  $("#btn-csv-b").hidden = !(n && S.dl);
+}
+$("#b-form").addEventListener("submit", e => { e.preventDefault(); buscar(); });
+$("#seg-brango").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
+  B.rango = b.dataset.v; for (const x of $("#seg-brango").children) x.setAttribute("aria-pressed", x===b); if (B.terms.length) buscar(); });
+$("#seg-bamb").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
+  B.amb = b.dataset.v; for (const x of $("#seg-bamb").children) x.setAttribute("aria-pressed", x===b); pintarBusqueda(); });
+for (const id of ["#b-nube-eus","#b-nube-esp","#nube-eus","#nube-esp"]) $(id).addEventListener("click", e => { const b = e.target.closest(".w"); if (!b) return;
+  $("#b-q").value = b.dataset.w; irA("buscador"); window.scrollTo({top:0, behavior:"smooth"}); buscar(); });
+$("#btn-csv-b").addEventListener("click", () => {
+  const filas = [["fecha","medio","nombre","ambito","origen","titular","url","temas","actores", ...B.terms.map(t => "contiene_" + t)]];
+  for (const r of B.res.filas) filas.push([r.f, r.doc.medio, r.doc.nombre, r.doc.ambito, r.doc.origen || "portada", r.it.t, r.it.u, (r.it.temas||[]).join("|"), (r.it.actores||[]).join("|"), ...r.m.map(v => v ? 1 : 0)]);
+  guardar(`busqueda_${B.terms.map(normTxt).join("_").replace(/[^a-z0-9_]/g,"")}.csv`, filas);
+});
+
+
+/* ---------- diccionario ---------- */
+const D = { dic:null };
+const sinT = s => (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+function reglas(lista){ return lista.map(t => { const cs = t.startsWith("="); let x = cs ? t.slice(1) : t; const pref = x.endsWith("*"); x = x.replace(/\*$/,"");
+  const k = cs ? sinT(x) : sinT(x).toLowerCase();
+  return {t, cs, pref, vis:x, rx:new RegExp("(?<![A-Za-z0-9_])" + escRx(k) + (pref ? "[A-Za-z0-9_]*" : "(?![A-Za-z0-9_])"))}; }); }
+function casa(rs, base){ const mn = base.toLowerCase(); return rs.filter(r => r.rx.test(r.cs ? base : mn)); }
+async function cargarDic(){
+  if (D.dic) return pintarDic();
+  try { D.dic = await (await fetch("diccionario.json")).json(); } catch(e) { $("#d-temas").innerHTML = `<div class="empty">No se pudo cargar el diccionario.</div>`; return; }
+  D.temas = Object.fromEntries(Object.entries(D.dic.temas).map(([k,v]) => [k, reglas(v)]));
+  D.act = Object.fromEntries(Object.entries(D.dic.actores).map(([k,v]) => [k, reglas(v)]));
+  pintarDic();
+}
+function chip(r, hits){ return `<button type="button" class="term${r.cs?" cs":""}${hits && hits.includes(r)?" hit":""}" data-w="${esc(r.vis)}" title="${r.cs?"Distingue mayúsculas":""}${r.pref?(r.cs?" · ":"")+"Encuentra también palabras que empiezan así":""}">${esc(r.vis)}${r.pref?"…":""}</button>`; }
+function pintarDic(prueba){
+  const M = porMedio(docsRango()), cuota = cuotaAmb(M, "temas", "todos");
+  const base = prueba ? sinT(prueba) : null;
+  const subD = D.dic.subtemas || {}, padreDe = {}; for (const [p, ss] of Object.entries(subD)) for (const x of ss) padreDe[x] = p;
+  const orden = Object.keys(D.temas).filter(k => !padreDe[k]).sort((a,b) => (cuota[b]||0) - (cuota[a]||0)).flatMap(k => [k, ...(subD[k]||[]).filter(x => D.temas[x])]);
+  $("#d-temas").innerHTML = orden.map(k => {
+    // en un tema con subtemas se muestran solo los términos propios; los de cada subtema van en su tarjeta
+    const deSubs = new Set((subD[k]||[]).flatMap(x => (D.temas[x]||[]).map(r => r.t)));
+    const rs = D.temas[k].filter(r => !deSubs.has(r.t)), h = base ? casa(D.temas[k], base) : null;
+    const nota = padreDe[k] ? ` · subtema de ${esc(padreDe[k])}` : (subD[k] ? ` · incluye además todos sus subtemas` : "");
+    return `<div class="card span6${h && h.length ? " hit" : ""}"${padreDe[k] ? ` style="border-left:3px solid ${colorTema(k)}"` : ""}><div class="card-head"><h3>${padreDe[k] ? "↳ " : ""}${esc(k)}</h3><span class="dcount">${rs.length} términos${nota}${cuota[k] ? ` · ${pct(cuota[k])} de los titulares` : ""}</span></div>
+      <div class="terms">${rs.map(r => chip(r, h)).join("")}</div></div>`; }).join("");
+  const blo = D.dic.bloques || {}, enBloque = new Set(Object.values(blo).flat());
+  const tarjeta = (titulo, nombres, color) => { const filas = nombres.filter(n => D.act[n]).map(n => { const rs = D.act[n], h = base ? casa(rs, base) : null;
+      return `<div style="margin-top:6px${h && h.length ? ";background:#FFF6F1" : ""}"><span style="font-weight:500;font-size:13px">${esc(n)}</span><div class="terms" style="margin-top:4px">${rs.map(r => chip(r, h)).join("")}</div></div>`; }).join("");
+    return `<div class="card span4"><div class="card-head"><h3><span class="sw dot" style="background:${color}"></span>${esc(titulo)}</h3></div>${filas}</div>`; };
+  $("#d-actores").innerHTML = Object.entries(blo).map(([b, ms]) => tarjeta(b, ms, colorActor(b))).join("") +
+    tarjeta("Instituciones y otros", Object.keys(D.act).filter(n => !enBloque.has(n)), "#5A6B6C");
+  if (base) {
+    const ts = Object.keys(D.temas).filter(k => casa(D.temas[k], base).length), as = Object.keys(D.act).filter(k => casa(D.act[k], base).length);
+    if (as.some(a => !NO_PARTIDO.has(a)) && !ts.includes("Política y partidos")) ts.push("Política y partidos (por mencionar a un actor político)");
+    $("#d-res").innerHTML = ts.length || as.length ? `Temas: <b>${esc(ts.join(", ") || "ninguno")}</b> · Actores: <b>${esc(as.join(", ") || "ninguno")}</b>. Las palabras que lo activan están resaltadas.` : "No encaja en ningún tema ni actor: en el monitor contaría como titular sin tema.";
+  } else $("#d-res").textContent = "";
+}
+$("#d-form").addEventListener("submit", e => { e.preventDefault(); if (D.dic) pintarDic($("#d-q").value.trim() || null); });
+for (const id of ["#d-temas","#d-actores"]) $(id).addEventListener("click", e => { const b = e.target.closest(".term"); if (!b) return;
+  $("#b-q").value = b.dataset.w; irA("buscador"); window.scrollTo({top:0, behavior:"smooth"}); buscar(); });
+
+/* ---------- datos ---------- */
+/* En GitHub Pages los datos son JSON estáticos en data/ (los escribe exportar.py desde Supabase).
+   Este adaptador ofrece la misma interfaz de consulta (collection/where/orderBy/limit/get/onSnapshot) que
+   usaba la base de datos del artefacto, de modo que el resto de la página no cambia. */
+const DB = (() => {
+  const cache = new Map();
+  const getJSON = ruta => {
+    if (!cache.has(ruta)) cache.set(ruta, fetch(ruta, { cache: "no-cache" }).then(r => r.ok ? r.json() : null).catch(() => null));
+    return cache.get(ruta);
+  };
+  const OPS = { "==": (a, b) => a === b, ">=": (a, b) => a >= b, "<=": (a, b) => a <= b, ">": (a, b) => a > b, "<": (a, b) => a < b };
+  const snapDoc = d => ({ data: () => d, exists: true });
+  class Q {
+    constructor(c, w = [], o = null, l = Infinity) { this.c = c; this.w = w; this.o = o; this.l = l; }
+    where(f, op, v) { return new Q(this.c, [...this.w, [f, op, v]], this.o, this.l); }
+    orderBy(f, dir = "asc") { return new Q(this.c, this.w, [f, dir], this.l); }
+    limit(n) { return new Q(this.c, this.w, this.o, n); }
+    async _docs() {
+      let docs;
+      if (this.c === "resumen") docs = (await getJSON("data/resumen.json")) || [];
+      else {
+        const idx = (await getJSON("data/indice.json")) || {};
+        const fechas = (idx[this.c] || []).filter(f => this.w.every(([k, op, v]) => k !== "fecha" || OPS[op](f, v)));
+        const partes = await Promise.all(fechas.map(f => getJSON(`data/${this.c}/${f}.json`)));
+        docs = partes.flatMap(p => p == null ? [] : Array.isArray(p) ? p : [p]);
+      }
+      docs = docs.filter(d => d && this.w.every(([k, op, v]) => OPS[op](d[k], v)));
+      if (this.o) { const [f, dir] = this.o, s = dir === "desc" ? -1 : 1; docs = docs.slice().sort((a, b) => (a[f] > b[f] ? 1 : a[f] < b[f] ? -1 : 0) * s); }
+      return docs.slice(0, this.l);
+    }
+    async get() { const docs = (await this._docs()).map(snapDoc); return { docs, size: docs.length, empty: !docs.length }; }
+    onSnapshot(ok, err) { this.get().then(ok, err || (() => {})); return () => {}; }
+  }
+  return {
+    collection: c => new Q(c),
+    doc: ruta => ({
+      onSnapshot(ok, err) {
+        const f = ruta === "estado/ultima" ? "data/estado.json" : `data/${ruta}.json`;
+        getJSON(f).then(d => ok(d ? snapDoc(d) : { exists: false, data: () => null }), err || (() => {}));
+        return () => {};
+      }
+    })
+  };
+})();
+const DL = { save: async ({ filename, data }) => {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([data], { type: "text/csv;charset=utf-8" }));
+  a.download = filename; document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+} };
+
+render();
+(async () => {
+  const db = DB; S.db = db;
+  S.dl = DL;
+  if (!db) { S.loaded = true; render(); return; }
+  db.collection("resumen").orderBy("fecha","desc").limit(1000).onSnapshot(snap => {
+    S.resumenTodo = snap.docs.map(d => d.data()).filter(r => r && r.fecha && r.medios);
+    S.resumen = S.resumenTodo; S.loaded = true; S.titulares = {}; render();
+  }, () => { S.loaded = true; render(); });
+  db.doc("estado/ultima").onSnapshot(s => { S.estado = s.exists ? s.data() : null; renderStatus(); renderNotice(docsRango().length>0); }, () => {});
+})();
+})();
+</script>
+
+</body></html>
