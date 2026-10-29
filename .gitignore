@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+out/
+out_toma/
+tomas_dl/
+.env
+.Renviron
