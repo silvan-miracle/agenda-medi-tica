@@ -1,0 +1,72 @@
+name: Monitor de agenda mediática
+
+# Pasos 1-5 del esquema: Extraer → Cargar el crudo → Transformar → Cargar el día → Publicar.
+on:
+  workflow_dispatch:          # botón «Run workflow» en la pestaña Actions
+
+  # ── FASE 6 · AUTOMATIZAR (paso 14) ────────────────────────────────────────────────
+  # Cuando la prueba a mano salga bien, quita el «#» de las dos líneas de tu estación
+  # y deja la otra comentada. GitHub usa hora UTC (Madrid va 1 h por delante en invierno
+  # y 2 h en verano), así que son las 8:47, 13:47 y 20:47 de Madrid todo el año:
+  #
+  # schedule:
+  #   - cron: "47 7,12,19 * * *"     # INVIERNO (hasta el último domingo de marzo)
+  #
+  #   - cron: "47 6,11,18 * * *"     # VERANO (del último domingo de marzo al último de octubre)
+  # ──────────────────────────────────────────────────────────────────────────────────
+
+permissions:
+  contents: write             # para guardar docs/data/*.json en el repositorio (paso 14)
+
+concurrency:                  # nunca dos ejecuciones a la vez sobre la misma base de datos
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}   # Settings › Secrets and variables › Actions
+      TZ: Europe/Madrid
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: 1 · Extraer — foto de la portada de los 15 medios
+        run: python portadas.py toma --dir .
+
+      - name: 2 · Cargar el crudo — la foto entera a la tabla tomas
+        run: python cargar.py toma
+
+      - name: 3 · Transformar — juntar las fotos de hoy y clasificar
+        run: |
+          FECHA=$(jq -r .fecha out_toma/toma.json)
+          echo "FECHA=$FECHA" >> "$GITHUB_ENV"
+          python cargar.py bajar-tomas --fecha "$FECHA" --dir tomas_dl
+          rm -rf out
+          python portadas.py dia --fecha "$FECHA" --tomas tomas_dl --dir .
+
+      - name: 4 · Cargar el día — rehacer piezas, palabras y ejecuciones
+        run: python cargar.py dia --fecha "$FECHA" --dir out
+
+      - name: 5 · Publicar — escribir los JSON y actualizar la web
+        run: |
+          python exportar.py --ultimos 3
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          if git diff --cached --quiet; then
+            echo "Sin cambios en la web."
+          else
+            git commit -m "Datos del monitor · $(date '+%Y-%m-%d %H:%M')"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
