@@ -31,12 +31,19 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements.txt
 
+      - name: Localizar las fotos antiguas
+        run: |
+          # carpeta definitiva (historico/tomas) o la de la subida inicial (paso-A/historico/tomas)
+          if [ -d historico/tomas ]; then TOMAS=historico/tomas; else TOMAS=paso-A/historico/tomas; fi
+          echo "TOMAS=$TOMAS" >> "$GITHUB_ENV"
+          echo "Fotos en $TOMAS: $(ls "$TOMAS" | wc -l)"
+
       - name: Cargar las fotos antiguas en tomas
-        run: python cargar.py historico --dir historico/tomas
+        run: python cargar.py historico --dir "$TOMAS"
 
       - name: Recalcular cada día (de más antiguo a más reciente)
         run: |
-          for FECHA in $(ls historico/tomas | cut -c1-10 | sort -u); do
+          for FECHA in $(ls "$TOMAS" | cut -c1-10 | sort -u); do
             python cargar.py bajar-tomas --fecha "$FECHA" --dir tomas_dl
             rm -rf out
             python portadas.py dia --fecha "$FECHA" --tomas tomas_dl --dir . 2>/dev/null
