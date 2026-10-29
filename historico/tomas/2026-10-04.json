@@ -1,0 +1,320 @@
+{
+  "actualizado": "2026-10-13T15:29:01+02:00",
+  "fecha": "2026-10-04",
+  "medios": {
+    "20minutos": {
+      "actores": {
+        "Donald Trump": 3,
+        "Frente Amplio": 2,
+        "Junts": 1,
+        "PP": 2,
+        "PSE-EE / PSOE": 1,
+        "Pedro Sánchez": 3,
+        "Sumar": 2
+      },
+      "ambito": "espana",
+      "bloques": {
+        "Frente Amplio": 2,
+        "Junts": 1,
+        "PP": 2,
+        "PSOE / PSE": 3,
+        "Sumar": 2
+      },
+      "n": 157,
+      "nombre": "20minutos",
+      "temas": {
+        "EE. UU. y Trump": 7,
+        "Economía, empresa e industria": 11,
+        "Educación y universidad": 5,
+        "Empleo y relaciones laborales": 2,
+        "Energía y medio ambiente": 7,
+        "Euskera, cultura e identidad": 2,
+        "Infraestructuras y movilidad": 3,
+        "Inmigración": 3,
+        "Internacional": 21,
+        "Israel, Gaza y Oriente Próximo": 2,
+        "Latinoamérica": 3,
+        "Otros": 81,
+        "Pensiones": 1,
+        "Política y partidos": 12,
+        "Sanidad": 1,
+        "Seguridad y sucesos": 17,
+        "Tecnología e innovación": 6,
+        "Ucrania y Rusia": 6,
+        "Unión Europea": 2,
+        "Vivienda": 10
+      }
+    },
+    "abc": {
+      "actores": {
+        "Carles Puigdemont": 1,
+        "Congreso / Senado": 1,
+        "Frente Amplio": 1,
+        "Gobierno de España": 1,
+        "Junts": 2,
+        "PP": 4,
+        "PSE-EE / PSOE": 3,
+        "Pedro Sánchez": 9,
+        "Sumar": 1,
+        "Vox": 1
+      },
+      "ambito": "espana",
+      "bloques": {
+        "Frente Amplio": 1,
+        "Junts": 2,
+        "PP": 4,
+        "PSOE / PSE": 11,
+        "Sumar": 1,
+        "Vox": 1
+      },
+      "n": 302,
+      "nombre": "ABC",
+      "temas": {
+        "EE. UU. y Trump": 2,
+        "Economía, empresa e industria": 11,
+        "Educación y universidad": 2,
+        "Empleo y relaciones laborales": 6,
+        "Energía y medio ambiente": 8,
+        "Euskera, cultura e identidad": 7,
+        "Igualdad y derechos": 2,
+        "Infraestructuras y movilidad": 4,
+        "Inmigración": 4,
+        "Internacional": 15,
+        "Israel, Gaza y Oriente Próximo": 1,
+        "Justicia y corrupción": 5,
+        "Latinoamérica": 4,
+        "Memoria y convivencia": 4,
+        "Otros": 178,
+        "Pensiones": 1,
+        "Política y partidos": 34,
+        "Políticas sociales": 2,
+        "Sanidad": 9,
+        "Seguridad y sucesos": 15,
+        "Tecnología e innovación": 4,
+        "Ucrania y Rusia": 1,
+        "Vivienda": 24
+      }
+    },
+    "berria": {
+      "actores": {},
+      "ambito": "euskadi",
+      "bloques": {},
+      "n": 35,
+      "nombre": "Berria",
+      "temas": {
+        "Empleo y relaciones laborales": 1,
+        "Euskera, cultura e identidad": 3,
+        "Internacional": 1,
+        "Israel, Gaza y Oriente Próximo": 1,
+        "Otros": 29,
+        "Seguridad y sucesos": 1,
+        "Vivienda": 1
+      }
+    },
+    "deia": {
+      "actores": {
+        "Arnaldo Otegi": 1,
+        "Carles Puigdemont": 1,
+        "Donald Trump": 1,
+        "Frente Amplio": 1,
+        "PNV": 1,
+        "Pedro Sánchez": 1,
+        "Sumar": 1
+      },
+      "ambito": "euskadi",
+      "bloques": {
+        "EH Bildu": 1,
+        "Frente Amplio": 1,
+        "Junts": 1,
+        "PNV": 1,
+        "PSOE / PSE": 1,
+        "Sumar": 1
+      },
+      "n": 122,
+      "nombre": "Deia",
+      "temas": {
+        "Autogobierno y territorio": 1,
+        "EE. UU. y Trump": 5,
+        "Economía, empresa e industria": 1,
+        "Educación y universidad": 1,
+        "Empleo y relaciones laborales": 2,
+        "Energía y medio ambiente": 4,
+        "Euskera, cultura e identidad": 11,
+        "Infraestructuras y movilidad": 1,
+        "Inmigración": 1,
+        "Internacional": 13,
+        "Israel, Gaza y Oriente Próximo": 3,
+        "Justicia y corrupción": 1,
+        "Latinoamérica": 6,
+        "Otros": 74,
+        "Política y partidos": 8,
+        "Sanidad": 1,
+        "Seguridad y sucesos": 7,
+        "Tecnología e innovación": 2,
+        "Ucrania y Rusia": 2,
+        "Vivienda": 3
+      }
+    },
+    "diariovasco": {
+      "actores": {
+        "Congreso / Senado": 1,
+        "Junts": 1,
+        "PNV": 1,
+        "PSE-EE / PSOE": 1,
+        "Pedro Sánchez": 1,
+        "Tribunales (TS / TC)": 1
+      },
+      "ambito": "euskadi",
+      "bloques": {
+        "Junts": 1,
+        "PNV": 1,
+        "PSOE / PSE": 2
+      },
+      "n": 89,
+      "nombre": "Diario Vasco",
+      "temas": {
+        "EE. UU. y Trump": 1,
+        "Economía, empresa e industria": 5,
+        "Educación y universidad": 4,
+        "Empleo y relaciones laborales": 1,
+        "Energía y medio ambiente": 1,
+        "Euskera, cultura e identidad": 4,
+        "Infraestructuras y movilidad": 1,
+        "Inmigración": 1,
+        "Internacional": 4,
+        "Justicia y corrupción": 2,
+        "Memoria y convivencia": 1,
+        "Otros": 54,
+        "Pensiones": 2,
+        "Política y partidos": 6,
+        "Políticas sociales": 1,
+        "Seguridad y sucesos": 2,
+        "Tecnología e innovación": 2,
+        "Unión Europea": 1,
+        "Vivienda": 5
+      }
+    },
+    "eitb": {
+      "actores": {
+        "EH Bildu": 1,
+        "Frente Amplio": 1,
+        "Gobierno Vasco": 1,
+        "PNV": 1,
+        "Pedro Sánchez": 1,
+        "Sumar": 1
+      },
+      "ambito": "euskadi",
+      "bloques": {
+        "EH Bildu": 1,
+        "Frente Amplio": 1,
+        "PNV": 1,
+        "PSOE / PSE": 1,
+        "Sumar": 1
+      },
+      "n": 21,
+      "nombre": "EITB (Orain)",
+      "temas": {
+        "Educación y universidad": 1,
+        "Energía y medio ambiente": 4,
+        "Euskera, cultura e identidad": 2,
+        "Justicia y corrupción": 1,
+        "Otros": 8,
+        "Política y partidos": 5,
+        "Vivienda": 1
+      }
+    },
+    "elcorreo": {
+      "actores": {
+        "Carles Puigdemont": 1,
+        "Congreso / Senado": 1,
+        "Frente Amplio": 1,
+        "Gobierno Vasco": 2,
+        "Imanol Pradales": 1,
+        "PP": 1,
+        "Pedro Sánchez": 5,
+        "Santiago Abascal": 1,
+        "Sumar": 1
+      },
+      "ambito": "euskadi",
+      "bloques": {
+        "Frente Amplio": 1,
+        "Junts": 1,
+        "PNV": 1,
+        "PP": 1,
+        "PSOE / PSE": 5,
+        "Sumar": 1,
+        "Vox": 1
+      },
+      "n": 156,
+      "nombre": "El Correo",
+      "temas": {
+        "Economía, empresa e industria": 3,
+        "Empleo y relaciones laborales": 1,
+        "Energía y medio ambiente": 2,
+        "Euskera, cultura e identidad": 9,
+        "Igualdad y derechos": 3,
+        "Infraestructuras y movilidad": 6,
+        "Inmigración": 1,
+        "Internacional": 11,
+        "Israel, Gaza y Oriente Próximo": 1,
+        "Latinoamérica": 4,
+        "Otros": 90,
+        "Pensiones": 2,
+        "Política y partidos": 20,
+        "Sanidad": 4,
+        "Seguridad y sucesos": 9,
+        "Tecnología e innovación": 2,
+        "Ucrania y Rusia": 3,
+        "Vivienda": 7
+      }
+    },
+    "eldiario": {
+      "actores": {
+        "Congreso / Senado": 1,
+        "Frente Amplio": 1,
+        "Gobierno Vasco": 1,
+        "Gobierno de España": 2,
+        "PNV": 3,
+        "PP": 6,
+        "PSE-EE / PSOE": 3,
+        "Pedro Sánchez": 3,
+        "Sumar": 1,
+        "Tribunales (TS / TC)": 1
+      },
+      "ambito": "espana",
+      "bloques": {
+        "Frente Amplio": 1,
+        "PNV": 3,
+        "PP": 6,
+        "PSOE / PSE": 5,
+        "Sumar": 1
+      },
+      "n": 140,
+      "nombre": "elDiario.es",
+      "temas": {
+        "Economía, empresa e industria": 3,
+        "Educación y universidad": 2,
+        "Empleo y relaciones laborales": 3,
+        "Energía y medio ambiente": 16,
+        "Euskera, cultura e identidad": 5,
+        "Infraestructuras y movilidad": 5,
+        "Inmigración": 2,
+        "Internacional": 7,
+        "Israel, Gaza y Oriente Próximo": 2,
+        "Justicia y corrupción": 4,
+        "Latinoamérica": 3,
+        "Memoria y convivencia": 2,
+        "Otros": 55,
+        "Pensiones": 1,
+        "Política y partidos": 29,
+        "Políticas sociales": 1,
+        "Sanidad": 1,
+        "Seguridad y sucesos": 7,
+        "Tecnología e innovación": 3,
+        "Ucrania y Rusia": 1,
+        "Vivienda": 19
+      }
+    }
+  },
+  "origen": "archivo"
+}

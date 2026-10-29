@@ -1,0 +1,2363 @@
+{
+  "fecha": "2026-10-21",
+  "hora": "20:53",
+  "medios": {
+    "20minutos": {
+      "fuente": "https://www.20minutos.es/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Dos fallos \"críticos\" en el lenguaje de programación PHP ponen en riesgo miles de webs",
+          "u": "https://www.20minutos.es/tecnologia/agencia-seguridad-nacional-eeuu-advierte-dos-fallos-criticos-php-que-ponen-riesgo-servidores-web_7051747_0.html"
+        },
+        {
+          "p": 2,
+          "t": "El Constitucional rechaza el recurso por la 'ley de nietos' y mantiene la suspensión del voto",
+          "u": "https://www.20minutos.es/nacional/constitucional-rechaza-paralizar-suspension-derecho-voto-por-ley-nietos-con-apoyo-10-12-magistrados_7051547_0.html"
+        },
+        {
+          "p": 3,
+          "t": "Un juez admite una querella por prevaricación en la 'ley de nietos' contra la hermana de Óscar Puente",
+          "u": "https://www.20minutos.es/nacional/un-juzgado-madrid-admite-una-querella-contra-sofia-puente-por-instruccion-ley-nietos_7051523_0.html"
+        },
+        {
+          "p": 4,
+          "t": "Albares acusa al PP de \"acosar\" a Exteriores por la norma y asegura que cumple el auto \"con toda la diligencia\"",
+          "u": "https://www.20minutos.es/nacional/albares-exige-pp-que-deje-acosar-exteriores-por-ley-nietos-asegura-que-cumple-auto-supremo-con-diligencia_7051374_0.html"
+        },
+        {
+          "p": 5,
+          "t": "El presidente argentino tilda a Sánchez de \"impresentable dictador\" | J. A.",
+          "u": "https://www.20minutos.es/internacional/milei-madrid-ustedes-padecen-impresentable-dictador-pedro-sanchez_7051400_0.html"
+        },
+        {
+          "p": 6,
+          "t": "El Gobierno condena los insultos de Milei y los tacha de \"indignos\"",
+          "u": "https://www.20minutos.es/nacional/exteriores-condena-los-insultos-milei-contra-sanchez-los-tilda-indignos_7051693_0.html"
+        },
+        {
+          "p": 7,
+          "t": "Barcelona y Madrid suman 94 de los 100 barrios con los pisos más caros",
+          "u": "https://www.20minutos.es/nacional/madrid-barcelona-concentran-94-los-100-barrios-con-precio-vivienda-mas-caro_7051514_0.html"
+        },
+        {
+          "p": 8,
+          "t": "El PP propone al PSOE un cara a cara sobre vivienda durante la campaña | Por A. SKIREJ",
+          "u": "https://www.20minutos.es/nacional/pp-propone-psoe-un-cara-cara-sobre-vivienda-durante-campana_7051697_0.html"
+        },
+        {
+          "p": 9,
+          "t": "El torero también se ha pronunciado: \"Me tocó llorarte casi para siempre\"",
+          "u": "https://www.20minutos.es/gente/roca-rey-rompe-su-silencio-tras-su-ruptura-con-tana-rivera-me-toco-llorarte-casi-para-siempre_7051344_0.html"
+        },
+        {
+          "p": 10,
+          "t": "Del amor de Maxi y Aitana a la ruptura de Tana y Roca Rey: el repaso a las revistas del corazón",
+          "u": "https://www.20minutos.es/gente/amor-maxi-aitana-ruptura-tana-roca-rey-campos-rosa-repasan-las-revistas-corazon_7051703_0.html"
+        },
+        {
+          "p": 11,
+          "t": "Zelenski se abre ahora a 'congelar' el frente y perder parte del Donbás si hay garantías de que Putin no vuelva a atacar sus territorios",
+          "u": "https://www.20minutos.es/internacional/zelenski-se-abre-congelar-frente-guerra-para-alcanzar-paz-con-rusia-siempre-que-se-fijen-garantias-seguridad_7051650_0.html"
+        },
+        {
+          "p": 12,
+          "t": "El presidente ruso plantea a Donald Trump una cumbre a tres con Xi Jinping en China y anuncia el primer envío de diésel a Estados Unidos",
+          "u": "https://www.20minutos.es/internacional/putin-ofrece-witkoff-una-reunion-con-china-para-hablar-futuro-ucrania-anuncia-envio-un-petrolero-con-diesel-eeuu_7051616_0.html"
+        },
+        {
+          "p": 13,
+          "t": "Una masa de aire frío y vientos de 100 km/hora irrumpirán en la Península tras la DANA Adam",
+          "u": "https://www.20minutos.es/nacional/una-masa-aire-frio-vientos-mas-100-kilometros-por-hora-irrumpiran-peninsula-tras-paso-dana-adam_7051124_0.html"
+        },
+        {
+          "p": 14,
+          "t": "De las protestas a la violencia en varios países de Europa: \"La línea entre la 'omnicausa' y los grupos de violentos es muy fina\"",
+          "u": "https://www.20minutos.es/internacional/protesta-estallido-violencia-europa-linea-entre-omnicausa-aparicion-grupos-violentos-es-muy-fina_7051138_0.html"
+        },
+        {
+          "p": 15,
+          "t": "Macron acusa a Trump de manipular las revueltas francesas: \"Ha dado lugar a comentarios estúpidos e inaceptables\"",
+          "u": "https://www.20minutos.es/internacional/macron-acusa-trump-manipular-las-revueltas-francesas-ha-dado-lugar-comentarios-estupidos-inaceptables_7051638_0.html"
+        },
+        {
+          "p": 16,
+          "t": "Francia se plantea suspender las redes sociales para evitar los saqueos",
+          "u": "https://www.20minutos.es/internacional/francia-se-plantea-suspender-las-redes-sociales-para-evitar-los-saqueos-plena-oleada-protestas_7051695_0.html"
+        },
+        {
+          "p": 17,
+          "t": "James Blunt: \"Soy un traidor. ¡Me pongo ante 10.000 personas y les digo que son 'beautiful'!\"",
+          "u": "https://www.20minutos.es/musica/james-blunt-soy-un-poco-traidor-me-pongo-delante-10-000-personas-les-digo-que-son-beautiful_7050702_0.html"
+        },
+        {
+          "p": 18,
+          "t": "Llorca exige inversiones para luchar contra las DANA: \"Si se hacen los diagnósticos y no se actúa, de nada vale\"",
+          "u": "https://www.20minutos.es/comunidad-valenciana/valencia/llorca-exige-inversiones-rios-barrancos-ante-futuras-danas-si-se-hace-diagnostico-no-se-actua-nada-vale_7051603_0.html"
+        },
+        {
+          "p": 19,
+          "t": "Oliver y Benji continúan recorriendo el campo 40 años después: es la tercera serie de animación más vista de Neox",
+          "u": "https://www.20minutos.es/television/oliver-benji-siguen-recorriendo-campo-40-anos-despues-es-tercera-serie-animacion-mas-vista-neox_7051598_0.html"
+        },
+        {
+          "p": 20,
+          "t": "La 'influencer' Natalia Jiménez relata su lucha contra el cáncer en su libro 'Amor en plena guerra'",
+          "u": "https://www.20minutos.es/libros/influencer-natalia-jimenez-relata-su-lucha-contra-cancer-su-libro-amor-plena-guerra_7051584_0.html"
+        },
+        {
+          "p": 21,
+          "t": "El emotivo tributo de Gonzalo Miró a su madre junto a una foto inédita: \"29 años sin ti. Tantos y tan pocos... Siempre presente\"",
+          "u": "https://www.20minutos.es/gente/emotivo-tributo-gonzalo-miro-su-madre-junto-una-foto-inedita-29-anos-sin-ti-tantos-tan-pocos-siempre-presente_7051329_0.html"
+        },
+        {
+          "p": 22,
+          "t": "El pádel quiere ser ya olímpico: \"Es muy atractivo para el espectador\"",
+          "u": "https://www.20minutos.es/deportes/padel-quiere-ser-ya-olimpico-los-rapidos-intercambios-los-espectaculares-puntos-resultan-muy-atractivos-para-espectador_7051753_0.html"
+        },
+        {
+          "p": 23,
+          "t": "La alianza entre Iturri y Stellantis avanza en la puja de 3.000 millones de euros por renovar la flota de vehículos de la British Army",
+          "u": "https://www.20minutos.es/lainformacion/empresas/alianza-entre-iturri-stellantis-avanza-puja-3000-millones-por-renovar-flota-british-army_7051036_0.html"
+        },
+        {
+          "p": 24,
+          "t": "Luis de Guindos alerta de la \"incertidumbre\" en el precio de los alimentos por el transporte, la energía y los fertilizantes",
+          "u": "https://www.20minutos.es/lainformacion/empresas/guindos-alerta-incertidumbre-precio-alimentos-transporte-energia-fertilizantes_7051662_0.html"
+        },
+        {
+          "p": 25,
+          "t": "Censuran una película de James Bond con Pierce Brosnan de la forma más absurda",
+          "u": "https://www.20minutos.es/cinemania/noticias/james-bond-censura-pelicula-pierce-brosnan_7051219_0.html"
+        },
+        {
+          "p": 26,
+          "t": "Nuria Roure, doctora en sueño: \"Hemos convertido el descanso en algo que parece que tenemos que merecer\"",
+          "u": "https://www.20minutos.es/salud/nuria-roure-doctora-sueno-hemos-convertido-descanso-algo-que-parece-que-tenemos-que-merecer_7038852_0.html"
+        },
+        {
+          "p": 27,
+          "t": "Una operación 'en espejo': extirpan un tumor de páncreas a una mujer con los órganos al revés",
+          "u": "https://www.20minutos.es/salud/una-operacion-espejo-extirpan-un-tumor-pancreas-una-mujer-que-tenia-los-organos-reves_7051440_0.html"
+        },
+        {
+          "p": 28,
+          "t": "WhatsApp prepara un cambio en iPhone: abrir los enlaces de los chats sin salir de la aplicación",
+          "u": "https://www.20minutos.es/tecnologia/aplicaciones/whatsapp-prepara-cambio-iphone-abrir-enlaces-chats-sin-salir-aplicacion_7051618_0.html"
+        },
+        {
+          "p": 29,
+          "t": "Adiós a los jerséis: las camisetas de manga larga vuelven para conquistar nuestro armario",
+          "u": "https://www.20minutos.es/mujer/moda/adios-jerseis-camisetas-manga-larga-vuelven-armario-otono_7040153_0.html"
+        },
+        {
+          "p": 30,
+          "t": "Alejandro Pérez, experto en salud capilar: \"El uso excesivo de planchas y secadores daña la fibra y debilita la cutícula\"",
+          "u": "https://www.20minutos.es/mujer/belleza/alejandro-perez-experto-salud-capilar-uso-excesivo-planchas-secadores-danan-fibra-capilar-debilitan-cuticula_7042537_0.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "abc": {
+      "fuente": "https://www.abc.es/",
+      "items": [
+        {
+          "p": 1,
+          "t": "El TC tumba el recurso contra la suspensión del censo de la 'ley de nietos' con un contundente 10-2",
+          "u": "https://www.abc.es/espana/tc-tumba-recurso-defensor-pueblo-suspension-censo-20261021130552-nt.html"
+        },
+        {
+          "p": 2,
+          "t": "Moncloa se aferra a que el Constitucional no resuelve el «fondo de la cuestión»",
+          "u": "https://www.abc.es/espana/moncloa-aferra-tc-resuelve-fondo-cuestion-ley-20261021132529-nt.html"
+        },
+        {
+          "p": 3,
+          "t": "Admitida una querella contra la hermana de Puente por prevaricación",
+          "u": "https://www.abc.es/espana/juzgado-madrid-admite-querella-sofia-puente-prevaricar-20261021124142-nt.html"
+        },
+        {
+          "p": 4,
+          "t": "Acatar o desobedecer al Supremo: el Gobierno elige",
+          "u": "https://www.abc.es/opinion/editorial-acatar-desobedecer-supremo-gobierno-elige-20261021185756-nt.html"
+        },
+        {
+          "p": 5,
+          "t": "Vivas e Imbroda proclaman la defensa de la españolidad de Ceuta y Melilla en ABC",
+          "u": "https://www.abc.es/espana/vivas-imbroda-foro-abc-marruecos-quiere-dependamos-20261021112413-nt.html"
+        },
+        {
+          "p": 6,
+          "t": "Editorial Ceuta y Melilla, España",
+          "u": "https://www.abc.es/opinion/editorial-ceuta-melilla-espana-20261021192718-nt.html"
+        },
+        {
+          "p": 7,
+          "t": "La juez pide a Defensa un informe sobre las entradas de buques de guerra marroquíes en Ceuta",
+          "u": "https://www.abc.es/espana/juez-pide-defensa-informe-sobre-entradas-buques-20261021143147-nt.html"
+        },
+        {
+          "p": 8,
+          "t": "Vivas: «En Ceuta nos jugamos nuestra dignidad como nación»",
+          "u": "https://www.abc.es/espana/vivas-ceuta-jugamos-dignidad-nacion-20261021192511-nt.html"
+        },
+        {
+          "p": 9,
+          "t": "El PSOE quita de las listas a los cuatro diputados con más propiedades",
+          "u": "https://www.abc.es/espana/psoe-desahucia-listas-29n-grandes-tenedores-vivienda-20261020012454-nt.html"
+        },
+        {
+          "p": 10,
+          "t": "Sánchez disolvió las Cortes tras detectar una subida de Vox en sus trackings internos",
+          "u": "https://www.abc.es/espana/sanchez-disolvio-cortes-tras-detectar-repunte-vox-20261020124242-nt.html"
+        },
+        {
+          "p": 11,
+          "t": "El foro vinculado a las 'cloacas' del PSOE vigiló a otra juez con drones",
+          "u": "https://www.abc.es/espana/foro-vinculado-cloacas-psoe-vigilo-juez-camaras-20261021012209-nt.html"
+        },
+        {
+          "p": 12,
+          "t": "Mercasa traslada al juez del 'caso Leire' posibles irregularidades en un contrato con la empresa vinculada a Cerdán",
+          "u": "https://www.abc.es/espana/mercasa-traslada-juez-leire-posibles-irregularidades-contrato-20261021155442-nt.html"
+        },
+        {
+          "p": 13,
+          "t": "Pedro Sánchez acude a la llamada de Broncano y será entrevistado este jueves en 'La Revuelta'",
+          "u": "https://www.abc.es/play/television/noticias/pedro-sanchez-acude-llamada-broncano-entrevistado-jueves-20261021193004-nt.html"
+        },
+        {
+          "p": 14,
+          "t": "Radiografía de los violentos que siembran el terror en Francia",
+          "u": "https://www.abc.es/internacional/black-bloc-grupo-jovenes-anarquistas-incendian-protestas-20261021192908-nt.html"
+        },
+        {
+          "p": 15,
+          "t": "Putin, «listo» para hablar de nuevo con Washington y Kiev, mientras Zelenski se abre a «congelar» el frente",
+          "u": "https://www.abc.es/internacional/kremlin-dispuesto-reanudar-conversaciones-estados-unidos-ucrania-20261021155228-nt.html"
+        },
+        {
+          "p": 16,
+          "t": "El Supremo rechaza la petición de Trump de suspender el tratamiento hormonal a presos transgénero",
+          "u": "https://www.abc.es/sociedad/supremo-eeuu-rechaza-peticion-trump-suspender-tratamiento-20261021200707-nt.html"
+        },
+        {
+          "p": 17,
+          "t": "Tusk y Sánchez chocan en Bruselas por la política migratoria «ineficaz» llevada a cabo por el Gobierno español",
+          "u": "https://www.abc.es/espana/tusk-sanchez-chocan-bruselas-politica-migratoria-discusion-20261021175222-nt.html"
+        },
+        {
+          "p": 18,
+          "t": "Radicales de izquierda tratan de reventar el mitin de Abascal en La Coruña",
+          "u": "https://www.abc.es/espana/galicia/cargas-policiales-acto-abascal-coruna-coaccion-violenta-20261021132324-nt.html"
+        },
+        {
+          "p": 19,
+          "t": "El PP traslada su solidaridad a Abascal: «La violencia nunca es el camino»",
+          "u": "https://www.abc.es/espana/galicia/pp-condena-disturbios-coruna-abascal-traslada-solidaridad-20261021155239-nt.html"
+        },
+        {
+          "p": 20,
+          "t": "Los seis hitos de la fragata Álvaro de Bazán durante su despliegue histórico por los océanos Pacífico y el Atlántico",
+          "u": "https://www.abc.es/espana/seis-hitos-fragata-alvaro-bazan-despliegue-historico-20261021165430-nt.html"
+        },
+        {
+          "p": 21,
+          "t": "Los 8x8 del Ejército afrontan una cita clave en noviembre: su evaluación final operativa",
+          "u": "https://www.abc.es/espana/8x8-ejercito-tierra-afrontan-cita-clave-noviembre-20261021163125-nt.html"
+        },
+        {
+          "p": 22,
+          "t": "El séptimo asalto de Milei en España",
+          "u": "https://www.abc.es/espana/milei-desfila-madrid-cargar-sanchez-dictador-20261021190523-nt.html"
+        },
+        {
+          "p": 23,
+          "t": "Exteriores acusa al presidente argentino de fomentar la «polarización y violencia»",
+          "u": "https://www.abc.es/espana/exteriores-acusa-milei-fomentar-polarizacion-violencia-avisa-20261021171743-nt.html"
+        },
+        {
+          "p": 24,
+          "t": "Ayuso y Milei escenifican su buena sintonía durante una reunión de dos horas",
+          "u": "https://www.abc.es/espana/madrid/ayuso-milei-escenifican-buena-relacion-encuentro-sede-20261021181303-nt.html"
+        },
+        {
+          "p": 25,
+          "t": "El ADN de un pañuelo permite resolver el asesinato de una mujer en Tenerife en 2017",
+          "u": "https://www.abc.es/espana/canarias/adn-panuelo-permite-resolver-asesinato-mujer-tenerife-20261021154620-nt.html"
+        },
+        {
+          "p": 26,
+          "t": "Ocho detenidos que entraron desde África como turistas por abandonar en Granada a sus hijos",
+          "u": "https://www.abc.es/espana/andalucia/granada/ocho-detenidos-abandonar-granada-hijos-africanos-menores-20261021120849-nts.html"
+        },
+        {
+          "p": 27,
+          "t": "Directo Clasificación de la tercera jornada de Champions",
+          "u": "https://www.abc.es/deportes/futbol/clasificacion-tercera-jornada-champions-directo-20261021203801-nt.html"
+        },
+        {
+          "p": 28,
+          "t": "Feijóo contra la excentricidad",
+          "u": "https://www.abc.es/opinion/jesus-lillo-feijoo-excentricidad-20261020185200-nt.html"
+        },
+        {
+          "p": 29,
+          "t": "Votar 'bajo' amenaza, votar 'con' esperanza",
+          "u": "https://www.abc.es/opinion/agustin-pery-votar-bajo-amenaza-votar-esperanza-20261020185333-nt.html"
+        },
+        {
+          "p": 30,
+          "t": "Condenan a Meta a pagar una multa de 25.000 millones de dólares por engañar a usuarios con la privacidad",
+          "u": "https://www.abc.es/tecnologia/condenan-meta-pagar-multa-25000-millones-enganar-20261021200808-nt.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "berria": {
+      "fuente": "https://www.berria.eus/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Filtraziorik ez, Osakidetzari «mesedea», eta laguntzarik behar ez zuen oposiziogilea",
+          "u": "https://www.berria.eus/euskal-herria/filtraziorik-ez-osakidetzari-mesedea-eta-laguntzarik-behar-ez-zuen-oposiziogilea_2165329_102.html"
+        },
+        {
+          "p": 2,
+          "t": "Xabi Alonsoren Igeldoko txaleta legezkoa dela ebatzi du EAEko Auzitegi Nagusiak",
+          "u": "https://www.berria.eus/euskal-herria/xabi-alonsoren-igeldoko-txaleta-legezkoa-dela-ebatzi-du-eaeko-auzitegi-nagusiak_2165334_102.html"
+        },
+        {
+          "p": 3,
+          "t": "Sentimenduz busti dituzte dominak",
+          "u": "https://www.berria.eus/kirola/sentimenduz-busti-dituzte-dominak_2165335_102.html"
+        },
+        {
+          "p": 4,
+          "t": "Euskal selekzioak lehen dominak irabazi ditu Munduko Txapelketan: urrezko bat eta zilarrezko beste bat",
+          "u": "https://www.berria.eus/kirola/euskal-selekzioak-lehen-dominak-irabazi-ditu-munduko-txapelketan-urrezko-bat-eta-zilarrezko-beste-bat_2165298_102.html"
+        },
+        {
+          "p": 5,
+          "t": "Euskal selekzioak Venezuelaren aurka jokatuko du azaroaren 14an, San Mamesen",
+          "u": "https://www.berria.eus/kirola/euskal-selekzioak-venezuelaren-aurka-jokatuko-du-azaroaren-14an-san-mamesen_2165277_102.html"
+        },
+        {
+          "p": 6,
+          "t": "Maider Behotegi: «Gauza anitz dira denbora gutxian, eta irudi lezake Barne Ministerioa ez dela gure alboan gure anbizio berarekin»",
+          "u": "https://www.berria.eus/euskal-herria/gauza-anitz-dira-denbora-gutxian-eta-irudipena-eman-dezake-barne-ministerioa-ez-dela-gure-alboan-gure-anbizio-berarekin_2165319_102.html"
+        },
+        {
+          "p": 7,
+          "t": "Maider Behotegi EEPko lehendakaria galdekatu du Poliziak, prefetaren seinalamendu baten ondotik",
+          "u": "https://www.berria.eus/euskal-herria/kurutxarri-bada-eraso-antolatu-bat-estatutik-euskararen-eta-eepren-kontra_2165147_102.html"
+        },
+        {
+          "p": 8,
+          "t": "Kurutxarri: «Bada arriskua euskara desager dadin gure biltzarretatik»",
+          "u": "https://www.berria.eus/euskal-herria/kurutxarri-bada-arriskua-euskara-desager-dadin-gure-biltzarretatik_2165233_102.html"
+        },
+        {
+          "p": 9,
+          "t": "Frantziako Konstituzioa aldatzeko proposamena egin dute Dufau eta Molac diputatuek, hizkuntza gutxituen lege estatusa erabaki ahal izateko",
+          "u": "https://www.berria.eus/euskal-herria/frantziako-konstituzioa-aldatzeko-proposamena-egin-dute-dufau-eta-molac-diputatuek-hizkuntza-gutxituen-estatus-legala-erabaki-ahal-izateko_2164577_102.html"
+        },
+        {
+          "p": 10,
+          "t": "D eredua Villatuertako eta Arroizko eskola publikoetara zabaltzeko eskatu dute bi herri horietako udalek",
+          "u": "https://www.berria.eus/euskal-herria/villatuertako-eskola-publikoan-ereduko-lerro-bat-zabaltzeko-eskatu-dio-udalak-hezkuntza-departamentuari_2165312_102.html"
+        },
+        {
+          "p": 11,
+          "t": "Irungo atxilotuen kasua «Poliziaren jukutriatzat» jo du Askek",
+          "u": "https://www.berria.eus/euskal-herria/irungo-atxilotuen-kasua-poliziaren-jukutria-dela-salatu-du-askek_2165330_102.html"
+        },
+        {
+          "p": 12,
+          "t": "Terrorismoa egotzi dieten gazteak ez zituzten momentuan atxilotu «ez zirelako deliturik egiten ari»",
+          "u": "https://www.berria.eus/euskal-herria/terrorismoa-egotzi-dieten-gazteak-ez-zituzten-momentuan-atxilotu-ez-zirelako-deliturik-egiten-ari_2165315_102.html"
+        },
+        {
+          "p": 13,
+          "t": "Jon Olarra euskal presoaren progresioari beste helegite bat jarri izana salatu du Sare Herritarrak",
+          "u": "https://www.berria.eus/euskal-herria/jon-olarra-euskal-presoaren-progresioari-beste-helegite-bat-jarri-izana-salatu-du-sare-herritarrak_2165354_102.html"
+        },
+        {
+          "p": 14,
+          "t": "Laurak Batek altxor bat dauka etxe barruan",
+          "u": "https://www.berria.eus/kirola/laurak-batek-altxor-bat-dauka-etxe-barruan_2165173_102.html"
+        },
+        {
+          "p": 15,
+          "t": "Euskal selekzioak gutxienez zazpi final jokatuko ditu Munduko Txapelketan",
+          "u": "https://www.berria.eus/kirola/euskal-selekzioak-ziurtatu-egin-du-gutxienez-zazpi-final-jokatzea_2165236_102.html"
+        },
+        {
+          "p": 16,
+          "t": "Matias Mujikak irabazi du euskararako itzulpenaren Euskadi saria, eta Jon Gerediagak saiakerarena",
+          "u": "https://www.berria.eus/kultura/matias-mujikak-irabazi-du-euskararako-itzulpenaren-euskadi-saria-eta-jon-gerediagak-saiakerarena_2165310_102.html"
+        },
+        {
+          "p": 17,
+          "t": "Matias Mujika: «Homeroren dikzio formularrak zerikusi handia du bertsolarien teknikarekin»",
+          "u": "https://www.berria.eus/kultura/homeroren-dikzio-formularrak-zerikusi-handia-du-bertsolarien-teknikarekin_2165340_102.html"
+        },
+        {
+          "p": 18,
+          "t": "Jon Gerediaga: «Hitz poetikoak beti du ihes egiten duen zerbait»",
+          "u": "https://www.berria.eus/kultura/hitz-poetikoak-beti-du-ihes-egiten-duen-zerbait_2165351_102.html"
+        },
+        {
+          "p": 19,
+          "t": "Cristina Gonzalezek «turismo arduratsua» garatzeko asmoz hartu du Eusko Jaurlaritzako sailburu kargua",
+          "u": "https://www.berria.eus/euskal-herria/cristina-gonzalezek-turismo-arduratsua-garatzeko-asmoz-hartu-du-eusko-jaurlaritzako-sailburu-kargua_2165314_102.html"
+        },
+        {
+          "p": 20,
+          "t": "Azaroko soldata ez dagoela bermatuta esan diete Tubos Reunidoseko langileei",
+          "u": "https://www.berria.eus/ekonomia/azaroko-soldata-bermatuta-ez-dagoela-esan-diete-tubos-reunidoseko-langileei_2165346_102.html"
+        },
+        {
+          "p": 21,
+          "t": "ELAk eta LABek gutxieneko soldata propioaren aldeko «konpromiso irmoagoa» eskatu diote Jaurlaritzari",
+          "u": "https://www.berria.eus/ekonomia/gutxieneko-soldata-propioaren-aldeko-konpromiso-irmoagoa-eskatu-diote-elak-eta-labek-jaurlaritzari_2165322_102.html"
+        },
+        {
+          "p": 22,
+          "t": "Motibazio politikoko beste 60 biktima aitortu ditu Jaurlaritzaren balorazio batzordeak, eta lege erreforma prestatzen hasteko eskatu du",
+          "u": "https://www.berria.eus/euskal-herria/motibazio-politikoko-beste-60-biktima-aitortu-ditu-jaurlaritzaren-balorazio-batzordeak-eta-lege-erreforma-prestatzen-hasteko-eskatu-du_2165343_102.html"
+        },
+        {
+          "p": 23,
+          "t": "Lluis Puig Kataluniako Generalitateko kontseilari ohia Kataluniara itzuli da",
+          "u": "https://www.berria.eus/mundua/lluis-puig-kataluniako-generalitateko-kontseilari-ohia-kataluniara-itzuli-da_2165302_102.html"
+        },
+        {
+          "p": 24,
+          "t": "Irrati uhinen, bideoklipen eta ikuskizunen aukerak baliatuta eginen dute Irudika festibala",
+          "u": "https://www.berria.eus/kultura/irrati-uhinen-bideoklipen-eta-ikuskizunen-aukerak-baliatuta-eginen-dute-irudika-festibalaren-hamargarren-aldia-bihartik_2165328_102.html"
+        },
+        {
+          "p": 25,
+          "t": "Bizkaiko Batzar Nagusiek baztertu egin dute errentamenduari erregimen berezia kentzea",
+          "u": "https://www.berria.eus/lurraldeak/bizkaia/bizkaiko-batzar-nagusiek-baztertu-egin-dute-errendamendu-jardueraren-erregimen-berezia-kentzea_2165341_102.html"
+        },
+        {
+          "p": 26,
+          "t": "Jon Insaustik esan du Donostian atzo etxegabetu behar zuten familiari «bizitoki bat» eskainiko diotela",
+          "u": "https://www.berria.eus/lurraldeak/gipuzkoa/jon-insaustik-esan-du-donostiako-egia-auzoan-atzo-etxegabetu-behar-zuten-familiari-etxegintzako-bizitoki-bat-eskainiko-diotela_2165287_102.html"
+        },
+        {
+          "p": 27,
+          "t": "Sinadura bilketa abiatu dute Iruñean, ratioak txikitzeko herri ekimena parlamentuan bozkatu ahal izateko",
+          "u": "https://www.berria.eus/euskal-herria/sinadura-bilketa-abiatu-dute-irunean-ratioak-txikitzeko-herri-ekimena-parlamentuan-bozkatu-ahal-izateko_2165345_102.html"
+        },
+        {
+          "p": 28,
+          "t": "Alokairuen mugatzeko neurria bi urterako luzatzearen alde egin du Frantziako Senatuak",
+          "u": "https://www.berria.eus/euskal-herria/alokairuen-mugatzeko-neurria-egonkortzearen-alde-egin-du-frantziako-senatuak_2165358_102.html"
+        },
+        {
+          "p": 29,
+          "t": "Errigora, sustraietatik zerura",
+          "u": "https://www.berria.eus/bizigiro/errigora-sustraietatik-zerura_2165059_102.html"
+        },
+        {
+          "p": 30,
+          "t": "Memoria, garai ilunetako zauriak sendatzeko",
+          "u": "https://www.berria.eus/mundua/memoria-garai-ilunetako-zauriak-sendatzeko_2165066_102.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "deia": {
+      "fuente": "https://www.deia.eus/",
+      "items": [
+        {
+          "p": 1,
+          "t": "¡Final de la primera parte en el Ciutat de Valéncia!",
+          "u": "https://www.deia.eus/athletic/2026/10/21/directo-levante-athletic-11673120.html"
+        },
+        {
+          "p": 2,
+          "t": "Nico Williams recibe el alta y viaja a Valencia",
+          "u": "https://www.deia.eus/athletic/2026/10/21/nico-williams-convocatoria-levante-11670035.html"
+        },
+        {
+          "p": 3,
+          "t": "El notable rendimiento del Athletic en sus visitas al Levante",
+          "u": "https://www.deia.eus/athletic/2026/10/21/athletic-levante-visitas-resultados-11668954.html"
+        },
+        {
+          "p": 4,
+          "t": "Bizkaia adecuará quince residencias de mayores a las olas de calor",
+          "u": "https://www.deia.eus/bizkaia/2026/10/21/bizkaia-adecuara-quince-residencias-mayores-11672756.html"
+        },
+        {
+          "p": 5,
+          "t": "Susto en el Casco Viejo por el incendio en la campana extractora de un bar",
+          "u": "https://www.deia.eus/sucesos/2026/10/21/susto-casco-viejo-bilbao-incendio-campana-extractora-bar-11672759.html"
+        },
+        {
+          "p": 6,
+          "t": "Zupiria justifica que la Ertzaintza no detuvo porque \"no estaban cometiendo delito\"",
+          "u": "https://www.deia.eus/politica/2026/10/21/zupiria-justifica-ertzaintza-detuvo-estaban-11672923.html"
+        },
+        {
+          "p": 7,
+          "t": "Las personas con movilidad reducida podrán aparcar en la OTA sin límite de tiempo",
+          "u": "https://www.deia.eus/bilbao/2026/10/21/personas-movilidad-reducida-podran-aparcar-bilbao-11671125.html"
+        },
+        {
+          "p": 8,
+          "t": "Detienen por novena vez al autor de varios robos en Portugalete",
+          "u": "https://www.deia.eus/sucesos/2026/10/21/detienen-novena-vez-autor-robos-portugalete-11672521.html"
+        },
+        {
+          "p": 9,
+          "t": "El Athletic se estrena este curso en un viernes",
+          "u": "https://www.deia.eus/athletic/2026/10/21/athletic-estrena-curso-viernes-11673237.html"
+        },
+        {
+          "p": 10,
+          "t": "Comparar precios antes de comprar ya es un hábito para el 90% de los consumidores",
+          "u": "https://www.deia.eus/economia-domestica/2026/10/21/comparar-precios-comprar-habito-90-11670191.html"
+        },
+        {
+          "p": 11,
+          "t": "Paro estudiantil y protestas ante el acto de Vito Quiles en Bilbao",
+          "u": "https://www.deia.eus/bilbao/2026/10/21/huelga-estudiantil-manifestacion-vito-quiles-bilbao-11669926.html"
+        },
+        {
+          "p": 12,
+          "t": "Redada en San Francisco: \"A ver si esta intervención policial les echa de aquí\"",
+          "u": "https://www.deia.eus/bilbao/2026/10/21/redada-san-francisco-venta-ilegal-trapicheo-bilbao-echar-11671985.html"
+        },
+        {
+          "p": 13,
+          "t": "Barredo anuncia una revisión de Eusko Label como \"estrategia de futuro\"",
+          "u": "https://www.deia.eus/economia/2026/10/21/barredo-anuncia-revision-eusko-label-11673668.html"
+        },
+        {
+          "p": 14,
+          "t": "50 años dando voz a la memoria viva de Bizkaia",
+          "u": "https://www.deia.eus/bilbao/2026/10/21/50-anos-dando-voz-memoria-11672239.html"
+        },
+        {
+          "p": 15,
+          "t": "Una mujer reclama 50.000 euros a su marido tras descubrir que es homosexual",
+          "u": "https://www.deia.eus/buzz-on/2026/10/21/mujer-reclama-50000-euros-marido-descubrir-homosexual-11673412.html"
+        },
+        {
+          "p": 16,
+          "t": "Denuncian a Glovo por mantener a sus repartidores en la calle durante las inundaciones en Bilbao",
+          "u": "https://www.deia.eus/bilbao/2026/10/21/ccoo-denuncia-glovo-mantener-repartidores-11672385.html"
+        },
+        {
+          "p": 17,
+          "t": "Llaman a frenar el desahucio de una bilbaina que dejó de pagar el alquiler durante la pandemia",
+          "u": "https://www.deia.eus/bilbao/2026/10/21/llaman-frenar-desahucio-bilbaina-dejo-11666802.html"
+        },
+        {
+          "p": 18,
+          "t": "Maitane Bastida será la candidata jeltzale a la Alcaldía de Abanto-Zierbena",
+          "u": "https://www.deia.eus/bizkaia/2026/10/21/maitane-bastida-candidata-pnv-abanto-zierbena-11671737.html"
+        },
+        {
+          "p": 19,
+          "t": "Francia estudia suspender las redes sociales para frenar los saqueos",
+          "u": "https://www.deia.eus/mundo/2026/10/21/francia-estudia-suspender-redes-sociales-saqueos-11673138.html"
+        },
+        {
+          "p": 20,
+          "t": "Amorebieta-Etxano vivirá unas Navidades mágicas con un gran parque de luz en Jauregibarria",
+          "u": "https://www.deia.eus/bizkaia/2026/10/21/amorebieta-etxano-vivira-navidades-magicas-11670835.html"
+        },
+        {
+          "p": 21,
+          "t": "De 43 a 134 euros el precio para ver la final del Cuatro y Medio en Bilbao",
+          "u": "https://www.deia.eus/pelota/2026/10/21/43-134-euros-precio-ver-11673049.html"
+        },
+        {
+          "p": 22,
+          "t": "Julian Barnes: \"China, Rusia y EE.UU están dirigidos por líderes que no respetan las normas democráticas\"",
+          "u": "https://www.deia.eus/cultura/2026/10/21/julian-barnes-china-rusia-estados-unidos-11673263.html"
+        },
+        {
+          "p": 23,
+          "t": "Los cinco ofertantes por Tubos Reunidos empezarán a reunirse la semana que viene con los trabajadores",
+          "u": "https://www.deia.eus/economia/2026/10/21/cinco-ofertantes-tubos-reunidos-empezaran-11672965.html"
+        },
+        {
+          "p": 24,
+          "t": "Los acusados de filtrar el examen de cirugía plástica de Osakidetza niegan los hechos",
+          "u": "https://www.deia.eus/actualidad/sociedad/2026/10/21/medico-acusado-filtrar-examen-ope-11671184.html"
+        },
+        {
+          "p": 25,
+          "t": "Las deducciones por vivienda devuelven 339 millones a más de 63.000 vizcainos",
+          "u": "https://www.deia.eus/bizkaia/2026/10/21/deducciones-vivienda-devuelven-339-millones-11672413.html"
+        },
+        {
+          "p": 26,
+          "t": "El túnel de la variante de Markina y Etxebarria alcanza el cale tras 513 días de extrema complejidad geológica",
+          "u": "https://www.deia.eus/bizkaia/2026/10/21/tunel-variante-markina-etxebarria-alcanza-11671574.html"
+        },
+        {
+          "p": 27,
+          "t": "Medio siglo y más de recorrido",
+          "u": "https://www.deia.eus/opinion/cartas-al-director/2026/10/21/medio-siglo-recorrido-11668147.html"
+        },
+        {
+          "p": 28,
+          "t": "¿Ha habido un ciclón en Catalunya? Una anomalía pone en jaque a los expertos",
+          "u": "https://www.deia.eus/actualidad/sociedad/2026/10/21/habido-huracan-catalunya-anomalia-forma-11673657.html"
+        },
+        {
+          "p": 29,
+          "t": "Multa histórica para Meta: condenada a pagar 25.000 millones de dólares",
+          "u": "https://www.deia.eus/economia/2026/10/21/meta-multa-historica-millones-facebook-11673630.html"
+        },
+        {
+          "p": 30,
+          "t": "Un padre perfora el móvil de su hijo con un taladro y el vídeo se hace viral: \"Lo que todos querríamos hacer\"",
+          "u": "https://www.deia.eus/buzz-on/2026/10/21/padre-perfora-movil-hijo-taladro-video-viral-todos-hacer-11673580.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "diariovasco": {
+      "fuente": "https://www.diariovasco.com/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Alegría y emoción entre los vecinos de Benta Berri: «Por fin podemos estar tranquilos»",
+          "u": "https://www.diariovasco.com/san-sebastian/alegria-emocion-vecinos-benta-berri-tranquilos--20261021124335-nt.html"
+        },
+        {
+          "p": 2,
+          "t": "Insausti aplaude que «el Gobierno Vasco haya reculado» para que estos pisos dejen de estar bajo el control de un «fondo buitre»",
+          "u": "https://www.diariovasco.com/san-sebastian/insausti-gobierno-vasco-pisos-benta-berri-20261021102337-nt.html"
+        },
+        {
+          "p": 3,
+          "t": "El Gobierno Vasco garantiza que los actuales inquilinos de los 510 pisos de Benta Berri seguirán «de entrada» en sus viviendas",
+          "u": "https://www.diariovasco.com/san-sebastian/gobierno-vasco-garantiza-actuales-inquilinos-pisos-benta-berri-viviendas-20261021135427-nt.html"
+        },
+        {
+          "p": 4,
+          "t": "El Constitucional tumba por 10 votos a 2 el intento del Defensor del Pueblo de levantar el veto al sufragio de la ley de nietos",
+          "u": "https://www.diariovasco.com/politica/constitucional-rechaza-prematuro-recurso-defensor-pueblo-mantiene-20261021130854-ntrc.html"
+        },
+        {
+          "p": 5,
+          "t": "El Superior vasco sentencia que la villa de Xabi Alonso en Igeldo es legal",
+          "u": "https://www.diariovasco.com/san-sebastian/superior-vasco-confirma-villa-xabi-alonso-igeldo-legal-20261021123111-nt.html"
+        },
+        {
+          "p": 6,
+          "t": "Xabi Alonso siempre tiene la razón: el hat-trick del tolosarra ante la Justicia",
+          "u": "https://www.diariovasco.com/deportes/futbol/xabi-alonso-siempre-razon-hattrick-tolosarra-ante-justicia-tres-sentencias-favorables-20261021175636-nt.html"
+        },
+        {
+          "p": 7,
+          "t": "La EHU rompe su acuerdo con CAF por sus vínculos con Israel",
+          "u": "https://www.diariovasco.com/economia/empresas/guipuzcoanas/ehu-rompe-acuerdo-caf-vinculos-israel-20261021162035-nt.html"
+        },
+        {
+          "p": 8,
+          "t": "Los primeros aficionados de la Real ya se dejan ver por Oslo",
+          "u": "https://www.diariovasco.com/real-sociedad/primeros-aficionados-real-sociedad-dejan-ver-oslo-20261021173312-nt.html"
+        },
+        {
+          "p": 9,
+          "t": "Xabi Prieto: «Tenemos la obligación de ganar si queremos estar entre los ocho mejores»",
+          "u": "https://www.diariovasco.com/real-sociedad/xabi-prieto-obligacion-ganar-lillestrom-europa-league-20261021144405-nt.html"
+        },
+        {
+          "p": 10,
+          "t": "Hans Erik Odegaard: «No queremos jugar demasiado a la defensiva contra la Real»",
+          "u": "https://www.diariovasco.com/real-sociedad/hans-erik-odegaard-queremos-jugar-defensiva-real-20261021193051-nt.html"
+        },
+        {
+          "p": 11,
+          "t": "El largo viaje de los hermanos Kitolano: huyeron de la guerra, los tres juegan en la Primera noruega y uno lo hará ante la Real",
+          "u": "https://www.diariovasco.com/real-sociedad/largo-viaje-hermanos-kitolano-huyeron-guerra-congo-20261021192620-nt.html"
+        },
+        {
+          "p": 12,
+          "t": "Los dos detenidos en Irun por terrorismo tenían manuales sobre actos violentos y teléfonos satelitales sin cobertura ni red",
+          "u": "https://www.diariovasco.com/politica/juez-envia-prision-provisional-dos-detenidos-irun-terrorismo-20261020150641-nt.html"
+        },
+        {
+          "p": 13,
+          "t": "Zupiria explica por qué la Ertzaintza no detuvo a los dos acusados de terrorismo al principio: «No estaban cometiendo ningún delito»",
+          "u": "https://www.diariovasco.com/politica/zupiria-explica-ertzaintza-no-detuvo-dos-acusados-terrorismo-principio-no-cometiendo-delito-20261021114659-nt.html"
+        },
+        {
+          "p": 14,
+          "t": "Euskadi reconoce a otras 60 víctimas de abusos policiales, 54 de ellas por torturas",
+          "u": "https://www.diariovasco.com/politica/euskadi-reconoce-victimas-abusos-policiales-torturas-20261021160651-nt.html"
+        },
+        {
+          "p": 15,
+          "t": "San Sebastián acogerá el próximo 10 de noviembre el acto central del Día de la Memoria",
+          "u": "https://www.diariovasco.com/politica/san-sebastian-acogera-proximo-noviembre-acto-central-20261021162322-nt.html"
+        },
+        {
+          "p": 16,
+          "t": "Multa histórica a Meta: condenada a pagar 25.000 millones por engañar con su política de privacidad",
+          "u": "https://www.diariovasco.com/sociedad/multa-historica-meta-condenada-pagar-25000-millones-20261021202224-ntrc.html"
+        },
+        {
+          "p": 17,
+          "t": "Francia baraja suspender las redes sociales para frenar los saqueos",
+          "u": "https://www.diariovasco.com/internacional/europa/francia-baraja-suspender-redes-sociales-frenar-saqueos-20261021191121-ntrc.html"
+        },
+        {
+          "p": 18,
+          "t": "Milei tilda de «impresentable dictador» a Sánchez en Madrid y se declara «amigo» de Ayuso y Abascal",
+          "u": "https://www.diariovasco.com/politica/milei-reabre-guerra-sanchez-visita-madrid-declara-20261021115438-ntrc.html"
+        },
+        {
+          "p": 19,
+          "t": "El Rey no recibirá a Milei ante la negativa del argentino a verse con Sánchez",
+          "u": "https://www.diariovasco.com/politica/rey-recibira-milei-ante-negativa-argentino-verse-20261021143451-ntrc.html"
+        },
+        {
+          "p": 20,
+          "t": "Gipuzkoa urge a «proteger la industria» frente a la presión de las grandes potencias",
+          "u": "https://www.diariovasco.com/economia/gipuzkoa-urge-proteger-industria-frente-presion-grandes-20261021130831-nt.html"
+        },
+        {
+          "p": 21,
+          "t": "La Experiencia del Paciente protagoniza una semana de talleres y charlas en Policlínica Gipuzkoa",
+          "u": "https://www.diariovasco.com/sociedad/salud/quironsalud/experiencia-paciente-protagoniza-semana-talleres-charlas-policlinica-20261019114528-nt.html"
+        },
+        {
+          "p": 22,
+          "t": "Las diez noticias clave de la jornada",
+          "u": "https://www.diariovasco.com/sociedad/diez-noticias-clave-jornada-20261021205102-nt.html"
+        },
+        {
+          "p": 23,
+          "t": "Eli Tolaretxipi y Mikel Ayestaran, Premios Euskadi de Literatura",
+          "u": "https://www.diariovasco.com/culturas/libros/eli-tolaretxipi-mikel-ayestaran-premios-euskadi-literatura-20261021111854-nt.html"
+        },
+        {
+          "p": 24,
+          "t": "«Escribí el libro para que la memoria de aquella Gaza no se quedara bajo los escombros»",
+          "u": "https://www.diariovasco.com/culturas/libros/mikel-ayestaran-escribi-libro-memoria-gaza-quedara-20261021191646-nt.html"
+        },
+        {
+          "p": 25,
+          "t": "«La vida ha pasado por mí, pero me siento cada vez más libre y también más exigente »",
+          "u": "https://www.diariovasco.com/culturas/libros/eli-tolaretxipi-vida-pasado-siento-vez-libre-20261021191635-nt.html"
+        },
+        {
+          "p": 26,
+          "t": "¿Quieres saber lo que gana tu vecino? Consulta la renta por habitante de Gipuzkoa calle a calle",
+          "u": "https://www.diariovasco.com/economia/fiscalidad/cuanto-gana-vecino-consulta-renta-habitante-gipuzkoa-calle-20261020123058-nt.html"
+        },
+        {
+          "p": 27,
+          "t": "El Gobierno garantiza una subida salarial del 5% para 115.000 funcionarios vascos",
+          "u": "https://www.diariovasco.com/economia/gobierno-garantiza-subida-salarial-115000-funcionarios-vascos-20261021073619-nt.html"
+        },
+        {
+          "p": 28,
+          "t": "Gipuzkoa recorta un 11,8% sus compras a Francia en plena tensión social",
+          "u": "https://www.diariovasco.com/economia/gipuzkoa-recorta-118-compras-francia-plena-tension-20261021000409-nt.html"
+        },
+        {
+          "p": 29,
+          "t": "Hiperpolitización (hasta en la sopa)",
+          "u": "https://www.diariovasco.com/xlsemanal/firmas/carmen-posadas/hiperpolitizacion-hasta-en-la-sopa-20261012114255-ntrc.html"
+        },
+        {
+          "p": 30,
+          "t": "Alertan de una posible estafa para alquilar pisos en San Sebastián: «He propuesto firmar presencialmente pero se niega»",
+          "u": "https://www.diariovasco.com/sociedad/alertan-posible-estafa-alquilar-pisos-san-sebastian-20261021134535-nt.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "eitb": {
+      "fuente": "https://orain.eus/es",
+      "items": [
+        {
+          "p": 1,
+          "t": "Reunión del lehendakari con ELA y LAB",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/21/ela-lab-reclaman-al-gobierno-vasco-mayor-liderazgo-interpele-la-patronal-negociar-el-smi-vasco/"
+        },
+        {
+          "p": 2,
+          "t": "Jóvenes encarcelados por terrorismo",
+          "u": "https://orain.eus/es/politica/2026/10/21/zupiria-defiende-ertzaintza-no-detuvo-jovenes-acusados-terrorismo-momento-no-estaban-cometiendo-ningun-delito/"
+        },
+        {
+          "p": 3,
+          "t": "Libertad provisional para los cuatro detenidos por la agresión sexual a dos menores en Vitoria-Gasteiz",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/21/libertad-provisional-los-dos-mayores-edad-detenidos-la-agresion-sexual-dos-menores-en-gasteiz/"
+        },
+        {
+          "p": 4,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Insausti agradece que el Gobierno Vasco haya dado una solución a los vecinos de Benta Berri, y destaca la unidad política",
+          "u": "https://orain.eus/es/politica/2026/10/21/insausti-agradece-el-gobierno-vasco-haya-dado-una-solucion-los-vecinos-benta-berri-destaca-la-unidad-politica/"
+        },
+        {
+          "p": 5,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Los inquilinos de Benta Berri seguirán en sus viviendas en régimen de alquiler protegido",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/21/los-inquilinos-benta-berri-seguiran-en-sus-viviendas-en-regimen-alquiler-protegido/"
+        },
+        {
+          "p": 6,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Aske denuncia que los dos encarcelados por la Audiencia Nacional son víctimas de una \"campaña de criminalización\"",
+          "u": "https://orain.eus/es/politica/2026/10/21/aske-denuncia-los-dos-encarcelados-la-audiencia-nacional-son-victimas-una-campana-criminalizacion/"
+        },
+        {
+          "p": 7,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Milei llama “dictador” a Sánchez y Exteriores responde condenando los insultos \"indignos\" del presidente argentino",
+          "u": "https://orain.eus/es/actualidad/internacional/2026/10/21/milei-llama-dictador-sanchez-le-acusa-fomentar-la-invasion-en-ceuta/"
+        },
+        {
+          "p": 8,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Zelenski y Putin, dispuestos a comenzar una nueva negociación en busca de la paz",
+          "u": "https://orain.eus/es/actualidad/internacional/2026/10/21/zelenski-putin-dispuestos-comenzar-una-nueva-negociacion-en-busca-la-paz/"
+        },
+        {
+          "p": 9,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Suspender las redes sociales: la medida que se plantea el gobierno francés para evitar los saqueos",
+          "u": "https://orain.eus/es/actualidad/internacional/2026/10/21/suspender-las-redes-sociales-la-medida-se-plantea-el-gobierno-frances-evitar-los-saqueos/"
+        },
+        {
+          "p": 10,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. EHU no renovará el convenio de colaboración con CAF, tras cinco años de trayectoria",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/21/ehu-no-renovara-el-convenio-colaboracion-caf-tras-cinco-anos-trayectoria/"
+        },
+        {
+          "p": 11,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. El TSJPV determina que el chalet de Xabi Alonso en Igeldo es legal",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/21/el-tsjpv-determina-el-chalet-xabi-alonso-en-igeldo-es-legal/"
+        },
+        {
+          "p": 12,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. El Tribunal Constitucional rechaza el recurso del Defensor del Pueblo por la ley de nietos",
+          "u": "https://orain.eus/es/politica/2026/10/21/el-tribunal-constitucional-rechaza-el-recurso-del-defensor-del-pueblo-la-ley-nietos/"
+        },
+        {
+          "p": 13,
+          "t": "Los cinco inversores interesados en comprar Tubos Reunidos se reunirán la semana que viene con los sindicatos",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/21/los-cinco-inversores-interesados-en-tubos-reunidos-se-reuniran-la-semana-viene-los-sindicatos/"
+        },
+        {
+          "p": 14,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Olentzeroren Baso Magikoa: el nuevo parque de luz de Amorebieta por Navidad",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/21/olentzeroren-baso-magikoa/"
+        },
+        {
+          "p": 15,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. La falta de medios es la causa principal del estrés del profesorado vasco, según un estudio",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/21/la-falta-medios-es-la-causa-principal-del-estres-del-profesorado-segun-un-estudio/"
+        },
+        {
+          "p": 16,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. La ciudadanía se moviliza para limpiar los municipios afectados por la dana Adam",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/21/la-ciudadania-se-moviliza-limpiar-los-municipios-afectados-la-dana-adam/"
+        },
+        {
+          "p": 17,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Acromatopsia: ¿cómo es vivir en blanco y negro?",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/20/acromatopsia-es-vivir-en-blanco-negro/"
+        },
+        {
+          "p": 18,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Investigan como posible asesinato machista la muerte a puñaladas de una mujer en Madrid",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/20/investigan-posible-asesinato-machista-la-muerte-punaladas-una-mujer-en-madrid/"
+        },
+        {
+          "p": 19,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. El vuelco de un camión corta la autovía de Vitoria hacia Bilbao cerca del túnel de Aiurdin",
+          "u": "https://orain.eus/es/actualidad/sociedad/2026/10/20/el-vuelco-un-camion-corta-la-autovia-vitoria-hacia-bilbao-cerca-del-tunel-aiurdin/"
+        },
+        {
+          "p": 20,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Denuncian a Glovo por mantener a sus repartidores trabajando en la calle durante el temporal del 3 de octubre",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/21/denuncian-glovo-mantener-sus-repartidores-trabajando-en-la-calle-durante-el-temporal-del-3-octubre/"
+        },
+        {
+          "p": 21,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. SpaceX y Tesla estudian fusionarse para crear un gigante tecnológico con el respaldo de Elon Musk",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/21/spacex-tesla-estudian-fusionarse-crear-un-gigante-tecnologico-el-respaldo-elon-musk/"
+        },
+        {
+          "p": 22,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Los sindicatos del sector vitivinícola anuncian caravanas de coches y movilizaciones por un convenio",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/21/los-sindicatos-del-sector-vitivinicola-anuncian-caravanas-coches-movilizaciones-un-convenio/"
+        },
+        {
+          "p": 23,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Será noticia: reunión del lehendakari con ELA y LAB, frente frío y protestas en Francia",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/21/sera-noticia-reunion-del-lehendakari-ela-lab-frente-frio-protestas-en-francia/"
+        },
+        {
+          "p": 24,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. El lehendakari se reúne hoy con ELA y LAB para hablar sobre un SMI propio",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/21/lehendakari-se-reune-hoy-con-ela-lab-hablar-SMI-propio/"
+        },
+        {
+          "p": 25,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. El Gobierno Vasco compra a una filial de Blackstone 510 pisos en Benta Berri para mantener su protección pública",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/20/el-gobierno-vasco-compra-una-filial-blackstone-510-pisos-en-benta-berri-mantener-su-proteccion-publica/"
+        },
+        {
+          "p": 26,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Fallece un trabajador en accidente laboral en una empresa en el Puerto de Bilbao",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/20/fallece-un-trabajador-en-accidente-laboral-en-una-empresa-en-el-puerto-bilbao/"
+        },
+        {
+          "p": 27,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Tubos Reunidos inicia la fase de liquidación de su matriz, TRSA",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/20/tubos-reunidos-inicia-la-fase-liquidacion-su-matriz-trsa/"
+        },
+        {
+          "p": 28,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Volkswagen planea una congelación salarial hasta 2030",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/19/volkswagen-planea-una-congelacion-salarial-2030/"
+        },
+        {
+          "p": 29,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. Pradales destaca la importancia del sector vasco aeroespacial y su \"rol cada vez más relevante\" como proveedor de Airbus",
+          "u": "https://orain.eus/es/actualidad/economia/2026/10/19/pradales-destaca-la-importancia-del-sector-vasco-aeroespacial-su-rol-cada-vez-mas-relevante-proveedor-airbus/"
+        },
+        {
+          "p": 30,
+          "t": "18:00 - 20:00 EN DIRECTO Hace min. La mayoría absoluta en el Senado, cada vez más codiciada: ¿Por qué los partidos exploran alianzas y fórmulas para lograrla?",
+          "u": "https://orain.eus/es/politica/2026/10/21/la-mayoria-absoluta-en-el-senado-la-mas-codiciada-los-partidos-exploran-alianzas-formulas-lograrla/"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "elconfidencial": {
+      "fuente": "https://www.elconfidencial.com/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Real madrid vs rb leipzig",
+          "u": "https://www.elconfidencial.com/deportes/2026-10-21/real-madrid-leipzig-champions-resultado-directo_4449944/pass_a6961d6946b366c4ab0c3daa67455191/"
+        },
+        {
+          "p": 2,
+          "t": "Real Madrid Leipzig horario",
+          "u": "https://www.elconfidencial.com/deportes/futbol/2026-10-20/real-madrid-vs-leipzig-horario-y-donde-ver-por-tv_4448670/"
+        },
+        {
+          "p": 3,
+          "t": "Real Madrid vs. Leizpig | El equipo blanco recibe al Leipzig en el feudo madridista para la tercera jornada de la Champions League",
+          "u": "https://www.elconfidencial.com/deportes/2026-10-21/real-madrid-leipzig-champions-resultado-directo_4449944/"
+        },
+        {
+          "p": 4,
+          "t": "Ayuso y Milei exhiben sintonía y abordan la \"cirugía electoral\" con la ley de nietos de Moncloa",
+          "u": "https://www.elconfidencial.com/espana/madrid/2026-10-21/ayuso-y-milei-exhiben-sintonia_4450114/"
+        },
+        {
+          "p": 5,
+          "t": "El TC inadmite por mayoría el recurso del Defensor por verlo prematuro",
+          "u": "https://www.elconfidencial.com/espana/2026-10-21/ley-de-nietos-constitucional-rechaza-recurso-defensor-pueblo_4448782/"
+        },
+        {
+          "p": 6,
+          "t": "Un juzgado admite una querella contra Sofía Puente por prevaricar con la ley",
+          "u": "https://www.elconfidencial.com/espana/2026-10-21/juzgado-madrid-querella-sofia-puente-prevaricar-ley-nietos_4449692/"
+        },
+        {
+          "p": 7,
+          "t": "Visita de Milei. El Gobierno condena los ataques al líder socialista y los tacha de \"indignos\"",
+          "u": "https://www.elconfidencial.com/espana/2026-10-21/exteriores-condena-a-milei-por-su-ataque-a-sanchez_4450064/"
+        },
+        {
+          "p": 8,
+          "t": "Pedro Sánchez presume de orgullo de \"zurdo\" y responde a Milei: \"Él, Feijóo y Abascal son lo mismo: motosierra\"",
+          "u": "https://www.elconfidencial.com/espana/2026-10-21/sanchez-orgullo-zurdo-milei-feijoo-abascal-son-lo-mismo-motosierra_4450235/"
+        },
+        {
+          "p": 9,
+          "t": "\"Impresentable y dictador\". El argentino irrumpe en la campaña del 29-N atacando a Sánchez",
+          "u": "https://www.elconfidencial.com/espana/2026-10-21/milei-insulta-pedro-sanchez-1tps_4449604/"
+        },
+        {
+          "p": 10,
+          "t": "CHA y Frente Amplio renuncian a concurrir al Congreso por Teruel para evitar la dispersión del voto",
+          "u": "https://www.elconfidencial.com/espana/2026-10-21/chunta-frente-amplio-congreso-teruel-voto_4450226/"
+        },
+        {
+          "p": 11,
+          "t": "Asesores de Moncloa optan a una plaza en el Ministerio de Política Territorial en plena campaña electoral",
+          "u": "https://www.elconfidencial.com/espana/comunidad-valenciana/2026-10-21/asesores-gobierno-oposicion-periodistas-29n_4449596/"
+        },
+        {
+          "p": 12,
+          "t": "El Supremo 'despide' a Pumpido con una denuncia de la quiebra del Constitucional",
+          "u": "https://www.elconfidencial.com/espana/2026-10-21/supremo-conde-pumpido-denuncia-quiebra-tribunal-constitucional_4449313/"
+        },
+        {
+          "p": 13,
+          "t": "El caso sobre las finanzas de Ferraz se extiende en Burgos y Vizcaya y donaciones",
+          "u": "https://www.elconfidencial.com/espana/2026-10-21/psoe-burgos-vizcaya-financiacion-donaciones_4449039/"
+        },
+        {
+          "p": 14,
+          "t": "El testaferro de Zapatero montó una offshore en el Caribe con 600.000$",
+          "u": "https://www.elconfidencial.com/espana/2026-10-21/el-testaferro-de-zapatero-admite-que-monto-una-estructura-offshore-para-ocultar-600-000_4449444/"
+        },
+        {
+          "p": 15,
+          "t": "Milei carga contra los zurdos: Sánchez sonríe, PP y Vox se esconden y ni Tamames le aguanta",
+          "u": "https://www.elconfidencial.com/espana/luna-de-papel/2026-10-21/milei-irrumpe-contra-los-zurdos-en-el-29-m-sanchez-tamames_4449852/"
+        },
+        {
+          "p": 16,
+          "t": "Juan Luis Manfredi Sánchez. El plebiscito trumpista y las elecciones de medio mandato en EEUU",
+          "u": "https://www.elconfidencial.com/mundo/tribuna-internacional/2026-10-21/elecciones-medio-termino-trump-congreso-1hms_4447876/"
+        },
+        {
+          "p": 17,
+          "t": "¿Cuándo dejó de funcionar Francia?",
+          "u": "https://www.elconfidencial.com/economia/el-economista-humanista/2026-10-21/crisis-deuda-francia-prima-riesgo-1hms_4449012/"
+        },
+        {
+          "p": 18,
+          "t": "El momento (sanchista) de la extrema derecha",
+          "u": "https://blogs.elconfidencial.com/espana/cronicas-desde-el-frente-viral/2026-10-21/elecciones-sanchez-vox-ultraderecha-1hms_4449433/"
+        },
+        {
+          "p": 19,
+          "t": "Rubalcaba, ETA y el último milagro de la Transición",
+          "u": "https://www.elconfidencial.com/espana/al-grano/2026-10-21/rubalcaba-aniversario-fin-eta-bildu-1hms_4449373/"
+        },
+        {
+          "p": 20,
+          "t": "Tardón pide a Defensa que informe de si entraron buques de Marruecos en aguas territoriales de Ceuta",
+          "u": "https://www.elconfidencial.com/espana/2026-10-21/tardon-pide-a-defensa-que-informe-de-si-entraron-buques-de-marruecos-en-aguas-de-ceuta_4449882/"
+        },
+        {
+          "p": 21,
+          "t": "EEUU trasladó a Albares \"su interés\" por la aprobación de la ley que daba nacionalidad española a los saharauis",
+          "u": "https://www.elconfidencial.com/mundo/2026-10-21/eeuu-albares-nacionalidad-espanola-saharauis-resolver-el-conflicto_4449540/"
+        },
+        {
+          "p": 22,
+          "t": "Un juez sanciona a Meta con una multa de 25.000 millones de dólares por engañar a usuarios de Facebook",
+          "u": "https://www.elconfidencial.com/empresas/2026-10-21/meta-multa-de-25-000-millones-dolares-enganar-usuarios-facebook_4450229/"
+        },
+        {
+          "p": 23,
+          "t": "Demandas en EEUU. Meta pagará 16.680 millones por las demandas de daños a menores en sus redes",
+          "u": "https://www.elconfidencial.com/tecnologia/2026-08-26/meta-demanda-redes-sociales-millones-instagram-facebook_4412538/"
+        },
+        {
+          "p": 24,
+          "t": "El PSG le da un baño de realidad al Barça: todavía no está al nivel del campeón de la Champions League",
+          "u": "https://www.elconfidencial.com/deportes/futbol/champions/2026-10-21/barca-psg-lamine-yamal-luis-enrique-flick-joan-garcia_4449441/"
+        },
+        {
+          "p": 25,
+          "t": "Y Julián Álvarez volvió a sonreír: ¿suficiente para sellar sus dudas y remontar el vuelo en la Champions?",
+          "u": "https://www.elconfidencial.com/deportes/futbol/champions/2026-10-21/atletico-madrid-julian-alvarez-stuttgart-renacer-clasificacion_4449609/"
+        },
+        {
+          "p": 26,
+          "t": "Lesión de Kvaratskhelia. Qué se ha roto, tiempo de baja y cuándo podría volver con el PSG",
+          "u": "https://www.elconfidencial.com/deportes/futbol/2026-10-21/lesion-kvaratskhelia-cruzado-psg-tiempo-baja_4449975/"
+        },
+        {
+          "p": 27,
+          "t": "Xabi Alonso vuelve a ganar en los tribunales: su villa en San Sebastián no será derribada al considerarse legal",
+          "u": "https://www.elconfidencial.com/deportes/futbol/2026-10-21/xabi-alonso-villa-san-sebastian-igeldo-legal-tribunal-pais-vasco_4449809/"
+        },
+        {
+          "p": 28,
+          "t": "De intocables, inventos y dudas: el último ¿masaje? del Bernabéu al Real Madrid antes de un mes de locura",
+          "u": "https://www.elconfidencial.com/deportes/futbol/champions/2026-10-21/real-madrid-rb-leipzig-diomande-konate-clasico-barcelona-calendario_4448976/"
+        },
+        {
+          "p": 29,
+          "t": "Putin acepta reanudar las negociaciones con Ucrania si hay mediación de EEUU",
+          "u": "https://www.elconfidencial.com/mundo/2026-10-21/putin-liberacion-estadounidense-capturado-cuando-combatia-en-ucrania_4449681/"
+        },
+        {
+          "p": 30,
+          "t": "¿Un ataque ucraniano ha 'matado' miles de bots? No exactamente, pero el resultado puede ser peor",
+          "u": "https://www.elconfidencial.com/mundo/2026-10-21/un-ataque-ucraniano-ha-tumbado-miles-de-bots-maga-no-exactamente-pero-el-resultado-puede-ser-peor_4449010/"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "elcorreo": {
+      "fuente": "https://www.elcorreo.com/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Los 121 segundos de pesadilla del Athletic en Orriols",
+          "u": "https://www.elcorreo.com/athletic/121-segundos-pesadilla-athletic-orriols-20261021204402-nt.html"
+        },
+        {
+          "p": 2,
+          "t": "Emotivo homenaje a las víctimas de la dana",
+          "u": "https://www.elcorreo.com/athletic/emotivo-homenaje-victimas-dana-20261021202750-nt.html"
+        },
+        {
+          "p": 3,
+          "t": "El Levante rescata el homenaje a los campeones del mundo del Athletic que quedó eclipsado por la tormenta",
+          "u": "https://www.elcorreo.com/athletic/levante-rescata-homenaje-campeones-mundo-athletic-quedo-20261021190327-nt.html"
+        },
+        {
+          "p": 4,
+          "t": "Multa histórica a Meta: condenada a pagar 25.000 millones de dólares por engañar a los usuarios de Facebook",
+          "u": "https://www.elcorreo.com/sociedad/multa-historica-meta-condenada-pagar-25000-millones-20261021201743-nt.html"
+        },
+        {
+          "p": 5,
+          "t": "El Constitucional tumba el recurso del Defensor del Pueblo y mantiene en suspenso el voto de la 'ley de nietos'",
+          "u": "https://www.elcorreo.com/politica/constitucional-rechaza-prematuro-recurso-defensor-pueblo-mantiene-20261021130854-ntrc.html"
+        },
+        {
+          "p": 6,
+          "t": "Ley de nietos: qué es, a quién afecta y las razones del Supremo para suspender su voto en las elecciones",
+          "u": "https://www.elcorreo.com/politica/ley-nietos-afecta-razones-supremo-suspender-voto-20261014071855-ntrc.html"
+        },
+        {
+          "p": 7,
+          "t": "Zupiria exige «deslegitimar la violencia» tras el ingreso en prisión de dos jóvenes por terrorismo",
+          "u": "https://www.elcorreo.com/politica/zupiria-exige-deslegitimar-violencia-tras-ingreso-prision-20261021105323-nt.html"
+        },
+        {
+          "p": 8,
+          "t": "Los acusados de terrorismo llevaban teléfonos vía satélite y manuales sobre actos violentos",
+          "u": "https://www.elcorreo.com/politica/acusados-terrorismo-llevaban-telefonos-via-satelite-manuales-20261021003957-nt.html"
+        },
+        {
+          "p": 9,
+          "t": "La EHU rompe con CAF y no renovará el acuerdo de colaboración por su contrato en Israel",
+          "u": "https://www.elcorreo.com/economia/ehu-renovara-convenio-caf-relacion-israel-20261021154451-nt.html"
+        },
+        {
+          "p": 10,
+          "t": "Milei tilda de «impresentable dictador» a Sánchez en Madrid y se declara «amigo» de Ayuso y Abascal",
+          "u": "https://www.elcorreo.com/politica/milei-reabre-guerra-sanchez-visita-madrid-declara-20261021115438-ntrc.html"
+        },
+        {
+          "p": 11,
+          "t": "Una canción de Lali Espósito, la sutil respuesta de Pedro Sánchez a los ataques de Milei",
+          "u": "https://www.elcorreo.com/gente-estilo/cancion-lali-esposito-sutil-respuesta-pedro-sanchez-20261021192952-nt.html"
+        },
+        {
+          "p": 12,
+          "t": "La Justicia sentencia que la villa de Xabi Alonso en San Sebastián es legal",
+          "u": "https://www.elcorreo.com/sociedad/tsjpv-confirma-legalidad-villa-xabi-alonso-san-20261021121617-nt.html"
+        },
+        {
+          "p": 13,
+          "t": "Los caseros deberán pagar 15.500 euros de media a los inquilinos por no prorrogar el alquiler sin causa justificada",
+          "u": "https://www.elcorreo.com/economia/vivienda/propietarios-deberan-indemnizar-media-15500-euros-inquilinos-20261021100918-ntrc.html"
+        },
+        {
+          "p": 14,
+          "t": "La localidad vizcaína que tendrá esta Navidad un bosque mágico como el de Cartes",
+          "u": "https://www.elcorreo.com/bizkaia/duranguesado/amorebieta-estrenara-bosque-magico-luces-navidad-20261021125121-nt.html"
+        },
+        {
+          "p": 15,
+          "t": "La tensión de la caja de Tubos Reunidos dificulta el pago de las nóminas hasta fin de año",
+          "u": "https://www.elcorreo.com/economia/tension-caja-tubos-reunidos-dificulta-pago-nominas-20261021132704-nt.html"
+        },
+        {
+          "p": 16,
+          "t": "La nueva estafa por Whatsapp: «¿Podrías votar por Eliska?»",
+          "u": "https://www.elcorreo.com/tecnologia/nueva-estafa-phishing-whatsapp-podrias-votar-eliska-20261021183329-ntrc.html"
+        },
+        {
+          "p": 17,
+          "t": "Mikel Ayestaran, Eli Tolaretxipi, Matias Mujika y Jon Gerediaga, Premios Euskadi de Literatura 2026",
+          "u": "https://www.elcorreo.com/culturas/libros/mikel-ayestaran-eli-tolaretxipi-matias-mujika-jon-gerediaga-premios-euskadi-literatura-20261021105315-nt.html"
+        },
+        {
+          "p": 18,
+          "t": "Francia baraja suspender las redes sociales para frenar los saqueos",
+          "u": "https://www.elcorreo.com/internacional/europa/francia-baraja-suspender-redes-sociales-frenar-saqueos-20261021191121-ntrc.html"
+        },
+        {
+          "p": 19,
+          "t": "Hodei Ciarra, el detenido por el incendio del Ayuntamiento de Limoges, es de origen navarro",
+          "u": "https://www.elcorreo.com/internacional/europa/hodei-ciarra-detenido-incendio-ayuntamiento-limoges-origen-20261021190030-ntrc.html"
+        },
+        {
+          "p": 20,
+          "t": "Convocan protestas por la visita de Vito Quiles el lunes a Bilbao",
+          "u": "https://www.elcorreo.com/politica/convocan-protestas-visita-vito-quiles-lunes-bilbao-20261021170424-nt.html"
+        },
+        {
+          "p": 21,
+          "t": "¿Quiénes son los dos pelotaris que han ganado la primera medalla de oro para la Euskal Selekzioa?",
+          "u": "https://www.elcorreo.com/deportes/pelota/dos-pelotaris-ganado-primera-medalla-oro-euskal-20261021145820-nt.html"
+        },
+        {
+          "p": 22,
+          "t": "El palo de Aitor Esteban a Arnaldo Otegi tras el oro de la selección vasca de pelota en Uruguay",
+          "u": "https://www.elcorreo.com/politica/palo-aitor-esteban-arnaldo-otegi-tras-oro-20261021171110-nt.html"
+        },
+        {
+          "p": 23,
+          "t": "Multa histórica a Meta: condenada a pagar 25.000 millones por engañar con su política de privacidad",
+          "u": "https://www.elcorreo.com/sociedad/multa-historica-meta-condenada-pagar-25000-millones-20261021202224-ntrc.html"
+        },
+        {
+          "p": 24,
+          "t": "Bilbao dará prioridad en sus parkings a quienes lleven dos años esperando plaza",
+          "u": "https://www.elcorreo.com/bizkaia/bilbao-dara-prioridad-parkings-municipales-coches-llevan-20261021130234-nt.html"
+        },
+        {
+          "p": 25,
+          "t": "Abortan un intento de 'okupación' de una casona junto a Ajuria Enea",
+          "u": "https://www.elcorreo.com/alava/araba/abortan-intento-okupacion-casona-vitoria-junto-ajuria-enea-20261021142150-nt.html"
+        },
+        {
+          "p": 26,
+          "t": "Shingo Sato, el gurú japonés del patronaje, llega a Bilbao para enseñar su método",
+          "u": "https://www.elcorreo.com/bizkaiadmoda/moda/shingo-sato-guru-japones-patronaje-llega-bilbao-ensena-metodo-20261021202935-nt.html"
+        },
+        {
+          "p": 27,
+          "t": "La escritora Laura Freixas denuncia haber sido vetada en una librería de Bilbao por su oposición a la 'ley trans'",
+          "u": "https://www.elcorreo.com/culturas/libros/escritora-laura-freixas-denuncia-haber-vetada-libreria-20261021114235-nt.html"
+        },
+        {
+          "p": 28,
+          "t": "Los mejores planes culturales para este fin de semana en Bizkaia",
+          "u": "https://www.elcorreo.com/culturas/mejores-planes-culturales-fin-semana-bizkaia-20261022171825-nt.html"
+        },
+        {
+          "p": 29,
+          "t": "La chuleta de un restaurante bilbaíno, entre las 50 mejores del mundo",
+          "u": "https://www.elcorreo.com/jantour/restaurantes/chuleta-restaurante-bilbao-mejores-mundo-20261021092923-nt.html"
+        },
+        {
+          "p": 30,
+          "t": "«Grandes empresas como Anthropic son las que están sembrando el temor a la IA»",
+          "u": "https://www.elcorreo.com/sociedad/tratando-ia-fuente-poder-lugar-artilugio-20261021155453-nt.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "eldiario": {
+      "fuente": "https://www.eldiario.es/",
+      "items": [
+        {
+          "p": 1,
+          "t": "El Frente Amplio cierra la puerta a un pacto global con el PSOE para retirar listas al Congreso en provincias pequeñas",
+          "u": "https://www.eldiario.es/politica/frente-amplio-cierra-puerta-pacto-psoe-retirar-listas-congreso-provincias-pequenas_1_13602712.html"
+        },
+        {
+          "p": 2,
+          "t": "Ferraz ignora la crisis con el PSOE de Palencia y completa las listas al Congreso tras la renuncia de los candidatos de la militancia",
+          "u": "https://www.eldiario.es/castilla-y-leon/politica/ferraz-ignora-crisis-psoe-palencia-completa-listas-congreso-renuncia-candidatos-militancia_1_13604496.html"
+        },
+        {
+          "p": 3,
+          "t": "CHA y el Frente Amplio renuncian a presentarse al Congreso por Teruel para “evitar la dispersión del voto”",
+          "u": "https://www.eldiario.es/aragon/politica/cha-frente-amplio-renuncian-presentarse-congreso-teruel-evitar-dispersion-voto_1_13604566.html"
+        },
+        {
+          "p": 4,
+          "t": "El Constitucional rechaza la petición del Defensor del Pueblo de reactivar el voto de 160.000 nacionalizados",
+          "u": "https://www.eldiario.es/politica/constitucional-rechaza-peticion-defensor-pueblo-reactivar-voto-160-000-nacionalizados_1_13597189.html"
+        },
+        {
+          "p": 5,
+          "t": "Un juzgado abre una causa contra la autora de la instrucción sobre la ley de nietos tras una denuncia de HazteOír",
+          "u": "https://www.eldiario.es/politica/juzgado-abre-causa-creadora-instruccion-ley-nietos-denuncia-hazteoir_1_13602700.html"
+        },
+        {
+          "p": 6,
+          "t": "Milei llama “impresentable dictador” a Sánchez y se declara “amigo” de Ayuso y Abascal",
+          "u": "https://www.eldiario.es/politica/milei-llama-impresentable-dictador-pedro-sanchez-primer-acto-espana_1_13602219.html"
+        },
+        {
+          "p": 7,
+          "t": "Sánchez comparte el \"temazo\" con el que Lali Espósito respondió a su choque con Milei: \"Su mayor fantasía es un día ser yo\"",
+          "u": "https://www.eldiario.es/rastreador/sanchez-comparte-temazo-lali-esposito-respondio-choque-milei-mayor-fantasia-dia_132_13603035.html"
+        },
+        {
+          "p": 8,
+          "t": "Milei pasa de la motosierra contra los \"políticos ladrones\" a coleccionar escándalos de corrupción",
+          "u": "https://www.eldiario.es/internacional/javier-milei-corrupcion-argentina_1_13428406.html"
+        },
+        {
+          "p": 9,
+          "t": "Ayuso insiste en el fantasma del fraude electoral con la ley de nietos en su reunión a puerta cerrada con Milei",
+          "u": "https://www.eldiario.es/madrid/ayuso-insiste-fantasma-fraude-electoral-ley-nietos-reunion-puerta-cerrada-milei_1_13604729.html"
+        },
+        {
+          "p": 10,
+          "t": "Sánchez, sobre Milei: “Feijóo y Abascal no saben dónde meterse ni dónde meterlo”",
+          "u": "https://www.eldiario.es/politica/ultima-hora-actualidad-politica-directo_6_13601961_1126031.html"
+        },
+        {
+          "p": 11,
+          "t": "“Cortos”, “miserables”, “una peste”: los insultos de Milei a los periodistas por preguntarle lo que no le gusta",
+          "u": "https://www.eldiario.es/rastreador/cortos-miserables-peste-insultos-milei-periodistas-preguntarle-no-le-gusta_132_13603602.html"
+        },
+        {
+          "p": 12,
+          "t": "Milei quiso reunirse con el rey, pero Zarzuela dijo que lo habitual es verse también con Sánchez",
+          "u": "https://www.eldiario.es/politica/ultima-hora-actualidad-politica-directo_6_13601961_1126025.html"
+        },
+        {
+          "p": 13,
+          "t": "La Rey Juan Carlos de Madrid recibe a Milei entre fuertes protestas: “Fuera, fascistas, de la universidad”",
+          "u": "https://www.eldiario.es/madrid/universidad-rey-juan-carlos-madrid-recibe-milei-fuertes-protestas-fuera-fascistas-universidad_1_13602389.html"
+        },
+        {
+          "p": 14,
+          "t": "Putin acepta reanudar las negociaciones con Ucrania y EEUU en noviembre",
+          "u": "https://www.eldiario.es/internacional/putin-acepta-reanudar-negociaciones-ucrania-eeuu-noviembre_1_13604001.html"
+        },
+        {
+          "p": 15,
+          "t": "La Fiscalía ve “muy probable” que la pareja de Ayuso camuflara el pago de “un favor” a un directivo de Quirón",
+          "u": "https://www.eldiario.es/politica/fiscalia-ve-probable-pareja-ayuso-camuflara-pago-favor-directivo-quiron_1_13602945.html"
+        },
+        {
+          "p": 16,
+          "t": "Ayuso dice ahora que el despacho \"complementario\" estará en el Canal de Isabel II y lo vincula a las \"obras\"",
+          "u": "https://www.eldiario.es/madrid/gobierno-ayuso-dice-ahora-despacho-complementario-estara-canal-isabel-ii-vincula-obras-sol_1_13603459.html"
+        },
+        {
+          "p": 17,
+          "t": "El Gobierno de PP y Vox en Castilla y León dice que un comité de funcionarios evaluará “la trascendencia ideológica” de las películas y carga contra la Seminci",
+          "u": "https://www.eldiario.es/castilla-y-leon/cultura/comite-expertos-evaluara-trascendencia-ideologica-peliculas-pidan-ayudas-castilla-leon_1_13603624.html"
+        },
+        {
+          "p": 18,
+          "t": "Urtasun recurrirá ante los tribunales el veto de Vox: \"Es una forma de censura intolerable\"",
+          "u": "https://www.eldiario.es/cultura/cine/urtasun-recurrira-tribunales-veto-vox-cine-forma-censura-intolerable_1_13603277.html"
+        },
+        {
+          "p": 19,
+          "t": "Un vídeo muestra a militares en Ceuta pegando tortazos a un migrante aparentemente menor: “Te voy a destrozar la cara, no me mires así”",
+          "u": "https://www.eldiario.es/desalambre/video-muestra-militares-ceuta-pegando-tortazos-migrante-aparentemente-menor-no-entendeis-libertad-humillacion_1_13603387.html"
+        },
+        {
+          "p": 20,
+          "t": "En la redacción con Gabriela Sánchez: las agresiones de militares a migrantes en Ceuta",
+          "u": "https://www.eldiario.es/eventos/redaccion-gabriela-sanchez-agresiones-militares-migrantes-ceuta_1_13583461.html"
+        },
+        {
+          "p": 21,
+          "t": "El Gobierno de Trump deniega a Ada Colau la entrada a Puerto Rico para un acto: “Ha sido por motivos políticos”",
+          "u": "https://www.eldiario.es/politica/gobierno-trump-deniega-ada-colau-entrada-puerto-rico-acto-sido-motivos-politicos_1_13597972.html"
+        },
+        {
+          "p": 22,
+          "t": "Cargas policiales en A Coruña tras el acto de Vox en la Plaza de María Pita",
+          "u": "https://www.eldiario.es/galicia/abascal-abre-puerta-reforma-constitucion-si-suma-mayoria-suficiente-pp-senado_1_13602890.html"
+        },
+        {
+          "p": 23,
+          "t": "¿Y la unión de las derechas? Las matemáticas de Feijóo para el 29N",
+          "u": "https://www.eldiario.es/un-tema-al-dia/podcast_132_13600976.html"
+        },
+        {
+          "p": 24,
+          "t": "Feijóo reconoce que su plan de vivienda no dará resultados en el corto plazo: “Serán años difíciles”",
+          "u": "https://www.eldiario.es/politica/feijoo-reconoce-plan-vivienda-no-dara-resultados-corto-plazo-pasar-anos-dificiles_1_13602497.html"
+        },
+        {
+          "p": 25,
+          "t": "Sánchez reacciona a lo que ha dicho Feijóo de la pizza y la okupación con un tuit de 2010",
+          "u": "https://www.eldiario.es/rastreador/sanchez-reacciona-dicho-feijoo-pizza-okupacion-recuperando-mensaje-publico-2010_132_13604447.html"
+        },
+        {
+          "p": 26,
+          "t": "El condenado por corrupción Víctor de Aldama pide el voto para la derecha",
+          "u": "https://www.eldiario.es/politica/condenado-corrupcion-victor-aldama-entra-campana-pide-voto-derecha_1_13602218.html"
+        },
+        {
+          "p": 27,
+          "t": "La UCO cuestiona la veracidad del supuesto tiroteo contra su coche",
+          "u": "https://www.eldiario.es/politica/uco-cuestiona-veracidad-supuesto-tiroteo-coche-aldama-dice-achaco-robo_1_13601998.html"
+        },
+        {
+          "p": 28,
+          "t": "Como si fueran las elecciones de nuestra vida",
+          "u": "https://www.eldiario.es/opinion/zona-critica/si-fueran-elecciones-vida_129_13600954.html"
+        },
+        {
+          "p": 29,
+          "t": "Para Frente Amplio, el de PP y Vox",
+          "u": "https://www.eldiario.es/opinion/zona-critica/frente-amplio-pp-vox_129_13600972.html"
+        },
+        {
+          "p": 30,
+          "t": "Abascal el Bueno defiende ahora el fortín del Senado",
+          "u": "https://www.eldiario.es/opinion/zona-critica/abascal-bueno-defiende-ahora-fortin-senado_129_13600067.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "elmundo": {
+      "fuente": "https://www.elmundo.es/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Inteligencia artificial riesgo",
+          "u": "https://www.elmundo.es/loc/2026/10/21/6ad86bd8fc6c8389718b458b.html"
+        },
+        {
+          "p": 2,
+          "t": "El Constitucional rechaza el recurso por la 'ley de nietos' y mantiene la suspensión de voto que ordenó el Supremo",
+          "u": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/21/6ad85f20e9cf4ace438b456d.html"
+        },
+        {
+          "p": 3,
+          "t": "Reacciones. El Gobierno insiste en \"defender el derecho sagrado al voto\"",
+          "u": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/21/6ad8acaae9cf4acd068b459e.html"
+        },
+        {
+          "p": 4,
+          "t": "¿Qué consecuencias tiene la decisión del Constitucional? ¿Quién se quedará sin votar?¿Se impugnarán las elecciones?",
+          "u": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/21/6ad894e7e4d4d881578b45a3.html"
+        },
+        {
+          "p": 5,
+          "t": "Un juzgado de Madrid admite a trámite una querella contra Sofía Puente por prevaricación con la 'ley de nietos'",
+          "u": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/21/6ad86304e85ece21158b4594.html"
+        },
+        {
+          "p": 6,
+          "t": "La IA detecta un fallo que pone en riesgo hasta al 70% de las páginas web del mundo",
+          "u": "https://www.elmundo.es/economia/2026/10/21/6ad8db5bfdddff90638b4581.html"
+        },
+        {
+          "p": 7,
+          "t": "Seguridad. Páginas web gubernamentales de varias partes del mundo dejan de funcionar debido a un fallo de software que provoca una crisis de seguridad",
+          "u": "https://www.elmundo.es/internacional/2026/10/21/6ad8d59efc6c83a57e8b457b.html"
+        },
+        {
+          "p": 8,
+          "t": "El Frente Amplio se retira \"por responsabilidad\" de una primera circunscripción para ayudar al PSOE: no presenta lista en Teruel",
+          "u": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/21/6ad8f057fdddff70698b457e.html"
+        },
+        {
+          "p": 9,
+          "t": "Cambios quirúrgicos en unas listas continuistas: Vox garantiza a sus diputados puestos de salida y ficha de dentro para el 29-N",
+          "u": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/21/6ad8f17f21efa0ff4a8b45ab.html"
+        },
+        {
+          "p": 10,
+          "t": "Ayuso se reúne con Milei tras el choque del argentino con el \"delincuente, ladrón\" Pedro Sánchez",
+          "u": "https://www.elmundo.es/madrid/2026/10/21/6ad89756fdddff8a758b456d.html"
+        },
+        {
+          "p": 11,
+          "t": "Gobierno. Exteriores rechaza los \"ataques e injurias\" de Milei a Sánchez",
+          "u": "https://www.elmundo.es/espana/2026/10/21/6ad8d17e21efa0ff4a8b459f.html"
+        },
+        {
+          "p": 12,
+          "t": "Baby-mafia en Las Merindades: así funciona la caravana de brasileñas que viajan a Burgos para parir y conseguir papeles",
+          "u": "https://www.elmundo.es/cronica/2026/10/21/6ad25260fdddffa1758b4597.html"
+        },
+        {
+          "p": 13,
+          "t": "Disturbios y cargas policiales en A Coruña contra los manifestantes que protestaban ante un acto de Santiago Abascal",
+          "u": "https://www.elmundo.es/espana/2026/10/21/6ad894f4e4d4d85a288b4578.html"
+        },
+        {
+          "p": 14,
+          "t": "Sánchez tuvo un \"enfrentamiento bastante duro\" con Tusk por la regularización masiva: \"Es una política ineficaz\"",
+          "u": "https://www.elmundo.es/espana/2026/10/21/6ad88a68fdddff62658b45ab.html"
+        },
+        {
+          "p": 15,
+          "t": "Putin, dispuesto a una nueva ronda de conversaciones entre Rusia, EEUU y Ucrania, mientras Zelenski se abre a una tregua que \"congele\" las líneas del frente",
+          "u": "https://www.elmundo.es/internacional/2026/10/21/6ad8c19a21efa0a9168b45c3.html"
+        },
+        {
+          "p": 16,
+          "t": "El ex consejero Lluís Puig reaparece en Terrassa nueve años después de su fuga",
+          "u": "https://www.elmundo.es/cataluna/2026/10/21/6ad874f5e85ece81428b4575.html"
+        },
+        {
+          "p": 17,
+          "t": "Las redes rusas se 'suben' al carro de los disturbios y acrecientan la sensación de caos",
+          "u": "https://www.elmundo.es/internacional/2026/10/20/6ad78b9321efa0933c8b45cb.html"
+        },
+        {
+          "p": 18,
+          "t": "Atrapados en la obsesión por las métricas: \"Salgo con lo justo y cuando se termina, me vuelvo a casa\"",
+          "u": "https://www.elmundo.es/papel/historias/2026/10/17/6ad22f08fc6c83ca248b4591.html"
+        },
+        {
+          "p": 19,
+          "t": "En busca del oro del Ártico: así trabajan las recolectoras del aislante térmico natural con el que se fabrican edredones, cojines y 'fachalecos'",
+          "u": "https://www.elmundo.es/papel/historias/2026/10/20/6acf5f54e4d4d895078b4588.html"
+        },
+        {
+          "p": 20,
+          "t": "Las heridas de Diomande: \"Vive preocupado por su familia\"",
+          "u": "https://www.elmundo.es/deportes/futbol/champions-league/2026/10/20/6ad782d921efa09b7d8b4594.html"
+        },
+        {
+          "p": 21,
+          "t": "El inexplicable y violento momento vivido en En boca de todos: bronca descomunal, expulsión y petición a la dirección",
+          "u": "https://www.elmundo.es/television/2026/10/21/6ad8a4d5e4d4d84f338b45b5.html"
+        },
+        {
+          "p": 22,
+          "t": "Meta, condenada a pagar una multa récord de 25.000 millones por engañar a los usuarios sobre la privacidad en Facebook",
+          "u": "https://www.elmundo.es/economia/2026/10/21/6ad8fec521efa0d6728b4587.html"
+        },
+        {
+          "p": 23,
+          "t": "Pedro Sánchez da la sorpresa y acudirá este jueves a La Revuelta de David Broncano",
+          "u": "https://www.elmundo.es/television/2026/10/21/6ad8fafdfc6c8389718b45a1.html"
+        },
+        {
+          "p": 24,
+          "t": "Varela Entrecanales toma el control de La Séptima para evitar una guerra de poder entre socios",
+          "u": "https://www.elmundo.es/economia/empresas/2026/10/21/6ad8e12de85eceac408b456f.html"
+        },
+        {
+          "p": 25,
+          "t": "Más precisión, menos huellas y más supervivencia",
+          "u": "https://www.elmundo.es/uestudio/2026/10/14/6acf3a67e4d4d8af5f8b45ad.html"
+        },
+        {
+          "p": 26,
+          "t": "¿Quién cuestiona al Tribunal Constitucional?",
+          "u": "https://www.elmundo.es/opinion/2026/10/20/6ad739e1fdddff91218b4589.html"
+        },
+        {
+          "p": 27,
+          "t": "Cómo pedir una reforma sin asustar a tus votantes",
+          "u": "https://www.elmundo.es/opinion/columnistas/2026/10/20/6ad73da221efa07e628b45aa.html"
+        },
+        {
+          "p": 28,
+          "t": "Nada más. Os quiero, hablamos, ¿sí?",
+          "u": "https://www.elmundo.es/opinion/columnistas/2026/10/20/6ad786fffc6c832b518b45aa.html"
+        },
+        {
+          "p": 29,
+          "t": "Ser socialista es querer a Begoña",
+          "u": "https://www.elmundo.es/opinion/columnistas/2026/10/20/6ad780c3e4d4d8302a8b45be.html"
+        },
+        {
+          "p": 30,
+          "t": "Julian Barnes: \"Me temo que no llegaré a ver al Reino Unido de nuevo en Europa por el miedo a Nigel Farage y su ridículo partido\"",
+          "u": "https://www.elmundo.es/cultura/literatura/2026/10/21/6ad8db3021efa080018b4594.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "elpais": {
+      "fuente": "rss:https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
+      "items": [
+        {
+          "p": 1,
+          "t": "Ayuso y Milei, un encuentro inoportuno zanjado con un abrazo entusiasta",
+          "u": "https://elpais.com/espana/madrid/2026-10-21/ayuso-y-milei-un-encuentro-descafeinado-e-inoportuno.html"
+        },
+        {
+          "p": 2,
+          "t": "Milei busca la confrontación directa con Sánchez en Madrid y eclipsa a Feijóo y Abascal",
+          "u": "https://elpais.com/espana/2026-10-21/milei-participa-en-un-desayuno-informativo-en-madrid-durante-su-visita-a-espana.html"
+        },
+        {
+          "p": 3,
+          "t": "Milei a Abascal, en una videollamada: “Para mí es un placer patear culos zurdos”",
+          "u": "https://elpais.com/espana/2026-10-21/milei-a-abascal-en-una-videollamada-para-mi-es-un-placer-patear-culos-zurdos.html"
+        },
+        {
+          "p": 4,
+          "t": "Huerta de Soto, el catedrático millonario que acoge a Milei en Madrid: “Es el anarcocapitalista más importante del mundo”",
+          "u": "https://elpais.com/educacion/2026-10-21/huerta-de-soto-el-catedratico-millonario-que-acoge-a-milei-en-madrid-es-el-anarcocapitalista-mas-importante-del-mundo.html"
+        },
+        {
+          "p": 5,
+          "t": "Inaceptable Milei",
+          "u": "https://elpais.com/opinion/2026-10-21/inaceptable-milei.html"
+        },
+        {
+          "p": 6,
+          "t": "La historia de ‘Fanático’, el “temazo” con el que Sánchez le devolvió hostilidades a Milei",
+          "u": "https://elpais.com/argentina/2026-10-21/la-historia-de-fanatico-el-temazo-con-el-que-sanchez-le-devolvio-hostilidades-a-milei.html"
+        },
+        {
+          "p": 7,
+          "t": "Chequeo al discurso de Milei sobre Argentina: magnifica sus logros y omite datos desfavorables",
+          "u": "https://elpais.com/argentina/2026-10-21/milei-agrava-la-herencia-recibida-magnifica-sus-logros-y-omite-datos-desfavorables-en-su-viaje-a-madrid.html"
+        },
+        {
+          "p": 8,
+          "t": "Un acto de Abascal en A Coruña acaba con cargas policiales y jóvenes antifascistas heridos",
+          "u": "https://elpais.com/espana/galicia/2026-10-21/un-acto-de-abascal-en-a-coruna-acaba-con-cargas-policiales-y-jovenes-antifascistas-heridos.html"
+        },
+        {
+          "p": 9,
+          "t": "El Constitucional rechaza el amparo por la ‘ley de nietos’ y deja en el aire el voto de 160.000 españoles",
+          "u": "https://elpais.com/espana/2026-10-21/el-constitucional-rechaza-el-amparo-por-la-ley-de-nietos-con-el-voto-en-contra-de-dos-magistrados-progresistas.html"
+        },
+        {
+          "p": 10,
+          "t": "Tras la decisión del Constitucional sobre la ‘ley de nietos’ ¿Sigue suspendido el voto? ¿Podrán participar el 29-N?",
+          "u": "https://elpais.com/espana/elecciones-generales/2026-10-21/tras-la-decision-del-constitucional-sobre-la-ley-de-nietos-sigue-suspendido-el-voto-podran-participar-el-29-n.html"
+        },
+        {
+          "p": 11,
+          "t": "“¿Podrías votar por Eliska?”: el WhatsApp fraudulento de ‘phishing’ en el que no hay que pinchar",
+          "u": "https://elpais.com/tecnologia/2026-10-21/podrias-votar-por-eliksa-el-whatsapp-fraudulento-de-phishing-en-el-que-no-hay-que-pinchar.html"
+        },
+        {
+          "p": 12,
+          "t": "Las hermanas Llanos, juntas en un escenario una década después del final de Dover: “Yo no supe de la violación hasta unos años más tarde. Para mí fue tremendo”",
+          "u": "https://elpais.com/cultura/2026-10-20/las-hermanas-llanos-juntas-en-un-escenario-una-decada-despues-del-final-de-dover-yo-no-supe-de-la-violacion-hasta-unos-anos-despues-para-mi-fue-tremendo.html"
+        },
+        {
+          "p": 13,
+          "t": "La venganza de Olivia Wilde: cómo logró que se dejara de hablar de su divorcio, sus romances y su belleza",
+          "u": "https://elpais.com/smoda/famosos/2026-10-21/la-venganza-de-olivia-wilde-como-logro-que-se-dejara-de-hablar-de-su-divorcio-sus-romances-y-su-belleza.html"
+        },
+        {
+          "p": 14,
+          "t": "Real Madrid - Leipzig en directo | Vinicius es titular y Diomande comienza en el banquillo",
+          "u": "https://elpais.com/deportes/futbol/2026-10-21/real-madrid-leipzig-en-directo-el-partido-de-la-champions-league-en-vivo.html"
+        },
+        {
+          "p": 15,
+          "t": "Jaime Lorente recoge firmas para que no se cancele ‘La revuelta’ y emociona a Broncano: “Aquí trabajan 90 personas que tienen familia”",
+          "u": "https://elpais.com/television/2026-10-21/jaime-lorente-recoge-firmas-para-que-no-se-cancele-la-revuelta-y-emociona-a-broncano-aqui-trabajan-90-personas-que-tienen-familia.html"
+        },
+        {
+          "p": 16,
+          "t": "Ha estado muy bien Borja Sémper",
+          "u": "https://elpais.com/opinion/2026-10-21/ha-estado-muy-bien-borja-semper.html"
+        },
+        {
+          "p": 17,
+          "t": "Ser “valientes” con los pensionistas",
+          "u": "https://elpais.com/babelia/2026-10-21/ser-valientes-con-los-pensionistas.html"
+        },
+        {
+          "p": 18,
+          "t": "Multa histórica para Meta: pagará 25.000 millones de dólares en Nuevo México por las malas prácticas de Facebook",
+          "u": "https://elpais.com/us/2026-10-21/multa-historica-para-meta-debera-pagar-25000-millones-de-dolares-en-nuevo-mexico.html"
+        },
+        {
+          "p": 19,
+          "t": "Dos vulnerabilidades críticas detectadas con IA provocan fallos múltiples en miles de páginas web",
+          "u": "https://elpais.com/tecnologia/2026-10-21/dos-vulnerabilidades-criticas-detectadas-con-ia-provocan-fallos-multiples-en-miles-de-paginas-web.html"
+        },
+        {
+          "p": 20,
+          "t": "Zelenski se abre a un alto el fuego que “congele” temporalmente las líneas del frente",
+          "u": "https://elpais.com/internacional/2026-10-21/zelenski-se-abre-a-un-alto-el-fuego-que-congele-temporalmente-las-lineas-del-frente.html"
+        },
+        {
+          "p": 21,
+          "t": "Netanyahu alimenta el temor a un nuevo ataque a Irán a días de las elecciones en Israel y EE UU",
+          "u": "https://elpais.com/internacional/2026-10-21/netanyahu-alimenta-el-temor-a-un-nuevo-ataque-a-iran-a-dias-de-las-elecciones-en-israel-y-ee-uu.html"
+        },
+        {
+          "p": 22,
+          "t": "Macron acusa a Trump y Netanyahu de azuzar las protestas con fines electorales",
+          "u": "https://elpais.com/internacional/2026-10-21/macron-acusa-a-trump-y-netanyahu-de-azuzar-las-protestas-con-fines-electorales.html"
+        },
+        {
+          "p": 23,
+          "t": "Bolsonaro cae un punto y mantiene el empate técnico con Lula a cuatro días de las presidenciales",
+          "u": "https://elpais.com/america/2026-10-21/bolsonaro-cae-un-punto-y-mantiene-el-empate-tecnico-con-lula-a-cuatro-dias-de-las-presidenciales.html"
+        },
+        {
+          "p": 24,
+          "t": "La candidata que se hizo viral por decir que los demócratas también tienen armas: “Tomé unas cervezas antes de la entrevista”",
+          "u": "https://elpais.com/us/2026-10-21/la-candidata-que-se-hizo-viral-por-decir-que-los-democratas-tambien-tienen-armas-tome-unas-cervezas-antes-de-la-entrevista.html"
+        },
+        {
+          "p": 25,
+          "t": "Un cura misionero ingresa durante años 80.000 euros a un peruano que le acusa de haber abusado de él cuando tenía 14 años",
+          "u": "https://elpais.com/sociedad/2026-10-21/un-cura-misionero-ingresa-80000-euros-a-un-hombre-que-le-acusa-de-haber-abusado-de-el-cuando-tenia-14-anos.html"
+        },
+        {
+          "p": 26,
+          "t": "La jueza que investiga la entrada masiva en Ceuta pide a Defensa un informe sobre el tránsito de buques de Marruecos en aguas territoriales",
+          "u": "https://elpais.com/espana/2026-10-21/la-jueza-que-investiga-la-entrada-masiva-en-ceuta-pide-a-defensa-un-informe-sobre-el-transito-de-buques-de-marruecos-en-aguas-territoriales.html"
+        },
+        {
+          "p": 27,
+          "t": "Feijóo tira de hipérbole para alertar sobre los okupas: “Con un papel de haber pedido una pizza, ya nadie le puede sacar”",
+          "u": "https://elpais.com/espana/2026-10-21/feijoo-tira-de-hiperbole-para-alertar-sobre-los-okupas-con-un-papel-de-haber-pedido-una-pizza-ya-nadie-le-puede-sacar.html"
+        },
+        {
+          "p": 28,
+          "t": "El jurado declara culpable por unanimidad al primer teniente general de la Guardia Civil juzgado por corrupción",
+          "u": "https://elpais.com/espana/2026-10-21/un-jurado-popular-declara-culpable-por-unanimidad-al-primer-teniente-general-de-la-guardia-civil-juzgado-por-corrupcion.html"
+        },
+        {
+          "p": 29,
+          "t": "Muere un trabajador forestal por un ataque masivo de avispas velutinas en Ourense",
+          "u": "https://elpais.com/espana/galicia/2026-10-21/muere-un-trabajador-forestal-por-un-ataque-masivo-de-velutinas-en-ourense.html"
+        },
+        {
+          "p": 30,
+          "t": "Seis detenidos, dos de ellos menores, por el robo en el que murió una anciana maniatada en Burgos",
+          "u": "https://elpais.com/espana/2026-10-21/la-muerte-de-una-anciana-maniatada-en-burgos-lleva-a-seis-menores-detenidos-por-el-robo.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "lavanguardia": {
+      "fuente": "https://www.lavanguardia.com/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Fútbol | Alineaciones y última hora del partido de Champions entre el Real Madrid y el Leipzig",
+          "u": "https://www.lavanguardia.com/deportes/futbol/20261021/11664855/real-madrid-leipzig-champions-league-partido-futbol-hoy-en-directo.html"
+        },
+        {
+          "p": 2,
+          "t": "El TC rechaza el recurso sobre la 'ley de nietos' y deja en el aire el voto de 163.000 nacionalizados",
+          "u": "https://www.lavanguardia.com/politica/20261021/11663439/constitucional-rechaza-recurso-defensor-pueblo-sobre-ley-nietos-prematuro.html"
+        },
+        {
+          "p": 3,
+          "t": "¿Por qué el Senado es clave para el TC?",
+          "u": "https://www.lavanguardia.com/politica/20261021/11664604/senado-llave-renovacion-tribunal-constitucional.html"
+        },
+        {
+          "p": 4,
+          "t": "Exteriores condena los insultos de Milei a Sánchez y considera “indigna” su actitud",
+          "u": "https://www.lavanguardia.com/politica/20261021/11664752/exteriores-condena-insultos-milei-sanchez-considera-indigna-actitud.html"
+        },
+        {
+          "p": 5,
+          "t": "Javier Milei se reúne con Ayuso y bromea por videollamada con Abascal",
+          "u": "https://www.lavanguardia.com/politica/20261021/11664837/milei-reune-ayuso-hae-videollamada-tono-jocoso-abascal.html"
+        },
+        {
+          "p": 6,
+          "t": "Milei llama a “sacar a patadas” al “impresentable dictador Sánchez”",
+          "u": "https://www.lavanguardia.com/politica/20261021/11664370/javier-milei-llama-sacar-socialistas-patadas-impresentable-dictador-pedro-sanchez.html"
+        },
+        {
+          "p": 7,
+          "t": "Sánchez explota la visita de Milei: “Soy zurdo, a mucha honra”",
+          "u": "https://www.lavanguardia.com/politica/20261021/11664401/sanchez-explota-visita-milei-movilizar-electorado-progresista-zurdo-honra.html"
+        },
+        {
+          "p": 8,
+          "t": "Cargas policiales en A Coruña tras una protesta antifascista contra Abascal",
+          "u": "https://www.lavanguardia.com/politica/20261021/11664581/cargas-policiales-coruna-protesta-grupos-antifascistas-visita-abascal.html"
+        },
+        {
+          "p": 9,
+          "t": "Feijóo promete construir un millón de viviendas y rebajas fiscales para inquilinos y propietarios",
+          "u": "https://www.lavanguardia.com/politica/20261021/11664437/feijoo-promete-construir-millon-viviendas-rebajas-fiscales-inquilinos-propietarios.html"
+        },
+        {
+          "p": 10,
+          "t": "Lluís Puig ya pasea por las calles de Terrassa arropado por la plana mayor de Junts",
+          "u": "https://www.lavanguardia.com/politica/20261021/11664885/lluis-puig-pasea-calles-terrassa-arropado-plana-mayor-junts.html"
+        },
+        {
+          "p": 11,
+          "t": "De Recoletos a Pedralbes: los barrios de Madrid y Barcelona concentran los alquileres más caros",
+          "u": "https://www.lavanguardia.com/economia/20261021/11664603/recoletos-pedralbes-barrios-madrid-barcelona-concentran-alquileres-mas-caros.html"
+        },
+        {
+          "p": 12,
+          "t": "¿Vives en un barrio rico o pobre? Así es el mapa de las rentas en España",
+          "u": "https://www.lavanguardia.com/economia/20261019/11662590/mapa-rentas-espana-norte-mas-rico-sur-mas-pobre.html"
+        },
+        {
+          "p": 13,
+          "t": "Putin promete negocios a EE.UU. para seguir castigando a una Ucrania cada día más aislada",
+          "u": "https://www.lavanguardia.com/internacional/20261021/11664787/putin-promete-negocios-dialogo-ee-uu-seguir-castigando-ucrania-dia-mas-aislada.html"
+        },
+        {
+          "p": 14,
+          "t": "Un juez condena a Meta a pagar 25.000 millones por vender datos de usuarios con fines electorales",
+          "u": "https://www.lavanguardia.com/internacional/20261021/11664898/juez-condena-meta-pagar-25-000-millones-vender-datos-usuarios-fines-electorales.html"
+        },
+        {
+          "p": 15,
+          "t": "La hermana de Kim Jong Un inspecciona la frontera y amenaza con respuestas",
+          "u": "https://www.lavanguardia.com/internacional/20261021/11664535/hermana-kim-jong-inspecciona-frontera-amenaza-respuestas.html"
+        },
+        {
+          "p": 16,
+          "t": "Julian Barnes: “Me temo que no llegaré a ver Reino Unido de nuevo en Europa”",
+          "u": "https://www.lavanguardia.com/cultura/20261021/11664725/julian-barnes-premio-princesa-asturias-letras-galardon-brexit.html"
+        },
+        {
+          "p": 17,
+          "t": "Javier Godó reivindica el “buen periodismo” como garantía de libertad",
+          "u": "https://www.lavanguardia.com/vida/20261020/11663985/javier-godo-reivindica-buen-periodismo-garantia-libertad.html"
+        },
+        {
+          "p": 18,
+          "t": "Los músculos reaccionan al frío produciendo una molécula que alarga la vida",
+          "u": "https://www.lavanguardia.com/ciencia/20261021/11663863/musculos-reaccionan-frio-produciendo-molecula-alarga-vida.html"
+        },
+        {
+          "p": 19,
+          "t": "Puig crece un 4,8% y supera los 3.700 millones en ventas hasta septiembre",
+          "u": "https://www.lavanguardia.com/dinero/20261021/11664834/puig-crece-4-8-supera-3-700-millones-ventas-septiembre.html"
+        },
+        {
+          "p": 20,
+          "t": "El gran pecado del Barça de Flick en la Champions",
+          "u": "https://www.lavanguardia.com/deportes/20261021/11664539/gran-pecado-barca-flick-champions.html"
+        },
+        {
+          "p": 21,
+          "t": "La mala idea de rotar a Rodri en París",
+          "u": "https://www.lavanguardia.com/deportes/20261020/11664022/mala-idea-rotar-rodri-paris.html"
+        },
+        {
+          "p": 22,
+          "t": "Más que una tienda de telefonía: el espacio donde descubrir la tecnología en Barcelona",
+          "u": "https://www.lavanguardia.com/magazine/20261021/11663444/mas-tienda-telefonia-asi-espacio-descubrir-tecnologia-barcelona-brl.html"
+        },
+        {
+          "p": 23,
+          "t": "“Huélelo luego”: Crean el primer dispositivo capaz de transmitir olores entre personas a distancia",
+          "u": "https://www.lavanguardia.com/vida/20261021/11663658/huelelo-luego-crean-primer-dispositivo-capaz-transmitir-olores-personas-distancia.html"
+        },
+        {
+          "p": 24,
+          "t": "RTVE anuncia la muerte de dos históricos profesionales de la televisión pública",
+          "u": "https://www.lavanguardia.com/television/20261021/11664697/rtve-anuncia-muerte-dos-historicos-profesionales-television-publica.html"
+        },
+        {
+          "p": 25,
+          "t": "Japón ya ha lanzado su misión de exploración de las lunas de Marte",
+          "u": "https://www.lavanguardia.com/ciencia/20261021/11663975/japon-lanzado-mision-exploracion-lunas-marte.html"
+        },
+        {
+          "p": 26,
+          "t": "'Sacando a la luz': lo que hay detrás de las historias que nos rodean",
+          "u": "https://www.lavanguardia.com/vida/20261020/11663858/sacando-luz-hay-detras-historias-rodean-brl.html"
+        },
+        {
+          "p": 27,
+          "t": "Resuelto el misterio sobre un esqueleto hallado hace 150 años en la Abadía de Westminster",
+          "u": "https://www.lavanguardia.com/cultura/20261021/11664475/descubierta-identidad-misterioso-esqueleto-hallado-150-anos-sarcofago-romano-abadia-westminster.html"
+        },
+        {
+          "p": 28,
+          "t": "La Justicia avala la legalidad del chalet de Xabi Alonso en San Sebastián",
+          "u": "https://www.lavanguardia.com/local/paisvasco/20261021/11664639/justicia-avala-legalidad-chalet-xabi-alonso-san-sebastian.html"
+        },
+        {
+          "p": 29,
+          "t": "Magnus Carlsen: “Jugué una vez en Barcelona pero no fue bien; estuve de fiesta todo el tiempo”",
+          "u": "https://www.lavanguardia.com/deportes/20261021/11664190/entrevista-carlsen-queremos-ajedrez-sea-emocionante-gente-move-cup-barcelona.html"
+        },
+        {
+          "p": 30,
+          "t": "“¿Podrías votar por Eliska?”, alerta si recibes este mensaje de Whatsapp",
+          "u": "https://www.lavanguardia.com/vida/20261021/11664384/alerta-estafa-whatsapp-mensaje-pide-votar-nina-bailarina-llamada-eliska-existe.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "naiz": {
+      "fuente": "https://www.naiz.eus/es",
+      "items": [
+        {
+          "p": 1,
+          "t": "Gutxieneko soldata propioarekin konpromisoa hartzea eskatu diote Pradalesi ELAk eta LABek",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/pradales-lehendakaria-elarekin-eta-labekin-bildu-da-gutxieneko-soldata-propioaz-hitz-egiteko"
+        },
+        {
+          "p": 2,
+          "t": "Lakua compra a Testa las 510 viviendas en Benta Berri para que sean protegidas «a perpetuidad»",
+          "u": "https://www.naiz.eus/es/info/noticia/20261020/lakua-compra-las-510-viviendas-en-benta-berri-para-que-sean-protegidas-a-perpetuidad"
+        },
+        {
+          "p": 3,
+          "t": "Reconocen a 54 víctimas de tortura y señalan a Indautxu, La Salve, Amara e Intxaurrondo",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/reconocen-a-54-victimas-de-tortura-y-senalan-a-indautxu-la-salve-e-intxaurrondo"
+        },
+        {
+          "p": 4,
+          "t": "Oro histórico, y sufrido, para Euskal Selekzioa en el Mundial de pelota de Argentina y Uruguay",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/oro-historico-y-sufrido-para-euskal-selekzioa-en-el-mundial-de-pelota-de-argentina-y-uruguay"
+        },
+        {
+          "p": 5,
+          "t": "Perasovic: «Todo parece más negro de lo que es, pero hay potencial para un futuro mejor»",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/perasovic-todo-parece-mas-negro-de-lo-que-es-pero-hay-potencial-para-que-el-futuro-sea-mejor"
+        },
+        {
+          "p": 6,
+          "t": "Nafarroatik «Feivox gobernu bati atea ixteko», hautagaiak aurkeztu ditu EH Bilduk",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/nafarroatik-feivox-gobernu-bati-atea-ixteko-hautagaiak-aurkeztu-ditu-eh-bilduk"
+        },
+        {
+          "p": 7,
+          "t": "Javier Ibañez y Ane Sánchez, cabezas de lista de Frente Amplio en Nafarroa al Congreso y Senado",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/javier-ibanez-y-ane-sanchez-encabezaran-las-listas-de-frente-amplio-en-navarra"
+        },
+        {
+          "p": 8,
+          "t": "Milei incendia la precampaña instando a sacar al «dictador» Sánchez «a patadas»",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/milei-incendia-la-precampana-instando-a-sacar-al-dictador-sanchez-a-patadas"
+        },
+        {
+          "p": 9,
+          "t": "El PSOE ofrece un pacto para el Congreso al Frente Amplio en algunas provincias pequeñas",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/el-psoe-ofrece-un-pacto-para-el-congreso-al-frente-amplio-en-algunas-provincias-pequenas"
+        },
+        {
+          "p": 10,
+          "t": "La derecha gana el pulso con la ‘ley de nietos’: 163.000 personas sin voto tras inhibirse el TC",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/la-derecha-gana-el-pulso-con-la-ley-de-nietos-163-000-personas-sin-voto-tras-inhibirse-el-tc"
+        },
+        {
+          "p": 11,
+          "t": "Los sindicatos franceses anuncian huelga el 5 de noviembre al desoír el Gobierno sus demandas",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/los-sindicatos-franceses-anuncian-huelga-el-5-de-noviembre-al-desoir-el-gobierno-sus-demandas"
+        },
+        {
+          "p": 12,
+          "t": "Mendekutzat jo du Sarek Jon Olarrari bigarren aldiz hirugarren gradua geldiaraztea",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/mendekutzat-jo-du-sarek-jon-olarrari-bigarren-aldiz-hirugarren-gradua-geldiaraztea"
+        },
+        {
+          "p": 13,
+          "t": "El juez encarcela a los dos detenidos en Irun, imputados por «terrorismo» pero sin pruebas",
+          "u": "https://www.naiz.eus/es/info/noticia/20261020/la-fiscalia-solicita-prision-para-los-dos-detenidos-en-irun-imputados-por-deposito-de-armas"
+        },
+        {
+          "p": 14,
+          "t": "Un teniente general de la Guardia Civil, condenado por cohecho en obras de cuarteles",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/un-teniente-general-de-la-guardia-civil-condenado-por-cohecho-en-obras-de-cuarteles"
+        },
+        {
+          "p": 15,
+          "t": "Un tercio de las mujeres prostituidas en Nafarroa han visto sus derechos vulnerados",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/un-tercio-de-las-mujeres-prostituidas-en-nafarroa-han-visto-sus-derechos-vulnerados"
+        },
+        {
+          "p": 16,
+          "t": "Libertad con medidas cautelares para los cuatro acusados de agresión sexual en Gasteiz",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/el-juzgado-decreta-libertad-para-los-dos-mayores-acusados-de-agresion-sexual-en-gasteiz"
+        },
+        {
+          "p": 17,
+          "t": "Absuelto un acusado de agresión sexual en Donostia por «irregularidades» en su reconocimiento",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/absuelto-un-acusado-de-agresion-sexual-en-donostia-por-irregularidades-en-su-reconocimiento"
+        },
+        {
+          "p": 18,
+          "t": "Iberdrola eleva sus ganancias un 10%, a 5.816 millones, con el precio de la luz en máximos",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/iberdrola-eleva-sus-ganancias-un-10-a-5-816-millones-con-el-precio-de-la-luz-en-maximos"
+        },
+        {
+          "p": 19,
+          "t": "Insausti ignora al pleno donostiarra y adjudica a una constructora dos parcelas en El Infierno",
+          "u": "https://www.naiz.eus/es/info/noticia/20261020/insausti-ignora-al-pleno-donostiarra-y-adjudica-a-una-constructora-dos-parcelas-en-el-infierno"
+        },
+        {
+          "p": 20,
+          "t": "Roldán Jimeno recopila las 515 historias de represión que recuerdan los tropezones en Nafarroa",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/roldan-jimeno-recopila-las-515-historias-de-represion-que-recuerdan-los-tropezones-en-nafarroa"
+        },
+        {
+          "p": 21,
+          "t": "EHU no renovará el convenio de colaboración con CAF por sus proyectos con Israel",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/ehu-no-renovara-el-convenio-de-colaboracion-con-caf-por-sus-proyectos-con-israel"
+        },
+        {
+          "p": 22,
+          "t": "‘Zazpi jauziz, herri bat’ ekimena prest du Gure Eskuk iganderako, zazpi hiriburuetan",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/zazpi-jauziz-herri-bat-ekimena-egingo-du-gure-eskuk-igandean-zazpi-hiriburuetan"
+        },
+        {
+          "p": 23,
+          "t": "PNV y PSE siguen negociando la reforma fiscal en Bizkaia mientras tumban propuestas de EH Bildu",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/pnv-y-pse-siguen-negociando-la-reforma-fiscal-en-bizkaia-mientras-tumban-propuestas-de-eh-bildu"
+        },
+        {
+          "p": 24,
+          "t": "Paseo bat gizartearen ertzetatik",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/paseo-bat-gizartearen-ertzetatik"
+        },
+        {
+          "p": 25,
+          "t": "El TSJPV avala que el chalet de Xabi Alonso en Igeldo «cumple los parámetros constructivos»",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/el-tsjpv-avala-que-el-chalet-de-xabi-alonso-en-igeldo-cumple-los-parametros-constructivos"
+        },
+        {
+          "p": 26,
+          "t": "La Fiscalía mantiene su petición por la filtración de la OPE de Osakidetza",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/la-fiscalia-mantiene-su-peticion-por-la-filtracion-de-la-ope-de-osakidetza"
+        },
+        {
+          "p": 27,
+          "t": "Osakidetzan sindikatuek deitutako greba deialdiari ekingo diote urriaren 30ean",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/osakidetzan-sindikatuek-deitutako-greba-deialdiari-ekingo-diote-urriaren-30ean"
+        },
+        {
+          "p": 28,
+          "t": "Nafarroako ikastetxe publikoetan ratioak murrizteko sinadura bilketa jarri dute martxan",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/nafarroako-ikastetxe-publikoetan-ratioak-murrizteko-sinadura-bilketa-jarri-dute-martxan"
+        },
+        {
+          "p": 29,
+          "t": "Convocan movilizaciones por un convenio digno en el sector vitivinícola alavés",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/convocan-movilizaciones-por-un-convenio-digno-en-el-sector-vitivinicola-alaves"
+        },
+        {
+          "p": 30,
+          "t": "ELA y LAB defenderán la viabilidad de todas las plantas de Tubos Reunidos y el empleo",
+          "u": "https://www.naiz.eus/es/info/noticia/20261021/ela-y-lab-defenderan-la-viabilidad-de-todas-las-plantas-de-tubos-reunidos-y-el-empleo"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "noticiasgipuzkoa": {
+      "fuente": "https://www.noticiasdegipuzkoa.eus/",
+      "items": [
+        {
+          "p": 1,
+          "t": "El Gobierno Vasco pagará 69 millones a plazos por la compra de las 510 VPO de Benta Berri",
+          "u": "https://www.noticiasdegipuzkoa.eus/sociedad/2026/10/21/gobierno-vasco-pagara-69-millones-11671716.html"
+        },
+        {
+          "p": 2,
+          "t": "Los inquilinos seguirán en sus viviendas en régimen de alquiler protegido",
+          "u": "https://www.noticiasdegipuzkoa.eus/sociedad/2026/10/21/inquilinos-benta-berri-seguiran-viviendas-alquiler-11669925.html"
+        },
+        {
+          "p": 3,
+          "t": "STOP Desahucios: \"Se culmina un largo periodo de lucha\"",
+          "u": "https://www.noticiasdegipuzkoa.eus/donostia/2026/10/21/stop-desahucios-felicita-inquilinos-vpo-11669517.html"
+        },
+        {
+          "p": 4,
+          "t": "Insausti se alegra de que el Gobierno Vasco \" haya reculado y recupere el control\" de la viviendas",
+          "u": "https://www.noticiasdegipuzkoa.eus/donostia/2026/10/21/insausti-alegra-gobierno-vasco-recupere-11670271.html"
+        },
+        {
+          "p": 5,
+          "t": "EH Bildu lo califica como “una buena noticia”",
+          "u": "https://www.noticiasdegipuzkoa.eus/donostia/2026/10/21/eh-bildu-califica-compra-viviendas-11671720.html"
+        },
+        {
+          "p": 6,
+          "t": "Le agreden, le roban y vuelven minutos después para seguir con la paliza con un palo y una cadena en Donostia",
+          "u": "https://www.noticiasdegipuzkoa.eus/sucesos/2026/10/21/ingresan-prision-cuatro-jovenes-detenidos-11671122.html"
+        },
+        {
+          "p": 7,
+          "t": "El TSJPV resuelve que el chalet de Xabi Alonso es legal",
+          "u": "https://www.noticiasdegipuzkoa.eus/donostia/2026/10/21/tsjpv-resuelve-chalet-xabi-alonso-11672579.html"
+        },
+        {
+          "p": 8,
+          "t": "Los 8 rivales de la Real →",
+          "u": "https://www.noticiasdegipuzkoa.eus/reala/2026/08/28/sorteo-europa-league-ocho-rivales-11445718.html"
+        },
+        {
+          "p": 9,
+          "t": "Zubeldia: “Necesitamos estar muy concentrados para ganar”",
+          "u": "https://www.noticiasdegipuzkoa.eus/reala/2026/10/21/zubeldia-necesitamos-concentrados-ganar-11673636.html"
+        },
+        {
+          "p": 10,
+          "t": "Europa League: cuando Hans Erik Odegaard, rival de la Real con el Lillestrom, se negó a tributar fuera de España",
+          "u": "https://www.noticiasdegipuzkoa.eus/reala/2026/10/21/europa-league-hans-erik-odegaard-lillestrom-real-sociedad-11670321.html"
+        },
+        {
+          "p": 11,
+          "t": "El rival que prefiere llamarse LSK, el 'One Club Man' que pudo ser Haaland y un billete europeo de carambola",
+          "u": "https://www.noticiasdegipuzkoa.eus/reala/2026/10/21/rival-real-sociedad-lillestrom-nombre-lsk-11659002.html"
+        },
+        {
+          "p": 12,
+          "t": "“Los futbolistas de alto nivel no quieren venir a jugar a campos como el del Lillestrøm”",
+          "u": "https://www.noticiasdegipuzkoa.eus/reala/2026/10/19/vadim-demidov-futbolistas-alto-nivel-venir-campos-lillestrom-11665236.html"
+        },
+        {
+          "p": 13,
+          "t": "“Cuando viajas fuera con el equipo notas que la Real tiene una identidad muy fuerte”",
+          "u": "https://www.noticiasdegipuzkoa.eus/reala/2026/10/20/viajas-fuera-equipo-notas-real-11658744.html"
+        },
+        {
+          "p": 14,
+          "t": "Xabi Prieto: \"Si queremos estar entre los ocho mejores equipos, tenemos la obligación de ganar\"",
+          "u": "https://www.noticiasdegipuzkoa.eus/reala/2026/10/21/xabi-prieto-queremos-ocho-mejores-11672172.html"
+        },
+        {
+          "p": 15,
+          "t": "¿Contra quién juega la Real? Con ustedes, el Lillestrom",
+          "u": "https://www.noticiasdegipuzkoa.eus/reala/2026/10/21/europa-league-analisis-lillestrom-rival-real-sociedad-11667460.html"
+        },
+        {
+          "p": 16,
+          "t": "El \"sesgo\" que libró de la cárcel a un acusado de violación en Gipuzkoa",
+          "u": "https://www.noticiasdegipuzkoa.eus/sucesos/2026/10/21/sesgo-libro-carcel-acusado-violacion-gipuzkoa-11669989.html"
+        },
+        {
+          "p": 17,
+          "t": "El PNV reclama \"mejoras urgentes\" en el servicio de autobús de Hondarribia para responder a las necesidades de los usuarios",
+          "u": "https://www.noticiasdegipuzkoa.eus/sociedad/2026/10/21/pnv-reclama-mejoras-urgentes-servicio-11673366.html"
+        },
+        {
+          "p": 18,
+          "t": "Joseba Arguiñano, una trayectoria profesional llena de éxitos",
+          "u": "https://www.noticiasdegipuzkoa.eus/gente/2026/10/21/dinero-joseba-arguinano-negocios-trabajos-sostienen-trayectoria-profesional-11670282.html"
+        },
+        {
+          "p": 19,
+          "t": "Comparar precios antes de comprar ya es un hábito para el 90% de los consumidores",
+          "u": "https://www.noticiasdegipuzkoa.eus/economia-domestica/2026/10/21/comparar-precios-comprar-habito-90-11670192.html"
+        },
+        {
+          "p": 20,
+          "t": "Gipuzkoa registra un fuerte repunte de huelgas aunque con menos participantes",
+          "u": "https://www.noticiasdegipuzkoa.eus/economia/2026/10/21/gipuzkoa-registra-fuerte-repunte-huelgas-11672910.html"
+        },
+        {
+          "p": 21,
+          "t": "Esteban llama a estar \"ojo avizor\" con los grupos disidentes de la izquierda abertzale",
+          "u": "https://www.noticiasdegipuzkoa.eus/politica/2026/10/21/esteban-llama-ojo-avizor-grupos-11670307.html"
+        },
+        {
+          "p": 22,
+          "t": "Zupiria sobre detenciones en Irun: \"Toca que la Ertzaintza trabaje a las órdenes del juez\"",
+          "u": "https://www.noticiasdegipuzkoa.eus/politica/2026/10/21/zupiria-detenciones-irun-toca-ertzaintza-11670710.html"
+        },
+        {
+          "p": 23,
+          "t": "Interceptan 32 equipaciones falsas de la Real Sociedad",
+          "u": "https://www.noticiasdegipuzkoa.eus/sucesos/2026/10/21/interceptan-32-equipaciones-falsas-real-11670814.html"
+        },
+        {
+          "p": 24,
+          "t": "Nace una plataforma para proteger el carácter rural de los terrenos de Antondegi",
+          "u": "https://www.noticiasdegipuzkoa.eus/donostia/2026/10/21/nace-plataforma-proteger-caracter-rural-11670873.html"
+        },
+        {
+          "p": 25,
+          "t": "\"La lucha contra el cambio climático no es una carrera, es un deporte de equipo\"",
+          "u": "https://www.noticiasdegipuzkoa.eus/sociedad/2026/10/21/lucha-cambio-climatico-carrera-deporte-11669387.html"
+        },
+        {
+          "p": 26,
+          "t": "La EHU no renovará su convenio con CAF por sus proyectos ferroviarios en Israel",
+          "u": "https://www.noticiasdegipuzkoa.eus/sociedad/2026/10/21/ehu-rompe-convenio-caf-proyectos-israel-11672828.html"
+        },
+        {
+          "p": 27,
+          "t": "Localizado en Navarra un vecino de Gipuzkoa de 73 años con alzhéimer que se encontraba desaparecido",
+          "u": "https://www.noticiasdegipuzkoa.eus/sucesos/2026/10/21/localizado-navarra-vecino-gipuzkoa-73-11669761.html"
+        },
+        {
+          "p": 28,
+          "t": "El cambio de hora ya está aquí: por qué puedes tener más sueño, hambre y cambios de humor",
+          "u": "https://www.noticiasdegipuzkoa.eus/salud/2026/10/21/cambio-hora-octubre-puedes-sentir-cansancio-hambre-irritabilidad-llegada-horario-invierno-11671283.html"
+        },
+        {
+          "p": 29,
+          "t": "Una llamada \"puede ser un balón de oxígeno\"",
+          "u": "https://www.noticiasdegipuzkoa.eus/gipuzkoa/bertan/2026/10/21/llamada-balon-oxigeno-11672074.html"
+        },
+        {
+          "p": 30,
+          "t": "Oro histórico para Euskadi en el Mundial de pelota",
+          "u": "https://www.noticiasdegipuzkoa.eus/pelota/2026/10/21/cesta-euskal-selekzioa-campeonato-del-mundo-11669332.html"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    },
+    "rtve": {
+      "fuente": "https://www.rtve.es/noticias/",
+      "items": [
+        {
+          "p": 1,
+          "t": "Elecciones Estados Unidos",
+          "u": "https://www.rtve.es/noticias/20261021/encuestas-elecciones-legislativas-eeuu-midterms-congreso/17265729.shtml"
+        },
+        {
+          "p": 2,
+          "t": "Certificado delitos sexuales",
+          "u": "https://www.rtve.es/noticias/20261021/certificado-delitos-sexuales-denuncias-contra-profesor/17277018.shtml"
+        },
+        {
+          "p": 3,
+          "t": "El Telediario de nuestras vidas",
+          "u": "https://www.rtve.es/noticias/20261019/especial-telediario-nuestras-vidas-70-anos-tve-directo-cronica/17273785.shtml"
+        },
+        {
+          "p": 4,
+          "t": "El Constitucional rechaza el recurso contra la suspensión del voto a los nacionalizados por la 'ley de nietos' por \"prematuro\"",
+          "u": "https://www.rtve.es/noticias/20261021/constitucional-voto-ley-nietos/17272287.shtml"
+        },
+        {
+          "p": 5,
+          "t": "Milei llama \"impresentable dictador\" a Sánchez en una visita a España donde ha hablado con Ayuso y Abascal",
+          "u": "https://www.rtve.es/noticias/20261021/milei-reunion-dirigentes-vox-madrid-precampana/17275957.shtml"
+        },
+        {
+          "p": 6,
+          "t": "Sánchez ve a Feijóo, Abascal y Milei como \"la misma peña, la de la motosierra\": \"Os vamos a llevar al aserradero\"",
+          "u": "https://www.rtve.es/noticias/20261021/sanchez-ve-a-feijoo-abascal-milei-como-misma-pena-la-motosierra-os-vamos-a-llevar-aserradero/17277489.shtml"
+        },
+        {
+          "p": 7,
+          "t": "DIRECTO | La Chunta y el Frente Amplio no se presentan por Teruel para concentrar votos en el PSOE",
+          "u": "https://www.rtve.es/noticias/20261021/ultima-hora-politica-espana-directo-gobierno-hoy-cronica/17275807.shtml"
+        },
+        {
+          "p": 8,
+          "t": "Putin se abre a una cumbre trilateral con Trump y Xi y a retomar las negociaciones de paz con Ucrania",
+          "u": "https://www.rtve.es/noticias/20261021/putin-trump-xi-cumbre-china-guerra-ucrania-zelenski-reunion-witkoff/17276378.shtml"
+        },
+        {
+          "p": 9,
+          "t": "'No se Meta': la protesta de ciudadanos brasileños que piden a la tecnológica no interferir en las elecciones",
+          "u": "https://www.rtve.es/noticias/20261021/meta-protesta-ciudadanos-brasilenos-tecnologica-elecciones-presidenciales/17277449.shtml"
+        },
+        {
+          "p": 10,
+          "t": "El Gobierno vasco compra al fondo Blackstone 510 pisos en San Sebastián para que sigan siendo protegidos",
+          "u": "https://www.rtve.es/noticias/20261021/gobierno-vasco-califica-historica-compra-510-pisos-san-sebastian-protegidos/17276494.shtml"
+        },
+        {
+          "p": 11,
+          "t": "Kenichi Yoda, presidente de Studio Ghibli: \"Miyazaki tiene 85 años, pero sigue dibujando todos los días\"",
+          "u": "https://www.rtve.es/noticias/20261021/studio-ghibli-premio-princesa-asturias-comunicacion-humanidades-2026-directo-rueda-prensa/17276482.shtml"
+        },
+        {
+          "p": 12,
+          "t": "Informe Semanal: Ghibli y la emoción animada",
+          "u": "https://www.rtve.es/noticias/20261020/ghibli-emocion-animada/17274230.shtml"
+        },
+        {
+          "p": 13,
+          "t": "Julian Barnes defiende a Sally Rooney en Oviedo: \"No apoya el terrorismo, solo a Palestine Action\"",
+          "u": "https://www.rtve.es/noticias/20261021/julian-barnes-princesa-asturias-letras-2026-rueda-prensa-directo-cronica/17277124.shtml"
+        },
+        {
+          "p": 14,
+          "t": "La juez Tardón pregunta a Defensa tras la entrada masiva a Ceuta si buques marroquíes transitaron aguas españolas",
+          "u": "https://www.rtve.es/noticias/20261021/juez-tardon-pregunta-defensa-buques-marroquies-entraron-aguas-espanolas-masiva-entrada-ceuta/17276711.shtml"
+        },
+        {
+          "p": 15,
+          "t": "El exconseller Lluís Puig está en España después de que el Supremo anulara las órdenes de detención por el procés",
+          "u": "https://www.rtve.es/noticias/20261021/lluis-puig-espana-supremo-anulara-ordenes-detencion-amnistia/17276010.shtml"
+        },
+        {
+          "p": 16,
+          "t": "Feijóo defiende sus propuestas de vivienda y pide \"devolver el valor a la palabra y la política\"",
+          "u": "https://www.rtve.es/noticias/20261021/feijoo-defiende-propuestas-vivienda-devolver-valor-a-palabra-politica/17276177.shtml"
+        },
+        {
+          "p": 17,
+          "t": "Estados Unidos impide la entrada de la candidata de Frente Amplio, Ada Colau, en Puerto Rico",
+          "u": "https://www.rtve.es/noticias/20261021/estados-unidos-impide-candidata-frente-amplio-ada-colau-puerto-rico/17276343.shtml"
+        },
+        {
+          "p": 18,
+          "t": "Albares afirma que Milei \"comparte una agenda ideológica común\" con PP y Vox",
+          "u": "https://www.rtve.es/noticias/20261021/albares-afirma-milei-comparte-ideologia-con-pp-vox/17276061.shtml"
+        },
+        {
+          "p": 19,
+          "t": "Los menores migrantes atendidos en Ceuta son más de 3.300 y un total de 288 han sido enviados a la península",
+          "u": "https://www.rtve.es/noticias/20261021/menores-migrantes-atendidos-ceuta-son-mas-3300-total-288-han-sido-enviados-a-peninsula/17276598.shtml"
+        },
+        {
+          "p": 20,
+          "t": "Ascienden a seis los detenidos en Burgos por la muerte de una anciana durante el robo de su piso",
+          "u": "https://www.rtve.es/noticias/20261021/seis-detenidos-burgos-muerte-anciana-maniatada-robo-piso/17277518.shtml"
+        },
+        {
+          "p": 21,
+          "t": "El Hospital de Bellvitge realiza el primer trasplante renal robótico de Europa a través de una incisión de 7 centímetros",
+          "u": "https://www.rtve.es/noticias/20261021/hospital-bellvitge-realiza-primer-trasplante-renal-robotico-europa-a-traves-incision-7-centimetros/17276132.shtml"
+        },
+        {
+          "p": 22,
+          "t": "21 de octubre: veinte años de movilización masculina contra las violencias machistas",
+          "u": "https://www.rtve.es/noticias/20261021/21-octubre-movilizacion-masculina-violencias-machistas/17274327.shtml"
+        },
+        {
+          "p": 23,
+          "t": "Asesinada una mujer de 52 años en el barrio madrileño de Carabanchel en un posible caso de violencia machista",
+          "u": "https://www.rtve.es/noticias/20261020/asesinan-mujer-punaladas-carabanchel-madrid-policia-investiga-caso/17275551.shtml"
+        },
+        {
+          "p": 24,
+          "t": "Antes de la arruga: los jóvenes de la medicina estética",
+          "u": "https://www.rtve.es/noticias/20261021/antes-arruga-jovenes-medicina-estetica/17274602.shtml"
+        },
+        {
+          "p": 25,
+          "t": "\"¿Podrías votar por Eliska?\": este mensaje de WhatsApp para apoyar a una niña bailarina es un fraude",
+          "u": "https://www.rtve.es/noticias/20261020/fraude-mensaje-whatsapp-votar-eliska-mejor-bailarina-certamen/17275562.shtml"
+        },
+        {
+          "p": 26,
+          "t": "La rentabilidad del bono francés alcanza su cota más alta desde 2002 y dispara las alarmas en Europa",
+          "u": "https://www.rtve.es/noticias/20261021/rentabilidad-del-bono-frances-alcanza-su-cota-mas-alta-desde-2002-dispara-alarmas-europa/17276702.shtml"
+        },
+        {
+          "p": 27,
+          "t": "Bruselas investiga si Booking combate las estafas y los anuncios fraudulentos en su plataforma",
+          "u": "https://www.rtve.es/noticias/20261021/bruselas-investiga-booking-estafas-fraude/17276605.shtml"
+        },
+        {
+          "p": 28,
+          "t": "Ceuta sufre un apagón que deja sin luz a la ciudad durante una hora tras un incidente de la red en Cádiz",
+          "u": "https://www.rtve.es/noticias/20261021/ceuta-apagon-incidente-cadiz/17276330.shtml"
+        },
+        {
+          "p": 29,
+          "t": "Ganaderos de toda España piden a las administraciones disminuir la burocracia",
+          "u": "https://www.rtve.es/noticias/20261021/ganaderos-toda-espana-piden-a-administraciones-disminuir-burocracia/17276954.shtml"
+        },
+        {
+          "p": 30,
+          "t": "Claves para rebajar la factura de la luz: ahorrar energía y comparar tarifas",
+          "u": "https://www.rtve.es/noticias/20261021/claves-rebajar-factura-luz-ahorrar-energia-electrica-comparar-tarifas/17275346.shtml"
+        }
+      ],
+      "n": 30,
+      "ok": true
+    }
+  },
+  "n_por_foto": 30,
+  "ts": "2026-10-21T20:53:21+02:00"
+}
