@@ -1,0 +1,298 @@
+{
+  "actualizado": "2026-10-13T15:28:38+02:00",
+  "fecha": "2026-09-18",
+  "medios": {
+    "abc": {
+      "actores": {
+        "Alberto Núñez Feijóo": 3,
+        "Congreso / Senado": 1,
+        "Donald Trump": 5,
+        "Gobierno Vasco": 1,
+        "Gobierno de España": 1,
+        "Isabel Díaz Ayuso": 3,
+        "PP": 6,
+        "PSE-EE / PSOE": 3,
+        "Pedro Sánchez": 8,
+        "Santiago Abascal": 1,
+        "Unión Europea": 2,
+        "Vox": 1
+      },
+      "ambito": "espana",
+      "bloques": {
+        "PP": 11,
+        "PSOE / PSE": 11,
+        "Vox": 2
+      },
+      "n": 415,
+      "nombre": "ABC",
+      "temas": {
+        "Autogobierno y territorio": 1,
+        "EE. UU. y Trump": 8,
+        "Economía, empresa e industria": 19,
+        "Educación y universidad": 19,
+        "Empleo y relaciones laborales": 5,
+        "Energía y medio ambiente": 12,
+        "Euskera, cultura e identidad": 16,
+        "Igualdad y derechos": 8,
+        "Infraestructuras y movilidad": 17,
+        "Inmigración": 11,
+        "Internacional": 30,
+        "Israel, Gaza y Oriente Próximo": 1,
+        "Justicia y corrupción": 13,
+        "Latinoamérica": 6,
+        "Memoria y convivencia": 1,
+        "Otros": 223,
+        "Política y partidos": 48,
+        "Políticas sociales": 2,
+        "Sanidad": 10,
+        "Seguridad y sucesos": 33,
+        "Tecnología e innovación": 6,
+        "Ucrania y Rusia": 4,
+        "Unión Europea": 6,
+        "Vivienda": 10
+      }
+    },
+    "berria": {
+      "actores": {
+        "EH Bildu": 1,
+        "Gobierno Vasco": 1,
+        "Imanol Pradales": 1,
+        "PSE-EE / PSOE": 1
+      },
+      "ambito": "euskadi",
+      "bloques": {
+        "EH Bildu": 1,
+        "PNV": 1,
+        "PSOE / PSE": 1
+      },
+      "n": 65,
+      "nombre": "Berria",
+      "temas": {
+        "Economía, empresa e industria": 2,
+        "Empleo y relaciones laborales": 1,
+        "Energía y medio ambiente": 1,
+        "Euskera, cultura e identidad": 2,
+        "Inmigración": 2,
+        "Internacional": 3,
+        "Israel, Gaza y Oriente Próximo": 1,
+        "Justicia y corrupción": 1,
+        "Otros": 48,
+        "Política y partidos": 5,
+        "Ucrania y Rusia": 2
+      }
+    },
+    "deia": {
+      "actores": {
+        "Alberto Núñez Feijóo": 1,
+        "Donald Trump": 3,
+        "EH Bildu": 1,
+        "Gobierno Vasco": 1,
+        "Imanol Pradales": 1,
+        "Isabel Díaz Ayuso": 1,
+        "PNV": 2,
+        "PP": 2,
+        "PSE-EE / PSOE": 2,
+        "Pedro Sánchez": 3,
+        "Podemos": 1,
+        "Vox": 1
+      },
+      "ambito": "euskadi",
+      "bloques": {
+        "EH Bildu": 1,
+        "PNV": 3,
+        "PP": 4,
+        "PSOE / PSE": 5,
+        "Podemos": 1,
+        "Vox": 1
+      },
+      "n": 161,
+      "nombre": "Deia",
+      "temas": {
+        "EE. UU. y Trump": 6,
+        "Economía, empresa e industria": 10,
+        "Educación y universidad": 3,
+        "Empleo y relaciones laborales": 3,
+        "Energía y medio ambiente": 2,
+        "Euskera, cultura e identidad": 12,
+        "Igualdad y derechos": 1,
+        "Infraestructuras y movilidad": 8,
+        "Inmigración": 7,
+        "Internacional": 18,
+        "Israel, Gaza y Oriente Próximo": 1,
+        "Justicia y corrupción": 9,
+        "Latinoamérica": 4,
+        "Memoria y convivencia": 1,
+        "Otros": 87,
+        "Política y partidos": 17,
+        "Sanidad": 2,
+        "Seguridad y sucesos": 5,
+        "Tecnología e innovación": 3,
+        "Ucrania y Rusia": 3,
+        "Unión Europea": 2,
+        "Vivienda": 1
+      }
+    },
+    "diariovasco": {
+      "actores": {
+        "Imanol Pradales": 1,
+        "PNV": 2,
+        "PP": 1
+      },
+      "ambito": "euskadi",
+      "bloques": {
+        "PNV": 3,
+        "PP": 1
+      },
+      "n": 147,
+      "nombre": "Diario Vasco",
+      "temas": {
+        "Economía, empresa e industria": 6,
+        "Educación y universidad": 1,
+        "Energía y medio ambiente": 2,
+        "Euskera, cultura e identidad": 18,
+        "Igualdad y derechos": 1,
+        "Inmigración": 1,
+        "Justicia y corrupción": 3,
+        "Memoria y convivencia": 2,
+        "Otros": 96,
+        "Política y partidos": 9,
+        "Políticas sociales": 1,
+        "Sanidad": 5,
+        "Seguridad y sucesos": 9,
+        "Tecnología e innovación": 3
+      }
+    },
+    "eitb": {
+      "actores": {
+        "EH Bildu": 1,
+        "Gobierno Vasco": 1,
+        "Pedro Sánchez": 1,
+        "Pello Otxandiano": 1,
+        "Podemos": 1
+      },
+      "ambito": "euskadi",
+      "bloques": {
+        "EH Bildu": 2,
+        "PSOE / PSE": 1,
+        "Podemos": 1
+      },
+      "n": 33,
+      "nombre": "EITB (Orain)",
+      "temas": {
+        "EE. UU. y Trump": 1,
+        "Economía, empresa e industria": 2,
+        "Educación y universidad": 2,
+        "Empleo y relaciones laborales": 1,
+        "Energía y medio ambiente": 3,
+        "Euskera, cultura e identidad": 8,
+        "Infraestructuras y movilidad": 2,
+        "Inmigración": 1,
+        "Internacional": 2,
+        "Israel, Gaza y Oriente Próximo": 1,
+        "Justicia y corrupción": 2,
+        "Otros": 9,
+        "Política y partidos": 6,
+        "Seguridad y sucesos": 1,
+        "Tecnología e innovación": 1,
+        "Vivienda": 1
+      }
+    },
+    "elcorreo": {
+      "actores": {
+        "Alberto Núñez Feijóo": 1,
+        "Donald Trump": 3,
+        "EH Bildu": 1,
+        "Gobierno Vasco": 1,
+        "Imanol Pradales": 1,
+        "Isabel Díaz Ayuso": 3,
+        "PP": 1,
+        "Podemos": 1,
+        "Sumar": 1,
+        "Unión Europea": 1
+      },
+      "ambito": "euskadi",
+      "bloques": {
+        "EH Bildu": 1,
+        "PNV": 1,
+        "PP": 5,
+        "Podemos": 1,
+        "Sumar": 1
+      },
+      "n": 207,
+      "nombre": "El Correo",
+      "temas": {
+        "Autogobierno y territorio": 2,
+        "EE. UU. y Trump": 4,
+        "Economía, empresa e industria": 11,
+        "Educación y universidad": 3,
+        "Empleo y relaciones laborales": 6,
+        "Energía y medio ambiente": 3,
+        "Euskera, cultura e identidad": 13,
+        "Igualdad y derechos": 2,
+        "Infraestructuras y movilidad": 7,
+        "Inmigración": 4,
+        "Internacional": 16,
+        "Israel, Gaza y Oriente Próximo": 1,
+        "Justicia y corrupción": 6,
+        "Latinoamérica": 3,
+        "Otros": 129,
+        "Política y partidos": 17,
+        "Sanidad": 2,
+        "Seguridad y sucesos": 6,
+        "Tecnología e innovación": 6,
+        "Ucrania y Rusia": 3,
+        "Unión Europea": 2,
+        "Vivienda": 2
+      }
+    },
+    "eldiario": {
+      "actores": {
+        "Alberto Núñez Feijóo": 3,
+        "Congreso / Senado": 1,
+        "Donald Trump": 4,
+        "EH Bildu": 1,
+        "Isabel Díaz Ayuso": 9,
+        "PP": 14,
+        "PSE-EE / PSOE": 11,
+        "Pedro Sánchez": 4,
+        "Tribunales (TS / TC)": 1,
+        "Vox": 6
+      },
+      "ambito": "espana",
+      "bloques": {
+        "EH Bildu": 1,
+        "PP": 23,
+        "PSOE / PSE": 15,
+        "Vox": 6
+      },
+      "n": 313,
+      "nombre": "elDiario.es",
+      "temas": {
+        "EE. UU. y Trump": 4,
+        "Economía, empresa e industria": 20,
+        "Educación y universidad": 16,
+        "Empleo y relaciones laborales": 11,
+        "Energía y medio ambiente": 13,
+        "Euskera, cultura e identidad": 22,
+        "Igualdad y derechos": 2,
+        "Infraestructuras y movilidad": 17,
+        "Inmigración": 7,
+        "Internacional": 12,
+        "Justicia y corrupción": 17,
+        "Latinoamérica": 5,
+        "Memoria y convivencia": 2,
+        "Otros": 130,
+        "Pensiones": 2,
+        "Política y partidos": 55,
+        "Políticas sociales": 1,
+        "Sanidad": 11,
+        "Seguridad y sucesos": 18,
+        "Tecnología e innovación": 13,
+        "Ucrania y Rusia": 1,
+        "Unión Europea": 1,
+        "Vivienda": 6
+      }
+    }
+  },
+  "origen": "archivo"
+}

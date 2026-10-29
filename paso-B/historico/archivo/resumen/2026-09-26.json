@@ -1,0 +1,279 @@
+{
+  "actualizado": "2026-10-13T15:28:48+02:00",
+  "fecha": "2026-09-26",
+  "medios": {
+    "abc": {
+      "actores": {
+        "Congreso / Senado": 1,
+        "Donald Trump": 1,
+        "Gobierno de España": 1,
+        "PP": 5,
+        "PSE-EE / PSOE": 13,
+        "Pedro Sánchez": 3,
+        "Sumar": 1,
+        "Tribunales (TS / TC)": 1,
+        "Unión Europea": 1,
+        "Vox": 1
+      },
+      "ambito": "espana",
+      "bloques": {
+        "PP": 5,
+        "PSOE / PSE": 16,
+        "Sumar": 1,
+        "Vox": 1
+      },
+      "n": 292,
+      "nombre": "ABC",
+      "temas": {
+        "Autogobierno y territorio": 1,
+        "EE. UU. y Trump": 4,
+        "Economía, empresa e industria": 9,
+        "Educación y universidad": 2,
+        "Empleo y relaciones laborales": 3,
+        "Energía y medio ambiente": 4,
+        "Euskera, cultura e identidad": 10,
+        "Igualdad y derechos": 3,
+        "Infraestructuras y movilidad": 6,
+        "Inmigración": 5,
+        "Internacional": 16,
+        "Israel, Gaza y Oriente Próximo": 5,
+        "Justicia y corrupción": 3,
+        "Latinoamérica": 2,
+        "Otros": 177,
+        "Política y partidos": 37,
+        "Políticas sociales": 2,
+        "Sanidad": 7,
+        "Seguridad y sucesos": 23,
+        "Tecnología e innovación": 2,
+        "Unión Europea": 1,
+        "Vivienda": 12
+      }
+    },
+    "berria": {
+      "actores": {
+        "EH Bildu": 1,
+        "PSE-EE / PSOE": 1
+      },
+      "ambito": "euskadi",
+      "bloques": {
+        "EH Bildu": 1,
+        "PSOE / PSE": 1
+      },
+      "n": 41,
+      "nombre": "Berria",
+      "temas": {
+        "Educación y universidad": 1,
+        "Euskera, cultura e identidad": 2,
+        "Justicia y corrupción": 1,
+        "Otros": 34,
+        "Política y partidos": 2,
+        "Sanidad": 1,
+        "Vivienda": 1
+      }
+    },
+    "deia": {
+      "actores": {
+        "Congreso / Senado": 1,
+        "Donald Trump": 1,
+        "EH Bildu": 2,
+        "PNV": 4,
+        "PSE-EE / PSOE": 3,
+        "Santiago Abascal": 1,
+        "Sumar": 1,
+        "Unión Europea": 1
+      },
+      "ambito": "euskadi",
+      "bloques": {
+        "EH Bildu": 2,
+        "PNV": 4,
+        "PSOE / PSE": 3,
+        "Sumar": 1,
+        "Vox": 1
+      },
+      "n": 126,
+      "nombre": "Deia",
+      "temas": {
+        "Autogobierno y territorio": 1,
+        "EE. UU. y Trump": 2,
+        "Economía, empresa e industria": 5,
+        "Educación y universidad": 1,
+        "Energía y medio ambiente": 4,
+        "Euskera, cultura e identidad": 6,
+        "Igualdad y derechos": 1,
+        "Infraestructuras y movilidad": 5,
+        "Inmigración": 2,
+        "Internacional": 8,
+        "Israel, Gaza y Oriente Próximo": 2,
+        "Justicia y corrupción": 1,
+        "Latinoamérica": 2,
+        "Memoria y convivencia": 1,
+        "Otros": 70,
+        "Política y partidos": 15,
+        "Políticas sociales": 2,
+        "Sanidad": 2,
+        "Seguridad y sucesos": 3,
+        "Tecnología e innovación": 5,
+        "Ucrania y Rusia": 2,
+        "Unión Europea": 2,
+        "Vivienda": 6
+      }
+    },
+    "diariovasco": {
+      "actores": {
+        "Alberto Núñez Feijóo": 1,
+        "EH Bildu": 1,
+        "PP": 4
+      },
+      "ambito": "euskadi",
+      "bloques": {
+        "EH Bildu": 1,
+        "PP": 4
+      },
+      "n": 124,
+      "nombre": "Diario Vasco",
+      "temas": {
+        "EE. UU. y Trump": 1,
+        "Economía, empresa e industria": 2,
+        "Educación y universidad": 2,
+        "Euskera, cultura e identidad": 14,
+        "Infraestructuras y movilidad": 2,
+        "Inmigración": 1,
+        "Internacional": 4,
+        "Justicia y corrupción": 1,
+        "Latinoamérica": 1,
+        "Otros": 84,
+        "Política y partidos": 6,
+        "Sanidad": 4,
+        "Seguridad y sucesos": 2,
+        "Tecnología e innovación": 2,
+        "Ucrania y Rusia": 1
+      }
+    },
+    "eitb": {
+      "actores": {
+        "Donald Trump": 1,
+        "EH Bildu": 3,
+        "Javier de Andrés": 1,
+        "PNV": 2,
+        "PP": 1,
+        "PSE-EE / PSOE": 1
+      },
+      "ambito": "euskadi",
+      "bloques": {
+        "EH Bildu": 3,
+        "PNV": 2,
+        "PP": 1,
+        "PSOE / PSE": 1
+      },
+      "n": 26,
+      "nombre": "EITB (Orain)",
+      "temas": {
+        "EE. UU. y Trump": 1,
+        "Euskera, cultura e identidad": 4,
+        "Igualdad y derechos": 1,
+        "Internacional": 3,
+        "Israel, Gaza y Oriente Próximo": 3,
+        "Justicia y corrupción": 1,
+        "Otros": 10,
+        "Política y partidos": 5,
+        "Sanidad": 1,
+        "Seguridad y sucesos": 2,
+        "Vivienda": 1
+      }
+    },
+    "elcorreo": {
+      "actores": {
+        "Alberto Núñez Feijóo": 1,
+        "Arnaldo Otegi": 1,
+        "Donald Trump": 1,
+        "Gobierno Vasco": 1,
+        "PP": 1,
+        "Pedro Sánchez": 1,
+        "Podemos": 1,
+        "Santiago Abascal": 1
+      },
+      "ambito": "euskadi",
+      "bloques": {
+        "EH Bildu": 1,
+        "PP": 2,
+        "PSOE / PSE": 1,
+        "Podemos": 1,
+        "Vox": 1
+      },
+      "n": 147,
+      "nombre": "El Correo",
+      "temas": {
+        "EE. UU. y Trump": 4,
+        "Economía, empresa e industria": 2,
+        "Educación y universidad": 3,
+        "Empleo y relaciones laborales": 1,
+        "Energía y medio ambiente": 4,
+        "Euskera, cultura e identidad": 7,
+        "Infraestructuras y movilidad": 2,
+        "Internacional": 9,
+        "Israel, Gaza y Oriente Próximo": 2,
+        "Justicia y corrupción": 1,
+        "Latinoamérica": 3,
+        "Otros": 109,
+        "Política y partidos": 8,
+        "Políticas sociales": 3,
+        "Seguridad y sucesos": 7,
+        "Tecnología e innovación": 1,
+        "Vivienda": 1
+      }
+    },
+    "eldiario": {
+      "actores": {
+        "Donald Trump": 2,
+        "EH Bildu": 1,
+        "Gobierno de España": 1,
+        "Isabel Díaz Ayuso": 1,
+        "PNV": 1,
+        "PP": 9,
+        "PSE-EE / PSOE": 4,
+        "Pedro Sánchez": 3,
+        "Podemos": 1,
+        "Sumar": 2,
+        "Tribunales (TS / TC)": 2,
+        "Vox": 3
+      },
+      "ambito": "espana",
+      "bloques": {
+        "EH Bildu": 1,
+        "PNV": 1,
+        "PP": 10,
+        "PSOE / PSE": 7,
+        "Podemos": 1,
+        "Sumar": 2,
+        "Vox": 3
+      },
+      "n": 149,
+      "nombre": "elDiario.es",
+      "temas": {
+        "EE. UU. y Trump": 4,
+        "Economía, empresa e industria": 8,
+        "Educación y universidad": 2,
+        "Empleo y relaciones laborales": 1,
+        "Energía y medio ambiente": 9,
+        "Euskera, cultura e identidad": 4,
+        "Igualdad y derechos": 2,
+        "Infraestructuras y movilidad": 5,
+        "Inmigración": 4,
+        "Internacional": 14,
+        "Israel, Gaza y Oriente Próximo": 1,
+        "Justicia y corrupción": 6,
+        "Latinoamérica": 3,
+        "Otros": 62,
+        "Pensiones": 1,
+        "Política y partidos": 25,
+        "Políticas sociales": 2,
+        "Sanidad": 3,
+        "Seguridad y sucesos": 8,
+        "Tecnología e innovación": 3,
+        "Ucrania y Rusia": 2,
+        "Vivienda": 19
+      }
+    }
+  },
+  "origen": "archivo"
+}
