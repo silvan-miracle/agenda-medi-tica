@@ -116,6 +116,7 @@ section.tabpanel{padding-block:18px 40px}
 .rank{display:grid;grid-template-columns:minmax(110px,190px) minmax(0,1fr) 50px;gap:5px 12px;align-items:center}
 .rank .lab{font-size:13px;line-height:1.2;overflow-wrap:anywhere}
 .rank .n{font-size:12px;text-align:right}
+.gbars{display:flex;flex-direction:column;gap:2px;height:auto;background:none}.gbars .bar{height:6px;border-radius:3px;min-width:2px}
 @media (max-width:560px){.pbars{grid-template-columns:minmax(0,1fr) 50px}.pbars .lab{grid-column:1/-1}.pbars .h.lh{display:none}.arow{grid-template-columns:minmax(0,1fr) 40px 40px}.arow .lab{grid-column:1/-1}.rank{grid-template-columns:minmax(0,1fr) 46px}.rank .lab{grid-column:1/-1}}
 
 /* tablas de color */
@@ -177,6 +178,14 @@ ul.heads mark{background:#FFE3D6;color:inherit;padding:0 1px;border-radius:1px}
 @media (prefers-reduced-motion:reduce){#tip{transition:none}}
 footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:11.5px;color:var(--muted)}
 .footer-logo{height:22px;width:auto;opacity:.9}
+
+/* firma de S&M en cada gráfico (como en Matiz): fuente + logo abajo a la derecha, y botón de descarga en PNG */
+.export-btn{font:500 11.5px var(--sans);color:var(--teal);background:#fff;border:1px solid var(--grid);border-radius:2px;padding:6px 10px;cursor:pointer;white-space:nowrap;flex-shrink:0}
+.export-btn:hover{border-color:var(--teal)}
+.export-btn[disabled]{opacity:.6;cursor:default}
+.card-pie{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin-top:12px}
+.card-fuente{font-size:11px;line-height:1.35;color:var(--muted);padding-bottom:2px}
+.card-logo{display:block;height:26px;width:auto;margin:0 calc(-26px*21/139) calc(-26px*21/139) auto;flex-shrink:0}
 </style>
 
 <div class="wrap">
@@ -285,13 +294,13 @@ footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:fle
       </div>
     </div>
     <form class="search" id="b-form" autocomplete="off">
-      <input id="b-q" type="search" placeholder="Escribe una palabra, p. ej. vivienda · separa con comas para comparar: vivienda, alquiler" aria-label="Palabras a buscar">
+      <input id="b-q" type="search" placeholder="Compara hasta 4 conceptos separados por comas: vivienda, inmigración, seguridad" aria-label="Palabras a buscar">
       <button class="btn primary" type="submit">Buscar</button>
     </form>
-    <div class="search-hint">Encuentra la palabra al principio de otras (<i>desahuci</i> encuentra desahucio y desahucios) y no distingue tildes ni mayúsculas. Hasta cuatro palabras separadas por comas.</div>
+    <div class="search-hint">Encuentra la palabra al principio de otras (<i>desahuci</i> encuentra desahucio y desahucios) y no distingue tildes ni mayúsculas. Compara hasta cuatro conceptos separados por comas: cada uno tendrá su color en todos los gráficos. Solo hay titulares guardados desde el 14 de octubre.</div>
     <div class="progress" id="b-prog"></div>
     <div id="b-res" hidden>
-      <div class="kpis" id="b-kpis"></div>
+      <div class="legend" id="b-leyenda" style="margin:0 0 10px"></div>
       <div class="grid">
         <div class="card span12">
           <div class="card-head"><div>
@@ -306,7 +315,7 @@ footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:fle
           <div id="b-medios"></div>
         </div>
         <div class="card span5">
-          <div class="card-head"><div><h3>En qué temas y junto a qué partidos</h3><p class="subt">Reparto de los titulares encontrados</p></div></div>
+          <div class="card-head"><div><h3>En qué temas y junto a qué partidos</h3><p class="subt">% de los titulares de cada concepto, con sus temas y partidos</p></div></div>
           <div class="mini-h" style="margin-top:6px">Temas</div><div id="b-temas"></div>
           <div class="mini-h" style="margin-top:14px">Partidos</div><div id="b-partidos"></div>
         </div>
@@ -864,7 +873,7 @@ const rxResaltar = t => new RegExp("(^|[^\\p{L}\\p{N}])(" + [...normTxt(t)].map(
 const B = { terms:[], rango:"all", amb:"todos", res:null, cargando:false };
 
 function bFechas(){
-  const f = fechas(); if (!f.length || B.rango === "all") return f;
+  let f = fechas(); if (B.titFechas) f = f.filter(x => B.titFechas.has(x)); if (!f.length || B.rango === "all") return f;
   const ult = new Date(f[f.length-1] + "T12:00:00"), lim = new Date(ult); lim.setDate(lim.getDate() - (+B.rango - 1));
   const l = lim.toISOString().slice(0,10); return f.filter(x => x >= l);
 }
@@ -883,6 +892,7 @@ async function buscar(){
   if (!terms.length || B.cargando) return;
   if (!S.db) { $("#b-prog").textContent = "No se pueden leer los datos."; return; }
   B.cargando = true; B.terms = terms;
+  if (!B.titFechas) { try { const idx = await (await fetch("data/indice.json")).json(); if (idx && idx.titulares && idx.titulares.length) B.titFechas = new Set(idx.titulares); } catch(e) {} }
   const F = bFechas();
   $("#b-prog").textContent = "Cargando titulares…";
   await cargarDias(F, (h, t) => { $("#b-prog").textContent = `Cargando titulares: ${h} de ${t} días…`; });
@@ -894,13 +904,13 @@ async function buscar(){
     if (doc.panel === false) { // fuera del panel: se listan, pero no cuentan en porcentajes
       for (const it of doc.items || []) { const m = rx.map(r => r.test(normTxt(it.t))); if (m.some(Boolean)) filas.push({f, doc, it, m}); }
       continue; }
-    const k = doc.medio, pm = porMed[k] ||= {nombre:doc.nombre, ambito:doc.ambito, n:0, hit:0};
+    const k = doc.medio, pm = porMed[k] ||= {nombre:doc.nombre, ambito:doc.ambito, n:0, hit:0, hits:terms.map(()=>0)};
     const dm = (dia[f] ||= {})[k] ||= {ambito:doc.ambito, n:0, hits:terms.map(()=>0), any:0};
     for (const it of doc.items || []) {
       const txt = normTxt(it.t); total++; pm.n++; dm.n++;
       const m = rx.map(r => r.test(txt));
       if (!m.some(Boolean)) continue;
-      m.forEach((v,i) => { if (v) dm.hits[i]++; }); dm.any++; pm.hit++;
+      m.forEach((v,i) => { if (v) { dm.hits[i]++; pm.hits[i]++; } }); dm.any++; pm.hit++;
       filas.push({f, doc, it, m});
     }
   }
@@ -919,15 +929,11 @@ function pintarBusqueda(){
   $("#b-res").hidden = false;
   const etiqueta = B.terms.map(t => `«${t}»`).join(", ");
   const n = R.filas.length;
-  // KPIs
   const medios = Object.values(R.porMed).filter(m => m.n >= 20).map(m => ({...m, c:m.hit/m.n})).sort((a,b) => b.c - a.c);
-  let pico = null; for (const f of R.F) { const v = cuotaDia(f, "todos", -1); if (!pico || v > pico.v) pico = {f, v}; }
-  $("#b-kpis").innerHTML = [
-    ["Titulares encontrados", fmtN(n), `${etiqueta} · ${R.F.length} días`],
-    ["Cuota media", R.total ? pct(n / R.total) : "—", "de todos los titulares del periodo"],
-    ["Medio que más la usa", medios[0] && medios[0].hit ? esc(medios[0].nombre) : "—", medios[0] && medios[0].hit ? pct(medios[0].c) + " de sus titulares" : ""],
-    ["Día de más presencia", pico && pico.v ? esc(fmtDia(pico.f)) : "—", pico && pico.v ? pct(pico.v) + " de los titulares" : ""],
-  ].map(([l,v,s]) => `<div class="kpi"><div class="lab">${l}</div><div class="val">${v}</div><div class="sub">${s}</div></div>`).join("");
+  const multi = B.terms.length > 1;
+  const col = i => `var(--s${i+1})`;
+  $("#b-leyenda").innerHTML = multi ? B.terms.map((t,i) => `<span><i class="dot" style="background:${col(i)}"></i>${esc(t)} · ${fmtN(R.filas.filter(r => r.m[i]).length)} titulares</span>`).join("") : "";
+  $("#b-leyenda").hidden = !multi;
   // evolución
   const F = R.F;
   if (F.length < 2) $("#b-evo").innerHTML = `<div class="empty">Hacen falta al menos dos días.</div>`;
@@ -941,16 +947,33 @@ function pintarBusqueda(){
     lineChart($("#b-evo"), F, B.terms, B.terms.map((t,i) => F.map(f => cuotaDia(f, B.amb, i))), "Evolución de la búsqueda");
   }
   // medios
-  const maxC = Math.max(...medios.map(m => m.c), 1e-9);
-  $("#b-medios").innerHTML = medios.length ? `<div class="rank">` + medios.map(m =>
-    `<span class="lab">${esc(m.nombre)}<span class="amb-tag">${m.ambito==="euskadi"?"EUS":"ESP"}</span></span><div class="bars" data-tip="${esc(`<b>${m.nombre}</b><br>${m.hit} de ${fmtN(m.n)} titulares (${pct(m.c)})`)}"><div class="bar ${m.ambito==="euskadi"?"eus":"esp"}" style="width:${(m.c/maxC*100).toFixed(1)}%"></div></div><span class="n">${pct(m.c)}</span>`).join("") + `</div>`
-    : `<div class="empty">Sin datos.</div>`;
-  // temas y partidos
-  const ct = {}, cb = {};
-  for (const r of R.filas) { for (const t of r.it.temas || []) if (t !== "Otros") ct[t] = (ct[t]||0) + 1;
-    const bl = new Set((r.it.actores || []).map(a => MIEMBRO[a]).filter(Boolean)); for (const b of bl) cb[b] = (cb[b]||0) + 1; }
-  const barras = (o, color) => { const ks = Object.entries(o).sort((a,b) => b[1]-a[1]).slice(0, 8); if (!ks.length) return `<div class="empty" style="padding:10px">Ninguno.</div>`;
-    const mx = ks[0][1]; return `<div class="rank">` + ks.map(([k,v]) => `<span class="lab">${esc(k)}</span><div class="bars" data-tip="${esc(`<b>${k}</b><br>${v} de ${n} titulares`)}"><div class="bar" style="background:${color(k)};width:${(v/mx*100).toFixed(1)}%"></div></div><span class="n">${pct(v/n,0)}</span>`).join("") + `</div>`; };
+  const mini = (hs, mx, tip) => `<div class="bars gbars" data-tip="${esc(tip)}">` + hs.map(([v,c]) => `<div class="bar" style="background:${c};width:${(v/mx*100).toFixed(1)}%"></div>`).join("") + `</div>`;
+  if (!medios.length) $("#b-medios").innerHTML = `<div class="empty">Sin datos.</div>`;
+  else if (!multi) {
+    const maxC = Math.max(...medios.map(m => m.c), 1e-9);
+    $("#b-medios").innerHTML = `<div class="rank">` + medios.map(m =>
+      `<span class="lab">${esc(m.nombre)}<span class="amb-tag">${m.ambito==="euskadi"?"EUS":"ESP"}</span></span><div class="bars" data-tip="${esc(`<b>${m.nombre}</b><br>${m.hit} de ${fmtN(m.n)} titulares (${pct(m.c)})`)}"><div class="bar ${m.ambito==="euskadi"?"eus":"esp"}" style="width:${(m.c/maxC*100).toFixed(1)}%"></div></div><span class="n">${pct(m.c)}</span>`).join("") + `</div>`;
+  } else {
+    const ord = medios.slice().sort((a,b) => b.c - a.c);
+    const maxC = Math.max(...ord.flatMap(m => m.hits.map(h => h/m.n)), 1e-9);
+    $("#b-medios").innerHTML = `<div class="rank">` + ord.map(m => {
+      const tip = `<b>${m.nombre}</b>` + B.terms.map((t,i) => `<br>${esc(t)}: ${m.hits[i]} de ${fmtN(m.n)} (${pct(m.hits[i]/m.n)})`).join("");
+      return `<span class="lab">${esc(m.nombre)}<span class="amb-tag">${m.ambito==="euskadi"?"EUS":"ESP"}</span></span>` + mini(m.hits.map((h,i) => [h/m.n, col(i)]), maxC, tip) + `<span class="n">${pct(m.c)}</span>`; }).join("") + `</div>`;
+  }
+  // temas y partidos (por concepto)
+  const nT = B.terms.length, ct = {}, cb = {}, nI = B.terms.map(() => 0);
+  for (const r of R.filas) { r.m.forEach((v,i) => { if (v) nI[i]++; });
+    const bl = new Set((r.it.actores || []).map(a => MIEMBRO[a]).filter(Boolean));
+    for (const t of r.it.temas || []) if (t !== "Otros") { const o = ct[t] ||= B.terms.map(() => 0); r.m.forEach((v,i) => { if (v) o[i]++; }); }
+    for (const b of bl) { const o = cb[b] ||= B.terms.map(() => 0); r.m.forEach((v,i) => { if (v) o[i]++; }); } }
+  const barras = (o, color) => { const ks = Object.entries(o).sort((a,b) => b[1].reduce((x,y)=>x+y,0) - a[1].reduce((x,y)=>x+y,0)).slice(0, 8);
+    if (!ks.length) return `<div class="empty" style="padding:10px">Ninguno.</div>`;
+    const mx = Math.max(...ks.flatMap(([,v]) => v.map((x,i) => x / Math.max(nI[i],1))), 1e-9);
+    return `<div class="rank">` + ks.map(([k,v]) => {
+      const tip = `<b>${esc(k)}</b>` + B.terms.map((t,i) => `<br>${esc(t)}: ${v[i]} de ${nI[i]} (${pct(v[i]/Math.max(nI[i],1),0)})`).join("");
+      const hs = multi ? v.map((x,i) => [x/Math.max(nI[i],1), col(i)]) : [[v[0]/Math.max(nI[0],1), color(k)]];
+      const tot = multi ? "" : pct(v[0]/Math.max(nI[0],1),0);
+      return `<span class="lab">${esc(k)}</span>` + mini(hs, mx, tip) + `<span class="n">${tot}</span>`; }).join("") + `</div>`; };
   $("#b-temas").innerHTML = n ? barras(ct, () => "var(--teal)") : `<div class="empty" style="padding:10px">Sin resultados.</div>`;
   $("#b-partidos").innerHTML = n ? barras(cb, colorActor) : "";
   // nubes de coocurrencia
@@ -1080,6 +1103,56 @@ const DL = { save: async ({ filename, data }) => {
   a.download = filename; document.body.appendChild(a); a.click(); a.remove();
   setTimeout(() => URL.revokeObjectURL(a.href), 2000);
 } };
+
+
+/* ---------- firma y descarga de gráficos (PNG) ---------- */
+const FUENTE_PIE = "Fuente: Agenda mediática, el monitor de los medios de Silván & Miracle";
+function firmar(){
+  const logo = document.querySelector(".sm-logo")?.src || "";
+  document.querySelectorAll("#tab-agenda .card, #tab-buscador .card").forEach(card => {
+    const tit = card.querySelector(".card-head h3")?.textContent.trim() || "";
+    if (!tit || /^Titulares encontrados/.test(tit)) return;
+    if (!card.querySelector(".card-pie")) {
+      const pie = document.createElement("div"); pie.className = "card-pie";
+      pie.innerHTML = `<span class="card-fuente">${FUENTE_PIE}</span>` + (logo ? `<img class="card-logo" alt="Silván & Miracle" src="${logo}">` : "");
+      card.appendChild(pie);
+    }
+    const head = card.querySelector(".card-head");
+    if (head && !head.querySelector(".export-btn")) {
+      const b = document.createElement("button"); b.type = "button"; b.className = "export-btn"; b.textContent = "⬇ Descargar el gráfico";
+      head.appendChild(b);
+    }
+  });
+}
+let _h2c = null;
+function cargarH2C(){
+  if (window.html2canvas) return Promise.resolve();
+  return _h2c ||= new Promise((ok, ko) => { const sc = document.createElement("script"); sc.src = "vendor/html2canvas.min.js"; sc.onload = ok; sc.onerror = () => { _h2c = null; ko(new Error("html2canvas")); }; document.head.appendChild(sc); });
+}
+/* html2canvas pierde los estilos de CSS en los SVG: se copian en línea sobre el clon antes de dibujar */
+function estilosSvgEnLinea(doc){
+  const props = ["fill","stroke","stroke-width","stroke-dasharray","stroke-linecap","stroke-linejoin","opacity","fill-opacity","stroke-opacity","font-family","font-size","font-weight","font-style","letter-spacing","text-anchor","dominant-baseline"];
+  doc.querySelectorAll("svg *").forEach(el => { const cs = doc.defaultView.getComputedStyle(el); props.forEach(k => { const v = cs.getPropertyValue(k); if (v) el.style.setProperty(k, v); }); });
+}
+const slug = t => t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "").slice(0, 60);
+async function descargarTarjeta(card, b){
+  const txt = b.textContent; b.disabled = true; b.textContent = "Preparando…";
+  try {
+    await cargarH2C(); if (document.fonts?.ready) await document.fonts.ready;
+    const cv = await html2canvas(card, { scale: 2, backgroundColor: "#fff", logging: false, useCORS: true,
+      ignoreElements: el => el.classList && (el.classList.contains("export-btn") || el.classList.contains("brush-wrap")),
+      onclone: (doc) => estilosSvgEnLinea(doc) });
+    const blob = await new Promise(r => cv.toBlob(r, "image/png"));
+    const tit = card.querySelector(".card-head h3")?.textContent.trim() || "grafico";
+    const f = (fechasRango?.() || []); const fin = f.length ? f[f.length - 1] : new Date().toISOString().slice(0, 10);
+    const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = `agenda_mediatica_${slug(tit)}_${fin}.png`;
+    document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    b.textContent = txt;
+  } catch (e) { b.textContent = "No se pudo generar"; setTimeout(() => { b.textContent = txt; }, 2500); }
+  finally { b.disabled = false; }
+}
+document.addEventListener("click", e => { const b = e.target.closest(".export-btn"); if (b) descargarTarjeta(b.closest(".card"), b); });
+firmar();
 
 render();
 (async () => {
