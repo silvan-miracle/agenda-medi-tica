@@ -60,7 +60,9 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--salida", default=os.path.join(AQUI, "docs", "data"))
     ap.add_argument("--ultimos", type=int, default=0, help="reescribir palabras/titulares solo de los N últimos días (0 = todos)")
-    ap.add_argument("--archivo", default=os.path.join(AQUI, "historico", "archivo"))
+    # Días anteriores al método de portadas. Acepta la ubicación definitiva y la de la subida inicial (paso-B).
+    cand = [os.path.join(AQUI, *r) for r in (("historico", "archivo"), ("paso-B", "historico", "archivo"))]
+    ap.add_argument("--archivo", default=next((c for c in cand if os.path.isdir(os.path.join(c, "resumen"))), cand[0]))
     a = ap.parse_args()
 
     url = os.environ.get("DATABASE_URL", "").strip()
