@@ -4,19 +4,12 @@ name: Monitor de agenda mediática
 on:
   workflow_dispatch:          # botón «Run workflow» en la pestaña Actions
 
-  # Fase 6 · Automatizar (paso 14). Tres fotos al día: 6:30, 9:00 y 14:00 de Madrid, todo el año.
-  # GitHub cuenta en hora UTC, que cambia respecto a Madrid con el horario de verano. Por eso hay
-  # un juego de líneas para cada estación, y el primer paso deja correr solo el que corresponde a
-  # la estación actual (el otro se salta solo). No hay que tocar nada en marzo ni en octubre.
+  # GitHub usa hora UTC (Madrid va 1 h por delante en invierno y 2 h en verano).
+  # Invierno (último domingo de octubre → último domingo de marzo): "47 7,12,19 * * *"
+  # Verano   (último domingo de marzo → último domingo de octubre): "47 6,11,18 * * *"
+  # Resultado: 8:47, 13:47 y 20:47 de Madrid todo el año.
   schedule:
-    # invierno (Madrid = UTC+1)
-    - cron: "30 5 * * *"        # 6:30
-    - cron: "0 8 * * *"         # 9:00
-    - cron: "0 13 * * *"        # 14:00
-    # verano (Madrid = UTC+2)
-    - cron: "30 4 * * *"        # 6:30
-    - cron: "0 7 * * *"         # 9:00
-    - cron: "0 12 * * *"        # 14:00
+    - cron: "47 7,12,19 * * *"   # INVIERNO — cambiar a "47 6,11,18 * * *" a finales de marzo
 
 permissions:
   contents: write             # para guardar docs/data/*.json en el repositorio (paso 14)
@@ -33,44 +26,23 @@ jobs:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}   # Settings › Secrets and variables › Actions
       TZ: Europe/Madrid
     steps:
-      - name: 0 · ¿Toca ahora? (descarta la línea del cron de la otra estación)
-        id: toca
-        run: |
-          DESPL=$(TZ=Europe/Madrid date +%z)          # +0100 invierno, +0200 verano
-          SCH="${{ github.event.schedule }}"
-          OK=false
-          if [ "${{ github.event_name }}" != "schedule" ]; then OK=true
-          elif [ "$DESPL" = "+0100" ]; then
-            case "$SCH" in "30 5 * * *"|"0 8 * * *"|"0 13 * * *") OK=true;; esac
-          elif [ "$DESPL" = "+0200" ]; then
-            case "$SCH" in "30 4 * * *"|"0 7 * * *"|"0 12 * * *") OK=true;; esac
-          fi
-          echo "ok=$OK" >> "$GITHUB_OUTPUT"
-          echo "Desplazamiento de Madrid: $DESPL · ejecutar: $OK"
-
       - uses: actions/checkout@v4
-        if: steps.toca.outputs.ok == 'true'
 
       - uses: actions/setup-python@v5
-        if: steps.toca.outputs.ok == 'true'
         with:
           python-version: "3.12"
           cache: pip
 
       - name: Instalar dependencias
-        if: steps.toca.outputs.ok == 'true'
         run: pip install -r requirements.txt
 
       - name: 1 · Extraer — foto de la portada de los 15 medios
-        if: steps.toca.outputs.ok == 'true'
         run: python portadas.py toma --dir .
 
       - name: 2 · Cargar el crudo — la foto entera a la tabla tomas
-        if: steps.toca.outputs.ok == 'true'
         run: python cargar.py toma
 
       - name: 3 · Transformar — juntar las fotos de hoy y clasificar
-        if: steps.toca.outputs.ok == 'true'
         run: |
           FECHA=$(jq -r .fecha out_toma/toma.json)
           echo "FECHA=$FECHA" >> "$GITHUB_ENV"
@@ -79,11 +51,9 @@ jobs:
           python portadas.py dia --fecha "$FECHA" --tomas tomas_dl --dir .
 
       - name: 4 · Cargar el día — rehacer piezas, palabras y ejecuciones
-        if: steps.toca.outputs.ok == 'true'
         run: python cargar.py dia --fecha "$FECHA" --dir out
 
       - name: 5 · Publicar — escribir los JSON y actualizar la web
-        if: steps.toca.outputs.ok == 'true'
         run: |
           python exportar.py --ultimos 3
           git config user.name "github-actions[bot]"
