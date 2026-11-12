@@ -1,5 +1,5 @@
 <!doctype html><html lang="es"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Agenda Mediática Euskadi–España</title>
+<title>Agenda Mediática</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Instrument+Serif&display=swap">
@@ -199,7 +199,7 @@ footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:fle
     <div class="brand">
       <h1>Agenda mediática</h1>
       <span class="lema">El monitor de los medios</span>
-      <span class="sub">Qué temas, partidos y palabras ocupan cada día a 15 medios vascos y estatales</span>
+      <span class="sub">Qué temas, partidos y palabras ocupan cada día a 8 medios estatales</span>
     </div>
     <nav class="main-tabs" role="tablist" aria-label="Secciones">
       <button type="button" role="tab" data-tab="agenda" aria-selected="true"><span class="t">Agenda mediática</span><span class="d">Temas, medios y partidos</span></button>
@@ -214,7 +214,7 @@ footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:fle
     <div class="src-head">
       <div>
         <h2>La agenda de los medios</h2>
-        <p class="sub">Peso de cada tema y de cada partido en los titulares, comparando medios vascos y estatales</p>
+        <p class="sub">Peso de cada tema y de cada partido en los titulares, en los medios estatales</p>
       </div>
       <div class="ctrls">
         <span class="seg" id="seg-rango"><button data-v="1" aria-pressed="false">Último día</button><button data-v="7" aria-pressed="false">7 días</button><button data-v="30" aria-pressed="false">30 días</button><button data-v="90" aria-pressed="false">90 días</button><button data-v="all" aria-pressed="true">Todo</button></span>
@@ -229,9 +229,8 @@ footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:fle
       <div class="card span12">
         <div class="card-head"><div>
           <h3>Evolución de los temas</h3>
-          <p class="subt">Cuota diaria de cada tema en todo el histórico · elige hasta cuatro · arrastra la barra inferior para acotar el periodo · antes del 14 de octubre, archivo completo de 8 medios (método distinto, compara con cautela)</p>
-        </div>
-        <span class="seg" id="seg-evo"><button data-v="todos" aria-pressed="true">Todos</button><button data-v="euskadi" aria-pressed="false">Euskadi</button><button data-v="espana" aria-pressed="false">España</button></span></div>
+          <p class="subt">Cuota diaria de cada tema en todo el histórico · elige hasta cuatro · arrastra la barra inferior para acotar el periodo · antes del 14 de octubre, archivo completo de 3 medios: ABC, elDiario.es y 20minutos (método distinto, compara con cautela)</p>
+        </div></div>
         <div class="chips" id="evo-chips"></div>
         <div id="evo"></div>
         <div class="brush-wrap" id="evo-brush-wrap" hidden>
@@ -243,12 +242,9 @@ footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:fle
       <div class="card span12">
         <div class="card-head"><div>
           <h3>Qué temas ocupan la agenda</h3>
-          <p class="subt">% de titulares que tratan cada tema, con el mismo peso para cada medio · los dos gráficos usan la misma escala</p>
+          <p class="subt">% de titulares que tratan cada tema, con el mismo peso para cada medio</p>
         </div></div>
-        <div class="inner2">
-          <div><div class="mini-h"><span class="sw dot" style="background:var(--eus)"></span>Medios vascos</div><div id="pb-eus"></div></div>
-          <div><div class="mini-h"><span class="sw dot" style="background:var(--esp)"></span>Medios estatales</div><div id="pb-esp"></div></div>
-        </div>
+        <div id="pb-esp"></div>
       </div>
 
       <div class="card span12" id="sec-partidos">
@@ -258,7 +254,6 @@ footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:fle
         </div>
         <div class="ctrls">
           <span class="seg" id="seg-agr"><button data-v="1" aria-pressed="true">Agrupado</button><button data-v="0" aria-pressed="false">Desagregado</button></span>
-          <span class="seg" id="seg-pamb"><button data-v="todos" aria-pressed="true">Todos</button><button data-v="euskadi" aria-pressed="false">Euskadi</button><button data-v="espana" aria-pressed="false">España</button></span>
         </div></div>
         <div class="inner2 g64">
           <div><div class="chips" id="par-chips"></div><div id="par-evo"></div></div>
@@ -272,10 +267,7 @@ footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:fle
           <p class="subt">Palabras más repetidas en los titulares de un tema o de un partido · pulsa una palabra para llevarla al buscador</p>
         </div>
         <select id="nube-tema" class="sel" aria-label="Tema de la nube"></select></div>
-        <div class="inner2">
-          <div><div class="mini-h"><span class="sw dot" style="background:var(--eus)"></span>Medios vascos</div><div class="nube" id="nube-eus"></div></div>
-          <div><div class="mini-h"><span class="sw dot" style="background:var(--esp)"></span>Medios estatales</div><div class="nube" id="nube-esp"></div></div>
-        </div>
+        <div class="nube" id="nube-esp"></div>
       </div>
 
 
@@ -306,8 +298,7 @@ footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:fle
           <div class="card-head"><div>
             <h3 id="b-evo-t">Evolución</h3>
             <p class="subt" id="b-evo-s">% de titulares que contienen la palabra, cada día</p>
-          </div>
-          <span class="seg" id="seg-bamb"><button data-v="todos" aria-pressed="true">Todos</button><button data-v="euskadi" aria-pressed="false">Euskadi</button><button data-v="espana" aria-pressed="false">España</button></span></div>
+          </div></div>
           <div id="b-evo"></div>
         </div>
         <div class="card span7">
@@ -321,10 +312,7 @@ footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:fle
         </div>
         <div class="card span12">
           <div class="card-head"><div><h3>Con qué palabras aparece</h3><p class="subt">Palabras más frecuentes en los titulares que contienen la búsqueda</p></div></div>
-          <div class="inner2">
-            <div><div class="mini-h"><span class="sw dot" style="background:var(--eus)"></span>Medios vascos</div><div class="nube" id="b-nube-eus"></div></div>
-            <div><div class="mini-h"><span class="sw dot" style="background:var(--esp)"></span>Medios estatales</div><div class="nube" id="b-nube-esp"></div></div>
-          </div>
+          <div class="nube" id="b-nube-esp"></div>
         </div>
         <div class="card span12">
           <div class="card-head"><div><h3>Titulares encontrados</h3><p class="subt" id="b-heads-s"></p></div>
@@ -359,7 +347,7 @@ footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:fle
       <div class="card span12">
         <div class="card-head"><div><h3>Estado de la recogida</h3><p class="subt" id="st-sub">Resultado de la última ejecución por medio</p></div></div>
         <div class="status" id="status"></div>
-        <p class="method"><b>Método.</b> <b>Portadas.</b> Los 15 medios (EITB/Orain, El Correo, Diario Vasco, Deia, Noticias de Gipuzkoa, Berria y Naiz en Euskadi; El País, El Mundo, ABC, La Vanguardia, elDiario.es, El Confidencial, 20minutos y RTVE en España) se miden con la misma regla: lo que cada redacción pone en su portada. <b>Fotos.</b> Tres veces al día (mañana ≈9:00, mediodía ≈14:00 y noche ≈21:00, hora de Madrid) una tarea programada abre la portada de cada medio y guarda sus 30 primeras piezas en el orden en que aparecen en la página (El País, que no deja leer su portada web, a través de su RSS de portada, que sigue el mismo orden). <b>Día.</b> El día de un medio son las piezas distintas que estuvieron entre sus 30 primeras en alguna foto de ese día; en Titulares se ve la hora de la primera foto en que salió, su mejor posición y en cuántas fotos estuvo. <b>Clasificación.</b> Diccionario de términos por tema y actor (pestaña Diccionario); un titular puede tener varios temas; Internacional se desglosa en subtemas (EE. UU. y Trump, Israel/Gaza y Oriente Próximo, Ucrania y Rusia, Unión Europea, Latinoamérica), cuya cuota ya está incluida en la de Internacional; los deportes no se clasifican como tema. Clasificación revisada el 20 de octubre de 2026 y aplicada a todo el histórico; los que no encajan en ninguno cuentan en el total pero no se muestran. Los porcentajes por ámbito promedian los medios, para que una cabecera con más piezas no pese más. <b>Serie.</b> Empieza el 13 de septiembre de 2026 y se muestra completa en todas las secciones. Hasta el 13 de octubre se usó otro método (archivo completo de 7–8 medios a partir de sus sitemaps), que no es del todo comparable con el de portadas: en los gráficos de evolución una línea discontinua marca el cambio, y conviene comparar con cautela los periodos que mezclan ambos. Diccionario (<code>diccionario.json</code>), medios (<code>medios.json</code>) y código (<code>portadas.py</code>) se publican junto a esta página.</p>
+        <p class="method"><b>Método.</b> <b>Portadas.</b> Los 8 medios (El País, El Mundo, ABC, La Vanguardia, elDiario.es, El Confidencial, 20minutos y RTVE) se miden con la misma regla: lo que cada redacción pone en su portada. <b>Fotos.</b> Tres veces al día (mañana ≈9:00, mediodía ≈14:00 y noche ≈21:00, hora de Madrid) una tarea programada abre la portada de cada medio y guarda sus 30 primeras piezas en el orden en que aparecen en la página (El País, que no deja leer su portada web, a través de su RSS de portada, que sigue el mismo orden). <b>Día.</b> El día de un medio son las piezas distintas que estuvieron entre sus 30 primeras en alguna foto de ese día; en Titulares se ve la hora de la primera foto en que salió, su mejor posición y en cuántas fotos estuvo. <b>Clasificación.</b> Diccionario de términos por tema y actor (pestaña Diccionario); un titular puede tener varios temas; Internacional se desglosa en subtemas (EE. UU. y Trump, Israel/Gaza y Oriente Próximo, Ucrania y Rusia, Unión Europea, Latinoamérica), cuya cuota ya está incluida en la de Internacional; los deportes no se clasifican como tema. Clasificación revisada el 20 de octubre de 2026 y aplicada a todo el histórico; los que no encajan en ninguno cuentan en el total pero no se muestran. Los porcentajes promedian los medios, para que una cabecera con más piezas no pese más. <b>Serie.</b> Empieza el 13 de septiembre de 2026 y se muestra completa en todas las secciones. Hasta el 13 de octubre se usó otro método (archivo completo de 3 medios —ABC, elDiario.es y 20minutos— a partir de sus sitemaps), que no es del todo comparable con el de portadas: en los gráficos de evolución una línea discontinua marca el cambio, y conviene comparar con cautela los periodos que mezclan ambos. Diccionario (<code>diccionario.json</code>), medios (<code>medios.json</code>) y código (<code>portadas.py</code>) se publican junto a esta página.</p>
       </div>
     </div>
   </section>
@@ -385,7 +373,7 @@ footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:fle
   </section>
 
   <footer class="page">
-    <span>Elaborado por Silván &amp; Miracle a partir de las portadas de EITB, El Correo, Diario Vasco, Deia, Noticias de Gipuzkoa, Berria, Naiz, El País, El Mundo, ABC, La Vanguardia, elDiario.es, El Confidencial, 20minutos y RTVE.</span>
+    <span>Elaborado por Silván &amp; Miracle a partir de las portadas de El País, El Mundo, ABC, La Vanguardia, elDiario.es, El Confidencial, 20minutos y RTVE.</span>
     <img class="footer-logo" src="data:image/png;base64,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" alt="S &amp; M">
   </footer>
 </div>
@@ -488,40 +476,38 @@ function renderNotice(hay){
   const A = diasArchivo(), P = diasPortada();
   if (hay) { n.hidden = false;
     const hoy = new Date().toLocaleDateString("sv-SE",{timeZone:"Europe/Madrid"}), F = fechasRango(), ult = F[F.length-1];
-    n.innerHTML = `<b>Histórico completo desde el 13 de septiembre de 2026.</b> Desde el 14 de octubre, portadas de los 15 medios: tres veces al día (≈9:00, 14:00 y 21:00) se fotografía la portada de cada medio y se guardan sus 30 primeras piezas. Hasta el 13 de octubre, archivo completo de 7–8 medios (otro método: compara con cautela; en los gráficos de evolución lo separa una línea discontinua).` + (A.length && P.length ? ` El periodo elegido mezcla ${A.length} día${A.length===1?"":"s"} de archivo y ${P.length} de portadas.` : "") + ` Cada medio pesa lo mismo en la media de su ámbito.` +
+    n.innerHTML = `<b>Histórico completo desde el 13 de septiembre de 2026.</b> Desde el 14 de octubre, portadas de los 8 medios: tres veces al día (≈9:00, 14:00 y 21:00) se fotografía la portada de cada medio y se guardan sus 30 primeras piezas. Hasta el 13 de octubre, archivo completo de 3 medios (otro método: compara con cautela; en los gráficos de evolución lo separa una línea discontinua).` + (A.length && P.length ? ` El periodo elegido mezcla ${A.length} día${A.length===1?"":"s"} de archivo y ${P.length} de portadas.` : "") + ` Cada medio pesa lo mismo en la media.` +
       (ult === hoy ? ` <b>Hoy está en curso</b>: se completa con la foto de la noche.` : "");
     return; }
   if (hay) { n.hidden = true; return; }
   n.hidden = false;
   n.innerHTML = !S.loaded ? "Cargando datos…"
-    : S.db ? `<strong>Todavía no hay recogidas.</strong> Tres veces al día se fotografía la portada de los 15 medios; en cuanto termine la primera foto, esta página se rellena sola.` +
+    : S.db ? `<strong>Todavía no hay recogidas.</strong> Tres veces al día se fotografía la portada de los 8 medios; en cuanto termine la primera foto, esta página se rellena sola.` +
       (S.estado ? ` Última ejecución: ${esc(new Date(S.estado.ejecutado).toLocaleString("es-ES"))}, sin datos de ningún medio. Revisa el estado al pie.` : "")
     : `<strong>No se pueden leer los datos.</strong> Falta la carpeta data/ junto a esta página (la crea el workflow del monitor).`;
 }
 
 function renderKpis(M, F){
   const ms = Object.values(M), tot = ms.reduce((s,m)=>s+m.n,0);
-  const eus = cuotaAmb(M,"temas","euskadi"), esp = cuotaAmb(M,"temas","espana");
+  const esp = cuotaAmb(M,"temas","espana");
   const top = o => { const k = Object.keys(o).filter(k=>k!=="Otros").sort((a,b)=>o[b]-o[a])[0]; return k ? [k,o[k]] : ["—",0]; };
-  const te = top(eus), ts = top(esp);
+  const ts = top(esp);
   const per = F.length ? (F.length===1 ? fmtDia(F[0]) : `${fmtDia(F[0])} – ${fmtDia(F[F.length-1])}`) : "sin datos";
   $("#kpis").innerHTML = [
     ["Titulares analizados", fmtN(tot), per],
     ["Medios con datos", `${ms.filter(m=>m.n).length}`, `${F.length} día${F.length===1?"":"s"}` + (diasArchivo().length ? ` · ${diasArchivo().length} de archivo` : "")],
-    ["Tema nº 1 en Euskadi", esc(te[0]), te[1] ? pct(te[1]) + " de los titulares" : "—"],
-    ["Tema nº 1 en España", esc(ts[0]), ts[1] ? pct(ts[1]) + " de los titulares" : "—"],
+    ["Tema nº 1", esc(ts[0]), ts[1] ? pct(ts[1]) + " de los titulares" : "—"],
   ].map(([l,v,s]) => `<div class="kpi"><div class="lab">${l}</div><div class="val">${v}</div><div class="sub">${s}</div></div>`).join("");
 }
 
 function renderPbars(M){
-  const eus = cuotaAmb(M,"temas","euskadi"), esp = cuotaAmb(M,"temas","espana");
+  const esp = cuotaAmb(M,"temas","espana");
   const keys = temasOrden(M);
-  const max = Math.max(1e-9, ...keys.flatMap(k => [eus[k]||0, esp[k]||0]));
+  const max = Math.max(1e-9, ...keys.map(k => esp[k]||0));
   const panel = (o, cls, nom) => { const ks = keys.filter(k => (o[k]||0) > 0).sort((a,b) => o[b]-o[a]);
     if (!ks.length) return `<div class="empty">Sin datos todavía.</div>`;
     const sub = k => (SUBT[k]||[]).filter(x => (o[x]||0) > 0).sort((a,b) => o[b]-o[a]).map(x => `<span class="lab" style="padding-left:30px;font-size:12px;color:var(--ink-2)">↳ ${esc(x)}</span><div class="bars" data-tip="${esc(`<b>${x}</b> (dentro de ${k})<br>${nom}: ${pct(o[x])} de los titulares`)}"><div class="bar ${cls}" style="opacity:.45;height:6px;width:${(o[x]/max*100).toFixed(1)}%"></div></div><span class="n" style="color:var(--muted)">${pct(o[x])}</span>`).join("");
     return `<div class="rank">` + ks.map((k,i) => `<span class="lab"><span style="color:var(--muted);font-size:11px;display:inline-block;width:18px">${i+1}</span>${esc(k)}</span><div class="bars" data-tip="${esc(`<b>${k}</b><br>${nom}: ${pct(o[k])} de los titulares`)}"><div class="bar ${cls}" style="width:${(o[k]/max*100).toFixed(1)}%"></div></div><span class="n">${pct(o[k])}</span>` + sub(k)).join("") + `</div>`; };
-  $("#pb-eus").innerHTML = panel(eus, "eus", "Medios vascos");
   $("#pb-esp").innerHTML = panel(esp, "esp", "Medios estatales");
 }
 
@@ -693,15 +679,14 @@ function renderPartidos(){
 }
 
 function renderActores(M){
-  const eus = cuotaAmb(M,campoActores,"euskadi"), esp = cuotaAmb(M,campoActores,"espana"), all = cuotaAmb(M,campoActores,"todos");
-  const keys = Object.keys(all).sort((a,b)=>all[b]-all[a]).slice(0,15);
+  const esp = cuotaAmb(M,campoActores,"espana");
+  const keys = Object.keys(esp).sort((a,b)=>esp[b]-esp[a]).slice(0,15);
   if (!keys.length) { $("#actores").innerHTML = `<div class="empty">Sin menciones todavía.</div>`; return; }
-  const max = Math.max(...keys.flatMap(k=>[eus[k]||0, esp[k]||0]));
-  $("#actores").innerHTML = `<div class="arow" style="padding-bottom:4px"><span class="lab"></span><span style="font-size:11px;color:var(--muted)">arriba: vascos · abajo: estatales</span><span class="n" style="color:var(--muted);font-weight:600">EUS</span><span class="n" style="color:var(--muted);font-weight:600">ESP</span></div>` +
-    keys.map(k => { const a=eus[k]||0, b=esp[k]||0, c=colorActor(k);
-    return `<div class="arow" data-tip="${esc(`<b>${k}</b><br>Medios vascos: ${pct(a)} de titulares<br>Medios estatales: ${pct(b)}`)}"><span class="lab">${esc(k)}</span>
-      <div class="bars"><div class="bar" style="background:${c};width:${(a/max*100).toFixed(1)}%"></div><div class="bar" style="background:${c};opacity:.4;width:${(b/max*100).toFixed(1)}%"></div></div>
-      <span class="n">${pct(a)}</span><span class="n">${pct(b)}</span></div>`; }).join("");
+  const max = Math.max(...keys.map(k=>esp[k]||0));
+  $("#actores").innerHTML = keys.map(k => { const b=esp[k]||0, c=colorActor(k);
+    return `<div class="arow" data-tip="${esc(`<b>${k}</b><br>${pct(b)} de los titulares`)}"><span class="lab">${esc(k)}</span>
+      <div class="bars"><div class="bar" style="background:${c};width:${(b/max*100).toFixed(1)}%"></div></div>
+      <span class="n">${pct(b)}</span></div>`; }).join("");
 }
 
 /* ---------- nubes de palabras ---------- */
@@ -734,7 +719,6 @@ function renderNubes(){
   if (!S.nubeUser || !S.nubeTema || (!S.nubeTema.startsWith("@") && !temas.includes(S.nubeTema) && !subs.includes(S.nubeTema))) S.nubeTema = temas.includes("Política y partidos") ? "Política y partidos" : temas[0];
   sel.innerHTML = `<optgroup label="Temas">${temas.map(t=>`<option value="${esc(t)}">${esc(t)}</option>`).join("")}</optgroup>${subs.length?`<optgroup label="Internacional en detalle">${subs.map(t=>`<option value="${esc(t)}">${esc(t)}</option>`).join("")}</optgroup>`:""}<optgroup label="Partidos">${Object.keys(BLOQUES).map(b=>`<option value="@${esc(b)}">${esc(b)}</option>`).join("")}</optgroup>`;
   sel.value = S.nubeTema;
-  drawCloud($("#nube-eus"), palabrasDe("euskadi", S.nubeTema), "--eus");
   drawCloud($("#nube-esp"), palabrasDe("espana", S.nubeTema), "--esp");
 }
 function drawCloud(el, words, color){
@@ -834,8 +818,6 @@ $("#btn-csv-t").addEventListener("click", async () => {
 /* ---------- controles ---------- */
 $("#seg-rango").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
   S.rango = b.dataset.v; for (const x of $("#seg-rango").children) x.setAttribute("aria-pressed", x===b); render(); });
-$("#seg-evo").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
-  S.evoAmb = b.dataset.v; for (const x of $("#seg-evo").children) x.setAttribute("aria-pressed", x===b); renderEvo(); });
 $("#evo-chips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; const k = b.dataset.k;
   S.evoSel = S.evoSel.includes(k) ? S.evoSel.filter(x=>x!==k) : [...S.evoSel, k].slice(-4); renderEvo(); });
 $("#seg-evo-rango").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
@@ -845,8 +827,6 @@ $("#seg-evo-rango").addEventListener("click", e => { const b = e.target.closest(
 $("#f-dia").addEventListener("change", e => cargarDia(e.target.value));
 $("#seg-agr").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
   S.agr = b.dataset.v === "1"; S.parSel = null; for (const x of $("#seg-agr").children) x.setAttribute("aria-pressed", x===b); renderPartidos(); });
-$("#seg-pamb").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
-  S.pAmb = b.dataset.v; for (const x of $("#seg-pamb").children) x.setAttribute("aria-pressed", x===b); renderPartidos(); });
 $("#par-chips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; const k = b.dataset.k;
   S.parSel = S.parSel.includes(k) ? S.parSel.filter(x=>x!==k) : [...S.parSel, k].slice(-4); renderPartidos(); });
 $("#nube-tema").addEventListener("change", e => { S.nubeTema = e.target.value; S.nubeUser = true; renderNubes(); });
@@ -937,13 +917,9 @@ function pintarBusqueda(){
   // evolución
   const F = R.F;
   if (F.length < 2) $("#b-evo").innerHTML = `<div class="empty">Hacen falta al menos dos días.</div>`;
-  else if (B.terms.length === 1 && B.amb === "todos") {
-    $("#b-evo-t").textContent = `Evolución de ${etiqueta}`;
-    $("#b-evo-s").textContent = "% de titulares que la contienen cada día, con el mismo peso para cada medio";
-    lineChart($("#b-evo"), F, ["Medios vascos","Medios estatales"], [F.map(f => cuotaDia(f,"euskadi",0)), F.map(f => cuotaDia(f,"espana",0))], "Evolución de la búsqueda", ["var(--eus)","var(--esp)"]);
-  } else {
+  else {
     $("#b-evo-t").textContent = B.terms.length > 1 ? "Evolución comparada" : `Evolución de ${etiqueta}`;
-    $("#b-evo-s").textContent = `% de titulares que contienen cada palabra cada día · ${B.amb === "todos" ? "todos los medios" : B.amb === "euskadi" ? "medios vascos" : "medios estatales"}`;
+    $("#b-evo-s").textContent = "% de titulares que contienen cada palabra cada día";
     lineChart($("#b-evo"), F, B.terms, B.terms.map((t,i) => F.map(f => cuotaDia(f, B.amb, i))), "Evolución de la búsqueda");
   }
   // medios
@@ -952,13 +928,13 @@ function pintarBusqueda(){
   else if (!multi) {
     const maxC = Math.max(...medios.map(m => m.c), 1e-9);
     $("#b-medios").innerHTML = `<div class="rank">` + medios.map(m =>
-      `<span class="lab">${esc(m.nombre)}<span class="amb-tag">${m.ambito==="euskadi"?"EUS":"ESP"}</span></span><div class="bars" data-tip="${esc(`<b>${m.nombre}</b><br>${m.hit} de ${fmtN(m.n)} titulares (${pct(m.c)})`)}"><div class="bar ${m.ambito==="euskadi"?"eus":"esp"}" style="width:${(m.c/maxC*100).toFixed(1)}%"></div></div><span class="n">${pct(m.c)}</span>`).join("") + `</div>`;
+      `<span class="lab">${esc(m.nombre)}</span><div class="bars" data-tip="${esc(`<b>${m.nombre}</b><br>${m.hit} de ${fmtN(m.n)} titulares (${pct(m.c)})`)}"><div class="bar esp" style="width:${(m.c/maxC*100).toFixed(1)}%"></div></div><span class="n">${pct(m.c)}</span>`).join("") + `</div>`;
   } else {
     const ord = medios.slice().sort((a,b) => b.c - a.c);
     const maxC = Math.max(...ord.flatMap(m => m.hits.map(h => h/m.n)), 1e-9);
     $("#b-medios").innerHTML = `<div class="rank">` + ord.map(m => {
       const tip = `<b>${m.nombre}</b>` + B.terms.map((t,i) => `<br>${esc(t)}: ${m.hits[i]} de ${fmtN(m.n)} (${pct(m.hits[i]/m.n)})`).join("");
-      return `<span class="lab">${esc(m.nombre)}<span class="amb-tag">${m.ambito==="euskadi"?"EUS":"ESP"}</span></span>` + mini(m.hits.map((h,i) => [h/m.n, col(i)]), maxC, tip) + `<span class="n">${pct(m.c)}</span>`; }).join("") + `</div>`;
+      return `<span class="lab">${esc(m.nombre)}</span>` + mini(m.hits.map((h,i) => [h/m.n, col(i)]), maxC, tip) + `<span class="n">${pct(m.c)}</span>`; }).join("") + `</div>`;
   }
   // temas y partidos (por concepto)
   const nT = B.terms.length, ct = {}, cb = {}, nI = B.terms.map(() => 0);
@@ -984,7 +960,6 @@ function pintarBusqueda(){
         vistos.add(k); c[k] = (c[k]||0) + 1; const lw = w.toLowerCase(); (forma[k] ||= {})[lw] = (forma[k][lw]||0) + 1; } }
     return Object.entries(c).filter(([,v]) => v >= 2).sort((a,b) => b[1]-a[1]).slice(0, 60).map(([k,v]) => {
       const fs = forma[k], acc = Object.keys(fs).filter(f => f !== normTxt(f)); return [acc.length ? acc.sort((a,b) => fs[b]-fs[a])[0] : k, v]; }); };
-  drawCloud($("#b-nube-eus"), nube("euskadi"), "--eus");
   drawCloud($("#b-nube-esp"), nube("espana"), "--esp");
   // titulares
   const ord = R.filas.slice().sort((a,b) => (b.f + (b.it.h||"")).localeCompare(a.f + (a.it.h||"")));
@@ -999,9 +974,7 @@ function pintarBusqueda(){
 $("#b-form").addEventListener("submit", e => { e.preventDefault(); buscar(); });
 $("#seg-brango").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
   B.rango = b.dataset.v; for (const x of $("#seg-brango").children) x.setAttribute("aria-pressed", x===b); if (B.terms.length) buscar(); });
-$("#seg-bamb").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
-  B.amb = b.dataset.v; for (const x of $("#seg-bamb").children) x.setAttribute("aria-pressed", x===b); pintarBusqueda(); });
-for (const id of ["#b-nube-eus","#b-nube-esp","#nube-eus","#nube-esp"]) $(id).addEventListener("click", e => { const b = e.target.closest(".w"); if (!b) return;
+for (const id of ["#b-nube-esp","#nube-esp"]) $(id).addEventListener("click", e => { const b = e.target.closest(".w"); if (!b) return;
   $("#b-q").value = b.dataset.w; irA("buscador"); window.scrollTo({top:0, behavior:"smooth"}); buscar(); });
 $("#btn-csv-b").addEventListener("click", () => {
   const filas = [["fecha","medio","nombre","ambito","origen","titular","url","temas","actores", ...B.terms.map(t => "contiene_" + t)]];
@@ -1063,6 +1036,13 @@ const DB = (() => {
     if (!cache.has(ruta)) cache.set(ruta, fetch(ruta, { cache: "no-cache" }).then(r => r.ok ? r.json() : null).catch(() => null));
     return cache.get(ruta);
   };
+  // Los medios vascos (ámbito "euskadi") no se muestran en el panel: se descartan al leer los datos.
+  const sinVascos = d => {
+    if (!d || typeof d !== "object" || Array.isArray(d)) return d;
+    if (d.medios && typeof d.medios === "object") return {...d, medios: Object.fromEntries(Object.entries(d.medios).filter(([, m]) => m.ambito !== "euskadi"))};
+    if (d.ambitos) { const a = {...d.ambitos}; delete a.euskadi; return {...d, ambitos: a}; }
+    return d.ambito === "euskadi" ? null : d;
+  };
   const OPS = { "==": (a, b) => a === b, ">=": (a, b) => a >= b, "<=": (a, b) => a <= b, ">": (a, b) => a > b, "<": (a, b) => a < b };
   const snapDoc = d => ({ data: () => d, exists: true });
   class Q {
@@ -1079,7 +1059,7 @@ const DB = (() => {
         const partes = await Promise.all(fechas.map(f => getJSON(`data/${this.c}/${f}.json`)));
         docs = partes.flatMap(p => p == null ? [] : Array.isArray(p) ? p : [p]);
       }
-      docs = docs.filter(d => d && this.w.every(([k, op, v]) => OPS[op](d[k], v)));
+      docs = docs.map(sinVascos).filter(d => d && this.w.every(([k, op, v]) => OPS[op](d[k], v)));
       if (this.o) { const [f, dir] = this.o, s = dir === "desc" ? -1 : 1; docs = docs.slice().sort((a, b) => (a[f] > b[f] ? 1 : a[f] < b[f] ? -1 : 0) * s); }
       return docs.slice(0, this.l);
     }
@@ -1091,7 +1071,7 @@ const DB = (() => {
     doc: ruta => ({
       onSnapshot(ok, err) {
         const f = ruta === "estado/ultima" ? "data/estado.json" : `data/${ruta}.json`;
-        getJSON(f).then(d => ok(d ? snapDoc(d) : { exists: false, data: () => null }), err || (() => {}));
+        getJSON(f).then(d => ok(d ? snapDoc(sinVascos(d)) : { exists: false, data: () => null }), err || (() => {}));
         return () => {};
       }
     })
