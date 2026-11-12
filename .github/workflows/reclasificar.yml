@@ -1,0 +1,56 @@
+name: Reclasificar todo el histórico (tras editar diccionario.json)
+
+# Vuelve a clasificar por temas y actores TODOS los días ya publicados, a partir de la tabla
+# `tomas` (el crudo no se toca) y republica la web. Úsalo cada vez que cambies diccionario.json.
+# Es seguro repetirlo: cada día se rehace sin duplicar.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  reclasificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      TZ: Europe/Madrid
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Recalcular cada día publicado (de más antiguo a más reciente)
+        run: |
+          for FECHA in $(ls docs/data/titulares | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}' | sort -u); do
+            echo "== $FECHA"
+            python cargar.py bajar-tomas --fecha "$FECHA" --dir tomas_dl
+            rm -rf out
+            python portadas.py dia --fecha "$FECHA" --tomas tomas_dl --dir . 2>/dev/null
+            python cargar.py dia --fecha "$FECHA" --dir out
+          done
+
+      - name: Publicar todo el histórico
+        run: |
+          python exportar.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          if git diff --cached --quiet; then
+            echo "Sin cambios en la web."
+          else
+            git commit -m "Reclasificación del histórico · $(date '+%Y-%m-%d %H:%M')"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi

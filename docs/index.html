@@ -347,7 +347,7 @@ footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:fle
       <div class="card span12">
         <div class="card-head"><div><h3>Estado de la recogida</h3><p class="subt" id="st-sub">Resultado de la última ejecución por medio</p></div></div>
         <div class="status" id="status"></div>
-        <p class="method"><b>Método.</b> <b>Portadas.</b> Los 8 medios (El País, El Mundo, ABC, La Vanguardia, elDiario.es, El Confidencial, 20minutos y RTVE) se miden con la misma regla: lo que cada redacción pone en su portada. <b>Fotos.</b> Tres veces al día (mañana ≈9:00, mediodía ≈14:00 y noche ≈21:00, hora de Madrid) una tarea programada abre la portada de cada medio y guarda sus 30 primeras piezas en el orden en que aparecen en la página (El País, que no deja leer su portada web, a través de su RSS de portada, que sigue el mismo orden). <b>Día.</b> El día de un medio son las piezas distintas que estuvieron entre sus 30 primeras en alguna foto de ese día; en Titulares se ve la hora de la primera foto en que salió, su mejor posición y en cuántas fotos estuvo. <b>Clasificación.</b> Diccionario de términos por tema y actor (pestaña Diccionario); un titular puede tener varios temas; Internacional se desglosa en subtemas (EE. UU. y Trump, Israel/Gaza y Oriente Próximo, Ucrania y Rusia, Unión Europea, Latinoamérica), cuya cuota ya está incluida en la de Internacional; los deportes no se clasifican como tema. Clasificación revisada el 20 de octubre de 2026 y aplicada a todo el histórico; los que no encajan en ninguno cuentan en el total pero no se muestran. Los porcentajes promedian los medios, para que una cabecera con más piezas no pese más. <b>Serie.</b> Empieza el 13 de septiembre de 2026 y se muestra completa en todas las secciones. Hasta el 13 de octubre se usó otro método (archivo completo de 3 medios —ABC, elDiario.es y 20minutos— a partir de sus sitemaps), que no es del todo comparable con el de portadas: en los gráficos de evolución una línea discontinua marca el cambio, y conviene comparar con cautela los periodos que mezclan ambos. Diccionario (<code>diccionario.json</code>), medios (<code>medios.json</code>) y código (<code>portadas.py</code>) se publican junto a esta página.</p>
+        <p class="method"><b>Método.</b> <b>Portadas.</b> Los 8 medios (El País, El Mundo, ABC, La Vanguardia, elDiario.es, El Confidencial, 20minutos y RTVE) se miden con la misma regla: lo que cada redacción pone en su portada. <b>Fotos.</b> Tres veces al día (mañana ≈9:00, mediodía ≈14:00 y noche ≈21:00, hora de Madrid) una tarea programada abre la portada de cada medio y guarda sus 30 primeras piezas en el orden en que aparecen en la página (El País, que no deja leer su portada web, a través de su RSS de portada, que sigue el mismo orden). <b>Día.</b> El día de un medio son las piezas distintas que estuvieron entre sus 30 primeras en alguna foto de ese día; en Titulares se ve la hora de la primera foto en que salió, su mejor posición y en cuántas fotos estuvo. <b>Clasificación.</b> Diccionario de términos por tema y actor (pestaña Diccionario); un titular puede tener varios temas; Internacional se desglosa en subtemas (EE. UU. y Trump, Israel/Gaza y Oriente Próximo, Ucrania y Rusia, Unión Europea, Latinoamérica), cuya cuota ya está incluida en la de Internacional; los deportes no se clasifican como tema. Clasificación revisada el 12 de noviembre de 2026 (10 temas: Elecciones y campaña, Gobierno y Congreso, Gobierno Vasco y autogobierno, Justicia y corrupción, Economía, empleo y vivienda, Servicios públicos, Seguridad y sucesos, Transporte, energía y clima, Inmigración e Internacional) y aplicada a todo el histórico de portadas; los que no encajan en ninguno cuentan en el total pero no se muestran. Los porcentajes promedian los medios, para que una cabecera con más piezas no pese más. <b>Serie.</b> Empieza el 13 de septiembre de 2026 y se muestra completa en todas las secciones. Hasta el 13 de octubre se usó otro método (archivo completo de 3 medios —ABC, elDiario.es y 20minutos— a partir de sus sitemaps), que no es del todo comparable con el de portadas: en los gráficos de evolución una línea discontinua marca el cambio, y conviene comparar con cautela los periodos que mezclan ambos. Diccionario (<code>diccionario.json</code>), medios (<code>medios.json</code>) y código (<code>portadas.py</code>) se publican junto a esta página.</p>
       </div>
     </div>
   </section>
@@ -360,7 +360,7 @@ footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:fle
         <p class="sub">Las palabras que el monitor busca en cada titular para asignarle un tema, un partido o un actor</p>
       </div>
     </div>
-    <div class="gap-note"><b>Cómo se lee.</b> Se busca en el titular (y en la entradilla, cuando el medio la publica), sin distinguir tildes. <span class="term">palabra…</span> encuentra también todo lo que empieza así (<i>desahuci…</i> → desahucio, desahucios). <span class="term cs">PNV</span> con borde oscuro distingue mayúsculas: sirve para siglas y nombres que también son palabras comunes. Un titular puede tener varios temas. Si menciona a un partido o líder, se cuenta además en «Política y partidos». Pulsa una palabra para buscarla en el Buscador.</div>
+    <div class="gap-note"><b>Cómo se lee.</b> Se busca en el titular (y en la entradilla, cuando el medio la publica), sin distinguir tildes. <span class="term">palabra…</span> encuentra también todo lo que empieza así (<i>desahuci…</i> → desahucio, desahucios). <span class="term cs">PNV</span> con borde oscuro distingue mayúsculas: sirve para siglas y nombres que también son palabras comunes. Un titular puede tener varios temas. Los partidos y líderes figuran entre los términos de «Gobierno y Congreso», «Gobierno Vasco y autogobierno» y «Elecciones y campaña». Pulsa una palabra para buscarla en el Buscador.</div>
     <form class="search" id="d-form" autocomplete="off">
       <input id="d-q" type="search" placeholder="Prueba un titular o una palabra: ¿en qué tema caería?" aria-label="Probar texto">
       <button class="btn primary" type="submit">Probar</button>
@@ -514,10 +514,9 @@ function renderPbars(M){
 
 const SERIES = ["--s1","--s2","--s3","--s4"];
 // Color fijo por tema: no cambia según el orden en que se seleccionan
-const TCOL = {"Política y partidos":"#014550","Autogobierno y territorio":"#2E8C86","Economía, empresa e industria":"#0B4F8A","Empleo y relaciones laborales":"#8C6D1F",
-  "Pensiones":"#C99000","Vivienda":"#FF723C","Sanidad":"#D7263D","Educación y universidad":"#F6BD32","Políticas sociales":"#D45D79","Justicia y corrupción":"#1A1A1A",
-  "Seguridad y sucesos":"#8739E5","Inmigración":"#A0522D","Igualdad y derechos":"#E5007D","Energía y medio ambiente":"#5E8F2A","Infraestructuras y movilidad":"#8E9AAF",
-  "Euskera, cultura e identidad":"#4FB5AE","Tecnología e innovación":"#F08A8B","Memoria y convivencia":"#6B4226","Internacional":"#3FAE8E",
+const TCOL = {"Elecciones y campaña":"#014550","Gobierno y Congreso":"#2E8C86","Gobierno Vasco y autogobierno":"#0B4F8A","Justicia y corrupción":"#1A1A1A",
+  "Economía, empleo y vivienda":"#FF723C","Servicios públicos":"#D7263D","Seguridad y sucesos":"#8739E5","Transporte, energía y clima":"#5E8F2A",
+  "Inmigración":"#A0522D","Internacional":"#3FAE8E",
   "EE. UU. y Trump":"#B71C1C","Israel, Gaza y Oriente Próximo":"#1E73C4","Ucrania y Rusia":"#F2B01E","Unión Europea":"#6A2C91","Latinoamérica":"#8BC34A"};
 // Subtemas: se muestran agrupados bajo su tema (su cuota ya está incluida en la del tema principal)
 const SUBT = {"Internacional": ["EE. UU. y Trump","Israel, Gaza y Oriente Próximo","Ucrania y Rusia","Unión Europea","Latinoamérica"]};
@@ -716,7 +715,7 @@ function renderNubes(){
   const sel = $("#nube-tema"), Mall = porMedio(docsRango());
   const temas = temasOrden(Mall);
   const subs = subtemasDe(Mall, "Internacional");
-  if (!S.nubeUser || !S.nubeTema || (!S.nubeTema.startsWith("@") && !temas.includes(S.nubeTema) && !subs.includes(S.nubeTema))) S.nubeTema = temas.includes("Política y partidos") ? "Política y partidos" : temas[0];
+  if (!S.nubeUser || !S.nubeTema || (!S.nubeTema.startsWith("@") && !temas.includes(S.nubeTema) && !subs.includes(S.nubeTema))) S.nubeTema = temas.includes("Gobierno y Congreso") ? "Gobierno y Congreso" : temas[0];
   sel.innerHTML = `<optgroup label="Temas">${temas.map(t=>`<option value="${esc(t)}">${esc(t)}</option>`).join("")}</optgroup>${subs.length?`<optgroup label="Internacional en detalle">${subs.map(t=>`<option value="${esc(t)}">${esc(t)}</option>`).join("")}</optgroup>`:""}<optgroup label="Partidos">${Object.keys(BLOQUES).map(b=>`<option value="@${esc(b)}">${esc(b)}</option>`).join("")}</optgroup>`;
   sel.value = S.nubeTema;
   drawCloud($("#nube-esp"), palabrasDe("espana", S.nubeTema), "--esp");
@@ -1018,7 +1017,6 @@ function pintarDic(prueba){
     tarjeta("Instituciones y otros", Object.keys(D.act).filter(n => !enBloque.has(n)), "#5A6B6C");
   if (base) {
     const ts = Object.keys(D.temas).filter(k => casa(D.temas[k], base).length), as = Object.keys(D.act).filter(k => casa(D.act[k], base).length);
-    if (as.some(a => !NO_PARTIDO.has(a)) && !ts.includes("Política y partidos")) ts.push("Política y partidos (por mencionar a un actor político)");
     $("#d-res").innerHTML = ts.length || as.length ? `Temas: <b>${esc(ts.join(", ") || "ninguno")}</b> · Actores: <b>${esc(as.join(", ") || "ninguno")}</b>. Las palabras que lo activan están resaltadas.` : "No encaja en ningún tema ni actor: en el monitor contaría como titular sin tema.";
   } else $("#d-res").textContent = "";
 }
