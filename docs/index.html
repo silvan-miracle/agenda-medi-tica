@@ -229,7 +229,7 @@ footer.page{border-top:1px solid var(--grid);padding-block:20px 40px;display:fle
       <div class="card span12">
         <div class="card-head"><div>
           <h3>Evolución de los temas</h3>
-          <p class="subt">Cuota diaria de cada tema en todo el histórico · elige hasta cuatro · arrastra la barra inferior para acotar el periodo · antes del 14 de octubre, archivo completo de 3 medios: ABC, elDiario.es y 20minutos (método distinto, compara con cautela)</p>
+          <p class="subt">Cuota diaria de cada tema en todo el histórico · elige hasta cuatro · arrastra la barra inferior para acotar el periodo · antes del 14 de octubre, archivo completo de 3 medios: ABC, elDiario.es y 20minutos (método distinto, compara con cautela) · los temas compuestos (Gobierno y Congreso, Economía, empleo y vivienda…) no existen en el archivo y aparecen sin dato antes del 14 de octubre</p>
         </div></div>
         <div class="chips" id="evo-chips"></div>
         <div id="evo"></div>
@@ -424,15 +424,19 @@ function fechasRango(){
 function docsRango(){ const set = new Set(fechasRango()); return S.resumen.filter(r => set.has(r.fecha)); }
 
 // suma por medio
+// Temas que solo existen desde la revisión del 12-nov-2026 (compuestos). Los días calculados con el esquema anterior
+// (archivo previo al 14-oct, o días de portadas aún sin reclasificar) no los tienen: no cuentan ni como 0 ni en el denominador.
+const NUEVOS = ["Elecciones y campaña","Gobierno y Congreso","Gobierno Vasco y autogobierno","Economía, empleo y vivienda","Servicios públicos","Transporte, energía y clima"];
+const docNuevo = d => Object.values(d.medios || {}).some(m => NUEVOS.some(k => ((m.temas || {})[k] || 0) > 0));
 function porMedio(docs){
   const M = {};
-  for (const d of docs) for (const [id, m] of Object.entries(d.medios || {})) {
-    const a = M[id] ||= {id, nombre:m.nombre, ambito:m.ambito, n:0, temas:{}, actores:{}, bloques:{}};
+  for (const d of docs) { const nu = docNuevo(d); for (const [id, m] of Object.entries(d.medios || {})) {
+    const a = M[id] ||= {id, nombre:m.nombre, ambito:m.ambito, n:0, nN:0, temas:{}, actores:{}, bloques:{}};
     for (const [k,v] of Object.entries(m.bloques||{})) a.bloques[k] = (a.bloques[k]||0) + v;
-    a.n += m.n || 0;
+    a.n += m.n || 0; if (nu) a.nN += m.n || 0;
     for (const [k,v] of Object.entries(m.temas||{})) a.temas[k] = (a.temas[k]||0) + v;
     for (const [k,v] of Object.entries(m.actores||{})) a.actores[k] = (a.actores[k]||0) + v;
-  }
+  } }
   return M;
 }
 // cuota media por ámbito (cada medio pesa igual)
@@ -441,12 +445,16 @@ function cuotaAmb(M, campo, amb){
   const out = {}; if (!ms.length) return out;
   const get = typeof campo === "function" ? campo : (m => m[campo] || {});
   const vals = ms.map(get), keys = new Set(vals.flatMap(v => Object.keys(v)));
-  for (const k of keys) out[k] = ms.reduce((s,m,i) => s + (vals[i][k]||0)/m.n, 0) / ms.length;
+  for (const k of keys) {
+    const nu = campo === "temas" && NUEVOS.includes(k);
+    const ok = ms.map((m,i) => ({v: vals[i][k]||0, den: nu ? (m.nN||0) : m.n})).filter(o => o.den > 0);
+    if (ok.length) out[k] = ok.reduce((s,o) => s + o.v/o.den, 0) / ok.length;
+  }
   return out;
 }
 function temasOrden(M){
   const all = cuotaAmb(M, "temas", "todos");
-  return Object.keys(all).filter(k => k !== "Otros" && !ES_SUB.has(k)).sort((a,b) => all[b]-all[a]);
+  return Object.keys(all).filter(k => k !== "Otros" && !ES_SUB.has(k) && k in TCOL).sort((a,b) => all[b]-all[a]);
 }
 // subtemas presentes en los datos, en el orden del diccionario
 function subtemasDe(M, padre){ const all = cuotaAmb(M, "temas", "todos"); return (SUBT[padre]||[]).filter(k => all[k] > 0); }
@@ -490,7 +498,7 @@ function renderNotice(hay){
 function renderKpis(M, F){
   const ms = Object.values(M), tot = ms.reduce((s,m)=>s+m.n,0);
   const esp = cuotaAmb(M,"temas","espana");
-  const top = o => { const k = Object.keys(o).filter(k=>k!=="Otros").sort((a,b)=>o[b]-o[a])[0]; return k ? [k,o[k]] : ["—",0]; };
+  const top = o => { const k = Object.keys(o).filter(k=>k!=="Otros" && k in TCOL).sort((a,b)=>o[b]-o[a])[0]; return k ? [k,o[k]] : ["—",0]; };
   const ts = top(esp);
   const per = F.length ? (F.length===1 ? fmtDia(F[0]) : `${fmtDia(F[0])} – ${fmtDia(F[F.length-1])}`) : "sin datos";
   $("#kpis").innerHTML = [
@@ -541,7 +549,8 @@ function renderEvo(){
     (subs.length ? `<span class="chips-sep">Internacional en detalle</span>` + subs.map(chip).join("") : "");
   if (FA.length < 2) { $("#evo-brush-wrap").hidden = true; $("#evo").innerHTML = `<div class="empty">La evolución necesita al menos dos días de datos${FA.length? " (hay uno)":""}. Vuelve tras las próximas recogidas.</div>`; return; }
   const MD = FA.map(f => porMedio(RD.filter(r => r.fecha === f)));
-  const serie = S.evoSel.map(k => MD.map(M => cuotaAmb(M,"temas",S.evoAmb)[k]||0));
+  const nuevoDia = FA.map(f => RD.some(r => r.fecha === f && docNuevo(r)));
+  const serie = S.evoSel.map(k => MD.map((M,i) => (NUEVOS.includes(k) && !nuevoDia[i]) ? null : (cuotaAmb(M,"temas",S.evoAmb)[k]||0)));
   const colores = S.evoSel.map(colorTema);
   const pinta = (a, b) => {
     lineChart($("#evo"), FA.slice(a, b+1), S.evoSel, serie.map(s => s.slice(a, b+1)), "Evolución diaria de la cuota de los temas seleccionados", colores);
@@ -565,7 +574,7 @@ function rangeBrush(el, F, serie, colores, a, b, onChange){
   const x = i => L + (W-L-R) * i/(n-1);
   const ymax = Math.max(0.01, ...serie.flat()), y = v => T + (H-T-B) * (1 - v/ymax);
   let g = `<rect x="${L}" y="${T}" width="${W-L-R}" height="${H-T-B}" fill="#F9F7F1"/>`;
-  serie.forEach((s,si) => { g += `<path d="${s.map((v,i)=>(i?"L":"M")+x(i).toFixed(1)+" "+y(v).toFixed(1)).join("")}" fill="none" stroke="${colores[si]}" stroke-width="1.2" stroke-linejoin="round" opacity=".7"/>`; });
+  serie.forEach((s,si) => { g += `<path d="${trazos(s, x, y).map(r => r.map((p,i)=>(i?"L":"M")+p[0].toFixed(1)+" "+p[1].toFixed(1)).join("")).join("")}" fill="none" stroke="${colores[si]}" stroke-width="1.2" stroke-linejoin="round" opacity=".7"/>`; });
   const nt = Math.min(n, Math.max(2, Math.floor((W-L-R)/110)));
   for (let j=0;j<nt;j++){ const i = Math.round(j*(n-1)/(nt-1)); g += `<text x="${x(i)}" y="${H-5}" text-anchor="${j===0?"start":j===nt-1?"end":"middle"}">${fmtDia(F[i])}</text>`; }
   { const A = new Set(evoDocs().filter(r => r.origen !== "portadas").map(r => r.fecha)), k = F.findIndex((f,i) => i > 0 && A.has(F[i-1]) && !A.has(f));
@@ -610,6 +619,10 @@ function rangeBrush(el, F, serie, colores, a, b, onChange){
   });
 }
 
+// tramos continuos de una serie con huecos (null = sin dato)
+function trazos(s, x, y){ const out = []; let cur = [];
+  s.forEach((v,i) => { if (v == null) { if (cur.length) out.push(cur); cur = []; } else cur.push([x(i), y(v)]); });
+  if (cur.length) out.push(cur); return out; }
 function suave(pts){ // curva monótona (Fritsch–Carlson) que pasa por los datos
   const n = pts.length; if (n < 3) return pts.map((p,i)=>(i?"L":"M")+p[0].toFixed(1)+" "+p[1].toFixed(1)).join("");
   const dx = [], dy = [], m = [], t = [];
@@ -638,8 +651,8 @@ function lineChart(el, F, nombres, serie, aria, colores){
       g += `<line x1="${xs}" x2="${xs}" y1="${T-6}" y2="${H-B}" stroke="#C9C5B8" stroke-dasharray="3 3"/>` +
            (xs - 120 > L ? `<text x="${xs-5}" y="${T-6}" text-anchor="end">← archivo · 8 medios</text>` : "") + (xs + 120 < W - R ? `<text x="${xs+5}" y="${T-6}">portadas · 15 medios →</text>` : ""); } }
   serie.forEach((s,si) => {
-    g += `<path d="${suave(s.map((v,i)=>[x(i), y(v)]))}" fill="none" stroke="${colores[si]}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
-    const li = s.length-1; g += `<circle cx="${x(li)}" cy="${y(s[li])}" r="3.5" fill="${colores[si]}" stroke="#fff" stroke-width="1.5"/>`;
+    g += `<path d="${trazos(s, x, y).map(r => r.length > 1 ? suave(r) : "").join("")}" fill="none" stroke="${colores[si]}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+    const li = s.length-1; if (s[li] != null) g += `<circle cx="${x(li)}" cy="${y(s[li])}" r="3.5" fill="${colores[si]}" stroke="#fff" stroke-width="1.5"/>`;
   });
   g += `<line class="xh" y1="${T}" y2="${H-B}" stroke="#C9C5B8" stroke-width="1" visibility="hidden"/>`;
   el.innerHTML = `<svg class="lc" viewBox="0 0 ${W} ${H}" width="100%" height="${H}" role="img" aria-label="${esc(aria)}">${g}<rect x="${L}" y="${T}" width="${W-L-R}" height="${H-T-B}" fill="transparent"/></svg>
@@ -649,7 +662,7 @@ function lineChart(el, F, nombres, serie, aria, colores){
     const r = svg.getBoundingClientRect(), px = (e.clientX - r.left) * W / r.width;
     const i = Math.max(0, Math.min(F.length-1, Math.round((px-L)/(W-L-R)*(F.length-1))));
     xh.setAttribute("x1", x(i)); xh.setAttribute("x2", x(i)); xh.setAttribute("visibility","visible");
-    showTip(`<b>${esc(fmtDia(F[i]))}</b>` + nombres.map((k,si)=>`<br><span class="dot" style="background:${colores[si]}"></span>${esc(k)}: ${pct(serie[si][i])}`).join(""), e.clientX, e.clientY);
+    showTip(`<b>${esc(fmtDia(F[i]))}</b>` + nombres.map((k,si)=>`<br><span class="dot" style="background:${colores[si]}"></span>${esc(k)}: ${serie[si][i] == null ? "sin dato (otro esquema de temas)" : pct(serie[si][i])}`).join(""), e.clientX, e.clientY);
   });
   svg.addEventListener("mouseleave", () => { xh.setAttribute("visibility","hidden"); hideTip(); });
 }
@@ -771,7 +784,7 @@ async function cargarDia(d){
   }
   const all = S.titulares[d], opt = (sel, vals, first) => { const c = $(sel).value; $(sel).innerHTML = `<option value="">${first}</option>` + vals.map(v=>`<option>${esc(v)}</option>`).join(""); if (vals.includes(c)) $(sel).value = c; };
   opt("#f-medio", all.map(x=>x.nombre).sort((a,b)=>a.localeCompare(b,"es")), "Todos los medios");
-  opt("#f-tema", [...new Set(all.flatMap(x=>x.items.flatMap(i=>i.temas)))].filter(t=>t!=="Otros").sort((a,b)=>a.localeCompare(b,"es")), "Todos los temas");
+  opt("#f-tema", [...new Set(all.flatMap(x=>x.items.flatMap(i=>i.temas)))].filter(t=>t!=="Otros" && t in TCOL).sort((a,b)=>a.localeCompare(b,"es")), "Todos los temas");
   opt("#f-actor", [...new Set(all.flatMap(x=>x.items.flatMap(i=>i.actores)))].sort((a,b)=>a.localeCompare(b,"es")), "Todos los actores");
   renderHeads();
 }

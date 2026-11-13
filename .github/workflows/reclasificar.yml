@@ -4,7 +4,11 @@ name: Reclasificar todo el histórico (tras editar diccionario.json)
 # `tomas` (el crudo no se toca) y republica la web. Úsalo cada vez que cambies diccionario.json.
 # Es seguro repetirlo: cada día se rehace sin duplicar.
 on:
-  workflow_dispatch:
+  workflow_dispatch:          # botón «Run workflow»
+  push:                       # y automático cada vez que se publica un diccionario.json editado
+    branches: [main]
+    paths:
+      - diccionario.json
 
 permissions:
   contents: write
